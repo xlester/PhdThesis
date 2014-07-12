@@ -1,0 +1,30 @@
+\documentclass[letterpaper,11pt]{book}
+
+\usepackage{import}
+\usepackage{thesis}
+
+
+\title{Phd Thesis}
+\author{M.C. Orlando Miguel Medina C\'azares}
+
+\begin{document}
+
+%\frontmatter
+\maketitle
+
+
+\clearpage
+\thispagestyle{empty}
+
+\tableofcontents
+
+\mainmatter
+\import{Chpt1_RegularizedLeastSquares/}{Chpt1_RegularizedLeastSquares.tex}
+
+
+%\chapter{Regularized self-tuning phase demodulation with arbitrary phase shifts
+%(Sn Dgo 2010)}
+%\chapter{Robust adaptive phase-shifting demodulation method for ...}
+%\chapter{Phase detuning correction method}
+
+\end{document}
