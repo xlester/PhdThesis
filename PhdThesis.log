@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.9.21)  11 JUL 2014 20:22
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.9.21)  11 JUL 2014 22:01
 entering extended mode
  %&-line parsing enabled.
 **PhdThesis.tex
@@ -602,7 +602,17 @@ Package: amsthm 2004/08/06 v2.20
 \c@definition=\count141
 \c@corolary=\count142
 \c@examle=\count143
-) (./PhdThesis.aux)
+) (./PhdThesis.aux
+
+LaTeX Warning: Label `Malacara' multiply defined.
+
+
+LaTeX Warning: Label `GeneralTheory' multiply defined.
+
+
+LaTeX Warning: Label `RQF' multiply defined.
+
+)
 \openout1 = `PhdThesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -619,8 +629,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 10.
-
-(/usr/share/texmf-texlive/tex/latex/base/ts1cmr.fd
+ (/usr/share/texmf-texlive/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 10.
@@ -645,6 +654,12 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 Overfull \hbox (13.26361pt too wide) in paragraph at lines 2--2
   []\OT1/cmr/bx/n/10.95 Regularized it-er-a-tive least-squares al-go-rithm for 
 phase-shifting 
+ []
+
+
+Overfull \hbox (7.95439pt too wide) in paragraph at lines 9--9
+ [] []\OT1/cmr/bx/n/10.95 Regularized self-tuning phase de-mod-u-la-tion for ph
+ase-shifting 
  []
 
 )
@@ -926,14 +941,468 @@ Underfull \hbox (badness 4120) in paragraph at lines 309--312
 -ero-
  []
 
-[9]) [10] (./PhdThesis.aux) ) 
-Here is how much of TeX's memory you used:
- 14568 strings out of 495062
- 311825 string characters out of 1182644
- 400697 words of memory out of 3000000
- 17420 multiletter control sequences out of 15000+50000
- 13583 words of font info for 50 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
- 70i,12n,63p,401b,390s stack positions out of 5000i,500n,10000p,200000b,50000s
+[9]) (./Chpt2_RegularizedSelfTuning/Chpt2_RegularizedSelfTuning.tex [10]
+Chapter 2.
 
-Output written on PhdThesis.dvi (14 pages, 34856 bytes).
+Overfull \hbox (0.5799pt too wide) in paragraph at lines 5--17
+\OT1/cmr/m/n/10.95 shifting in-ter-fer-o-gram se-quence with ar-bi-trary inter-
+frame phase shifts. With
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11
+
+]
+[12]
+Overfull \hbox (67.13329pt too wide) in alignment at lines 97--103
+ [][][] []
+ []
+
+[13]
+Overfull \hbox (13.42844pt too wide) detected at line 155
+\OML/cmm/m/it/10.95 '[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x; y\OT1/cmr/m/n
+/10.95 ) = \OML/cmm/m/it/10.95 Solve for '[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/1
+0.95 x; y\OT1/cmr/m/n/10.95 ) \OML/cmm/m/it/10.95 Eq: [] \OT1/cmr/m/n/10.95 ;  
+\OMS/cmsy/m/n/10.95 8\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x; y\OT1/cmr/m/n/1
+0.95 ) \OML/cmm/m/it/10.95 inL
+ []
+
+[14]
+File: Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps.eps Graphic file (type ep
+s)
+ <Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps.eps> [15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+[17] [18] [19
+
+]
+Underfull \hbox (badness 2495) in paragraph at lines 441--444
+[]\OT1/cmr/m/n/10.95 Orlando Med-ina and Julio C. Estrada. Source code for Mat-
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 441--444
+\OT1/cmr/m/n/10.95 lab, https://sites.google.com/site/juliocestradarico/academi
+c-notes/
+ []
+
+) (./Chpt4_PhaseDetuningCorrecting/Chpt4_PhaseDetuningCorrecting.tex [20]
+Chapter 3.
+[21
+
+] [22]
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1aNoise.eps Graphic file 
+(type eps)
+ <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1aNoise.eps>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1bNoise.eps Graphic file 
+(type eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1bNoise.eps>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error.eps Graphic file (ty
+pe eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error.eps> [23] [24]
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/FaseError_Ideal_3D.eps Graphi
+c file (type eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/FaseError_Ideal_3D.eps>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fase_Ideal_3D.eps Graphic fil
+e (type eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fase_Ideal_3D.eps>
+Overfull \hbox (2.40088pt too wide) in paragraph at lines 199--205
+ [] 
+ []
+
+[25]
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E1.eps Graphic file (type
+ eps)
+ <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E1.eps>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E2.eps Graphic file (type
+ eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E2.eps> [26]
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E3.eps Graphic file (type
+ eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E3.eps> [27] [28]
+Overfull \hbox (2.38123pt too wide) in paragraph at lines 387--387
+[]\OT1/cmr/bx/n/14.4 Appendix. Lo-cal fre-quency cal-cu-la-tion in pres-
+ []
+
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_mFaseErrorFrecuencias.eps
+ Graphic file (type eps)
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_mFaseErrorFrecuencias.eps>
+[29]
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltradaMal.eps Grap
+hic file (type eps)
+ <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltradaMal.eps>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltrada.eps Graphic
+ file (type eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltrada.eps>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias1.eps Graphic 
+file (type eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias1.eps>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias2.eps Graphic 
+file (type eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias2.eps>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias3.eps Graphic 
+file (type eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias3.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+[31] [32
+
+]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.486 ...vin, J. C. Estrada, and J. A. Quiroga, ‚Ä
+                                                  úThe
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.486 ...in, J. C. Estrada, and J. A. Quiroga, ‚Äú
+                                                  The
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.487 ...al theory of phase shifting algorithms,‚Ä
+                                                  ù Opt. Express \textbf{17}...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.487 ...l theory of phase shifting algorithms,‚Äù
+                                                   Opt. Express \textbf{17}(...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.488   21867‚Ä
+               ì21881 (2009) %doi: http://dx.doi.org/10.1364/OE.17.021867.
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.488   21867‚Äì
+                21881 (2009) %doi: http://dx.doi.org/10.1364/OE.17.021867.
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.501 ...algorithms," Opt. comm. \textbf{180}, 9‚Ä
+                                                  ì14
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.501 ...lgorithms," Opt. comm. \textbf{180}, 9‚Äì
+                                                  14
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.519 ...terferometry,‚Äù in Optical Shop Testing}
+                                                  , D. Malacara ed., (John
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.519 ...terferometry,‚Äù in Optical Shop Testing}
+                                                  , D. Malacara ed., (John
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.519 ...terferometry,‚Äù in Optical Shop Testing}
+                                                  , D. Malacara ed., (John
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.519 ...terferometry,‚Äù in Optical Shop Testing}
+                                                  , D. Malacara ed., (John
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[33]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.532 ...ccuracyPSI_3} J. Schmit and K. Creath, ‚Ä
+                                                  úExtended averaging technique
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.532 ...curacyPSI_3} J. Schmit and K. Creath, ‚Äú
+                                                  Extended averaging technique
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.534 interferometry,‚Ä
+                       ù Appl. Opt.\textbf{34}(19), 3610‚Äì3619 (1995).
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.534 interferometry,‚Äù
+                         Appl. Opt.\textbf{34}(19), 3610‚Äì3619 (1995).
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.534 ...try,‚Äù Appl. Opt.\textbf{34}(19), 3610‚Ä
+                                                  ì3619 (1995).
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.534 ...ry,‚Äù Appl. Opt.\textbf{34}(19), 3610‚Äì
+                                                  3619 (1995).
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.542 ...vin, J. C. Estrada, and J. A. Quiroga, ‚Ä
+                                                  úSpectral
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.542 ...in, J. C. Estrada, and J. A. Quiroga, ‚Äú
+                                                  Spectral
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.543 analysis of phase shifting algorithms,‚Ä
+                                              ù Opt. Express \textbf{17}(19),
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.543 analysis of phase shifting algorithms,‚Äù
+                                                Opt. Express \textbf{17}(19),
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.544 16423‚Ä
+             ì16428 (2009). %doi: http://dx.doi.org/10.1364/OE.17.016423.
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.544 16423‚Äì
+              16428 (2009). %doi: http://dx.doi.org/10.1364/OE.17.016423.
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+Underfull \hbox (badness 3375) in paragraph at lines 546--552
+[]\OT1/cmr/m/n/10.95 J. Mar-ro-quin, J. Figueroa, and M. Servin, "Ro-bust quadr
+a-
+ []
+
+
+Underfull \hbox (badness 4582) in paragraph at lines 546--552
+\OT1/cmr/m/n/10.95 ture fil-ters," J. Opt. Soc. Am. A \OT1/cmr/bx/n/10.95 14\OT
+1/cmr/m/n/10.95 , 779-791 (1997) doi:
+ []
+
+) [34] (./PhdThesis.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 14676 strings out of 495062
+ 314238 string characters out of 1182644
+ 400697 words of memory out of 3000000
+ 17498 multiletter control sequences out of 15000+50000
+ 14601 words of font info for 53 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 70i,12n,63p,577b,394s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on PhdThesis.dvi (38 pages, 107868 bytes).
