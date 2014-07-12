@@ -17,6 +17,7 @@
 \thispagestyle{empty}
 
 \tableofcontents
+\listoffigures
 
 \mainmatter
 \import{Chpt1_RegularizedLeastSquares/}{Chpt1_RegularizedLeastSquares.tex}

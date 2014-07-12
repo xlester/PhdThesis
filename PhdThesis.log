@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.9.21)  11 JUL 2014 22:01
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.9.21)  11 JUL 2014 22:19
 entering extended mode
  %&-line parsing enabled.
 **PhdThesis.tex
@@ -668,9 +668,30 @@ ase-shifting
 
  [3] [4
 
-] (./Chpt1_RegularizedLeastSquares/Chpt1_RegularizedLeastSquares.tex
+] (./PhdThesis.lof
+Overfull \hbox (2.80032pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/m/n/10.95 se-quences. b) Re-cov-ered phase map us-ing clas-sic least-
+squares. 
+ []
+
+
+Overfull \hbox (3.04378pt too wide) in paragraph at lines 10--10
+ \OT1/cmr/m/n/10.95 Shows the un-wrapped phase with de-tun-ing er-ror of Fig. 3
+.1[](a). 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5])
+\tf@lof=\write6
+\openout6 = `PhdThesis.lof'.
+
+
+[6] (./Chpt1_RegularizedLeastSquares/Chpt1_RegularizedLeastSquares.tex
 Chapter 1.
 [1
+
 
 ]
 File: Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_1.eps Graphic file (type 
@@ -1397,12 +1418,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14676 strings out of 495062
- 314238 string characters out of 1182644
+ 14679 strings out of 495062
+ 314270 string characters out of 1182644
  400697 words of memory out of 3000000
  17498 multiletter control sequences out of 15000+50000
  14601 words of font info for 53 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 70i,12n,63p,577b,394s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 70i,12n,63p,579b,394s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on PhdThesis.dvi (38 pages, 107868 bytes).
+Output written on PhdThesis.dvi (40 pages, 114084 bytes).
