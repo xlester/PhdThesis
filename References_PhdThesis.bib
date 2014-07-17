@@ -1,6 +1,55 @@
 % This file was created with JabRef 2.7b.
 % Encoding: UTF-8
 
+@ARTICLE{Ai:87,
+  author = {Chiayu Ai and James C. Wyant},
+  title = {Effect of piezoelectric transducer nonlinearity on phase shift interferometry},
+  journal = {Appl. Opt.},
+  year = {1987},
+  volume = {26},
+  pages = {1112--1116},
+  number = {6},
+  month = {Mar},
+  abstract = {If the nonlinearity of the motion of a piezoelectric transducer (PZT)
+	can be described as a quadratic function, the integrated intensity
+	of one frame in phase shift interferometry can be calculated using
+	the Fresnel integral. For a PZT with smaller nonlinearity, the rms
+	phase error is almost linearly proportional to the quadratic coefficient.
+	The effects of PZT nonlinearity on the three- and the four-bucket
+	algorithms are compared.},
+  doi = {10.1364/AO.26.001112},
+  owner = {orlando},
+  publisher = {OSA},
+  timestamp = {2014.07.16},
+  url = {http://ao.osa.org/abstract.cfm?URI=ao-26-6-1112}
+}
+
+@ARTICLE{Cheng:85,
+  author = {Yeou-Yen Cheng and James C. Wyant},
+  title = {Phase shifter calibration in phase-shifting interferometry},
+  journal = {Appl. Opt.},
+  year = {1985},
+  volume = {24},
+  pages = {3049--3052},
+  number = {18},
+  month = {Sep},
+  abstract = {This paper describes some practical methods to calibrate the phase
+	shifter in phase-shifting interferometry (PSI). The phase shifter
+	used in the experiment is a piezoelectric transducer (PZT) that has
+	a nonlinearity of \&lt;1\%. Using the quantitative method described
+	in this paper, the repeatability in the measurement of the phase-shifting
+	angle is ~0.046{\textdegree} rms, and the 3$\sigma$ value is 0.139{\textdegree}.
+	A calibration-insensitive phase calculation algorithm is discussed
+	and compared with other synchronous detection equations (e.g., the
+	three-bucket or the four-bucket method). Experimental results verify
+	the calibration-insensitive mechanism of the self-calibrating algorithm.},
+  doi = {10.1364/AO.24.003049},
+  owner = {orlando},
+  publisher = {OSA},
+  timestamp = {2014.07.16},
+  url = {http://ao.osa.org/abstract.cfm?URI=ao-24-18-3049}
+}
+
 @BOOK{Malacara,
   title = {Interferogram Analysis for Optical Testing},
   publisher = {Taylor \& Francis},
@@ -8,6 +57,87 @@
   author = {D. Malacara, M. Servin, and Z. Malacara},
   owner = {orlando},
   timestamp = {2014.07.15}
+}
+
+@ARTICLE{Estrada:10,
+  author = {Julio C. Estrada and Manuel Servin and Juan A. Quiroga},
+  title = {A self-tuning phase-shifting algorithm for interferometry},
+  journal = {Opt. Express},
+  year = {2010},
+  volume = {18},
+  pages = {2632--2638},
+  number = {3},
+  month = {Feb},
+  abstract = {In Phase Stepping Interferometry (PSI) an interferogram sequence having
+	a known, and constant phase shift between the interferograms is required.
+	Here we take the case where this constant phase shift is unknown
+	and the only assumption is that the interferograms do have a temporal
+	carrier. To recover the modulating phase from the interferograms,
+	we propose a self-tuning phase-shifting algorithm. Our algorithm
+	estimates the temporal frequency first, and then this knowledge is
+	used to estimate the interesting modulating phase. There are several
+	well known iterative schemes published before, but our approach has
+	the unique advantage ofbeing very fast. Our new temporal carrier,
+	and phase estimator is capableof obtaining a very good approximation
+	of their temporal carrier in a singleiteration. Numerical experiments
+	are given to show the performance of thissimple yet powerful self-tuning
+	phase shifting algorithm.},
+  doi = {10.1364/OE.18.002632},
+  keywords = {Fringe analysis; Interferometry; Metrology; Phase measurement},
+  owner = {orlando},
+  publisher = {OSA},
+  timestamp = {2014.07.16},
+  url = {http://www.opticsexpress.org/abstract.cfm?URI=oe-18-3-2632}
+}
+
+@ARTICLE{Estrada:09,
+  author = {J. C. Estrada and M. Servin and J. A. Quiroga},
+  title = {Easy and straightforward construction of wideband phase-shifting
+	algorithms for interferometry},
+  journal = {Opt. Lett.},
+  year = {2009},
+  volume = {34},
+  pages = {413--415},
+  number = {4},
+  month = {Feb},
+  abstract = {We show a practical way for building wideband phase-shifting algorithms
+	for interferometry. The idea presented combines first- and second-order
+	quadrature filters to obtain wideband phase-shifting algorithms.
+	These first- and second-order quadrature filters are analogous to
+	the first- and second-order filters commonly used in communications
+	engineering, named building blocks. We present a systematic way to
+	develop phase-shifting algorithms with large detuning robustness
+	or large bandwidth. In general, the approach presented here gives
+	a powerful frequency analysis and design tool for phase-shifting
+	algorithms robust to detuning for interferometry.},
+  doi = {10.1364/OL.34.000413},
+  keywords = {Fringe analysis; Interferometry; Metrology; Phase measurement},
+  owner = {orlando},
+  publisher = {OSA},
+  timestamp = {2014.07.16},
+  url = {http://ol.osa.org/abstract.cfm?URI=ol-34-4-413}
+}
+
+@ARTICLE{Freischlad:90,
+  author = {Klaus Freischlad and Chris L. Koliopoulos},
+  title = {Fourier description of digital phase-measuring interferometry},
+  journal = {J. Opt. Soc. Am. A},
+  year = {1990},
+  volume = {7},
+  pages = {542--551},
+  number = {4},
+  month = {Apr},
+  abstract = {A general description of phase measurement by digital heterodyne techniques
+	is presented in which the heterodyning is explained as a filtering
+	process in the frequency domain. Examples of commonly used algorithms
+	are given. Special emphasis is given to the analysis of systematic
+	errors. Gaussian error propagation is used to derive equations for
+	the random phase errors of common algorithms.},
+  doi = {10.1364/JOSAA.7.000542},
+  owner = {orlando},
+  publisher = {OSA},
+  timestamp = {2014.07.16},
+  url = {http://josaa.osa.org/abstract.cfm?URI=josaa-7-4-542}
 }
 
 @ARTICLE{Greivenkamp,
@@ -56,11 +186,37 @@
   url = {http://ao.osa.org/abstract.cfm?URI=ao-39-1-114}
 }
 
+@ARTICLE{Hariharan:87,
+  author = {P. Hariharan and B. F. Oreb and T. Eiju},
+  title = {Digital phase-shifting interferometry: a simple error-compensating
+	phase calculation algorithm},
+  journal = {Appl. Opt.},
+  year = {1987},
+  volume = {26},
+  pages = {2504--2506},
+  number = {13},
+  month = {Jul},
+  doi = {10.1364/AO.26.002504},
+  owner = {orlando},
+  publisher = {OSA},
+  timestamp = {2014.07.16},
+  url = {http://ao.osa.org/abstract.cfm?URI=ao-26-13-2504}
+}
+
+@BOOK{Jahne,
+  title = {Digital Image Processing},
+  publisher = {Springer},
+  year = {2005},
+  author = {B. Jahne},
+  owner = {orlando},
+  timestamp = {2014.07.16}
+}
+
 @ARTICLE{Okada,
   author = {K. Okada, A. Sato, and J. Tsujiuchi},
   title = {Simultaneous calculation of phase distribution and scanning phase
 	shift in phase shifting interferometry},
-  journal = {Opt.  Commun.},
+  journal = {Opt. Commun.},
   year = {1991},
   volume = {84},
   pages = {118-124},
@@ -83,6 +239,126 @@
   owner = {orlando},
   timestamp = {2014.07.16},
   url = { http://dx.doi.org/10.1117/12.184088}
+}
+
+@ARTICLE{Lai:91,
+  author = {Guanming Lai and Toyohiko Yatagai},
+  title = {Generalized phase-shifting interferometry},
+  journal = {J. Opt. Soc. Am. A},
+  year = {1991},
+  volume = {8},
+  pages = {822--827},
+  number = {5},
+  month = {May},
+  abstract = {We describe a generalized phase-shifting interferometry for which
+	the reference phases are directly evaluated at each time that the
+	interference fringe data are read. The reference phases are obtained
+	from the additional straight fringes on the interfering plane by
+	the fast-Fourier-transform method. According to error estimation,
+	the repeatabilities in the measurements of optical surfaces are $\lambda$/500
+	rms, when the generalized algorithm with eight data acquisitions
+	is used.},
+  doi = {10.1364/JOSAA.8.000822},
+  owner = {orlando},
+  publisher = {OSA},
+  timestamp = {2014.07.16},
+  url = {http://josaa.osa.org/abstract.cfm?URI=josaa-8-5-822}
+}
+
+@ARTICLE{Langoju:06,
+  author = {Rajesh Langoju and Abhijit Patil and Pramod Rastogi},
+  title = {Phase-shifting interferometry in the presence of nonlinear phase
+	steps, harmonics, and noise},
+  journal = {Opt. Lett.},
+  year = {2006},
+  volume = {31},
+  pages = {1058--1060},
+  number = {8},
+  month = {Apr},
+  abstract = {A phase-shifting piezo device commonly employed in phase-shifting
+	interferometry exhibits a nonlinear response to applied voltage.
+	Hence, a method for estimation of phase distribution in the presence
+	of nonlinear phase steps is presented. The proposed method compensates
+	for the harmonics present in the intensity fringe, allows the use
+	of arbitrary phase-step values between 0 and $\pi$ rad, and does
+	not impose constraints on the selection of particular phase-step
+	values for minimizing nonlinearity and compensating for the harmonics.
+	The comparison of the proposed method with other well-known benchmarking
+	algorithms shows that our method is highly efficient and also works
+	well in the presence of noise.},
+  doi = {10.1364/OL.31.001058},
+  keywords = {Interferometry; Phase measurement},
+  owner = {orlando},
+  publisher = {OSA},
+  timestamp = {2014.07.16},
+  url = {http://ol.osa.org/abstract.cfm?URI=ol-31-8-1058}
+}
+
+@ARTICLE{Larkin:01,
+  author = {Kieran Larkin},
+  title = {A self-calibrating phase-shifting algorithm based on the natural
+	demodulation of two-dimensional fringe patterns},
+  journal = {Opt. Express},
+  year = {2001},
+  volume = {9},
+  pages = {236--253},
+  number = {5},
+  month = {Aug},
+  abstract = {A new method of estimating the phase-shift betweeninterferograms is
+	introduced. The method is based on a recently introduced two-dimensional
+	Fourier-Hilbert demodulation technique. Three or more interferogram
+	frames in an arbitrary sequence are required. The first stage of
+	the algorithm calculates frame differences to remove the fringe pattern
+	offset; allowing increased fringe modulation. The second stage is
+	spatial demodulation to estimate the analytic image for each frame
+	difference. The third stage robustly estimates the inter-frame phase-shifts
+	and then uses the generalised phase-shifting algorithm of Lai and
+	Yatagai to extract the offset, the modulation and the phase exactly.
+	Initial simulations of the method indicate that high accuracy phase
+	estimates are obtainable even in the presence of closed or discontinuous
+	fringe patterns.},
+  doi = {10.1364/OE.9.000236},
+  keywords = {ABCD transforms ; Transforms; Fringe analysis; Interferometry; Phase
+	measurement},
+  owner = {orlando},
+  publisher = {OSA},
+  timestamp = {2014.07.16},
+  url = {http://www.opticsexpress.org/abstract.cfm?URI=oe-9-5-236}
+}
+
+@ARTICLE{Larkin:02,
+  author = {Kieran G. Larkin and Donald J. Bone and Michael A. Oldfield},
+  title = {Natural demodulation of two-dimensional fringe patterns. I. General
+	background of the spiral phase quadrature transform},
+  journal = {J. Opt. Soc. Am. A},
+  year = {2001},
+  volume = {18},
+  pages = {1862--1870},
+  number = {8},
+  month = {Aug},
+  abstract = {It is widely believed, in the areas of optics, image analysis, and
+	visual perception, that the Hilbert transform does not extend naturally
+	and isotropically beyond one dimension. In some areas of image analysis,
+	this belief has restricted the application of the analytic signal
+	concept to multiple dimensions. We show that, contrary to this view,
+	there is a natural, isotropic, and elegant extension. We develop
+	a novel two-dimensional transform in terms of two multiplicative
+	operators: a spiral phase spectral (Fourier) operator and an orientational
+	phase spatial operator. Combining the two operators results in a
+	meaningful two-dimensional quadrature (or Hilbert) transform. The
+	new transform is applied to the problem of closed fringe pattern
+	demodulation in two dimensions, resulting in a direct solution. The
+	new transform has connections with the Riesz transform of classical
+	harmonic analysis. We consider these connections, as well as others
+	such as the propagation of optical phase singularities and the reconstruction
+	of geomagnetic fields.},
+  doi = {10.1364/JOSAA.18.001862},
+  keywords = {Fringe analysis; Image analysis; Phase retrieval; Phase-only filters
+	; Interferometry; Phase measurement},
+  owner = {orlando},
+  publisher = {OSA},
+  timestamp = {2014.07.16},
+  url = {http://josaa.osa.org/abstract.cfm?URI=josaa-18-8-1862}
 }
 
 @ARTICLE{Mariano,
@@ -229,6 +505,15 @@
   url = {http://ol.osa.org/abstract.cfm?URI=ol-7-8-368}
 }
 
+@BOOK{Nocedal,
+  title = {Numerical Optimization, Operations Research},
+  publisher = {Springer},
+  year = {2006},
+  author = {J Nocedal and S. JW},
+  owner = {orlando},
+  timestamp = {2014.07.16}
+}
+
 @ARTICLE{Medina,
   author = {Orlando Medina, Julio C. Estrada and Manuel Servin},
   title = {Regularized self-tuning phase demodulation for phase-shifting interferometry
@@ -328,6 +613,38 @@
   url = {http://josaa.osa.org/abstract.cfm?URI=josaa-20-2-325}
 }
 
+@ARTICLE{Schwider:83,
+  author = {J. Schwider and R. Burow and K.-E. Elssner and J. Grzanna and R.
+	Spolaczyk and K. Merkel},
+  title = {Digital wave-front measuring interferometry: some systematic error
+	sources},
+  journal = {Appl. Opt.},
+  year = {1983},
+  volume = {22},
+  pages = {3421--3432},
+  number = {21},
+  month = {Nov},
+  abstract = {Digital wave-front measuring interferometry is a well-established
+	technique but only few investigations of systematic error sources
+	have been carried out so far. In this work three especially serious
+	error sources are discussed in some detail: inaccuracies of the reference
+	phase values needed for this type of evaluation technique; disturbances
+	due to extraneous fringes; and spatially high frequency noise on
+	the wave fronts caused by dust particles, inhomogeneities, etc. For
+	the first two error sources formulas of the resulting phase deviation
+	are derived and compensation possibilities discussed and experimentally
+	verified. To study the occurrence of wave-front irregularities caused
+	by dust particles a model has been developed and countermeasures
+	derived which assure sufficient regularity of contour line plots.
+	The repeatability of the present experimental setup was better than
+	$\lambda$/200 within the 3$\sigma$ limits.},
+  doi = {10.1364/AO.22.003421},
+  owner = {orlando},
+  publisher = {OSA},
+  timestamp = {2014.07.16},
+  url = {http://ao.osa.org/abstract.cfm?URI=ao-22-21-3421}
+}
+
 @ARTICLE{GeneralTheory,
   author = {M. Servin and J. C. Estrada and J. A. Quiroga},
   title = {The general theory of phase shifting algorithms},
@@ -357,6 +674,33 @@
   publisher = {OSA},
   timestamp = {2014.07.15},
   url = {http://www.opticsexpress.org/abstract.cfm?URI=oe-17-24-21867}
+}
+
+@ARTICLE{Servin:09,
+  author = {M. Servin and J. C. Estrada and J. A. Quiroga and J. F. Mosino and
+	M. Cywiak},
+  title = {Noise in phase shifting interferometry},
+  journal = {Opt. Express},
+  year = {2009},
+  volume = {17},
+  pages = {8789--8794},
+  number = {11},
+  month = {May},
+  abstract = {We present a theoretical analysis to estimate the amount of phase
+	noise due to noisy interferograms in Phase Shifting Interferometry
+	(PSI). We also analyze the fact that linear filtering transforms
+	corrupting multiplicative noise in Electronic Speckle Pattern Interferometry
+	(ESPI) into fringes corrupted by additive gaussian noise. This fact
+	allow us to obtain a formula to estimate the standard deviation of
+	the noisy demodulated phase as a function of the spectral response
+	of the preprocessing spatial filtering combined with the PSI algorithm
+	used. This phase noise power formula is the main result of this contribution.},
+  doi = {10.1364/OE.17.008789},
+  keywords = {Fringe analysis; Interferometry},
+  owner = {orlando},
+  publisher = {OSA},
+  timestamp = {2014.07.16},
+  url = {http://www.opticsexpress.org/abstract.cfm?URI=oe-17-11-8789}
 }
 
 @ARTICLE{RPT,
@@ -415,6 +759,24 @@
   url = {http://josaa.osa.org/abstract.cfm?URI=josaa-21-3-411}
 }
 
+@ARTICLE{Surrel:93,
+  author = {Y. Surrel},
+  title = {Phase stepping: a new self-calibrating algorithm},
+  journal = {Appl. Opt.},
+  year = {1993},
+  volume = {32},
+  pages = {3598--3600},
+  number = {19},
+  month = {Jul},
+  abstract = {A new (N $+$ 1)-bucket algorithm is proposed for phase-stepping systems.
+	It eliminates most of the errors caused by the phase-shifter miscalibration.},
+  doi = {10.1364/AO.32.003598},
+  owner = {orlando},
+  publisher = {OSA},
+  timestamp = {2014.07.16},
+  url = {http://ao.osa.org/abstract.cfm?URI=ao-32-19-3598}
+}
+
 @ARTICLE{Vargas,
   author = {J. Vargas and J. Antonio Quiroga and C. O. S. Sorzano and J. C. Estrada
 	and J. M. Carazo},
@@ -443,6 +805,32 @@
   publisher = {OSA},
   timestamp = {2014.07.16},
   url = {http://ol.osa.org/abstract.cfm?URI=ol-36-17-3485}
+}
+
+@ARTICLE{Wang:04,
+  author = {Zhaoyang Wang and Bongtae Han},
+  title = {Advanced iterative algorithm for phase extraction of randomly phase-shiftedinterferograms},
+  journal = {Opt. Lett.},
+  year = {2004},
+  volume = {29},
+  pages = {1671--1673},
+  number = {14},
+  month = {Jul},
+  abstract = {An advanced random phase-shifting algorithm to extract phase distributions
+	from randomly phase-shifted interferograms is proposed. The algorithm
+	is based on a least-squares iterative procedure, but it copes with
+	the limitation of the existing iterative algorithms by separating
+	a frame-to-frame iteration from a pixel-to-pixel iteration. The algorithm
+	provides stable convergence and accurate phase extraction with as
+	few as three interferograms, even when the phase shifts are completely
+	random. The algorithm is simple, fast, and fully automatic. A computer
+	simulation is conducted to prove the concept.},
+  doi = {10.1364/OL.29.001671},
+  keywords = {Digital image processing; Fringe analysis; Interferometry; Phase measurement},
+  owner = {orlando},
+  publisher = {OSA},
+  timestamp = {2014.07.16},
+  url = {http://ol.osa.org/abstract.cfm?URI=ol-29-14-1671}
 }
 
 @ARTICLE{Zeng,

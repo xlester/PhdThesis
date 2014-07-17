@@ -1,5 +1,6 @@
 \select@language {english}
 \contentsline {chapter}{List of Figures}{3}
+\contentsline {chapter}{List of Figures}{5}
 \contentsline {chapter}{\numberline {1}Regularized iterative least-squares algorithm for phase-shifting interferometry}{1}
 \contentsline {section}{\numberline {1.1}Introduction}{1}
 \contentsline {section}{\numberline {1.2}Classical Least-Squares}{2}
@@ -7,3 +8,10 @@
 \contentsline {section}{\numberline {1.4}Numerical Experiments}{5}
 \contentsline {section}{\numberline {1.5}Experimental Results}{6}
 \contentsline {section}{\numberline {1.6}Comments and conclusions}{6}
+\contentsline {chapter}{\numberline {2}Regularized self-tuning phase demodulation for phase-shifting interferome try with arbitrary phase shifts}{9}
+\contentsline {section}{\numberline {2.1}Abstract}{9}
+\contentsline {section}{\numberline {2.2}Introduction}{10}
+\contentsline {section}{\numberline {2.3}Method }{11}
+\contentsline {section}{\numberline {2.4}Numerical experiments and results}{13}
+\contentsline {section}{\numberline {2.5}Conclusions}{15}
+\contentsline {chapter}{Bibliography}{17}

@@ -18,31 +18,35 @@ demodulation technique.
 \section{Introduction}
 
 Nowadays, Phase Shifting Interferometry (PSI) techniques are one of
-the most used techniques in optical metrology \cite{a1}. In PSI, one
+the most used techniques in optical metrology \cite{Malacara}. In PSI, one
 obtains an small sequence of at least 3 interferograms with a phase-shifting
 among them {[}1{]}. To recover the modulating phase there are standard
 demodulation PSI methods; the well known 3-, 4-, and 5-steps phase-shifting
 algorithms. Knowing the inter-frame phase-shifts (or temporal carrier)
 the standard methods recover the modulus 2$\pi$ phase map with the
-minimum possible error \cite{a1,a2,a3}. If we
+minimum possible error \cite{Malacara,Freischlad:90,Servin:09}. If we
 do not know the phase-shifts exactly, we obtain a phase map with an
 unavoidable detuning error whose magnitude depends on the number of
 interferograms employed and how far we are from the actual phase-shifts
-\cite{a3,a4,a5,a6}. This unfortunate case can occur when the optical
+\cite{Servin:09,Schwider:83,Ai:87,Larkin:01,Langoju:06}. This unfortunate case
+can occur when the optical
 interferometer setup is uncalibrated or perturbations from the environment
 affect the interferometer\textquoteright{}s optical path. For example,
 for most phase shifters such as a PZT there is a repeatability problem
-from hysteresis, non linearity, and temperature linear drift \cite{a5,a7}.
+from hysteresis, non linearity, and temperature linear drift
+\cite{Ai:87,Cheng:85}.
 Curiously, first phase-shifting algorithms where self-tuning nonlinear
-algorithms \cite{a8,a9}. Other approaches, propose error compensating
+algorithms. Other approaches, propose error compensating
 algorithms to reduce detuning errors that basically use redundant
-data such as the Schwider-Hariharan 5-steps algorithm \cite{a4,a10,a11},
+data such as the Schwider-Hariharan 5-steps algorithm
+\cite{Schwider:83,Hariharan:87,Surrel:93},
 and more recently by constructing a wide-band frequency response of
-the phase-shifting algorithm as the 7-steps algorithm shown in \cite{a12}.
+the phase-shifting algorithm as the 7-steps algorithm shown in
+\cite{Estrada:09}.
 Further methods use the Fourier transform in order to estimate the
-inter-frame phase-shifts \cite{a6,a13}, and other are based on the
+inter-frame phase-shifts \cite{Larkin:01,Lai:91}, and other are based on the
 least-squares scheme estimating iteratively the inter-frame phase-shifts
-and phase \cite{a14,a15}. In Ref. 16\cite{a16}, we presented an
+and phase \cite{Kong,Wang:04}. In Ref. 16\cite{Estrada:10}, we presented an
 approach that estimates the local temporal carrier (the phase-shift)
 as the average of the phase difference between two consecutive phase
 maps obtained from two realizations of the tunable 3-steps algorithm.
@@ -53,12 +57,12 @@ sequence. Thus, we can recover the modulating phase modulus 2$\pi$
 and the inter-frame phase shifts in the same process. Here, it is
 not necessary to know the inter-frame phase-shifts. This inter-frame
 phase-shifts can vary arbitrary. The main difference between the demodulation
-method presented here, and the reported in \cite{a14,a15,a17}, is
+method presented here, and the reported in \cite{Kong,Wang:04,Larkin:02}, is
 that the herein demodulation method is based on a regularization technique
 that is able to remove noise from its input and is robust to non constant
 modulation variations, which is an issue that introduce errors in
-methods of works \cite{a14,a15}. Besides, we do not require estimate
-the fringe orientation as the method of work \cite{a17}.
+methods of works \cite{Kong,Wang:04}. Besides, we do not require estimate
+the fringe orientation as the method of work \cite{Larkin:02}.
 
 
 \section{Method }
@@ -80,14 +84,14 @@ I_{k}^{'}(x,y)=I_{k}(x,y)-[I_{k}*h](x,y),\; k=0,1,2,...,N-1,\label{eq:I'}
 \end{equation}
 where $h(x,y)$ is the impulse response of a low-pass filter such
 as a Gaussian or mean filter and \textasteriskcentered{} is the convolution
-operator\cite{a20}. Making this, the new interferogram sequence looks
+operator\cite{Jahne}. Making this, the new interferogram sequence looks
 like 
 \begin{equation}
 I_{k}^{'}(x,y)=b^{'}(x,y)cos(\phi(x,y)+\alpha_{k}),\: k=0,1,2,...,N-1.\label{eq:
 I'2}
 \end{equation}
 The main idea of the regularized self-tuning demodulation method that
-we show here comes from the article of Marroquin et al. \cite{a18}.
+we show here comes from the article of Marroquin et al. \cite{RQF}.
 The demodulation process presented by Marroquin et al., minimizes
 a nonlinear system that estimates the complex field of the first interferogram
 and its local spatial frequencies. We, unlike the Marroquin et al.
@@ -114,7 +118,7 @@ D_{x}[f(x,y)]=f(x,y)-f(x-1,y)+f(x,y)-f(x+1,y),
 D_{y}[f(x,y)]=f(x,y)-f(x,y-1)+f(x,y)-f(x,y+1).
 \end{equation}
 The regularization parameter $\lambda$ controls the smoothness of
-the complex field \cite{a18,a19}. The first and second terms are
+the complex field \cite{RQF,AQF_mult}. The first and second terms are
 the data terms, and the third term is the regularization term. Our
 reference is the first interferogram, therefore, we consider that
 its phase-shifting is $\alpha_{0}=0$. This is the reason of the first
@@ -134,7 +138,7 @@ The dimension problem is $m$ x $n$ x $N$, where $m$ x $n$ is
 the interferogram dimension and $N$ is the number of interferograms.
 For nonlinear systems, the iterative\emph{ }steepest-descent algorithm
 can converge to local minimums if its parameters are set adequately
-\cite{a21}, but its converge speed results very slow in this case.
+\cite{Nocedal}, but its converge speed results very slow in this case.
 Then, we split the problem in two: the linear part and the nonlinear
 part. The linear part are the equations that result by making zero
 the following partials: $\frac{\partial U}{\partial\varphi(x,y)}$
@@ -204,7 +208,7 @@ phase-shifts where generated as $\alpha_{k}=\pi+0.4*\varepsilon$
 , where $\varepsilon_{k}$ is a random scalar with a uniform distribution
 between $-\pi$ and $\pi$ radians. Here, we compare our results with
 the so called Advanced Iterative Algorithm (AIA) presented in Ref.
-\cite{a15} because this method estimates the phase and inter-frame
+\cite{Wang:04} because this method estimates the phase and inter-frame
 phase-shifts as well, but using other approach. In Table. 1
 \begin{table}
 \begin{centering}
@@ -343,103 +347,98 @@ if\;\widehat{\alpha}_{k}-\widehat{\alpha}_{k-1}>\pi\\
 for $k=1,2,3...N-1$, in order to have our inter-frame
 phase-shifts within the variation range($-\pi,\pi$).
 
-\begin{thebibliography}{99}
-\bibitem{a1}D. Malacara, M. Servin, and Z. Malacara, \textit{Interferogram
-Analysis for Optical Testing}(CRC, 2005), 2nd ed.
 
-\bibitem{a2}K. Freischlad and C. L. Koliopoulos, "Fourier
-description of digital phase-measuring interferometry,"
-Journal of the Optical Society of America A 7, 542 (1990).
+%\bibliographystyle{plain}
+%\bibliography{./References_PhdThesis}
 
-\bibitem{a3}M. Servin, J. C. Estrada, J. A. Quiroga, J. F. Mosino,
-and M. Cywiak, "Noise in phase shifting interferometry,"
-Opt. Express 17, 8789\textendash{}8794 (2009).
 
-\bibitem{a4} J. Schwider, R. Burow, K. E. Elssner, J. Grzanna,
-R. Spolaczyk, and K. Merkel, "Digital wave-front
-measuring interferometry: some systematic error sources."
-Applied optics 22, 3421 (1983).
 
-\bibitem{a5}C. Ai and J. C. Wyant, "Effect of
-piezoelectric transducer nonlinearity on phase shift interferometry,"
-Appl. Opt. 26, 1112\textendash{}1116 (1987).
+%\begin{thebibliography}{99}
 
-\bibitem{a6}K. Larkin, \textquotedblleft{}A self-calibrating phase-shifting
-algorithm based on the natural demodulation of two-dimensional fringe
-patterns.\textquotedblright{} Optics express 9, 236\textendash{}253
-(2001).
+%\bibitem{Malacara}D. Malacara, M. Servin, and Z. Malacara,
+%\textit{Interferogram Analysis for Optical Testing}(CRC, 2005), 2nd ed.
 
-\bibitem{a7}Y.-Y. Cheng and J. C. Wyant, "Phase
-shifter calibration in phase-shifting interferometry,"
-Appl. Opt. 24, 3049\textendash{} 3052 (1985).
+%\bibitem{Freischlad:90}K. Freischlad and C. L. Koliopoulos, "Fourier
+%description of digital phase-measuring interferometry,"
+%Journal of the Optical Society of America A 7, 542 (1990).
 
-\bibitem{a8}W. R. C. Rowley and J. Hamon, "Quelques
-mesures de dyssymetrie de profils spectraux,"Revue
-d\textquoteright{}Optique 9, 519\textendash{}531 (1963).
+%\bibitem{Servin:09}M. Servin, J. C. Estrada, J. A. Quiroga, J. F. Mosino,
+%and M. Cywiak, "Noise in phase shifting interferometry,"
+%Opt. Express 17, 8789\textendash{}8794 (2009).
 
-\bibitem{a9}P. Carre, \textquotedblleft{}Installation et utilisation
-du comparateur photoelectrique et interferentiel du Bureau International
-des Poids et Mesures,\textquotedblright{} Metrologia 2, 13\textendash{}23
-(1966).
+%\bibitem{Schwider:83} J. Schwider, R. Burow, K. E. Elssner, J. Grzanna,
+%R. Spolaczyk, and K. Merkel, "Digital wave-front
+%measuring interferometry: some systematic error sources."
+%Applied optics 22, 3421 (1983).
 
-\bibitem{a10} P. Hariharan, B. F. Oreb, and T. Eiju, \textquotedblleft{}
-Digital
-phase-shifting interferometry: a simple error-compensating phase calculation
-algorithm,\textquotedblright{} Appl. Opt. 26, 2504\textendash{}2506
-(1987).
+%\bibitem{Ai:87}C. Ai and J. C. Wyant, "Effect of
+%piezoelectric transducer nonlinearity on phase shift interferometry,"
+%Appl. Opt. 26, 1112\textendash{}1116 (1987).
 
-\bibitem{a11} Y. Surrel, \textquotedblleft{}Phase stepping: a new
-self-calibrating algorithm.\textquotedblright{} Applied optics 32,
-3598\textendash{}3600 (1993).
+%\bibitem{Larkin:01}K. Larkin, \textquotedblleft{}A self-calibrating
+%phase-shifting algorithm based on the natural demodulation of two-dimensional
+%fringe patterns.\textquotedblright{} Optics express 9, 236\textendash{}253
+%(2001).
 
-\bibitem{a12} J. C. Estrada, M. Servin, and J. A. Quiroga, \textquotedblleft{}
-Easy
-and straightforward construction of wideband phase-shifting algorithms
-for interferometry,\textquotedblright{} Opt. Lett. 34, 413\textendash{}415
-(2009).
+%\bibitem{Cheng:85}Y.-Y. Cheng and J. C. Wyant, "Phase
+%shifter calibration in phase-shifting interferometry,"
+%Appl. Opt. 24, 3049\textendash{} 3052 (1985).
 
-\bibitem{a13}G. Lai and T. Yatagai, \textquotedblleft{}Generalized
-phase-shifting interferometry,\textquotedblright{} J. Opt. Soc. Am.
-A 8, 822\textendash{}827 (1991).
+%\bibitem{Hariharan:87} P. Hariharan, B. F. Oreb, and T. Eiju,
+%\textquotedblleft{} Digital phase-shifting interferometry: a simple
+%error-compensating phase calculation algorithm,\textquotedblright{} Appl. Opt.
+%26, 2504\textendash{}2506 (1987).
 
-\bibitem{a14} I.-B. Kong, \textquotedblleft{}General algorithm
-of phase-shifting interferometry by iterative least-squares
-fitting,\textquotedblright{}
-Opt. Eng. 34, 183 (1995).
+%\bibitem{Surrel:93} Y. Surrel, \textquotedblleft{}Phase stepping: a new
+%self-calibrating algorithm.\textquotedblright{} Applied optics 32,
+%3598\textendash{}3600 (1993).
 
-\bibitem{a15} Z. Wang and B. Han, \textquotedblleft{}Advanced iterative
-algorithm for phase extraction of randomly phase-shifted interferograms.\
-textquotedblright{}
-Optics letters 29, 1671\textendash{}3 (2004).
+%\bibitem{Estrada:09} J. C. Estrada, M. Servin, and J. A. Quiroga,
+%\textquotedblleft{} Easy and straightforward construction of wideband
+%phase-shifting algorithms for interferometry,\textquotedblright{} Opt. Lett.
+%34, 413\textendash{}415 (2009).
 
-\bibitem{a16} Julio C. Estrada, M. Servin, and J. A. Quiroga,
-\textquotedblleft{}A self-tuning phase-shifting algorithm for
-interferometry,\textquotedblright{}
-Opt. Express 18, 2632\textendash{}2638 (2010).
+%\bibitem{Lai:91}G. Lai and T. Yatagai, \textquotedblleft{}Generalized
+%phase-shifting interferometry,\textquotedblright{} J. Opt. Soc. Am.
+%A 8, 822\textendash{}827 (1991).
 
-\bibitem{a17} K. G. Larkin, D. J. Bone, and M. a. Oldfield,
-\textquotedblleft{}Natural
-demodulation of two-dimensional fringe patterns. I. General background
-of the spiral phase quadrature transform.\textquotedblright{} J Opt
-Soc Am A Opt Image Sci Vis 18, 1862\textendash{}70 (2001).
+%\bibitem{Kong} I.-B. Kong, \textquotedblleft{}General algorithm
+%of phase-shifting interferometry by iterative least-squares
+%fitting,\textquotedblright{}
+%Opt. Eng. 34, 183 (1995).
 
-\bibitem{a18} J. L. Marroquin, J. E. Figueroa, and M. Servin,
-\textquotedblleft{}Robust
-quadrature filters,\textquotedblright{} Journal of the Optical Society
-of America A 14, 779 (1997).
+%\bibitem{Wang:04} Z. Wang and B. Han, \textquotedblleft{}Advanced iterative
+%algorithm for phase extraction of randomly phase-shifted interferograms.\
+%textquotedblright{} Optics letters 29, 1671\textendash{}3 (2004).
 
-\bibitem{a19} J. L. Marroquin, M. Servin, and R. Rodriguez Vera,
-\textquotedblleft{}Adaptive quadrature filters for multiple phase-stepping
-images.\textquotedblright{} Optics letters 23, 238\textendash{}40
-(1998).
+%\bibitem{Estrada:10} Julio C. Estrada, M. Servin, and J. A. Quiroga,
+%\textquotedblleft{}A self-tuning phase-shifting algorithm for
+%interferometry,\textquotedblright{} Opt. Express 18, 2632\textendash{}2638
+%(2010).
 
-\bibitem{a20} B. Jahne, Digital Image Processing (Springer, 2005).
+%\bibitem{Larkin:02} K. G. Larkin, D. J. Bone, and M. a. Oldfield,
+%\textquotedblleft{}Natural demodulation of two-dimensional fringe patterns. I.
+%General background of the spiral phase quadrature
+%transform.\textquotedblright{} J Opt Soc Am A Opt Image Sci Vis 18,
+%1862\textendash{}70 (2001).
 
-\bibitem{a21} J. Nocedal and S. JW, Numerical Optimization, Operations
-Research (Springer, 2006).
+%\bibitem{RQF} J. L. Marroquin, J. E. Figueroa, and M. Servin,
+%\textquotedblleft{}Robust
+%quadrature filters,\textquotedblright{} Journal of the Optical Society
+%of America A 14, 779 (1997).
 
-\bibitem{a22} Orlando Medina and Julio C. Estrada. Source code
-for Matlab, https://sites.google.com/site/juliocestradarico/academic-notes/
-source-code01
+%\bibitem{AQF_mult} J. L. Marroquin, M. Servin, and R. Rodriguez Vera,
+%\textquotedblleft{}Adaptive quadrature filters for multiple phase-stepping
+%images.\textquotedblright{} Optics letters 23, 238\textendash{}40
+%(1998).
 
-\end{thebibliography}
+%\bibitem{Jahne} B. Jahne, Digital Image Processing (Springer, 2005).
+
+%\bibitem{Nocedal} J. Nocedal and S. JW, Numerical Optimization, Operations
+%Research (Springer, 2006).
+
+%\bibitem{a22} Orlando Medina and Julio C. Estrada. Source code
+%for Matlab, https://sites.google.com/site/juliocestradarico/academic-notes/
+%source-code01
+
+%\end{thebibliography}
