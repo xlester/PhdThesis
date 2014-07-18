@@ -1,5 +1,5 @@
 \select@language {english}
-\contentsline {chapter}{List of Figures}{3}
+\contentsline {chapter}{List of Figures}{4}
 \contentsline {chapter}{List of Figures}{5}
 \contentsline {chapter}{\numberline {1}Regularized iterative least-squares algorithm for phase-shifting interferometry}{1}
 \contentsline {section}{\numberline {1.1}Introduction}{1}
@@ -14,4 +14,12 @@
 \contentsline {section}{\numberline {2.3}Method }{11}
 \contentsline {section}{\numberline {2.4}Numerical experiments and results}{13}
 \contentsline {section}{\numberline {2.5}Conclusions}{15}
-\contentsline {chapter}{Bibliography}{17}
+\contentsline {chapter}{\numberline {3}Removing detuning distortions of wrapped phase by using robust quadrature filters}{17}
+\contentsline {section}{\numberline {3.1}abstract}{17}
+\contentsline {section}{\numberline {3.2}Introduction}{17}
+\contentsline {section}{\numberline {3.3}Phase detuning correction method (PDCM)}{19}
+\contentsline {section}{\numberline {3.4}A priori local frequency calculation}{21}
+\contentsline {section}{\numberline {3.5}Tests and experimental examples}{22}
+\contentsline {section}{\numberline {3.6}Discussion and commentaries}{24}
+\contentsline {section}{\numberline {3.7}Appendix. Local frequency calculation in presence of noise}{25}
+\contentsline {chapter}{Bibliography}{29}

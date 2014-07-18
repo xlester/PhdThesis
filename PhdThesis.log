@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.9.21)  16 JUL 2014 22:39
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.9.21)  17 JUL 2014 19:45
 entering extended mode
  %&-line parsing enabled.
 **PhdThesis.tex
@@ -670,27 +670,36 @@ Overfull \hbox (7.95439pt too wide) in paragraph at lines 11--11
 ase-shifting 
  []
 
-)
+[3])
 \tf@toc=\write5
 \openout5 = `PhdThesis.toc'.
 
- [3] [4
-
-] (./PhdThesis.lof
+ [4] (./PhdThesis.lof
 Overfull \hbox (2.80032pt too wide) in paragraph at lines 3--3
  \OT1/cmr/m/n/10.95 se-quences. b) Re-cov-ered phase map us-ing clas-sic least-
 squares. 
  []
 
-)
+
+Overfull \hbox (3.04378pt too wide) in paragraph at lines 10--10
+ \OT1/cmr/m/n/10.95 Shows the un-wrapped phase with de-tun-ing er-ror of Fig. 3
+.1[](a). 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5
+
+])
 \tf@lof=\write6
 \openout6 = `PhdThesis.lof'.
 
- [5] [6
 
-] (./Chpt1_RegularizedLeastSquares/Chpt1_RegularizedLeastSquares.tex
+[6] (./Chpt1_RegularizedLeastSquares/Chpt1_RegularizedLeastSquares.tex
 Chapter 1.
 [1
+
 
 ]
 File: Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_1.eps Graphic file (type 
@@ -718,107 +727,15 @@ frame phase shifts. With
  []
 
 
-Package natbib Warning: Citation `Freischlad:90' on page 9 undefined on input l
-ine 27.
-
-
-Package natbib Warning: Citation `Servin:09' on page 9 undefined on input line 
-27.
-
-
-Package natbib Warning: Citation `Servin:09' on page 9 undefined on input line 
-31.
-
-
-Package natbib Warning: Citation `Schwider:83' on page 9 undefined on input lin
-e 31.
-
-
-Package natbib Warning: Citation `Ai:87' on page 9 undefined on input line 31.
-
-
-Package natbib Warning: Citation `Larkin:01' on page 9 undefined on input line 
-31.
-
-
-Package natbib Warning: Citation `Langoju:06' on page 9 undefined on input line
- 31.
-
-
-Package natbib Warning: Citation `Ai:87' on page 9 undefined on input line 37.
-
-
-Package natbib Warning: Citation `Cheng:85' on page 9 undefined on input line 3
-7.
-
-
-Package natbib Warning: Citation `Schwider:83' on page 9 undefined on input lin
-e 42.
-
-
-Package natbib Warning: Citation `Hariharan:87' on page 9 undefined on input li
-ne 42.
-
-
-Package natbib Warning: Citation `Surrel:93' on page 9 undefined on input line 
-42.
-
-
-Package natbib Warning: Citation `Estrada:09' on page 9 undefined on input line
- 45.
-
-
-Package natbib Warning: Citation `Larkin:01' on page 9 undefined on input line 
-47.
-
-
-Package natbib Warning: Citation `Lai:91' on page 9 undefined on input line 47.
-
-
-
-Package natbib Warning: Citation `Wang:04' on page 9 undefined on input line 49
-.
-
-
-Package natbib Warning: Citation `Estrada:10' on page 9 undefined on input line
- 49.
-
-
-Package natbib Warning: Citation `Wang:04' on page 9 undefined on input line 60
-.
-
-
-Package natbib Warning: Citation `Larkin:02' on page 9 undefined on input line 
-60.
-
-
-Package natbib Warning: Citation `Wang:04' on page 9 undefined on input line 64
-.
-
-
-Package natbib Warning: Citation `Larkin:02' on page 9 undefined on input line 
-65.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
 [10]
-
-Package natbib Warning: Citation `Jahne' on page 11 undefined on input line 87.
-
-
-
 Overfull \hbox (67.13329pt too wide) in alignment at lines 101--107
  [][][] []
  []
 
 [11]
-
-Package natbib Warning: Citation `Nocedal' on page 12 undefined on input line 1
-41.
-
-
 Overfull \hbox (13.42844pt too wide) detected at line 159
 \OML/cmm/m/it/10.95 '[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x; y\OT1/cmr/m/n
 /10.95 ) = \OML/cmm/m/it/10.95 Solve for '[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/1
@@ -828,27 +745,94 @@ Overfull \hbox (13.42844pt too wide) detected at line 159
  []
 
 [12]
-
-Package natbib Warning: Citation `Wang:04' on page 13 undefined on input line 2
-11.
-
 File: Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps.eps Graphic file (type ep
 s)
-<Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps.eps> [13] [14] [15])
-(./PhdThesis.bbl [16] [17
+ <Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps.eps> [13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-])
+ [14]
+[15]) (./Chpt4_PhaseDetuningCorrecting/Chpt4_PhaseDetuningCorrecting.tex
+[16]
+Chapter 3.
+[17
 
-Package natbib Warning: There were undefined citations.
+] [18]
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1aNoise.eps Graphic file 
+(type eps)
+ <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1aNoise.eps>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1bNoise.eps Graphic file 
+(type eps)
 
-[18] (./PhdThesis.aux) ) 
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1bNoise.eps>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error.eps Graphic file (ty
+pe eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error.eps> [19] [20]
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/FaseError_Ideal_3D.eps Graphi
+c file (type eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/FaseError_Ideal_3D.eps>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fase_Ideal_3D.eps Graphic fil
+e (type eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fase_Ideal_3D.eps>
+Overfull \hbox (2.40088pt too wide) in paragraph at lines 199--205
+ [] 
+ []
+
+[21]
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E1.eps Graphic file (type
+ eps)
+ <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E1.eps>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E2.eps Graphic file (type
+ eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E2.eps> [22]
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E3.eps Graphic file (type
+ eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E3.eps> [23] [24]
+Overfull \hbox (2.38123pt too wide) in paragraph at lines 387--387
+[]\OT1/cmr/bx/n/14.4 Appendix. Lo-cal fre-quency cal-cu-la-tion in pres-
+ []
+
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_mFaseErrorFrecuencias.eps
+ Graphic file (type eps)
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_mFaseErrorFrecuencias.eps>
+[25]
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltradaMal.eps Grap
+hic file (type eps)
+ <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltradaMal.eps>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltrada.eps Graphic
+ file (type eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltrada.eps>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias1.eps Graphic 
+file (type eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias1.eps>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias2.eps Graphic 
+file (type eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias2.eps>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias3.eps Graphic 
+file (type eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias3.eps>)
+(./PhdThesis.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+[27] [28
+
+] [29] [30] [31]) [32] (./PhdThesis.aux) ) 
 Here is how much of TeX's memory you used:
- 15057 strings out of 495062
- 318151 string characters out of 1182644
+ 15173 strings out of 495062
+ 321105 string characters out of 1182644
  400697 words of memory out of 3000000
- 17885 multiletter control sequences out of 15000+50000
+ 17981 multiletter control sequences out of 15000+50000
  14601 words of font info for 53 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 70i,12n,63p,479b,425s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 70i,12n,63p,579b,504s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on PhdThesis.dvi (24 pages, 66516 bytes).
+Output written on PhdThesis.dvi (38 pages, 111880 bytes).

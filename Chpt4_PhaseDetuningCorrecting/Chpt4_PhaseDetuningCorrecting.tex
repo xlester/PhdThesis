@@ -31,11 +31,11 @@ interest. Therefore, estimating the phase with the least possible error is the
 most important task in interferometry. However, this is not always possible, 
 and one of the most common errors of phase interferometry demodulation 
 algorithms (PIDA) is the so-called detuning error 
-\cite{Malacara,GeneralTheory,Mosinio, fringePatternAnalisys}. In literature, we
-can find several works that study and measure the effects of the detuning error
-and the factors that cause it \cite{PhaseDetuning_0, PhaseDetuning_1, 
-PhaseDetuning_2, PhaseDetuning_3, AccuracyPSI_0, AccuracyPSI_1, AccuracyPSI_2,
-AccuracyPSI_3, AccuracyPSI_4, AccuracyPSI_5}. For example, in phase shifting
+\cite{Malacara,GeneralTheory,Mosino:09, fringePatternAnalisys}. In literature,
+we can find several works that study and measure the effects of the detuning
+error and the factors that cause it \cite{PhaseDetuning_0, PhaseDetuning_1, 
+Malacara, Mosino:10, ShopTesting, AccuracyPSI_1, deGroot:95,
+Schmit:95, Gutmann:98, Servin:10}. For example, in phase shifting
 interferometry, if the object under test is not static or the piezoelectric
 transducer used to introduce the phase shifts is incorrectly calibrated, the
 PIDA produces a detuning error. 
@@ -55,7 +55,7 @@ interferograms as expected, it recovers a modulating phase with detuning error.
 
 This detuning error is present in the demodulated phase as a low powered 
 signal having twice the frequency than the interferograms under analysis.
-Mosi\~no et al. \cite{Mosinio} demonstrate that this detuning error can be 
+Mosi\~no et al. \cite{Mosino:09} demonstrate that this detuning error can be 
 described by the following expression: 
 \begin{equation}\label{Eq:DetuningError}
 	\Delta \phi \approx - \frac{\varepsilon}{c} \sin(2\phi),
@@ -473,80 +473,74 @@ different local frequencies during the wrapped phase refinement process.
 The authors would like to acknowledge the financial support of
 the Mexican Science Council CONACYT.
 
-\section*{References}
 
-%\bibliography{referencias}
+%\begin{thebibliography}{99}
 
-\begin{thebibliography}{99}
-
-\bibitem{Malacara} D. Malacara, M. Servin, and Z. Malacara,
-\textit{Interferogram Analysis for Optical Testing} (Taylor \& Francis, CRC,
-2005).
+%\bibitem{Malacara} D. Malacara, M. Servin, and Z. Malacara,
+%\textit{Interferogram Analysis for Optical Testing} (Taylor \& Francis, CRC,
+%2005).
  
- \bibitem{GeneralTheory}M. Servin, J. C. Estrada, and J. A. Quiroga, “The 
-  general theory of phase shifting algorithms,” Opt. Express \textbf{17}(24), 
-  21867–21881 (2009) %doi: http://dx.doi.org/10.1364/OE.17.021867.
+ %\bibitem{GeneralTheory}M. Servin, J. C. Estrada, and J. A. Quiroga, “The 
+ %general theory of phase shifting algorithms,” Opt. Express \textbf{17}(24), 
+ %21867–21881 (2009) %doi: http://dx.doi.org/10.1364/OE.17.021867.
   
-  \bibitem{Mosinio} J. Mosi\~{n}o, M. Servin, J. Estrada, and
-  J. Quiroga, "Phasorial analysis of detuning error in temporal phase
-  shifting algorithms," Opt. Express \textbf{17}, 5618-5623 (2009). 
+  %\bibitem{Mosino:09} J. Mosi\~{n}o, M. Servin, J. Estrada, and
+  %J. Quiroga, "Phasorial analysis of detuning error in temporal phase
+  %shifting algorithms," Opt. Express \textbf{17}, 5618-5623 (2009). 
   %doi: http://dx.doi.org/10.1364/OE.17.005618.
   
-  \bibitem{fringePatternAnalisys} M. Servin, J. Antonio Quiroga and M. Padilla, 
-  \textit{Fringe Pattern Analisys for Optical Metrology: Theory, Algorithms 
-  and Applications}, (Wiley-VCH, 2014).
+  %\bibitem{fringePatternAnalisys} M. Servin, J. Antonio Quiroga and M.
+%Padilla, \textit{Fringe Pattern Analisys for Optical Metrology: Theory,
+%Algorithms and Applications}, (Wiley-VCH, 2014).
   
   %------------
-  \bibitem{PhaseDetuning_0} J. E. Hernández and D. Malacara, "Exact linear 
-  detuning error in phase shifting algorithms," Opt. comm. \textbf{180}, 9–14 
-  (2000). 
+  %\bibitem{PhaseDetuning_0} J. E. Hernández and D. Malacara, "Exact linear 
+  %detuning error in phase shifting algorithms," Opt. comm. \textbf{180}, 9–14 
+  %(2000). 
   
-  \bibitem{PhaseDetuning_1} M. Servin, and M. Kujawinska, \textit{Modern 
-  fringe pattern analysis in Interferometry} in Handbook of Optical 
-  Engineering, D. Malacara and B. J. Thompson eds., (Marcel Dekker, 2001).
+  %\bibitem{PhaseDetuning_1} M. Servin, and M. Kujawinska, \textit{Modern 
+  %fringe pattern analysis in Interferometry} in Handbook of Optical 
+  %Engineering, D. Malacara and B. J. Thompson eds., (Marcel Dekker, 2001).
   
-  \bibitem{PhaseDetuning_2} D. Malacara, M. Servin, and Z. Malacara, \textit{ 
-  Phase Detection Algorithms, in Interferogram Analysis for Optical Testing}, 
-  D. Malacara ed., (Taylor \& Francis Group, 2005).
-  
-  \bibitem{PhaseDetuning_3} J. Mosi\~no, D. Doblado, and D. Hern\'andez,
-"Calculus 
-  of exact detuning phase shift error in temporal phase shifting algorithms," 
-  Opt. Express  17, 15766-15771 (2009).
+  %\bibitem{Mosino:10} J. Mosi\~no, D. Doblado, and D. Hern\'andez,
+  %"Calculus of exact detuning phase shift error in temporal phase shifting
+  %algorithms," Opt. Express  17, 15766-15771 (2009).
   
   %--------------
-  \bibitem{AccuracyPSI_0} H. Schreiber and J. H. Brunning, \textit{“Phase 
-  shifting interferometry,” in Optical Shop Testing}, D. Malacara ed., (John 
-  Wiley \& Sons, Inc., Hoboken, New Jersey 2007).
+  %\bibitem{ShopTesting} H. Schreiber and J. H. Brunning,\textit{“Phase 
+  %shifting interferometry,” in Optical Shop Testing}, D. Malacara ed., (John 
+  %Wiley \& Sons, Inc., Hoboken, New Jersey 2007).
   %doi:10.1002/9780470135976.ch14.
   
-  \bibitem{AccuracyPSI_1} J. Van Wingerden, H. Frankena, and C. Smorenburg, 
-  "Linear approximation for measurement errors in phase shifting 
-  interferometry," Appl. Opt. \textbf{30}, 2718-2729 (1991) 
+  %\bibitem{AccuracyPSI_1} J. Van Wingerden, H. Frankena, and C. Smorenburg, 
+  %"Linear approximation for measurement errors in phase shifting 
+  %interferometry," Appl. Opt. \textbf{30}, 2718-2729 (1991) 
   %doi: http://dx.doi.org/10.1364/AO.30.002718.
   
-  \bibitem{AccuracyPSI_2} P. Groot, "Phase-shift calibration errors in 
-  interferometers with spherical Fizeau cavities," Appl. Opt. \textbf{34}, 
-  2856-2863 (1995) %doi: http://dx.doi.org/10.1364/AO.34.002856.
+  %\bibitem{deGroot:95} P. Groot, "Phase-shift calibration errors in 
+  %interferometers with spherical Fizeau cavities," Appl. Opt. \textbf{34}, 
+  %2856-2863 (1995) %doi: http://dx.doi.org/10.1364/AO.34.002856.
 
-\bibitem{AccuracyPSI_3} J. Schmit and K. Creath, “Extended averaging technique
-for derivation of error-compensating algorithms in phase-shifting
-interferometry,” Appl. Opt.\textbf{34}(19), 3610–3619 (1995). 
+%\bibitem{Schmit:95} J. Schmit and K. Creath, “Extended averaging
+% technique for derivation of error-compensating algorithms in phase-shifting
+%interferometry,” Appl. Opt.\textbf{34}(19), 3610–3619 (1995). 
 %doi: http://dx.doi.org/10.1364/AO.34.003610.
 
-\bibitem{AccuracyPSI_4} B. Gutmann and H. Weber, "Phase-Shifter 
-Calibration and Error Detection in Phase-Shifting Applications: A New 
-Method," Appl. Opt. \textbf{37}, 7624-7631 (1998).
+%\bibitem{Gutmann:98} B. Gutmann and H. Weber, "Phase-Shifter 
+%Calibration and Error Detection in Phase-Shifting Applications: A New 
+%Method," Appl. Opt. \textbf{37}, 7624-7631 (1998).
 %doi: http://dx.doi.org/10.1364/AO.37.007624.
 
-\bibitem{AccuracyPSI_5} M. Servin, J. C. Estrada, and J. A. Quiroga, “Spectral 
-analysis of phase shifting algorithms,” Opt. Express \textbf{17}(19),
-16423–16428 (2009). %doi: http://dx.doi.org/10.1364/OE.17.016423.
+%\bibitem{Servin:10} M. Servin, J. C. Estrada, and J. A. Quiroga, “Spectral 
+%analysis of phase shifting algorithms,” Opt. Express \textbf{17}(19),
+%16423–16428 (2009). %doi: http://dx.doi.org/10.1364/OE.17.016423.
 
-\bibitem{RQF} J. Marroquin, J. Figueroa, and M. Servin, "Robust 
- quadrature filters," J. Opt.  Soc. Am. A \textbf{14}, 779-791 (1997) 
- doi: http://dx.doi.org/10.1364/JOSAA.14.000779.
+%\bibitem{RQF} J. Marroquin, J. Figueroa, and M. Servin, "Robust 
+%quadrature filters," J. Opt.  Soc. Am. A \textbf{14}, 779-791 (1997) 
+%doi: http://dx.doi.org/10.1364/JOSAA.14.000779.
 
+
+%%%%%%%%%%%%%%%%%% Old references %%%%%%%%%%%%%%%%%%
   %\bibitem{AccuracyPSI_0} J. Schwider, R. Burow, K. Elssner, J. Grzanna, R. 
 %Spolaczyk, and K. Merkel, "Digital wave-front measuring interferometry: 
 %some systematic error sources," Appl. Opt. \textbf{22}, 3421-3432 (1983).
@@ -613,4 +607,4 @@ analysis of phase shifting algorithms,” Opt. Express \textbf{17}(19),
   %   images," Opt. Lett.  \textbf{23}, 238-240 (1998).
  
   
-\end{thebibliography}
+%\end{thebibliography}
