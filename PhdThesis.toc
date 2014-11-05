@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 \select@language {english}
 \contentsline {chapter}{List of Figures}{4}
 \contentsline {chapter}{List of Figures}{5}
@@ -27,3 +28,5 @@
 \contentsline {section}{\numberline {4.6}Discussion and commentaries}{28}
 \contentsline {section}{\numberline {4.7}Appendix. Local frequency calculation in presence of noise}{29}
 \contentsline {chapter}{Bibliography}{33}
+=======
+>>>>>>> Stashed changes
