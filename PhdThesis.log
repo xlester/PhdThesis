@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.9.21)  17 JUL 2014 19:45
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.9.21)  4 NOV 2014 20:57
 entering extended mode
  %&-line parsing enabled.
 **PhdThesis.tex
@@ -670,6 +670,12 @@ Overfull \hbox (7.95439pt too wide) in paragraph at lines 11--11
 ase-shifting 
  []
 
+
+Overfull \hbox (7.66537pt too wide) in paragraph at lines 17--17
+ [] []\OT1/cmr/bx/n/10.95 Robust adap-tive phase-shifting de-mod-u-la-tion for 
+test-ing mov- 
+ []
+
 [3])
 \tf@toc=\write5
 \openout5 = `PhdThesis.toc'.
@@ -681,8 +687,8 @@ squares.
  []
 
 
-Overfull \hbox (3.04378pt too wide) in paragraph at lines 10--10
- \OT1/cmr/m/n/10.95 Shows the un-wrapped phase with de-tun-ing er-ror of Fig. 3
+Overfull \hbox (3.04378pt too wide) in paragraph at lines 11--11
+ \OT1/cmr/m/n/10.95 Shows the un-wrapped phase with de-tun-ing er-ror of Fig. 4
 .1[](a). 
  []
 
@@ -751,12 +757,65 @@ s)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
-[15]) (./Chpt4_PhaseDetuningCorrecting/Chpt4_PhaseDetuningCorrecting.tex
-[16]
+[15]) (./Chpt3_RobustAdaptive/Chpt3_RobustAdaptive.tex [16]
 Chapter 3.
-[17
 
-] [18]
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 ...ethod locally estimates the interferogramâ€
+                                                  ™s
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 ...thod locally estimates the interferogramâ€™
+                                                  s
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+Underfull \vbox (badness 4940) has occurred while \output is active []
+
+ [17
+
+]
+[18]
+Overfull \hbox (106.55006pt too wide) detected at line 116
+[] [] \OT1/cmr/m/n/10.95 = [] \OML/cmm/m/it/10.95 :
+ []
+
+[19]
+Overfull \hbox (67.77734pt too wide) detected at line 129
+\OML/cmm/m/it/10.95 E\OT1/cmr/m/n/10.95 [\OML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.9
+5 (\OML/cmm/m/it/10.95 x; y\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 ; g[]\OT1/cm
+r/m/n/10.95 (\OML/cmm/m/it/10.95 x; y\OT1/cmr/m/n/10.95 )] = [] [] []\OMS/cmsy/
+m/n/10.95 f\OML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 m; n\OT
+1/cmr/m/n/10.95 ) + \OML/cmm/m/it/10.95 Re\OMS/cmsy/m/n/10.95 f\OML/cmm/m/it/10
+.95 g[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 m; n\OT1/cmr/m/n/10.95 )\OML/cmm
+/m/it/10.95 e[]\OMS/cmsy/m/n/10.95 g ^^@ \OML/cmm/m/it/10.95 I[]\OT1/cmr/m/n/10
+.95 (\OML/cmm/m/it/10.95 m; n\OT1/cmr/m/n/10.95 )\OMS/cmsy/m/n/10.95 g\OML/cmm/
+m/it/10.95 h\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x \OMS/cmsy/m/n/10.95 ^^@ \
+OML/cmm/m/it/10.95 m; y \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 n\OT1/cmr/m
+/n/10.95 )[][]
+ []
+
+) (./Chpt4_PhaseDetuningCorrecting/Chpt4_PhaseDetuningCorrecting.tex [20]
+Chapter 4.
+[21
+
+] [22]
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1aNoise.eps Graphic file 
 (type eps)
  <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1aNoise.eps>
@@ -767,7 +826,7 @@ File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1bNoise.eps Graphic file
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error.eps Graphic file (ty
 pe eps)
 
-<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error.eps> [19] [20]
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error.eps> [23] [24]
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/FaseError_Ideal_3D.eps Graphi
 c file (type eps)
 
@@ -780,18 +839,18 @@ Overfull \hbox (2.40088pt too wide) in paragraph at lines 199--205
  [] 
  []
 
-[21]
+[25]
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E1.eps Graphic file (type
  eps)
  <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E1.eps>
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E2.eps Graphic file (type
  eps)
 
-<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E2.eps> [22]
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E2.eps> [26]
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E3.eps Graphic file (type
  eps)
 
-<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E3.eps> [23] [24]
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E3.eps> [27] [28]
 Overfull \hbox (2.38123pt too wide) in paragraph at lines 387--387
 []\OT1/cmr/bx/n/14.4 Appendix. Lo-cal fre-quency cal-cu-la-tion in pres-
  []
@@ -799,7 +858,7 @@ Overfull \hbox (2.38123pt too wide) in paragraph at lines 387--387
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_mFaseErrorFrecuencias.eps
  Graphic file (type eps)
 <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_mFaseErrorFrecuencias.eps>
-[25]
+[29]
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltradaMal.eps Grap
 hic file (type eps)
  <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltradaMal.eps>
@@ -822,17 +881,17 @@ file (type eps)
 (./PhdThesis.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
-[27] [28
+ [30]
+[31] [32
 
-] [29] [30] [31]) [32] (./PhdThesis.aux) ) 
+] [33] [34] [35]) [36] (./PhdThesis.aux) ) 
 Here is how much of TeX's memory you used:
- 15173 strings out of 495062
- 321105 string characters out of 1182644
+ 15178 strings out of 495062
+ 321246 string characters out of 1182644
  400697 words of memory out of 3000000
- 17981 multiletter control sequences out of 15000+50000
+ 17982 multiletter control sequences out of 15000+50000
  14601 words of font info for 53 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  70i,12n,63p,579b,504s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on PhdThesis.dvi (38 pages, 111880 bytes).
+Output written on PhdThesis.dvi (42 pages, 125196 bytes).

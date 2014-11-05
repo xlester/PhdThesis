@@ -1,0 +1,131 @@
+\chapter{Robust adaptive phase-shifting demodulation for testing moving 
+wavefronts}
+
+\section{Abstract}
+Optical interferometer setups are very sensitive when environment
+perturbations affect its optical path. The wavefront under test is not
+static at all. In this paper, it is proposed a novel and robust phase-shifting
+demodulation method. This method locally estimates the interferogram’s
+phase-shifting, reducing detuning errors due to environment perturbations
+like vibrations and/or miscalibrations of the Phase-Shifting Interferometry
+setup. As we know, phase-shifting demodulation methods assume that the
+wavefront under test is static and there is a global phase-shifting for all
+pixels. The phase-shifting demodulation method presented here is based on
+local weighted least-squares, letting each pixel have its own phase-shifting.
+This is a different and better approach, considering that all previous works
+assume a global phase-shifting for all pixels of interferograms. Seeing this
+method like a black box, it receives an interferogram sequence of at least 3
+interferograms and returns the modulating phase or wavefront under test.
+Here it is not necessary to know the phase shifts between the interferograms.
+It does not assume a global phase-shifting for the interferograms, is robust
+to the movements of the wavefront under test and tolerates
+miscalibramiscalibrations of the optical setup with at least three
+interferograms in the sequence.
+
+\section{Introduction}
+Phase-Shifting Interferometry (PSI) is a very known technique designed for
+testing static wavefronts. In PSI, it is generated an interferogram sequence of
+at least 3 interferograms with a phase shifting between them. To recover the
+modulating phase the well known phase-shifting demodulation methods are used [1,
+2, 3, 4, 5, 6]. When the wavefront under test remains static and the phase
+shifts are introduced correctly, these phase-shifting methods recover the
+modulating phase without error. However, in optical interferometer setups the
+optical path is easily affected by environment perturbations. When environment
+perturbations exist, the wavefront under test is moving and the phase-shifting
+algorithms introduce an unavoidable detuning error [7, 8]. Nowadays, we can deal
+with a moving wavefront by taking all the interferograms in the same instant of
+time, for example, by using pixelated polarized cameras [10, 9]. But, today this
+technology is expensive and is patent protected. To deal with the
+miscalibrations of the optical set up, previous works propose self-tuning
+phase-shifting demodulation methods [11, 12, 13]. However, all the previous
+published works for PSI assume that the wavefront under test remains static and
+there is a global phase-shifting for all pixels of the interferograms. This is
+not true when environment perturbations affects the wavefront under test.
+Suppose that you have a PSI optical setup, but, the wavefront under test is
+perturbed by the environment in such a way that it is moving. The method
+presented here is a robust adaptive phase-shifting demodulation method that let
+us demodulate the interferogram sequence tolerating the movements of the
+wavefront under test and miscalibrations from the PSI setup. This method allows
+each pixel have its own phase-shifting, reducing considerably detuning errors
+and improving the estimation of the modulating phase. To show the performance of
+the Robust Adaptive Phase-Shifting (RAPS) method presented here, we will present
+tests and results from simulated and experimentally obtained data.
+
+\section{Method}
+The interferometric phase-shifting signal for a single pixel has the classic
+model found in all papers about phase-shifting. In that case, it is assumed that
+all pixels has the same phaseshifting, therefore the interferometric signal for
+any pixel is the following:
+\begin{equation}
+  I_k(x,y) = a(x,y)+b(x,y)cos[\theta_0(x,y) + \omega_0 k],
+\end{equation}
+where $I_k(x,y)$ is the $k$-interferogram of $M\times N$ pixels, $a(x,y)$ is its
+background illumination, $b(x,y)$ its contrast or modulation term,
+$\theta_0(x,y)$ is the wavefront under test and $\omega_0$ is the phaseshifting
+introduced by the PSI system for all pixels. When the wavefront under test is
+perturbed by environment, it is moving and the movements affects the phase shift
+on each pixel of the interferograms in the following way:
+\begin{equation}
+  I_k(x,y) = a(x,y)+b(x,y)cos[\theta_0(x,y) + \eta_k(x,y) + \omega_0 k],
+\end{equation}
+where $\eta_k(x,y)$ is the environment perturbation. To process this
+information, we are going to take $\eta_k(x,y)$ and $\omega_0$ as $\beta_k(x,y)
+= \eta_k(x,y) + \omega_0 k$ in such a way that the interferogram sequence
+can be rewritten as
+\begin{equation}
+  I_k(x,y) = a(x,y)+b(x,y)cos[\theta_0(x,y) + \beta_k(x,y)],
+\end{equation}
+where $\beta_k(x,y)$ represents the induced non-static phase-shifting variation
+of the $k$-interferogram. Now, we are going to estimate the wavefront
+$\omega_0(x,y)$ and the spatial $\beta_k(x,y)$ variations of each interferogram
+of the sequence.
+
+The Eq. (3.4) shows the least-squares cost function to recover the wavefront
+under test $\omega_0(x,y)$; assuming that we know its spatial variations
+$\beta_k(x,y)$ for each interferogram.
+\begin{equation}
+  E[a(x,y),f(x,y)]=\sum_{k=0}^{k-1}[a(x,y) + Re\{f(x,y) e^{i\beta_k (x,y)} \} -
+I_k (x,y)]^2.
+\end{equation}
+In this equation, $i = \sqrt{-1}$ and $f(x,y)$ is a complex value for the
+$(x,y)$ site. The operator $Re{\cdot}$ takes the real part of its argument,
+that is, $Re{z} = \frac{1}{2} (z+z^*)$; being $z$ a complex value and $z^*$
+its complex conjugate. $K$ is the number of interferograms. By minimizing (3.4)
+with respect to $a(x,y)$ and $f(x,y)$, the wavefront under test (the modulating
+phase) is recovered as
+\begin{equation}
+ \hat{\theta}(x,y)=angle[\hat{f}(x,y)],
+\end{equation}
+being $\hat{f}(x,y)$ the complex value that minimizes Eq. (3.4) at $(x,y)$ site.
+To minimize Eq. (3.4) we solve the following linear system for each $(x,y)$
+pixel:
+\begin{equation}
+\left(\begin{array}{ccc}
+K & \sum c_{k}(x,y) & \sum s_{k}(x,y)\\
+\sum c_{k}(x,y) & \sum c_{k}(x,y)^{2} & \sum c_{k}(x,y)s_{k}(x,y)\\
+\sum s_{k}(x,y) & \sum c_{k}(x,y)s_{k}(x,y) & \sum s_{k}(x,y)^{2}
+\end{array}\right)\left(\begin{array}{c}
+\hat{a}(x,y)\\
+\hat{\phi}(x,y)\\
+\hat{\psi}(x,y)
+\end{array}\right)=\left(\begin{array}{c}
+\sum I_{k}(x,y)\\
+\sum I_{k}(x,y)C_{k}(x,y)\\
+\sum I_{k}(x,y)S_{k}(x,y)
+\end{array}\right).
+\end{equation}
+The sums run from $k = 0$ to $K=-1$, being $K$ the number of interferograms.
+$\hat{\phi}(x,y)$ and $\hat{\psi}(x,y)$ are the real and imaginary parts of 
+$\hat{f}(x,y)$, respectively. $c_k(x,y)$ and $s_k(x,y)$ are the real and
+imaginary parts of $e^{i\beta_k(x,y)}$, respectively.
+
+Now, in the Eq. (3.7) we propose the local weighted least-squares cost function
+for estimating the wavefront variations $\beta_k(x;y)$ for the $(x,y)$ site at
+the $k$-interferogram; assuming that the wavefront under test $\theta_0(x,y)$ is
+known.
+\begin{equation}
+E[a(x,y),g_{k}(x,y)]=\sum_{m=0}^{M-1}\sum_{n=0}^{N-1}\Bigg[\{a(m,n)+Re\{g_{k}(m,
+n)e^ { i\theta_{0}(x,y)}\}-I_{k}(m,n)\}h(x-m,y-n)\Bigg]^{2}
+\end{equation}
+
+
