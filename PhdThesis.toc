@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 \select@language {english}
 \contentsline {chapter}{List of Figures}{4}
 \contentsline {chapter}{List of Figures}{5}
@@ -19,14 +18,14 @@
 \contentsline {section}{\numberline {3.1}Abstract}{17}
 \contentsline {section}{\numberline {3.2}Introduction}{18}
 \contentsline {section}{\numberline {3.3}Method}{18}
-\contentsline {chapter}{\numberline {4}Removing detuning distortions of wrapped phase by using robust quadrature filters}{21}
-\contentsline {section}{\numberline {4.1}abstract}{21}
-\contentsline {section}{\numberline {4.2}Introduction}{21}
-\contentsline {section}{\numberline {4.3}Phase detuning correction method (PDCM)}{23}
-\contentsline {section}{\numberline {4.4}A priori local frequency calculation}{25}
-\contentsline {section}{\numberline {4.5}Tests and experimental examples}{26}
-\contentsline {section}{\numberline {4.6}Discussion and commentaries}{28}
-\contentsline {section}{\numberline {4.7}Appendix. Local frequency calculation in presence of noise}{29}
-\contentsline {chapter}{Bibliography}{33}
-=======
->>>>>>> Stashed changes
+\contentsline {section}{\numberline {3.4}Tests and results}{21}
+\contentsline {section}{\numberline {3.5}Discussion and commentaries}{23}
+\contentsline {chapter}{\numberline {4}Removing detuning distortions of wrapped phase by using robust quadrature filters}{27}
+\contentsline {section}{\numberline {4.1}abstract}{27}
+\contentsline {section}{\numberline {4.2}Introduction}{27}
+\contentsline {section}{\numberline {4.3}Phase detuning correction method (PDCM)}{29}
+\contentsline {section}{\numberline {4.4}A priori local frequency calculation}{31}
+\contentsline {section}{\numberline {4.5}Tests and experimental examples}{32}
+\contentsline {section}{\numberline {4.6}Discussion and commentaries}{34}
+\contentsline {section}{\numberline {4.7}Appendix. Local frequency calculation in presence of noise}{35}
+\contentsline {chapter}{Bibliography}{39}
