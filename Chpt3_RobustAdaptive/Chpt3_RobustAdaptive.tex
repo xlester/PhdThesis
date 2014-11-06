@@ -26,18 +26,21 @@ interferograms in the sequence.
 Phase-Shifting Interferometry (PSI) is a very known technique designed for
 testing static wavefronts. In PSI, it is generated an interferogram sequence of
 at least 3 interferograms with a phase shifting between them. To recover the
-modulating phase the well known phase-shifting demodulation methods are used [1,
-2, 3, 4, 5, 6]. When the wavefront under test remains static and the phase
+modulating phase the well known phase-shifting demodulation methods are used
+\cite{Bruning:74,Morgan,Schwider:83,Cheng:85,Hariharan:87,Estrada:09}. When the
+wavefront under test remains static and the phase
 shifts are introduced correctly, these phase-shifting methods recover the
 modulating phase without error. However, in optical interferometer setups the
 optical path is easily affected by environment perturbations. When environment
 perturbations exist, the wavefront under test is moving and the phase-shifting
-algorithms introduce an unavoidable detuning error [7, 8]. Nowadays, we can deal
+algorithms introduce an unavoidable detuning error
+\cite{Servin:09,GeneralTheory}. Nowadays, we can deal
 with a moving wavefront by taking all the interferograms in the same instant of
-time, for example, by using pixelated polarized cameras [10, 9]. But, today this
-technology is expensive and is patent protected. To deal with the
-miscalibrations of the optical set up, previous works propose self-tuning
-phase-shifting demodulation methods [11, 12, 13]. However, all the previous
+time, for example, by using pixelated polarized cameras \cite{Servin:10,
+Kimbrough:06}. But, today this technology is expensive and is patent protected.
+To deal with the miscalibrations of the optical set up, previous works propose
+self-tuning phase-shifting demodulation methods
+\cite{Xu:06,Wang:04,Estrada:10}. However, all the previous
 published works for PSI assume that the wavefront under test remains static and
 there is a global phase-shifting for all pixels of the interferograms. This is
 not true when environment perturbations affects the wavefront under test.
@@ -204,15 +207,27 @@ the best if we have a priori information about the phase shifts introduced. For
 example, if we know that the phase-shifting interferometer introduce $\pi/4$
 phase shift radians, then the best starting point is $\pi/4$ radians.
 
+\begin{figure}[th!]
+	\begin{center}
+		\includegraphics[scale=0.4]{Chpt3_figures/fig_1.eps}
+	\end{center}
+	\caption{Numerical examples.From (a) to (b) we show the wrapped
+	wavefronts generated with Eq. (11). From (e) to (h) we show the
+	estimated wavefronts using the RAPS algorithm presented here. From
+	(i) to (l) we show the estimated wavefronts using the AIA. Above each
+	estimated wavefront we show the estimation error.} 
+	\label{fig:SimPhaseComparisonRAPS}
+\end{figure}
+
 \section{Tests and results}
 
 In the following test, we are going to quantify the wavefront estimation error
 of the RAPS demodulation method presented here. We are going to compare our
 results with the estimation error that is obtained with the Advanced Iterative
-Algorithm (AIA) presented in [12]. For this test, we simulated a moving
-wavefront and generated 4 interferograms with a phase-shifting of $\pi/2$. The
-moving wavefront was modeled using a two-modes vibrating plate in the following
-way:
+Algorithm (AIA) presented in \cite{Wang:04}. For this test, we simulated a
+moving wavefront and generated 4 interferograms with a phase-shifting of
+$\pi/2$. The moving wavefront was modeled using a two-modes vibrating plate in
+the following way:
 \begin{equation}
  \theta_k (x,y) = A \cos \Big( \frac{2\pi}{256}x \Big) \sin \Big(
 \frac{2\pi}{256}y \Big) \cos \Big( \frac{\pi}{17}k \Big)
@@ -236,6 +251,17 @@ Fig. 3.1), we can see that the RAPS method reduces one order of magnitude the
 estimation error, compared with an standard iterative phase-shifting algorithm
 like the AIA. The computational time was 0.374 seconds for the AIA and 4.99
 seconds for the RAPS method.
+
+\begin{figure}[th!]
+	\begin{center}
+		\includegraphics[scale=0.2]{Chpt3_figures/fig_2.eps}
+	\end{center}
+	\caption{Experimental setup.Electronic Speckle Pattern Interferometry
+	(ESPI) setup. The object under test is a metal plate perturbed with a
+	horn. The reference mirror has attached a piezoelectric transducer
+	(PZT) as phase shifter.} 
+	\label{fig:ExperimentalSetupRAPS}
+\end{figure}
 
 Now, we are going to test our method with interferograms experimentally obtained
 and compare qualitatively the results with the AIA method. For this test, the
@@ -264,9 +290,31 @@ the first interferogram as well. In these results, we can see that the RAPS
 method presented her does not have a detuning error like the introduced with the
 AIA. The detuning error introduced with the AIA looks like a fringe pattern with
 twice the frequence than the original interferogram, this is known and
-demonstrated theoretically on previous published works [3,7]. The computational
-time for these phase estimations was of $5.3$ seconds for the AIA and $69.23$
-seconds for the RAPS.
+demonstrated theoretically on previous published works
+\cite{Schwider:83,Servin:09}. The computational time for these phase
+estimations was of $5.3$ seconds for the AIA and $69.23$ seconds for the RAPS.
+
+\begin{figure}[th!]
+	\begin{center}
+		\includegraphics[scale=0.3]{Chpt3_figures/fig_3.eps}
+	\end{center}
+	\caption{Experimental tests.From (a) to (d) we show the interferogram
+	sequence. From (e) to (h) we show the estimated wavefront using the AIA,
+	and from (i) to (l) we show the estimated wavefront using the RAPS.} 
+	\label{fig:ExperimentalTestRAPS}
+\end{figure}
+
+\begin{figure}[th!]
+	\begin{center}
+		\includegraphics[scale=0.3]{Chpt3_figures/fig_4.eps}
+	\end{center}
+	\caption{Phase difference with respect to x (partial approximated
+	derivative). The dynamic range of the difference is quantized to the
+	gray levels 1, 102, 153, 203 and 255, for a better appreciation of the
+	detuning error. (a) shows the phase difference corresponding to the AIA
+	and (b) shows the difference corresponding to RAPS method.}
+	\label{fig:DynamicRAPS}
+\end{figure}
 
 \section{Discussion and commentaries}
 
@@ -287,23 +335,24 @@ pixels has the same phase shift of $\pi/2$ radians, and the modulating phase is
 spatially static. However, this is not true when the wavefront under test is
 moving, in this case, each pixel should have its own phaseshifting
 formula/algorithm. When the wavefront under test is moving, even a self-tuning
-or self-calibrating method like the one presented in Refs. [11, 12, 13]
-introduce detuning errors. As shown in the results of this paper, the
-demodulation method presented here reduces considerably detuning errors by
-estimating the modulating phase and its non constant variations for each
-interferogram. These estimations are made by using iteratively the linear
-systems of Eqs. (3.6) and (3.9). The linear system of Eq. (3.6) looks very
-similar to the one used in Ref. [12] firstly proposed in Ref. [2], but, there is
-a big difference in the propose of this paper. The main difference is that the
-phase-shifting of Eq. (3.6) depends on the pixel $(x,y)$ being processed and
-is not constant as supposed in [12]. Nevertheless, the most important
-contribution of the Robust Adaptive Phase-Shifting (RAPS) method presented here,
-is with the Eqs. (3.7) and (3.9). The Eq. (3.7) is a weighted least-squares cost
-function expressed as a quadratic convolution with a kernel that weights the
-local neighborhood that will be used for the phase-shifting estimation at the
-pixel $(x,y)$ of the k-interferogram. In this way, we estimate the
-phase-shifting at each pixel of the k-interferogram and not a global
-phase-shifting as in Refs. [11, 12].
+or self-calibrating method like the one presented in
+Refs.\cite{Xu:06,Wang:04,Estrada:10} introduce detuning errors. As
+shown in the results of this paper, the demodulation method presented here
+reduces considerably detuning errors by estimating the modulating phase and its
+non constant variations for each interferogram. These estimations are made by
+using iteratively the linear systems of Eqs. (3.6) and (3.9). The linear system
+of Eq. (3.6) looks very similar to the one used in Ref. \cite{Wang:04}
+firstly proposed in Ref. \cite{Morgan}, but, there is a big difference in the
+propose of this paper. The main difference is that the phase-shifting of Eq.
+(3.6) depends on the pixel $(x,y)$ being processed and
+is not constant as supposed in \cite{Wang:04}. Nevertheless, the most
+important contribution of the Robust Adaptive Phase-Shifting (RAPS) method
+presented here, is with the Eqs. (3.7) and (3.9). The Eq. (3.7) is a weighted
+least-squares cost function expressed as a quadratic convolution with a kernel
+that weights the local neighborhood that will be used for the phase-shifting
+estimation at the pixel $(x,y)$ of the k-interferogram. In this way, we estimate
+the phase-shifting at each pixel of the k-interferogram and not a global
+phase-shifting as in Refs. \cite{Xu:06,Wang:04}.
 
 The kernel $h$ in Eq. (3.7) defines the local weighted neighborhood that is
 taken into account by the least-squares function for each pixel $(x,y)$. For

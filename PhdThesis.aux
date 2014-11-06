@@ -66,101 +66,123 @@
 \@writefile{lot}{\contentsline {table}{\numberline {2.1}{\ignorespaces This table shows the error obtained between the phase-shift estimation and the actual phase-shift.}}{14}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Interferogram sequence and the recovered phase. (A) shows the recovered phase and error using the regularized self-tuning method proposed here. (B) shows the recovered phase and error using the AIA method{[}15{]}. The error shown (in radians) is the standard deviation respecting the true phase map. The interferogram frames has a size of 512 \texttimes {} 512. }}{14}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.5}Conclusions}{15}}
+\citation{Bruning:74,Morgan,Schwider:83,Cheng:85,Hariharan:87,Estrada:09}
+\citation{Servin:09,GeneralTheory}
+\citation{Servin:10,Kimbrough:06}
+\citation{Xu:06,Wang:04,Estrada:10}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}Robust adaptive phase-shifting demodulation for testing moving wavefronts}{17}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {3.1}Abstract}{17}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}Introduction}{18}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.3}Method}{18}}
+\citation{Wang:04}
 \@writefile{toc}{\contentsline {section}{\numberline {3.4}Tests and results}{21}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.5}Discussion and commentaries}{23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Numerical examples.From (a) to (b) we show the wrapped wavefronts generated with Eq. (11). From (e) to (h) we show the estimated wavefronts using the RAPS algorithm presented here. From (i) to (l) we show the estimated wavefronts using the AIA. Above each estimated wavefront we show the estimation error.}}{22}}
+\newlabel{fig:SimPhaseComparisonRAPS}{{3.1}{22}}
+\citation{Schwider:83,Servin:09}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Experimental setup.Electronic Speckle Pattern Interferometry (ESPI) setup. The object under test is a metal plate perturbed with a horn. The reference mirror has attached a piezoelectric transducer (PZT) as phase shifter.}}{23}}
+\newlabel{fig:ExperimentalSetupRAPS}{{3.2}{23}}
+\citation{Xu:06,Wang:04,Estrada:10}
+\citation{Wang:04}
+\citation{Morgan}
+\citation{Wang:04}
+\citation{Xu:06,Wang:04}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}Discussion and commentaries}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Experimental tests.From (a) to (d) we show the interferogram sequence. From (e) to (h) we show the estimated wavefront using the AIA, and from (i) to (l) we show the estimated wavefront using the RAPS.}}{25}}
+\newlabel{fig:ExperimentalTestRAPS}{{3.3}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Phase difference with respect to x (partial approximated derivative). The dynamic range of the difference is quantized to the gray levels 1, 102, 153, 203 and 255, for a better appreciation of the detuning error. (a) shows the phase difference corresponding to the AIA and (b) shows the difference corresponding to RAPS method.}}{26}}
+\newlabel{fig:DynamicRAPS}{{3.4}{26}}
 \citation{Malacara,GeneralTheory,Mosino:09,fringePatternAnalisys}
 \citation{PhaseDetuning_0,PhaseDetuning_1,Malacara,Mosino:10,ShopTesting,AccuracyPSI_1,deGroot:95,Schmit:95,Gutmann:98,Servin:10}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Removing detuning distortions of wrapped phase by using robust quadrature filters}{27}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Removing detuning distortions of wrapped phase by using robust quadrature filters}{29}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}abstract}{27}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Introduction}{27}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}abstract}{29}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Introduction}{29}}
 \citation{Mosino:09}
 \citation{RQF}
-\newlabel{Eq:DetuningError}{{4.1}{28}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Simulated wrapped phase comparison. (a) Synthetic input wrapped phase with detuning error. (b) Recovered wrapped phase map using the proposed PDCM.}}{29}}
-\newlabel{fig:SimulatedPhaseComparison}{{4.1}{29}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Phase detuning correction method (PDCM)}{29}}
-\newlabel{Eq:U(f)}{{4.2}{29}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison between an unwrapped row of the distorted input and the enhanced phase; the dashed line is the unwrapped phase with detuning error, and the solid line is the unwrapped phase processed with the PDCM. Note: The noise had been removed from the original distorted wrapped phase in Fig. \ref  {fig:SimulatedPhaseComparison}(a) for clarity and comparison purposes.}}{30}}
-\newlabel{fig:SimulatedPhaseComparisontemp}{{4.2}{30}}
-\newlabel{Eq:phi}{{4.3}{30}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Unwrapped simulated phase comparison of Fig. \ref  {fig:SimulatedPhaseComparison}. (a) Shows the unwrapped phase with detuning error of Fig. \ref  {fig:SimulatedPhaseComparison}(a). (b) Shows the recovered unwrapped phase of Fig. \ref  {fig:SimulatedPhaseComparison}(b) after using the proposed PDCM. Note: The noise had been removed from the original distorted wrapped phase in Fig. \ref  {fig:SimulatedPhaseComparison}(a) for clarity and comparison purposes.}}{31}}
-\newlabel{fig:SimulatedPhase3D}{{4.3}{31}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}A priori local frequency calculation}{31}}
-\newlabel{Eq:ExplicitGradient}{{4.5}{32}}
-\newlabel{Eq:explicit_u}{{4.6}{32}}
-\newlabel{Eq:explicit_v}{{4.7}{32}}
-\newlabel{Eq:dx}{{4.8}{32}}
-\newlabel{Eq:dy}{{4.9}{32}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.5}Tests and experimental examples}{32}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Experimental wrapped phase comparison. (a) Shows the experimental input wrapped phase with detuning error. (b) Shows the recovered wrapped phase map using the proposed PDCM.}}{33}}
-\newlabel{fig:ExperimentalPhase}{{4.4}{33}}
+\newlabel{Eq:DetuningError}{{4.1}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Simulated wrapped phase comparison. (a) Synthetic input wrapped phase with detuning error. (b) Recovered wrapped phase map using the proposed PDCM.}}{31}}
+\newlabel{fig:SimulatedPhaseComparison}{{4.1}{31}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Phase detuning correction method (PDCM)}{31}}
+\newlabel{Eq:U(f)}{{4.2}{31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison between an unwrapped row of the distorted input and the enhanced phase; the dashed line is the unwrapped phase with detuning error, and the solid line is the unwrapped phase processed with the PDCM. Note: The noise had been removed from the original distorted wrapped phase in Fig. \ref  {fig:SimulatedPhaseComparison}(a) for clarity and comparison purposes.}}{32}}
+\newlabel{fig:SimulatedPhaseComparisontemp}{{4.2}{32}}
+\newlabel{Eq:phi}{{4.3}{32}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Unwrapped simulated phase comparison of Fig. \ref  {fig:SimulatedPhaseComparison}. (a) Shows the unwrapped phase with detuning error of Fig. \ref  {fig:SimulatedPhaseComparison}(a). (b) Shows the recovered unwrapped phase of Fig. \ref  {fig:SimulatedPhaseComparison}(b) after using the proposed PDCM. Note: The noise had been removed from the original distorted wrapped phase in Fig. \ref  {fig:SimulatedPhaseComparison}(a) for clarity and comparison purposes.}}{33}}
+\newlabel{fig:SimulatedPhase3D}{{4.3}{33}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}A priori local frequency calculation}{33}}
+\newlabel{Eq:ExplicitGradient}{{4.5}{34}}
+\newlabel{Eq:explicit_u}{{4.6}{34}}
+\newlabel{Eq:explicit_v}{{4.7}{34}}
+\newlabel{Eq:dx}{{4.8}{34}}
+\newlabel{Eq:dy}{{4.9}{34}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Tests and experimental examples}{34}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Experimental wrapped phase comparison. (a) Shows the experimental input wrapped phase with detuning error. (b) Shows the recovered wrapped phase map using the proposed PDCM.}}{35}}
+\newlabel{fig:ExperimentalPhase}{{4.4}{35}}
 \citation{RQF}
 \citation{RQF}
 \citation{RQF}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Comparison between an unwrapped row of the distorted input and the enhanced phase; the dashed line is the phase with detuning error, and the solid line is the phase processed by the PDCM.}}{34}}
-\newlabel{fig:ExperimentalPhasetemp}{{4.5}{34}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.6}Discussion and commentaries}{34}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.7}Appendix. Local frequency calculation in presence of noise}{35}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Comparison between an unwrapped row of the distorted input and the enhanced phase; the dashed line is the phase with detuning error, and the solid line is the phase processed by the PDCM.}}{36}}
+\newlabel{fig:ExperimentalPhasetemp}{{4.5}{36}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}Discussion and commentaries}{36}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.7}Appendix. Local frequency calculation in presence of noise}{37}}
 \bibdata{References_PhdThesis}
-\newlabel{fig:FaseErrorFrecuencias}{{4.7}{36}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Recovered wrapped phase using the proposed PDCM with miscalculated frequencies.}}{36}}
-\newlabel{Eq:filtradofase}{{4.10}{36}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces  Wrapped phase comparison after applying a low-pass filter to the noisy wrapped phase in Fig. \ref  {fig:SimulatedPhaseComparison}(a). (a) Shows the result of applying a gaussian filter directly to our wrapped phase, while in (b) we see the result of applying Eq. \ref  {Eq:filtradofase}.}}{37}}
-\newlabel{fig:filtradofase}{{4.7}{37}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Example of the frequency change along the refinement process of the distorted wrapped phase. For this sequence, we show the $u_(x,y)$ frequency calculation using Eq. \ref  {Eq:explicit_u}.}}{37}}
-\newlabel{fig:frecuencias}{{4.8}{37}}
+\newlabel{fig:FaseErrorFrecuencias}{{4.7}{38}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Recovered wrapped phase using the proposed PDCM with miscalculated frequencies.}}{38}}
+\newlabel{Eq:filtradofase}{{4.10}{38}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces  Wrapped phase comparison after applying a low-pass filter to the noisy wrapped phase in Fig. \ref  {fig:SimulatedPhaseComparison}(a). (a) Shows the result of applying a gaussian filter directly to our wrapped phase, while in (b) we see the result of applying Eq. \ref  {Eq:filtradofase}.}}{39}}
+\newlabel{fig:filtradofase}{{4.7}{39}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Example of the frequency change along the refinement process of the distorted wrapped phase. For this sequence, we show the $u_(x,y)$ frequency calculation using Eq. \ref  {Eq:explicit_u}.}}{39}}
+\newlabel{fig:frecuencias}{{4.8}{39}}
 \bibcite{Ai:87}{{1}{}{{}}{{}}}
-\bibcite{Cheng:85}{{2}{}{{}}{{}}}
-\bibcite{Malacara}{{3}{}{{}}{{}}}
-\bibcite{deGroot:95}{{4}{}{{}}{{}}}
-\bibcite{Estrada:09}{{5}{}{{}}{{}}}
-\bibcite{Estrada:10}{{6}{}{{}}{{}}}
-\bibcite{Freischlad:90}{{7}{}{{}}{{}}}
-\bibcite{Greivenkamp}{{8}{}{{}}{{}}}
-\bibcite{Gutmann:98}{{9}{}{{}}{{}}}
-\bibcite{temporal_2}{{10}{}{{}}{{}}}
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{39}}
-\bibcite{Hariharan:87}{{11}{}{{}}{{}}}
-\bibcite{PhaseDetuning_0}{{12}{}{{}}{{}}}
-\bibcite{Jahne}{{13}{}{{}}{{}}}
-\bibcite{Okada}{{14}{}{{}}{{}}}
-\bibcite{Kong}{{15}{}{{}}{{}}}
-\bibcite{Lai:91}{{16}{}{{}}{{}}}
-\bibcite{Langoju:06}{{17}{}{{}}{{}}}
-\bibcite{Larkin:01}{{18}{}{{}}{{}}}
-\bibcite{Larkin:02}{{19}{}{{}}{{}}}
-\bibcite{Mariano}{{20}{}{{}}{{}}}
-\bibcite{fringePatternAnalisys}{{21}{}{{}}{{}}}
-\bibcite{ShopTesting}{{22}{}{{}}{{}}}
-\bibcite{RQF}{{23}{}{{}}{{}}}
-\bibcite{AQF}{{24}{}{{}}{{}}}
-\bibcite{AQF_mult}{{25}{}{{}}{{}}}
-\bibcite{Morgan}{{26}{}{{}}{{}}}
-\bibcite{Mosino:10}{{27}{}{{}}{{}}}
-\bibcite{Mosino:09}{{28}{}{{}}{{}}}
-\bibcite{Nocedal}{{29}{}{{}}{{}}}
-\bibcite{Medina}{{30}{}{{}}{{}}}
-\bibcite{Mariano2}{{31}{}{{}}{{}}}
-\bibcite{temporal_1}{{32}{}{{}}{{}}}
-\bibcite{Schmit:95}{{33}{}{{}}{{}}}
-\bibcite{Schwider:83}{{34}{}{{}}{{}}}
-\bibcite{GeneralTheory}{{35}{}{{}}{{}}}
-\bibcite{Servin:10}{{36}{}{{}}{{}}}
-\bibcite{Servin:09}{{37}{}{{}}{{}}}
-\bibcite{RPT}{{38}{}{{}}{{}}}
-\bibcite{RQPT}{{39}{}{{}}{{}}}
-\bibcite{Surrel:93}{{40}{}{{}}{{}}}
-\bibcite{PhaseDetuning_1}{{41}{}{{}}{{}}}
-\bibcite{AccuracyPSI_1}{{42}{}{{}}{{}}}
-\bibcite{Vargas}{{43}{}{{}}{{}}}
-\bibcite{Wang:04}{{44}{}{{}}{{}}}
-\bibcite{Zeng}{{45}{}{{}}{{}}}
+\bibcite{Bruning:74}{{2}{}{{}}{{}}}
+\bibcite{Cheng:85}{{3}{}{{}}{{}}}
+\bibcite{Malacara}{{4}{}{{}}{{}}}
+\bibcite{deGroot:95}{{5}{}{{}}{{}}}
+\bibcite{Estrada:09}{{6}{}{{}}{{}}}
+\bibcite{Estrada:10}{{7}{}{{}}{{}}}
+\bibcite{Freischlad:90}{{8}{}{{}}{{}}}
+\bibcite{Greivenkamp}{{9}{}{{}}{{}}}
+\bibcite{Gutmann:98}{{10}{}{{}}{{}}}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{41}}
+\bibcite{temporal_2}{{11}{}{{}}{{}}}
+\bibcite{Hariharan:87}{{12}{}{{}}{{}}}
+\bibcite{PhaseDetuning_0}{{13}{}{{}}{{}}}
+\bibcite{Jahne}{{14}{}{{}}{{}}}
+\bibcite{Okada}{{15}{}{{}}{{}}}
+\bibcite{Kimbrough:06}{{16}{}{{}}{{}}}
+\bibcite{Kong}{{17}{}{{}}{{}}}
+\bibcite{Lai:91}{{18}{}{{}}{{}}}
+\bibcite{Langoju:06}{{19}{}{{}}{{}}}
+\bibcite{Larkin:01}{{20}{}{{}}{{}}}
+\bibcite{Larkin:02}{{21}{}{{}}{{}}}
+\bibcite{Mariano}{{22}{}{{}}{{}}}
+\bibcite{fringePatternAnalisys}{{23}{}{{}}{{}}}
+\bibcite{ShopTesting}{{24}{}{{}}{{}}}
+\bibcite{RQF}{{25}{}{{}}{{}}}
+\bibcite{AQF}{{26}{}{{}}{{}}}
+\bibcite{AQF_mult}{{27}{}{{}}{{}}}
+\bibcite{Morgan}{{28}{}{{}}{{}}}
+\bibcite{Mosino:10}{{29}{}{{}}{{}}}
+\bibcite{Mosino:09}{{30}{}{{}}{{}}}
+\bibcite{Nocedal}{{31}{}{{}}{{}}}
+\bibcite{Medina}{{32}{}{{}}{{}}}
+\bibcite{Mariano2}{{33}{}{{}}{{}}}
+\bibcite{temporal_1}{{34}{}{{}}{{}}}
+\bibcite{Schmit:95}{{35}{}{{}}{{}}}
+\bibcite{Schwider:83}{{36}{}{{}}{{}}}
+\bibcite{Servin:10}{{37}{}{{}}{{}}}
+\bibcite{GeneralTheory}{{38}{}{{}}{{}}}
+\bibcite{Servin:09}{{39}{}{{}}{{}}}
+\bibcite{RPT}{{40}{}{{}}{{}}}
+\bibcite{RQPT}{{41}{}{{}}{{}}}
+\bibcite{Surrel:93}{{42}{}{{}}{{}}}
+\bibcite{PhaseDetuning_1}{{43}{}{{}}{{}}}
+\bibcite{AccuracyPSI_1}{{44}{}{{}}{{}}}
+\bibcite{Vargas}{{45}{}{{}}{{}}}
+\bibcite{Wang:04}{{46}{}{{}}{{}}}
+\bibcite{Xu:06}{{47}{}{{}}{{}}}
+\bibcite{Zeng}{{48}{}{{}}{{}}}
 \providecommand\NAT@force@numbers{}\NAT@force@numbers

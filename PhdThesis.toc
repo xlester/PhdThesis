@@ -19,13 +19,13 @@
 \contentsline {section}{\numberline {3.2}Introduction}{18}
 \contentsline {section}{\numberline {3.3}Method}{18}
 \contentsline {section}{\numberline {3.4}Tests and results}{21}
-\contentsline {section}{\numberline {3.5}Discussion and commentaries}{23}
-\contentsline {chapter}{\numberline {4}Removing detuning distortions of wrapped phase by using robust quadrature filters}{27}
-\contentsline {section}{\numberline {4.1}abstract}{27}
-\contentsline {section}{\numberline {4.2}Introduction}{27}
-\contentsline {section}{\numberline {4.3}Phase detuning correction method (PDCM)}{29}
-\contentsline {section}{\numberline {4.4}A priori local frequency calculation}{31}
-\contentsline {section}{\numberline {4.5}Tests and experimental examples}{32}
-\contentsline {section}{\numberline {4.6}Discussion and commentaries}{34}
-\contentsline {section}{\numberline {4.7}Appendix. Local frequency calculation in presence of noise}{35}
-\contentsline {chapter}{Bibliography}{39}
+\contentsline {section}{\numberline {3.5}Discussion and commentaries}{24}
+\contentsline {chapter}{\numberline {4}Removing detuning distortions of wrapped phase by using robust quadrature filters}{29}
+\contentsline {section}{\numberline {4.1}abstract}{29}
+\contentsline {section}{\numberline {4.2}Introduction}{29}
+\contentsline {section}{\numberline {4.3}Phase detuning correction method (PDCM)}{31}
+\contentsline {section}{\numberline {4.4}A priori local frequency calculation}{33}
+\contentsline {section}{\numberline {4.5}Tests and experimental examples}{34}
+\contentsline {section}{\numberline {4.6}Discussion and commentaries}{36}
+\contentsline {section}{\numberline {4.7}Appendix. Local frequency calculation in presence of noise}{37}
+\contentsline {chapter}{Bibliography}{41}

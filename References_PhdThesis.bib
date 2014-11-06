@@ -78,6 +78,50 @@
   url = {http://ao.osa.org/abstract.cfm?URI=ao-26-6-1112}
 }
 
+@ARTICLE{Bruning:74,
+  author = {J. H. Bruning and D. R. Herriott and J. E. Gallagher and D. P. Rosenfeld
+	and A. D. White and D. J. Brangaccio},
+  title = {Digital Wavefront Measuring Interferometer for Testing Optical Surfaces
+	and Lenses},
+  journal = {Appl. Opt.},
+  year = {1974},
+  volume = {13},
+  pages = {2693--2703},
+  number = {11},
+  month = {Nov},
+  abstract = {A self-scanned 1024 element photodiode array and minicomputer are
+	used to measure the phase (wavefront) in the interference pattern
+	of an interferometer to $\lambda$/100. The photodiode array samples
+	intensities over a 32 {\texttimes} 32 matrix in the interference
+	pattern as the length of the reference arm is varied piezoelectrically.
+	Using these data the minicomputer synchronously detects the phase
+	at each of the 1024 points by a Fourier series method and displays
+	the wavefront in contour and perspective plot on a storage oscilloscope
+	in less than 1 min (Bruning et al. Paper WE16, OSA Annual Meeting,
+	Oct. 1972). The array of intensities is sampled and averaged many
+	times in a random fashion so that the effects of air turbulence,
+	vibrations, and thermal drifts are minimized. Very significant is
+	the fact that wavefront errors in the interferometer are easily determined
+	and may be automatically subtracted from current or subsequent wavefrots.
+	Various programs supporting the measurement system include software
+	for determining the aperture boundary, sum and difference of wavefronts,
+	removal or insertion of tilt and focus errors, and routines for spatial
+	manipulation of wavefronts. FFT programs transform wavefront data
+	into point spread function and modulus and phase of the optical transfer
+	function of lenses. Display programs plot these functions in contour
+	and perspective. The system has been designed to optimize the collection
+	of data to give higher than usual accuracy in measuring the individual
+	elements and final performance of assembled diffraction limited optical
+	systems, and furthermore, the short loop time of a few minutes makes
+	the system an attractive alternative to constraints imposed by test
+	glasses in the optical shop.},
+  doi = {10.1364/AO.13.002693},
+  owner = {orlando},
+  publisher = {OSA},
+  timestamp = {2014.11.05},
+  url = {http://ao.osa.org/abstract.cfm?URI=ao-13-11-2693}
+}
+
 @ARTICLE{Cheng:85,
   author = {Yeou-Yen Cheng and James C. Wyant},
   title = {Phase shifter calibration in phase-shifting interferometry},
@@ -340,6 +384,39 @@
   pages = {118-124},
   owner = {orlando},
   timestamp = {2014.07.16}
+}
+
+@ARTICLE{Kimbrough:06,
+  author = {Bradley T. Kimbrough},
+  title = {Pixelated mask spatial carrier phase shifting interferometry algorithms
+	and associated errors},
+  journal = {Appl. Opt.},
+  year = {2006},
+  volume = {45},
+  pages = {4554--4562},
+  number = {19},
+  month = {Jul},
+  abstract = {In both temporal and spatial carrier phase shifting interferometry,
+	the primary source of phasecalculation error results from an error
+	in the relative phase shift between sample points. In spatialcarrier
+	phase shifting interferometry, this phase shifting error is caused
+	directly by the wavefrontunder test and is unavoidable. In order
+	to minimize the phase shifting error, a pixelated spatialcarrier
+	phase shifting technique has been developed by 4D technologies. This
+	new techniqueallows for the grouping of phase shifted pixels together
+	around a single point in two dimensions,minimizing the phase shift
+	change due to the spatial variation in the test wavefront. A formulafor
+	the phase calculation error in spatial carrier phase shifting interferometry
+	is derived. The errorassociated with the use of linear N-point averaging
+	algorithms is presented and compared withthose of the pixelated spatial
+	carrier technique.},
+  doi = {10.1364/AO.45.004554},
+  keywords = {Instrumentation, measurement, and metrology; Interferometry; Metrology;
+	Phase measurement},
+  owner = {orlando},
+  publisher = {OSA},
+  timestamp = {2014.11.05},
+  url = {http://ao.osa.org/abstract.cfm?URI=ao-45-19-4554}
 }
 
 @ARTICLE{Kong,
@@ -814,6 +891,39 @@
   url = {http://ao.osa.org/abstract.cfm?URI=ao-22-21-3421}
 }
 
+@ARTICLE{Servin:10,
+  author = {M. Servin and J. C. Estrada and O. Medina},
+  title = {Fourier transform demodulation of pixelated phase-masked interferograms},
+  journal = {Opt. Express},
+  year = {2010},
+  volume = {18},
+  pages = {16090--16095},
+  number = {15},
+  month = {Jul},
+  abstract = {Recently a new type of spatial phase shifting interferometer was proposed
+	that uses a phase-mask over the camera\&\#x2019;s pixels. This new
+	interferometer allows one to phase modulate each pixel independently
+	by setting the angle of a linear polarizer built in contact over
+	the camera\&\#x2019;s CCD. In this way neighbor pixels may have any
+	desired (however fixed) phase shift without cross taking. The standard
+	manufacturing of these interferometers uses a 2x2 array with phase-shifts
+	of 0, \&\#x03C0;/2, \&\#x03C0;, and 3\&\#x03C0;/2 radians. This 2x2
+	array is tiled all over the video camera\&\#x2019;s CCD. In this
+	paper we propose a new way to phase demodulate these phase-masked
+	interferograms using the squeezing phase-shifting technique. A notable
+	advantage of this squeezing technique is that it allows one the use
+	of Fourier interferometry wiping out the detuning error that most
+	phase shifting algorithms suffers. Finally we suggest the use of
+	an alternative phase-mask to phase modulate the camera\&\#x2019;s
+	pixels using a linear spatial carrier along a given axis.},
+  doi = {10.1364/OE.18.016090},
+  keywords = {Fringe analysis; Interferometry},
+  owner = {orlando},
+  publisher = {OSA},
+  timestamp = {2014.11.05},
+  url = {http://www.opticsexpress.org/abstract.cfm?URI=oe-18-15-16090}
+}
+
 @ARTICLE{GeneralTheory,
   author = {M. Servin and J. C. Estrada and J. A. Quiroga},
   title = {The general theory of phase shifting algorithms},
@@ -1067,6 +1177,35 @@
   publisher = {OSA},
   timestamp = {2014.07.17},
   url = {http://ao.osa.org/abstract.cfm?URI=ao-30-19-2718}
+}
+
+@ARTICLE{Xu:06,
+  author = {X. F. Xu and L. Z. Cai and X. F. Meng and G. Y. Dong and X. X. Shen},
+  title = {Fast blind extraction of arbitrary unknown phase shifts by an iterative
+	tangent approach in generalized phase-shifting interferometry},
+  journal = {Opt. Lett.},
+  year = {2006},
+  volume = {31},
+  pages = {1966--1968},
+  number = {13},
+  month = {Jul},
+  abstract = {A novel fast convergent algorithm to extract arbitrary unknown phase
+	shifts in generalized phase-shifting interferometry (PSI) is proposed
+	and verified by a series of computer simulations. In this algorithm
+	an error function is introduced and then the unknown phase shifts
+	are found by an iterative tangent approach. In combination with the
+	statistical method, this algorithm can give the most exact results
+	in the fewest iteration steps. It can be used for generalized PSI
+	of arbitrary frames for both smooth and diffusing objects and can
+	usually reach the exact phase shifts with only four or five iterations
+	for three- or four-frame PSI.},
+  doi = {10.1364/OL.31.001966},
+  keywords = {Holographic interferometry; Digital image processing; Image reconstruction
+	techniques; Phase measurement},
+  owner = {orlando},
+  publisher = {OSA},
+  timestamp = {2014.11.05},
+  url = {http://ol.osa.org/abstract.cfm?URI=ol-31-13-1966}
 }
 
 @ARTICLE{Zeng,
