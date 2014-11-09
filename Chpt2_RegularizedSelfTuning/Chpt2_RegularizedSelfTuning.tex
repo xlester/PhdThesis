@@ -73,7 +73,7 @@ can be modeled as
 I_{k}(x,y)=a(x,y)+b(x,y)cos(\phi(x,y)+\alpha_{k}),\; k=0,1,2,...,N-1,\label{eq:
 Ik}
 \end{equation}
- where $I_{k}(x,y)$ is the intensity at the site $(x,y)$ of the
+where $I_{k}(x,y)$ is the intensity at the site $(x,y)$ of the
 \emph{k}-interferogram in a sequence of $N-1$ interferograms, being
 $a(x,y)$ its background illumination, $b(x,y)$ its contrast or modulation,
 $\phi(x,y)$ the modulating phase under test and $\alpha_{k}$ the
@@ -102,8 +102,7 @@ quadratic functional
 U(f,\alpha) & = & \sum_{(x,y)}(\varphi(x,y)-I_{0}^{'}(x,y))^{2}+\sum_{k=1}^{N-1}
 \sum_{(x,y)}[\frac{1}{2}[f(x,y)e^{i\alpha_{k}}+f^{*}(x,y)e^{-i\alpha_{k}}]-I_{k}
 ^{'}(x,y)]^{2}\label{eq:U}\\
- &  & +\lambda\sum_{(x,y)}[||D_{x}[f(x,y)]||^{2}+||D_{y}[f(x,y)]||^{2}],\
-nonumber 
+ &  & +\lambda\sum_{(x,y)}[||D_{x}[f(x,y)]||^{2}+||D_{y}[f(x,y)]||^{2}],\nonumber 
 \end{eqnarray}
 where $f=\left\{ f(x,y)=\varphi(x,y)+i\psi(x,y):(x,y)\in L\right\} $
 is the complex field, $i=\sqrt{-1}$, and $f^{*}$ its complex conjugated.
@@ -129,8 +128,8 @@ of N-steps that can recover the modulating phase and inter-frame phase
 shifts. With the complex field $\widehat{f}$ and phase-shifts $\alpha$
 that minimize (4), the modulating phase is recovered as 
 \begin{equation}
-\phi(x,y)=arg[\widehat{f}(x,y)]=arctan\left[\frac{\hat{\psi}(x,y)}{\widehat{\
-varphi}(x,y)}\right].\label{eq:fi}
+\phi(x,y)=arg[\widehat{f}(x,y)]=arctan\left[\frac{\hat{\psi}(x,y)}{\widehat{
+\varphi}(x,y)}\right].\label{eq:fi}
 \end{equation}
 The minimization of functional (4), turns us to a nonlinear system
 that mathematically is impossible to solve by a direct numerical method.
@@ -153,9 +152,9 @@ Then, the iterations of our minimization strategy are given with the
 following updates: 
 
 \begin{equation}
-\varphi^{n+1}(x,y)=Solve\: for\:\varphi^{n}(x,y)\: Eq.\left[\frac{\partial U(\
-varphi^{n}+i\psi^{n},\alpha^{n})}{\partial\varphi(x,y)}=0\right];\;\forall(x,y)\
-in L
+\varphi^{n+1}(x,y)=Solve\: for\:\varphi^{n}(x,y)\: Eq.\left[\frac{\partial U(
+\varphi^{n}+i\psi^{n},\alpha^{n})}{\partial\varphi(x,y)}=0\right];\;\forall(x,y)
+\in L
 \end{equation}
 
 
@@ -166,8 +165,8 @@ n}+i\psi^{n},\alpha^{n})}{\partial\psi(x,y)}=0\right];\;\forall(x,y)\in L
 
 
 \begin{equation}
-\alpha_{k}^{n+1}=\alpha_{k}^{n}-\mu\frac{\partial U(\varphi^{n}+i\psi^{n},\
-alpha^{n})}{\partial\alpha_{k}},\: k=0,1,2,...,N-1.
+\alpha_{k}^{n+1}=\alpha_{k}^{n}-\mu\frac{\partial U(\varphi^{n}+i\psi^{n},
+\alpha^{n})}{\partial\alpha_{k}},\: k=0,1,2,...,N-1.
 \end{equation}
 Equations (8) and (9) correspond to the Gauss-Seidel update, and equation
 (10) is the steepest-descent update. In the appendix at the end of
@@ -325,8 +324,8 @@ $\alpha$) the iteration update is:
 \alpha_{0}^{n+1} & = & 0\\
 \alpha_{k}^{n+1} & = & \alpha_{k}^{n}-\mu\sum_{\forall(x,y)\in L}[\varphi^{n}(x,
 y)cos(\alpha_{k}^{n})+\psi^{n}(x,y)sin(\alpha_{k}^{n})-I_{k}(x,y)]\\
- &  & [\psi^{n}(x,y)cos(\alpha_{k}^{n})-\varphi^{n}(x,y)sin(\alpha_{k}^{n})].\
-nonumber 
+ &  & [\psi^{n}(x,y)cos(\alpha_{k}^{n})-\varphi^{n}(x,y)sin(\alpha_{k}^{n})].
+\nonumber 
 \end{eqnarray}
 \textbf{Note:} suppose that $\alpha$ has the inter-frame phase-shifts
 that minimize (4). Its negative values minimize (4) as well. Then,

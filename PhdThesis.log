@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.14)  8 NOV 2014 19:29
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.14)  9 NOV 2014 00:11
 entering extended mode
  %&-line parsing enabled.
 **PhdThesis.tex
@@ -638,19 +638,19 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 
 ] (./PhdThesis.toc
-Overfull \hbox (13.26361pt too wide) in paragraph at lines 4--4
+Overfull \hbox (13.26361pt too wide) in paragraph at lines 6--6
  [] []\OT1/cmr/bx/n/10.95 Regularized it-er-a-tive least-squares al-go-rithm fo
 r phase-shifting 
  []
 
 
-Overfull \hbox (7.95439pt too wide) in paragraph at lines 11--11
+Overfull \hbox (7.95439pt too wide) in paragraph at lines 13--13
  [] []\OT1/cmr/bx/n/10.95 Regularized self-tuning phase de-mod-u-la-tion for ph
 ase-shifting 
  []
 
 
-Overfull \hbox (7.66537pt too wide) in paragraph at lines 17--17
+Overfull \hbox (7.66537pt too wide) in paragraph at lines 19--19
  [] []\OT1/cmr/bx/n/10.95 Robust adap-tive phase-shifting de-mod-u-la-tion for 
 test-ing mov- 
  []
@@ -660,7 +660,7 @@ test-ing mov-
 \openout5 = `PhdThesis.toc'.
 
  [4] (./PhdThesis.lof
-Overfull \hbox (2.80032pt too wide) in paragraph at lines 3--3
+Overfull \hbox (2.80032pt too wide) in paragraph at lines 4--4
  \OT1/cmr/m/n/10.95 se-quences. b) Re-cov-ered phase map us-ing clas-sic least-
 squares. 
  []
@@ -671,14 +671,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [5
 
 ]
-Overfull \hbox (7.43396pt too wide) in paragraph at lines 11--11
+Overfull \hbox (7.43396pt too wide) in paragraph at lines 12--12
  [][] []\OT1/cmr/m/n/10.95 Phase dif-fer-ence with re-spect to x (par-tial ap-p
 rox-i-mated deriva- 
  []
 
 
-Overfull \hbox (3.04378pt too wide) in paragraph at lines 15--15
- \OT1/cmr/m/n/10.95 Shows the un-wrapped phase with de-tun-ing er-ror of Fig. 4
+Overfull \hbox (3.04378pt too wide) in paragraph at lines 16--16
+ \OT1/cmr/m/n/10.95 Shows the un-wrapped phase with de-tun-ing er-ror of Fig. 5
 .1[](a). 
  []
 
@@ -689,61 +689,57 @@ Overfull \hbox (3.04378pt too wide) in paragraph at lines 15--15
  [6] [7] [8
 
 ]
-(./Chpt1_RegularizedLeastSquares/Chpt1_RegularizedLeastSquares.tex
+(./Chpt1_FringePatternDemodulation/Chpt1_FringePatternDemodulation.tex
 Chapter 1.
-[1
+) (./Chpt1_RegularizedLeastSquares/Chpt1_RegularizedLeastSquares.tex [1
 
 ]
+[2
+
+]
+Chapter 2.
+[3]
 File: Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_1.eps Graphic file (type 
 eps)
- <Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_1.eps> [2] [3]
+ <Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_1.eps> [4] [5]
 File: Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_2.eps Graphic file (type 
 eps)
 
 <Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_2.eps>
 Underfull \vbox (badness 2165) has occurred while \output is active []
 
- [4]
+ [6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
-[6]) (./Chpt2_RegularizedSelfTuning/Chpt2_RegularizedSelfTuning.tex [7]
-[8
+ [7]
+[8]) (./Chpt2_RegularizedSelfTuning/Chpt2_RegularizedSelfTuning.tex [9]
+[10
 
 ]
-Chapter 2.
+Chapter 3.
 
 Overfull \hbox (0.5799pt too wide) in paragraph at lines 5--17
 \OT1/cmr/m/n/10.95 shifting in-ter-fer-o-gram se-quence with ar-bi-trary inter-
 frame phase shifts. With
  []
 
-[9]
+[11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
-Overfull \hbox (67.13329pt too wide) in alignment at lines 101--107
+ [12]
+Overfull \hbox (67.13329pt too wide) in alignment at lines 101--106
  [][][] []
  []
 
-[11]
-Overfull \hbox (13.42844pt too wide) detected at line 159
-\OML/cmm/m/it/10.95 '[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x; y\OT1/cmr/m/n
-/10.95 ) = \OML/cmm/m/it/10.95 Solve for '[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/1
-0.95 x; y\OT1/cmr/m/n/10.95 ) \OML/cmm/m/it/10.95 Eq: [] \OT1/cmr/m/n/10.95 ;  
-\OMS/cmsy/m/n/10.95 8\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x; y\OT1/cmr/m/n/1
-0.95 ) \OML/cmm/m/it/10.95 inL
- []
-
-[12]
+[13] [14]
 File: Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps.eps Graphic file (type ep
 s)
- <Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps.eps> [13]
+ <Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps.eps> [15]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
-[15]) (./Chpt3_RobustAdaptive/Chpt3_RobustAdaptive.tex [16]
-Chapter 3.
+ [16]
+[17]) (./Chpt3_RobustAdaptive/Chpt3_RobustAdaptive.tex [18]
+Chapter 4.
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -773,15 +769,15 @@ or \DeclareInputMath before using this key.
 
 Underfull \vbox (badness 4940) has occurred while \output is active []
 
- [17
+ [19
 
 ]
-[18]
+[20]
 Overfull \hbox (106.55006pt too wide) detected at line 119
 [] [] \OT1/cmr/m/n/10.95 = [] \OML/cmm/m/it/10.95 :
  []
 
-[19]
+[21]
 Overfull \hbox (67.77734pt too wide) detected at line 132
 \OML/cmm/m/it/10.95 E\OT1/cmr/m/n/10.95 [\OML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.9
 5 (\OML/cmm/m/it/10.95 x; y\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 ; g[]\OT1/cm
@@ -801,27 +797,27 @@ Overfull \hbox (48.32043pt too wide) detected at line 160
 [] [] \OT1/cmr/m/n/10.95 = []
  []
 
-[20]
+[22]
 File: Chpt3_RobustAdaptive/Chpt3_figures/fig_1.eps Graphic file (type eps)
- <Chpt3_RobustAdaptive/Chpt3_figures/fig_1.eps> [21] [22]
+ <Chpt3_RobustAdaptive/Chpt3_figures/fig_1.eps> [23] [24]
 File: Chpt3_RobustAdaptive/Chpt3_figures/fig_2.eps Graphic file (type eps)
 
-<Chpt3_RobustAdaptive/Chpt3_figures/fig_2.eps> [23]
+<Chpt3_RobustAdaptive/Chpt3_figures/fig_2.eps> [25]
 File: Chpt3_RobustAdaptive/Chpt3_figures/fig_3.eps Graphic file (type eps)
 
 <Chpt3_RobustAdaptive/Chpt3_figures/fig_3.eps>
 File: Chpt3_RobustAdaptive/Chpt3_figures/fig_4.eps Graphic file (type eps)
 
-<Chpt3_RobustAdaptive/Chpt3_figures/fig_4.eps> [24]
+<Chpt3_RobustAdaptive/Chpt3_figures/fig_4.eps> [26]
 Underfull \vbox (badness 1082) has occurred while \output is active []
 
- [25]
-[26]) (./Chpt4_PhaseDetuningCorrecting/Chpt4_PhaseDetuningCorrecting.tex
-[27] [28
+ [27]
+[28]) (./Chpt4_PhaseDetuningCorrecting/Chpt4_PhaseDetuningCorrecting.tex
+[29] [30
 
 ]
-Chapter 4.
-[29] [30]
+Chapter 5.
+[31] [32]
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1aNoise.eps Graphic file 
 (type eps)
  <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1aNoise.eps>
@@ -832,7 +828,7 @@ File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1bNoise.eps Graphic file
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error.eps Graphic file (ty
 pe eps)
 
-<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error.eps> [31] [32]
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error.eps> [33] [34]
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/FaseError_Ideal_3D.eps Graphi
 c file (type eps)
 
@@ -845,18 +841,18 @@ Overfull \hbox (2.40088pt too wide) in paragraph at lines 199--205
  [] 
  []
 
-[33]
+[35]
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E1.eps Graphic file (type
  eps)
  <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E1.eps>
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E2.eps Graphic file (type
  eps)
 
-<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E2.eps> [34]
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E2.eps> [36]
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E3.eps Graphic file (type
  eps)
 
-<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E3.eps> [35] [36]
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E3.eps> [37] [38]
 Overfull \hbox (2.38123pt too wide) in paragraph at lines 387--387
 []\OT1/cmr/bx/n/14.4 Appendix. Lo-cal fre-quency cal-cu-la-tion in pres-
  []
@@ -864,7 +860,7 @@ Overfull \hbox (2.38123pt too wide) in paragraph at lines 387--387
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_mFaseErrorFrecuencias.eps
  Graphic file (type eps)
 <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_mFaseErrorFrecuencias.eps>
-[37]
+[39]
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltradaMal.eps Grap
 hic file (type eps)
  <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltradaMal.eps>
@@ -887,17 +883,17 @@ file (type eps)
 (./PhdThesis.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
-[39] [40
+ [40]
+[41] [42
 
-] [41] [42] [43] [44]) [45] (./PhdThesis.aux) ) 
+] [43] [44] [45] [46]) [47] (./PhdThesis.aux) ) 
 Here is how much of TeX's memory you used:
- 13652 strings out of 495062
- 283166 string characters out of 1182644
- 373867 words of memory out of 3000000
- 16479 multiletter control sequences out of 15000+50000
+ 13657 strings out of 495062
+ 283383 string characters out of 1182644
+ 373865 words of memory out of 3000000
+ 16480 multiletter control sequences out of 15000+50000
  14601 words of font info for 53 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  61i,12n,55p,579b,561s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on PhdThesis.dvi (53 pages, 154280 bytes).
+Output written on PhdThesis.dvi (55 pages, 156696 bytes).
