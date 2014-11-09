@@ -1,0 +1,28 @@
+\chapter{Fringe pattern demodulation}
+
+\section{Introduction}
+
+A fringe pattern is defined as a sinusoidal signal where a continuous map, 
+analogous of the physical quantity being measured, is phase-modulated by an 
+interferometer, Moire' system, etc. An ideal stationary fringe pattern is usually
+modeled by
+\begin{equation}
+I(x,y)=a(x,y)+b(x,y)cos[\phi(x,y)],
+\end{equation}\label{eq:FringePattern}
+where $a(x,y)$ and $b(x,y)$ are the background and local contrast functions,
+respectively; and $\phi(x,y)$ is the searched phase function.
+
+Analyzing Eq. \ref{eq:FringePattern} one can see that the phase function
+$\phi(x,y)$ cannot be directly estimated since it is screened by two other
+functions, $a(x,y)$ and $b(x,y)$. Additionally, $\phi(x,y)$ can only be
+determined modulo $2\pi$ because the sinusoidal fringe pattern $I(x,y)$ depends
+periodically on the phase ($2\pi$ phase ambiguity); and its sign cannot be 
+extracted from a single measurement without a priori knowledge (sign ambiguity)
+due to even character of the cosine fuction [$cos(\phi)=cos(-\phi)$]. Finally, 
+in all practical cases some noise $\eta(x,y)$ is introduced in an additive and/or
+multiplicative way, and the fringe pattern may suffer from a number of distortions,
+degrading its quality and further screening the phase information.
+
+
+
+
