@@ -6,13 +6,13 @@ A fringe pattern is defined as a sinusoidal signal where a continuous map,
 analogous of the physical quantity being measured, is phase-modulated by an 
 interferometer, Moire' system, etc. An ideal stationary fringe pattern is usually
 modeled by
-\begin{equation}
+\begin{equation}\label{eq:FringePattern}
 I(x,y)=a(x,y)+b(x,y)cos[\phi(x,y)],
-\end{equation}\label{eq:FringePattern}
+\end{equation}
 where $a(x,y)$ and $b(x,y)$ are the background and local contrast functions,
 respectively; and $\phi(x,y)$ is the searched phase function.
 
-Analyzing Eq. \ref{eq:FringePattern} one can see that the phase function
+Analyzing Eq. \eqref{eq:FringePattern} one can see that the phase function
 $\phi(x,y)$ cannot be directly estimated since it is screened by two other
 functions, $a(x,y)$ and $b(x,y)$. Additionally, $\phi(x,y)$ can only be
 determined modulo $2\pi$ because the sinusoidal fringe pattern $I(x,y)$ depends
@@ -21,7 +21,133 @@ extracted from a single measurement without a priori knowledge (sign ambiguity)
 due to even character of the cosine fuction [$cos(\phi)=cos(-\phi)$]. Finally, 
 in all practical cases some noise $\eta(x,y)$ is introduced in an additive and/or
 multiplicative way, and the fringe pattern may suffer from a number of distortions,
-degrading its quality and further screening the phase information.
+degrading its quality and further screening the phase information [142,18].
+
+It must be noted that even if careful experimental setups could prevent the
+screening of $\phi(x,y)$ due to the unknown signals $a(x,y)$, $b(x,y)$ and $\eta
+(x,y)$, one would still have to deal with the sign ambiguity and the $2\pi$ phase
+ambiguity. Because of these ambiguities, the solution for this inverse problem is
+not unique; this is because several phases can produce exactly the same sinusoidal
+signal.
+
+If we rewrite Eq. \eqref{eq:FringePattern} by means of the complex representation of
+the cosine function
+\begin{equation}\label{eq:FringePatternExp}
+ I(x,y)=a(x,y)+ \frac{1}{2} b(x,y)[e^{i \phi(x,y)} + e^{-i \phi(x,y)}],
+\end{equation}
+and one is able to isolate one of the analytic signals in Eq. 
+\eqref{eq:FringePatternExp}, lets say $\frac{1}{2} b(x,y)e^{i \phi(x,y)}$, we have
+\begin{equation}\label{eq:TanPhi}
+ \tan \hat{\phi}(x,y)=\frac{Im\{(1/2)b(x,y)e^{i \phi(x,y)}\}}{Re\{(1/2)b(x,y)
+e^{i \phi(x,y)}\}}.
+\end{equation}
+Computing the arc-tangent of the above formula one obtains a wrapped estimation of
+the phase under study: $\phi(x,y)$ mod $2\pi$. Thus, the final step of this fringe
+pattern demodulation process usually involves an additional phase unwrapping 
+process. Nevertheless, when working with good quality data this last step is 
+straightforward. Next we will illustrate the easiest way to obtain these analytic 
+signals.
+
+\section{Fringe pattern temporal carrier}
+
+A fringe pattern obtained as the output of a measuring system may be modified
+by the optoelectronic-mechanical hardware (sensors and actuators) and software
+(virtual sensors and actuators) of the system [83]. With these modifications one
+is able to introduce known changes in the argument of the sinusoidal signal:
+\begin{equation}
+ I(x,y,t)=a(x,y)+b(x,y)cos[\phi(x,y)+c(x,y,t)],
+\end{equation}
+where $c(x,y,t)$ is a known function (typically a reference plane) and it is 
+called the spatio-temporal carrier of the interferogram. The spatial and/or 
+temporal carriers are of extreme importance in modern interferometry: first of 
+all, its presence allows to solve the sign ambiguity since in general 
+$\cos(\phi+c)\not=\cos(-\phi+c)$. They also allow to isolate the analytic signal
+$\frac{1}{2} b(x,y)e^{i \phi(x,y)}$. In phase-shifting interferometry (PSI) the
+linear temporal carrier can be written as:
+\begin{equation}
+ c(x,y,t)=\alpha k,
+\end{equation}
+where $\alpha$ is the temporal lineal carrier, typically $\alpha=\pi/2$, and $k$
+is the discret temporal variable. The independent temporal variable $k$ represents
+the $k$-frame of the PSI sequence. In this context, knowing the temporal carrier 
+$\alpha$ (phase step as known in PSI), the objective of the PSI demodulation 
+methods is to estimate the complex field
+\begin{equation}\label{eq:Complexfield}
+ f(x,y)=\frac{1}{2}b(x,y)e^{i\phi(x,y)},
+\end{equation}
+of the interferometric signal at the $(x,y)$ pixel. Then, the phase at $(x,y)$ 
+is obtained as:
+\begin{equation}\label{eq:PSIphase}
+  \hat{\phi}(x,y)=arg[f(x,y)]=\arctan\left(\frac{\sin[\phi(x,y)]}{\cos[\phi(x.y)]}
+\right),
+\end{equation}
+which is an alternative form of Eq. \eqref{eq:TanPhi}.
+
+In the following sections we will analyze several methods to estimate the 
+analytic signal $f(x,y)$.
+
+\section{Phase-shifting algorithms (PSAs)}
+
+In general, a phase-shifting algorithm (PSA) can be described as quadrature linear
+filter which is completely characterized by its impulse response function, $h(k)$,
+or by its frequency transfer function (FTF) in the Fourier domain, $H(\omega)$:
+\begin{equation}
+ h(t)=\sum^{N-1}_{n=0} c_n \delta(k-n),
+\end{equation}
+\begin{equation}
+ H(t)=\sum^{N-1}_{n=0} c_n e^{-i\omega n},
+\end{equation}
+where ${c_n} \in \mathbb{C}$. In order to be a valid PSA, this FTF must fulfill
+the so-called quadrature conditions:
+\begin{equation}
+ H(0)=H(-\alpha)=0, \quad H(\alpha)\not=0.
+\end{equation}
+
+Thus, the application of this quadrature lter produces the following analytic
+signal for $k = N-1$ (where all the available data is involved):
+\begin{equation}
+ A_0(x,y)e^{i\phi}=\sum^{N-1}_{n=0} c_n I(x,y,n).
+\end{equation}
+
+From the above analytic signal, we obtain the searched phase $\phi(x,y)$, modulo
+$2\pi$, by computing its angle as Eq. \eqref{eq:PSIphase}. For completeness, 
+solving for $\phi(x,y)$ is found the so-called arc-tangent formulation of a PSA:
+\begin{equation}
+ \hat{\phi}(x,y) mod 2\pi= \arctan \Bigg(\frac{Im\{c_0I_0+c_1I_1 + \dots + c_{N-1}
+I_{N-1}\}}{Re\{c_0I_0+c_1I_1 + \dots + c_{N-1} I_{N-1}\}}  \Bigg)
+\end{equation}
+The above results are obtained under the assumption that the quadrature filter
+and the temporal samples of the interferogram are perfectly tuned at the same
+frequency $\alpha$ (radias per sample). When the actual sampling frequency is
+$\alpha+\Delta$, that is when some detuning error occur, the resulting phase 
+estimation is given by
+\begin{equation}
+ \hat{\phi}(x,y)=\phi(x,y)-D(\Delta)\sin[2\phi(x,y)],
+\end{equation}
+where the amplitud of the detuning-error is given by the ratio
+\begin{equation}
+ D(\Delta)=\frac{|H(-\alpha-\Delta|)}{|H(+\alpha+\Delta|},
+\end{equation}
+for $|\Delta/\alpha|<<1$.This equation shows that detuning-error causes the 
+estimated phase to be distorted by a component with twice the original fringes 
+frequency. Moreover, actual signals are always distorted by some amount of random
+noise so a more cautious approach it is to consider additive white-noise 
+distortion (with random components in every spectral frequency). Under this 
+assumption, when filtering with quadrature linear filters, the signal-to-noise 
+power ratio gain of the PSA is given by:
+\begin{equation}
+ G_{S/N}(\alpha)=\frac{|H(\alpha)|^2}{(1/2\pi)\int\limits_{-\pi}^{\pi}
+|H(\alpha)|^2 d\alpha}.
+\end{equation}
+
+
+
+
+
+
+
+
+
 
 
 
