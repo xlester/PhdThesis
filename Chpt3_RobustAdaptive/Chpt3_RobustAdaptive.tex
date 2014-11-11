@@ -1,26 +1,26 @@
 \chapter{Robust adaptive phase-shifting demodulation for testing moving 
 wavefronts}
 
-\section{Abstract}
-Optical interferometer setups are very sensitive when environment
-perturbations affect its optical path. The wavefront under test is not
-static at all. In this paper, it is proposed a novel and robust phase-shifting
-demodulation method. This method locally estimates the interferogram’s
-phase-shifting, reducing detuning errors due to environment perturbations
-like vibrations and/or miscalibrations of the Phase-Shifting Interferometry
-setup. As we know, phase-shifting demodulation methods assume that the
-wavefront under test is static and there is a global phase-shifting for all
-pixels. The phase-shifting demodulation method presented here is based on
-local weighted least-squares, letting each pixel have its own phase-shifting.
-This is a different and better approach, considering that all previous works
-assume a global phase-shifting for all pixels of interferograms. Seeing this
-method like a black box, it receives an interferogram sequence of at least 3
-interferograms and returns the modulating phase or wavefront under test.
-Here it is not necessary to know the phase shifts between the interferograms.
-It does not assume a global phase-shifting for the interferograms, is robust
-to the movements of the wavefront under test and tolerates
-miscalibramiscalibrations of the optical setup with at least three
-interferograms in the sequence.
+%\section{Motivatio}
+%Optical interferometer setups are very sensitive when environment
+%perturbations affect its optical path. The wavefront under test is not
+%static at all. In this paper, it is proposed a novel and robust phase-shifting
+%demodulation method. This method locally estimates the interferogram’s
+%phase-shifting, reducing detuning errors due to environment perturbations
+%like vibrations and/or miscalibrations of the Phase-Shifting Interferometry
+%setup. As we know, phase-shifting demodulation methods assume that the
+%wavefront under test is static and there is a global phase-shifting for all
+%pixels. The phase-shifting demodulation method presented here is based on
+%local weighted least-squares, letting each pixel have its own phase-shifting.
+%This is a different and better approach, considering that all previous works
+%assume a global phase-shifting for all pixels of interferograms. Seeing this
+%method like a black box, it receives an interferogram sequence of at least 3
+%interferograms and returns the modulating phase or wavefront under test.
+%Here it is not necessary to know the phase shifts between the interferograms.
+%It does not assume a global phase-shifting for the interferograms, is robust
+%to the movements of the wavefront under test and tolerates
+%miscalibramiscalibrations of the optical setup with at least three
+%interferograms in the sequence.
 
 \section{Introduction}
 Phase-Shifting Interferometry (PSI) is a very known technique designed for

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.14)  9 NOV 2014 20:43
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.9.21)  10 NOV 2014 18:05
 entering extended mode
  %&-line parsing enabled.
 **PhdThesis.tex
@@ -242,21 +242,29 @@ Package: pgfplots 2009/02/14 Version 1.2.2
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks22
 )
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def)
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
-Package: pgfrcs 2008/02/20 v2.00 (rcs-revision 1.21)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box28
+
+(/usr/share/texmf-texlive/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-Package: pgf 2008/01/15 v2.00 (rcs-revision 1.12)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 
 (/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2008/02/07 v2.00 (rcs-revision 1.31)
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks23
 \pgfkeys@temptoks=\toks24
-)
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks25
+))
 \pgf@x=\dimen115
 \pgf@y=\dimen116
 \pgf@xa=\dimen117
@@ -265,25 +273,27 @@ Package: pgfsys 2008/02/07 v2.00 (rcs-revision 1.31)
 \pgf@yb=\dimen120
 \pgf@xc=\dimen121
 \pgf@yc=\dimen122
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
 \c@pgf@counta=\count114
 \c@pgf@countb=\count115
 \c@pgf@countc=\count116
 \c@pgf@countd=\count117
 
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2008/01/13  (rcs-revision 1.6)
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Package pgfsys Info: Driver file for pgf: pgfsys-dvips.def on input line 885.
+Package pgfsys Info: Driver file for pgf: pgfsys-dvips.def on input line 900.
 
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-dvips.def
-File: pgfsys-dvips.def 2007/12/12  (rcs-revision 1.19)
+File: pgfsys-dvips.def 2008/04/03  (rcs-revision 1.20)
 
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-postscript.def
-File: pgfsys-common-postscript.def 2008/02/07  (rcs-revision 1.18)
+File: pgfsys-common-postscript.def 2008/10/01  (rcs-revision 1.22)
 \pgf@objectcount=\count118
 )))
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2008/01/23  (rcs-revision 1.6)
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
 \pgfsyssoftpath@smallbuffer@items=\count119
 \pgfsyssoftpath@bigbuffer@items=\count120
 )
@@ -307,26 +317,32 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2008/01/15 v2.00 (rcs-revision 1.6)
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 
 (/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex
-\pgfmath@box=\box28
-)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@stack=\toks25
-\c@pgfmath@parsecounta=\count121
-\c@pgfmath@parsecountb=\count122
-\c@pgfmath@parsecountc=\count123
-\pgfmath@parsex=\dimen123
+\pgfmath@dimen=\dimen123
+\pgfmath@count=\count121
+\pgfmath@box=\box29
+\pgfmath@toks=\toks26
+\pgfmath@stack@operand=\toks27
+\pgfmath@stack@operation=\toks28
 )
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathoperations.code.tex
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathtrig.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathrnd.code.tex))
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathbase.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count122
+))
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2008/02/03  (rcs-revision 1.13)
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
 \pgf@picminx=\dimen124
 \pgf@picmaxx=\dimen125
 \pgf@picminy=\dimen126
@@ -343,91 +359,96 @@ File: pgfcorepoints.code.tex 2008/02/03  (rcs-revision 1.13)
 \pgf@zy=\dimen137
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2008/02/13  (rcs-revision 1.14)
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
 \pgf@path@lastx=\dimen138
 \pgf@path@lasty=\dimen139
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2008/01/23  (rcs-revision 1.11)
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
 \pgf@shorten@end@additional=\dimen140
 \pgf@shorten@start@additional=\dimen141
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2008/01/15  (rcs-revision 1.26)
-\pgfpic=\box29
-\pgf@hbox=\box30
-\pgf@layerbox@main=\box31
-\pgf@picture@serial@count=\count124
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box30
+\pgf@hbox=\box31
+\pgf@layerbox@main=\box32
+\pgf@picture@serial@count=\count123
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2007/12/12  (rcs-revision 1.8)
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
 \pgflinewidth=\dimen142
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2008/02/04  (rcs-revision 1.10)
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
 \pgf@pt@x=\dimen143
 \pgf@pt@y=\dimen144
 \pgf@pt@temp=\dimen145
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2006/10/11  (rcs-revision 1.2)
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2008/01/23  (rcs-revision 1.7)
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2007/06/07  (rcs-revision 1.8)
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2007/12/10  (rcs-revision 1.9)
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
 \pgf@max=\dimen146
-\pgf@sys@shading@range@num=\count125
+\pgf@sys@shading@range@num=\count124
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2008/01/15  (rcs-revision 1.1)
-\pgfexternal@startupbox=\box32
-)
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box33
+))
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2008/01/15  (rcs-revision 1.1)
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2008/01/15  (rcs-revision 1.1)
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 )))
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2008/02/13  (rcs-revision 1.4)
-\pgfnodeparttextbox=\box33
-\toks@savedmacro=\toks26
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box34
 )
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2008/01/15  (rcs-revision 1.1)
-\pgf@plotwrite=\write3
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2007/07/03 v2.00 (rcs-revision 1.7)
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen147
 \pgf@nodesepend=\dimen148
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2007/07/23 v2.00 (rcs-revision 1.1)
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 ))
 (/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
 (/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2007/11/07 v2.00 (rcs-revision 1.8)
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
 \pgffor@iter=\dimen149
 \pgffor@skip=\dimen150
+\pgffor@stack=\toks29
+\pgffor@toks=\toks30
 ))
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2008/02/13 v2.00 (rcs-revision 1.27)
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2007/03/09 v2.00 (rcs-revision 1.9)
-\pgf@plot@mark@count=\count126
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+\pgf@plot@mark@count=\count125
 \pgfplotmarksize=\dimen151
 )
 \tikz@lastx=\dimen152
@@ -436,29 +457,29 @@ File: pgflibraryplothandlers.code.tex 2007/03/09 v2.00 (rcs-revision 1.9)
 \tikz@lastysaved=\dimen155
 \tikzleveldistance=\dimen156
 \tikzsiblingdistance=\dimen157
-\tikz@figbox=\box34
-\tikz@tempbox=\box35
-\tikztreelevel=\count127
-\tikznumberofchildren=\count128
-\tikznumberofcurrentchild=\count129
-\tikz@fig@count=\count130
+\tikz@figbox=\box35
+\tikz@tempbox=\box36
+\tikztreelevel=\count126
+\tikznumberofchildren=\count127
+\tikznumberofcurrentchild=\count128
+\tikz@fig@count=\count129
 
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2008/01/15  (rcs-revision 1.1)
-\pgfmatrixcurrentrow=\count131
-\pgfmatrixcurrentcolumn=\count132
-\pgf@matrix@numberofcolumns=\count133
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+\pgfmatrixcurrentrow=\count130
+\pgfmatrixcurrentcolumn=\count131
+\pgf@matrix@numberofcolumns=\count132
 )
-\tikz@expandcount=\count134
+\tikz@expandcount=\count133
 
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
 hs.code.tex
-File: tikzlibrarytopaths.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
 ))) (/usr/share/texmf-texlive/tex/generic/pgfplots/pgfplots.code.tex (/usr/shar
 e/texmf-texlive/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks27
-\t@pgfplots@tokb=\toks28
-\t@pgfplots@tokc=\toks29
+\t@pgfplots@toka=\toks31
+\t@pgfplots@tokb=\toks32
+\t@pgfplots@tokc=\toks33
 \pgfplots@tmpa=\dimen158
 )
 (/usr/share/texmf-texlive/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsup
@@ -469,24 +490,20 @@ Package pgfplots: loading complementary code for your PGF version...
 p_misc.code.tex)
 (/usr/share/texmf-texlive/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsup
 p_pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks30
+\pgfkeys@tmptoks=\toks34
 )
 (/usr/share/texmf-texlive/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsup
 p_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count135
+\c@pgfmathroundto@lastzeros=\count134
 )
 (/usr/share/texmf-texlive/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsup
 p_pgflibraryplothandlers.code.tex
-File: pgfplotsoldpgfsupp_pgflibraryplothandlers.code.tex 2009/02/13 v2.00 (rcs-
+File: pgfplotsoldpgfsupp_pgflibraryplothandlers.code.tex 2009/02/13 v2.10 (rcs-
 revision 1.7)
-\pgf@plot@mark@count=\count136
+\pgf@plot@mark@count=\count135
 \pgfplotmarksize=\dimen159
 )
-Package pgfplots: loading FPU library which doesn't appear to exist in your PGF
- version...
-
-(/usr/share/texmf-texlive/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsup
-p_pgflibraryfpu.code.tex))
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryfpu.code.tex))
 (/usr/share/texmf-texlive/tex/generic/pgfplots/util/pgfplotsutil.code.tex
 (/usr/share/texmf-texlive/tex/generic/pgfplots/liststructure/pgfplotsliststruct
 ure.code.tex)
@@ -494,10 +511,10 @@ ure.code.tex)
 ureext.code.tex)
 (/usr/share/texmf-texlive/tex/generic/pgfplots/liststructure/pgfplotsarray.code
 .tex
-\c@pgfplotsarray@tmp=\count137
+\c@pgfplotsarray@tmp=\count136
 )
 (/usr/share/texmf-texlive/tex/generic/pgfplots/numtable/pgfplotstable.code.tex
-\c@pgfplotstable@counta=\count138
+\c@pgfplotstable@counta=\count137
 \pgfplotstable@outfile=\write4
 
 (/usr/share/texmf-texlive/tex/generic/pgfplots/numtable/pgfplotstable.coltype.c
@@ -514,19 +531,21 @@ ations.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen162
 \pgfdecoratedinputsegmentremainingdistance=\dimen163
 \pgf@decorate@distancetomove=\dimen164
-\pgf@decorate@repeatstate=\count139
+\pgf@decorate@repeatstate=\count138
 \pgfdecorationsegmentamplitude=\dimen165
 \pgfdecorationsegmentlength=\dimen166
-))
+)
+\tikz@lib@dec@box=\box37
+)
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
 ations.pathmorphing.code.tex
-(/usr/share/texmf/tex/generic/pgf/libraries/pgflibrarydecorations.pathmorphing.
-code.tex))
+(/usr/share/texmf/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.p
+athmorphing.code.tex))
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
 ations.pathreplacing.code.tex
-(/usr/share/texmf/tex/generic/pgf/libraries/pgflibrarydecorations.pathreplacing
-.code.tex))
-\pgfplots@numplots=\count140
+(/usr/share/texmf/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.p
+athreplacing.code.tex))
+\pgfplots@numplots=\count139
 \pgfplots@xmin@reg=\dimen167
 \pgfplots@xmax@reg=\dimen168
 \pgfplots@ymin@reg=\dimen169
@@ -536,17 +555,17 @@ ations.pathreplacing.code.tex
 )
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotm
 arks.code.tex
-File: tikzlibraryplotmarks.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
-File: pgflibraryplotmarks.code.tex 2007/03/09 v2.00 (rcs-revision 1.5)
+File: pgflibraryplotmarks.code.tex 2010/10/15 v2.10 (rcs-revision 1.12)
 )))
 (/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
 Package: natbib 2009/07/16 8.31 (PWD, AO)
 \bibhang=\skip46
 \bibsep=\skip47
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count141
+\c@NAT@ctr=\count140
 )
 (/usr/share/texmf-texlive/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2009/09/04 v1.5i extra ToC listings
@@ -586,20 +605,20 @@ and deduce the truth by order and method.
 )
 (/usr/share/texmf-texlive/tex/latex/amscls/amsthm.sty
 Package: amsthm 2004/08/06 v2.20
-\thm@style=\toks31
-\thm@bodyfont=\toks32
-\thm@headfont=\toks33
-\thm@notefont=\toks34
-\thm@headpunct=\toks35
+\thm@style=\toks35
+\thm@bodyfont=\toks36
+\thm@headfont=\toks37
+\thm@notefont=\toks38
+\thm@headpunct=\toks39
 \thm@preskip=\skip57
 \thm@postskip=\skip58
 \thm@headsep=\skip59
-\dth@everypar=\toks36
+\dth@everypar=\toks40
 )
-\c@lemma=\count142
-\c@definition=\count143
-\c@corolary=\count144
-\c@examle=\count145
+\c@lemma=\count141
+\c@definition=\count142
+\c@corolary=\count143
+\c@examle=\count144
 ) (./PhdThesis.aux)
 \openout1 = `PhdThesis.aux'.
 
@@ -622,6 +641,8 @@ LaTeX Font Info:    Try loading font information for TS1+cmr on input line 9.
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 9.
+
+ABD: EveryShipout initializing macros
 LaTeX Font Info:    Try loading font information for U+msa on input line 12.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
@@ -751,7 +772,7 @@ frame phase shifts. With
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
-Overfull \hbox (67.13329pt too wide) in alignment at lines 101--106
+Overfull \hbox (67.13329pt too wide) in alignment at lines 101--107
  [][][] []
  []
 
@@ -764,44 +785,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [18]
 [19]) (./Chpt3_RobustAdaptive/Chpt3_RobustAdaptive.tex [20]
 Chapter 4.
+[21
 
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 ...ethod locally estimates the interferogramâ€
-                                                  ™s
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 ...thod locally estimates the interferogramâ€™
-                                                  s
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-Underfull \vbox (badness 4940) has occurred while \output is active []
-
- [21
-
-]
-[22]
+] [22]
 Overfull \hbox (106.55006pt too wide) detected at line 119
 [] [] \OT1/cmr/m/n/10.95 = [] \OML/cmm/m/it/10.95 :
  []
 
-[23]
+
 Overfull \hbox (67.77734pt too wide) detected at line 132
 \OML/cmm/m/it/10.95 E\OT1/cmr/m/n/10.95 [\OML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.9
 5 (\OML/cmm/m/it/10.95 x; y\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 ; g[]\OT1/cm
@@ -821,27 +812,33 @@ Overfull \hbox (48.32043pt too wide) detected at line 160
 [] [] \OT1/cmr/m/n/10.95 = []
  []
 
-[24]
+[23] [24]
 File: Chpt3_RobustAdaptive/Chpt3_figures/fig_1.eps Graphic file (type eps)
- <Chpt3_RobustAdaptive/Chpt3_figures/fig_1.eps> [25] [26]
+ <Chpt3_RobustAdaptive/Chpt3_figures/fig_1.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
 File: Chpt3_RobustAdaptive/Chpt3_figures/fig_2.eps Graphic file (type eps)
 
-<Chpt3_RobustAdaptive/Chpt3_figures/fig_2.eps> [27]
+<Chpt3_RobustAdaptive/Chpt3_figures/fig_2.eps> [26]
 File: Chpt3_RobustAdaptive/Chpt3_figures/fig_3.eps Graphic file (type eps)
 
 <Chpt3_RobustAdaptive/Chpt3_figures/fig_3.eps>
 File: Chpt3_RobustAdaptive/Chpt3_figures/fig_4.eps Graphic file (type eps)
 
-<Chpt3_RobustAdaptive/Chpt3_figures/fig_4.eps> [28]
-Underfull \vbox (badness 1082) has occurred while \output is active []
+<Chpt3_RobustAdaptive/Chpt3_figures/fig_4.eps>
+Underfull \vbox (badness 3623) has occurred while \output is active []
 
- [29]
-[30]) (./Chpt4_PhaseDetuningCorrecting/Chpt4_PhaseDetuningCorrecting.tex
-[31] [32
+ [27]
+[28]
+Underfull \vbox (badness 1348) has occurred while \output is active []
+
+ [29])
+(./Chpt4_PhaseDetuningCorrecting/Chpt4_PhaseDetuningCorrecting.tex [30]
+Chapter 5.
+[31
 
 ]
-Chapter 5.
-[33] [34]
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1aNoise.eps Graphic file 
 (type eps)
  <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1aNoise.eps>
@@ -852,7 +849,7 @@ File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1bNoise.eps Graphic file
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error.eps Graphic file (ty
 pe eps)
 
-<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error.eps> [35] [36]
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error.eps> [32] [33] [34]
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/FaseError_Ideal_3D.eps Graphi
 c file (type eps)
 
@@ -861,33 +858,40 @@ File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fase_Ideal_3D.eps Graphic fil
 e (type eps)
 
 <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fase_Ideal_3D.eps>
-Overfull \hbox (2.40088pt too wide) in paragraph at lines 199--205
+Overfull \hbox (2.40088pt too wide) in paragraph at lines 200--206
  [] 
  []
 
-[37]
+[35]
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E1.eps Graphic file (type
  eps)
  <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E1.eps>
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E2.eps Graphic file (type
  eps)
 
-<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E2.eps> [38]
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E2.eps>
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E3.eps Graphic file (type
  eps)
 
-<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E3.eps> [39] [40]
-Overfull \hbox (2.38123pt too wide) in paragraph at lines 387--387
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E3.eps> [36]
+Underfull \vbox (badness 1472) has occurred while \output is active []
+
+ [37]
+[38]
+Overfull \hbox (2.38123pt too wide) in paragraph at lines 388--388
 []\OT1/cmr/bx/n/14.4 Appendix. Lo-cal fre-quency cal-cu-la-tion in pres-
  []
 
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_mFaseErrorFrecuencias.eps
  Graphic file (type eps)
 <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_mFaseErrorFrecuencias.eps>
-[41]
+Underfull \vbox (badness 2150) has occurred while \output is active []
+
+ [39]
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltradaMal.eps Grap
 hic file (type eps)
- <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltradaMal.eps>
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltradaMal.eps>
 File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltrada.eps Graphic
  file (type eps)
 
@@ -904,20 +908,16 @@ File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias3.eps Graphic
 file (type eps)
 
 <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias3.eps>)
-(./PhdThesis.bbl
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(./PhdThesis.bbl [40] [41] [42
 
- [42]
-[43] [44
-
-] [45] [46] [47] [48]) [49] (./PhdThesis.aux) ) 
+] [43] [44] [45] [46]) [47] (./PhdThesis.aux) ) 
 Here is how much of TeX's memory you used:
- 13661 strings out of 495062
- 283445 string characters out of 1182644
- 373867 words of memory out of 3000000
- 16484 multiletter control sequences out of 15000+50000
+ 15209 strings out of 495062
+ 322029 string characters out of 1182644
+ 400697 words of memory out of 3000000
+ 18003 multiletter control sequences out of 15000+50000
  14601 words of font info for 53 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 61i,12n,55p,579b,561s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 70i,12n,63p,579b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on PhdThesis.dvi (57 pages, 166152 bytes).
+Output written on PhdThesis.dvi (55 pages, 161984 bytes).
