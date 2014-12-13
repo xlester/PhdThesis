@@ -6,6 +6,7 @@
 \contentsline {section}{\numberline {1.2}Fringe pattern temporal carrier}{2}
 \contentsline {section}{\numberline {1.3}Phase-shifting algorithms (PSAs)}{3}
 \contentsline {section}{\numberline {1.4}Classical Least-Square Algorithm}{4}
+\contentsline {section}{\numberline {1.5}Regularized Quadrature Filters (RQF)}{6}
 \contentsline {chapter}{\numberline {2}Regularized iterative least-squares algorithm for phase-shifting interferometry}{7}
 \contentsline {section}{\numberline {2.1}Introduction}{7}
 \contentsline {section}{\numberline {2.2}Classical Least-Squares}{8}

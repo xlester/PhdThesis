@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.14)  20 NOV 2014 20:16
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.14)  13 DEC 2014 15:47
 entering extended mode
  %&-line parsing enabled.
 **PhdThesis.tex
@@ -689,21 +689,30 @@ Chapter 1.
 LaTeX Warning: Command \c invalid in math mode on input line 58.
 
 
+LaTeX Warning: Command \c invalid in math mode on input line 60.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 64.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 64.
+
+
+Overfull \hbox (3.09874pt too wide) in paragraph at lines 59--67
+[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 6\OT1/cmr/m/n/12 = [](\OMS/cmsy/m/n/12 ^^@
+\OML/cmm/m/it/12 ^^^ \OT1/cmr/m/n/12 + [])$. They also al-low to iso-late the a
+n-a-lytic sig-nal $[]\OML/cmm/m/it/12 b\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; y\O
+T1/cmr/m/n/12 )\OML/cmm/m/it/12 e[]$\OT1/cmr/m/n/12 .
+ []
+
+
 LaTeX Warning: Command \c invalid in math mode on input line 68.
 
 [2] [3]
 
 LaTeX Warning: Command \c invalid in math mode on input line 156.
 
-[4]
-
-LaTeX Warning: Command \c invalid in math mode on input line 162.
-
-
-LaTeX Warning: Reference `eq:PSI_Sequences' on page 5 undefined on input line 1
-86.
-
-[5]) (./Chpt1_RegularizedLeastSquares/Chpt1_RegularizedLeastSquares.tex
+[4] [5]) (./Chpt1_RegularizedLeastSquares/Chpt1_RegularizedLeastSquares.tex
 [6]
 Chapter 2.
 
@@ -909,21 +918,14 @@ file (type eps)
 <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias3.eps>)
 (./PhdThesis.bbl [45] [46] [47
 
-] [48] [49] [50]) [51] (./PhdThesis.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] [48] [49] [50]) [51] (./PhdThesis.aux) ) 
 Here is how much of TeX's memory you used:
  13668 strings out of 495062
- 283542 string characters out of 1182644
+ 283532 string characters out of 1182644
  375871 words of memory out of 3000000
  16492 multiletter control sequences out of 15000+50000
  15043 words of font info for 56 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  61i,12n,55p,579b,549s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on PhdThesis.dvi (59 pages, 171768 bytes).
+Output written on PhdThesis.dvi (59 pages, 172892 bytes).
