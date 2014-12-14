@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.14)  13 DEC 2014 15:47
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.14)  13 DEC 2014 19:21
 entering extended mode
  %&-line parsing enabled.
 **PhdThesis.tex
@@ -638,19 +638,19 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 
 ] (./PhdThesis.toc
-Overfull \hbox (9.71918pt too wide) in paragraph at lines 9--9
+Overfull \hbox (9.71918pt too wide) in paragraph at lines 10--10
  [] []\OT1/cmr/bx/n/12 Regularized it-er-a-tive least-squares al-go-rithm for p
 hase-shifting 
  []
 
 
-Overfull \hbox (4.19275pt too wide) in paragraph at lines 16--16
+Overfull \hbox (4.19275pt too wide) in paragraph at lines 17--17
  [] []\OT1/cmr/bx/n/12 Regularized self-tuning phase de-mod-u-la-tion for phase
 -shifting 
  []
 
 
-Overfull \hbox (3.98442pt too wide) in paragraph at lines 22--22
+Overfull \hbox (3.98442pt too wide) in paragraph at lines 23--23
  [] []\OT1/cmr/bx/n/12 Robust adap-tive phase-shifting de-mod-u-la-tion for tes
 t-ing mov- 
  []
@@ -928,4 +928,4 @@ Here is how much of TeX's memory you used:
  28 hyphenation exceptions out of 8191
  61i,12n,55p,579b,549s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on PhdThesis.dvi (59 pages, 172892 bytes).
+Output written on PhdThesis.dvi (59 pages, 173124 bytes).
