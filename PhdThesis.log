@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.14)  14 DEC 2014 18:59
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.14)  14 DEC 2014 21:18
 entering extended mode
  %&-line parsing enabled.
 **PhdThesis.tex
@@ -650,7 +650,7 @@ Overfull \hbox (4.19275pt too wide) in paragraph at lines 16--16
  []
 
 
-Overfull \hbox (3.98442pt too wide) in paragraph at lines 21--21
+Overfull \hbox (3.98442pt too wide) in paragraph at lines 22--22
  [] []\OT1/cmr/bx/n/12 Robust adap-tive phase-shifting de-mod-u-la-tion for tes
 t-ing mov- 
  []
@@ -741,19 +741,24 @@ Chapter 3.
 [13
 
 ] [14] [15] [16]
+Overfull \hbox (16.7858pt too wide) in paragraph at lines 174--174
+[]\OT1/cmr/bx/n/17.28 Minimization pro-cess of the quadratic func-
+ []
+
+[17] [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
 File: Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps.eps Graphic file (type ep
 s)
- <Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps.eps>
-[17]
-Underfull \vbox (badness 4279) has occurred while \output is active []
 
- [18]
-Overfull \hbox (14.97496pt too wide) in paragraph at lines 264--274
+<Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps.eps>
+Overfull \hbox (14.97496pt too wide) in paragraph at lines 334--344
 \OT1/cmr/m/n/12 We have pre-sented a reg-u-lar-ized self-tuning phase-shifting 
 de-mod-u-la-tion method
  []
 
-[19]) (./Chpt3_RobustAdaptive/Chpt3_RobustAdaptive.tex [20]
+) (./Chpt3_RobustAdaptive/Chpt3_RobustAdaptive.tex [20]
 Chapter 4.
 
 ! Package inputenc Error: Keyboard character used is undefined
@@ -915,10 +920,10 @@ file (type eps)
 Here is how much of TeX's memory you used:
  13665 strings out of 495062
  283479 string characters out of 1182644
- 375871 words of memory out of 3000000
+ 377871 words of memory out of 3000000
  16489 multiletter control sequences out of 15000+50000
  15043 words of font info for 56 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  61i,12n,55p,579b,549s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on PhdThesis.dvi (57 pages, 168676 bytes).
+Output written on PhdThesis.dvi (57 pages, 168640 bytes).
