@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.14)  13 DEC 2014 22:39
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.14)  14 DEC 2014 18:59
 entering extended mode
  %&-line parsing enabled.
 **PhdThesis.tex
@@ -650,7 +650,7 @@ Overfull \hbox (4.19275pt too wide) in paragraph at lines 16--16
  []
 
 
-Overfull \hbox (3.98442pt too wide) in paragraph at lines 22--22
+Overfull \hbox (3.98442pt too wide) in paragraph at lines 21--21
  [] []\OT1/cmr/bx/n/12 Robust adap-tive phase-shifting de-mod-u-la-tion for tes
 t-ing mov- 
  []
@@ -715,19 +715,13 @@ LaTeX Warning: Command \c invalid in math mode on input line 156.
 [4] [5]) (./Chpt1_RegularizedLeastSquares/Chpt1_RegularizedLeastSquares.tex
 [6]
 Chapter 2.
-
-Underfull \vbox (badness 1226) has occurred while \output is active []
-
- [7
+[7
 
 ]
-Overfull \hbox (23.96906pt too wide) in paragraph at lines 65--65
+Overfull \hbox (23.96906pt too wide) in paragraph at lines 80--80
 [] 
  []
 
-File: Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_1.eps Graphic file (type 
-eps)
-<Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_1.eps>
 
 Package Fancyhdr Warning: \headheight is too small (25.3pt): 
  Make it at least 27.18336pt.
@@ -735,29 +729,26 @@ Package Fancyhdr Warning: \headheight is too small (25.3pt):
  This may cause the page layout to be inconsistent, however.
 
 [8]
+File: Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_1.eps Graphic file (type 
+eps)
+ <Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_1.eps>
 File: Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_2.eps Graphic file (type 
 eps)
- <Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_2.eps> [9] [10] [11])
+
+<Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_2.eps> [9] [10] [11])
 (./Chpt2_RegularizedSelfTuning/Chpt2_RegularizedSelfTuning.tex [12]
 Chapter 3.
 [13
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14]
-Overfull \hbox (59.37544pt too wide) in alignment at lines 101--106
- [][][] []
- []
-
-[15] [16]
+] [14] [15] [16]
 File: Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps.eps Graphic file (type ep
 s)
- <Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps.eps> [17]
+ <Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps.eps>
+[17]
 Underfull \vbox (badness 4279) has occurred while \output is active []
 
  [18]
-Overfull \hbox (14.97496pt too wide) in paragraph at lines 267--277
+Overfull \hbox (14.97496pt too wide) in paragraph at lines 264--274
 \OT1/cmr/m/n/12 We have pre-sented a reg-u-lar-ized self-tuning phase-shifting 
 de-mod-u-la-tion method
  []
@@ -930,4 +921,4 @@ Here is how much of TeX's memory you used:
  28 hyphenation exceptions out of 8191
  61i,12n,55p,579b,549s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on PhdThesis.dvi (57 pages, 168008 bytes).
+Output written on PhdThesis.dvi (57 pages, 168676 bytes).

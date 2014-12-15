@@ -14,11 +14,10 @@
 \contentsline {section}{\numberline {2.4}Experimental Results}{10}
 \contentsline {section}{\numberline {2.5}Comments and conclusions}{11}
 \contentsline {chapter}{\numberline {3}Regularized self-tuning phase demodulation for phase-shifting interferometry with arbitrary phase shifts}{13}
-\contentsline {section}{\numberline {3.1}Abstract}{13}
-\contentsline {section}{\numberline {3.2}Introduction}{13}
-\contentsline {section}{\numberline {3.3}Method }{15}
-\contentsline {section}{\numberline {3.4}Numerical experiments and results}{17}
-\contentsline {section}{\numberline {3.5}Conclusions}{19}
+\contentsline {section}{\numberline {3.1}Introduction}{13}
+\contentsline {section}{\numberline {3.2}Method }{14}
+\contentsline {section}{\numberline {3.3}Numerical experiments and results}{17}
+\contentsline {section}{\numberline {3.4}Conclusions}{19}
 \contentsline {chapter}{\numberline {4}Robust adaptive phase-shifting demodulation for testing moving wavefronts}{21}
 \contentsline {section}{\numberline {4.1}Abstract}{21}
 \contentsline {section}{\numberline {4.2}Introduction}{22}

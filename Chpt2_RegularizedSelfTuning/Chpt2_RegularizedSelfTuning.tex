@@ -1,8 +1,7 @@
 \chapter{Regularized self-tuning phase demodulation for phase-shifting
 interferometry with arbitrary phase shifts}
 
-\section{Abstract}
-In this work, we develop a regularization technique to demodulate
+In this chapter, we develop a regularization technique to demodulate
 a phase-shifting interferogram sequence with arbitrary inter-frame
 phase shifts. With this method, we can recover the modulating phase
 and inter-frame phase shifts in the same process. As all phase-shifting
@@ -46,11 +45,8 @@ the phase-shifting algorithm as the 7-steps algorithm shown in
 Further methods use the Fourier transform in order to estimate the
 inter-frame phase-shifts \cite{Larkin:01,Lai:91}, and other are based on the
 least-squares scheme estimating iteratively the inter-frame phase-shifts
-and phase \cite{Kong,Wang:04}. In Ref. 16\cite{Estrada:10}, we presented an
-approach that estimates the local temporal carrier (the phase-shift)
-as the average of the phase difference between two consecutive phase
-maps obtained from two realizations of the tunable 3-steps algorithm.
-What we are going to show in this work, is a regularized self-tuning
+and phase \cite{Kong,Wang:04}.
+What we are going to show in this chapter, is a regularized self-tuning
 demodulation technique that obtains the analytical image (complex
 interferogram) and inter-frame phase-shifts from an interferogram
 sequence. Thus, we can recover the modulating phase modulus 2$\pi$
@@ -84,7 +80,7 @@ I_{k}^{'}(x,y)=I_{k}(x,y)-[I_{k}*h](x,y),\; k=0,1,2,...,N-1,\label{eq:I'}
 \end{equation}
 where $h(x,y)$ is the impulse response of a low-pass filter such
 as a Gaussian or mean filter and \textasteriskcentered{} is the convolution
-operator\cite{Jahne}. Making this, the new interferogram sequence looks
+operator \cite{Jahne}. Making this, the new interferogram sequence looks
 like 
 \begin{equation}
 I_{k}^{'}(x,y)=b^{'}(x,y)cos(\phi(x,y)+\alpha_{k}),\: k=0,1,2,...,N-1.\label{eq:
@@ -99,7 +95,8 @@ work, estimate the inter-frame phase-shifts from the interferogram
 sequence. Therefore, our demodulation method minimizes the following
 quadratic functional
 \begin{eqnarray}
-U(f,\alpha) & = & \sum_{(x,y)}(\varphi(x,y)-I_{0}^{'}(x,y))^{2}+\sum_{k=1}^{N-1}
+U(f,\alpha) & = & \sum_{(x,y)}(\varphi(x,y)-I_{0}^{'}(x,y))^{2}\nonumber \\
+& &+\sum_{k=1}^{N-1}
 \sum_{(x,y)}[\frac{1}{2}[f(x,y)e^{i\alpha_{k}}+f^{*}(x,y)e^{-i\alpha_{k}}]-I_{k}
 ^{'}(x,y)]^{2}\label{eq:U}\\
  &  & +\lambda\sum_{(x,y)}[||D_{x}[f(x,y)]||^{2}+||D_{y}[f(x,y)]||^{2}],\nonumber 
@@ -345,7 +342,6 @@ if\;\widehat{\alpha}_{k}-\widehat{\alpha}_{k-1}>\pi\\
 \end{equation}
 for $k=1,2,3...N-1$, in order to have our inter-frame
 phase-shifts within the variation range($-\pi,\pi$).
-
 
 %\bibliographystyle{plain}
 %\bibliography{./References_PhdThesis}

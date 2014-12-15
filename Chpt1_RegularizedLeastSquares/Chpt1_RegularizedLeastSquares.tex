@@ -1,6 +1,21 @@
 \chapter{Regularized iterative least-squares algorithm for phase-shifting
 interferometry}
 
+The most known and used Phase Shifting Interferometry (PSI) demodulation methods 
+are one-dimensional temporal linear systems that use the information of the 
+interferogram sequence at a single pixel to recover the modulating phase. 
+Accordingly, scanning all pixels, we obtain the 2D modulated phase sought. 
+As PSI demodulation methods do not take into account spatial information, 
+these methods can not remove unwanted harmonics or noise from the interferogram 
+image space (spatial domain). To remove these unwanted artifacts from the image 
+space, spatial information must be included in the demodulation model. In this 
+chapter, we are going to show that the well known least-squares system for PSI 
+can be used as a full-field 2D linear system that uses the temporal and spatial 
+information in conjunction in order to recover the modulating phase while removing noise, 
+unwanted harmonics, and interpolating small empty sections of the image space all
+in the same process with low computational time.
+
+
 %%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 %%%%%%%%%%%%%%%%%%%%%
@@ -128,7 +143,7 @@ with much less noise than the classic least-squares method, given the
 regularization terms in Eq. \eqref{eq:psi regularized}.
 \begin{figure}[th!]
 	\begin{center}
-		\includegraphics[scale=0.25]{Chpt1_figures/Fig_2.eps}
+		\includegraphics[scale=0.3]{Chpt1_figures/Fig_2.eps}
 	\end{center}
 	\caption{Experimental results. a) One of four experimental 
 	interferogram sequences. b) Recovered phase map using classic 
