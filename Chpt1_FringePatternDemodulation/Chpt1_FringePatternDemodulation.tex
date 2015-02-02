@@ -18,7 +18,7 @@ functions, $a(x,y)$ and $b(x,y)$. Additionally, $\phi(x,y)$ can only be
 determined modulo $2\pi$ because the sinusoidal fringe pattern $I(x,y)$ depends
 periodically on the phase ($2\pi$ phase ambiguity); and its sign cannot be 
 extracted from a single measurement without a priori knowledge (sign ambiguity)
-due to even character of the cosine fuction [$cos(\phi)=cos(-\phi)$]. Finally, 
+due to even character of the cosine function [$cos(\phi)=cos(-\phi)$]. Finally, 
 in all practical cases some noise $\eta(x,y)$ is introduced in an additive and/or
 multiplicative way, and the fringe pattern may suffer from a number of distortions,
 degrading its quality and further screening the phase information [142,18].
@@ -68,7 +68,7 @@ linear temporal carrier can be written as:
  \c{C}(x,y,t)=\alpha k,
 \end{equation}
 where $\alpha$ is the temporal lineal carrier, typically $\alpha=\pi/2$, and $k$
-is the discret temporal variable. The independent temporal variable $k$ represents
+is the discrete temporal variable. The independent temporal variable $k$ represents
 the $k$-frame of the PSI sequence. In this context, knowing the temporal carrier 
 $\alpha$ (phase step as known in PSI), the objective of the PSI demodulation 
 methods is to estimate the complex field
@@ -86,7 +86,7 @@ which is an alternative form of Eq. \eqref{eq:TanPhi}.
 In the following sections we will analyze several methods to estimate the 
 analytic signal $f(x,y)$.
 
-\section{Phase-shifting algorithms (PSAs)}
+\section{Phase-Shifting Algorithms (PSAs)}
 
 In general, a phase-shifting algorithm (PSA) can be described as quadrature linear
 filter which is completely characterized by its impulse response function, $h(k)$,
@@ -118,13 +118,13 @@ I_{N-1}\}}{Re\{c_0I_0+c_1I_1 + \dots + c_{N-1} I_{N-1}\}}  \Bigg)
 \end{equation}
 The above results are obtained under the assumption that the quadrature filter
 and the temporal samples of the interferogram are perfectly tuned at the same
-frequency $\alpha$ (radias per sample). When the actual sampling frequency is
+frequency $\alpha$ (radians per sample). When the actual sampling frequency is
 $\alpha+\Delta$, that is when some detuning error occur, the resulting phase 
 estimation is given by
 \begin{equation}
  \hat{\phi}(x,y)=\phi(x,y)-D(\Delta)\sin[2\phi(x,y)],
 \end{equation}
-where the amplitud of the detuning-error is given by the ratio
+where the amplitude of the detuning-error is given by the ratio
 \begin{equation}
  D(\Delta)=\frac{|H(-\alpha-\Delta)|}{|H(+\alpha+\Delta|},
 \end{equation}
@@ -147,7 +147,7 @@ The N-step least-squares phase-shifting algorithm formula was deduced in
 technique for the phase-demodulation of temporal phase-shifted interferograms. 
 Later in 1982 C. J. Morgan \cite{Morgan} demonstrated that this family of PSAs 
 correspond to the principle of least-squares estimation under the presence of 
-external pertur bations. Finally, J. E. Greivenkamp \cite{Greivenkamp} shown in 
+external perturbations. Finally, J. E. Greivenkamp \cite{Greivenkamp} shown in 
 1984 that this least-squares fit provides the better phase-estimation against 
 non-uniform phase-steps.
 
@@ -220,27 +220,61 @@ pixel. From Eq. \eqref{eq:LQX} the wrapped phase for each pixel is calculated as
 \begin{equation}
  \phi(x,y)=\arctan\left[\frac{-s(x,y)}{c(x.y)} \right].
 \end{equation}
-Matrix A must be calculated only once for frame, in consequece as the temporal 
+Matrix A must be calculated only once for frame, in consequence as the temporal 
 interferometric signal of each pixel has the same model 
 [see Eq. \eqref{eq:PSI_Sequence}], the solution of the linear equation system is 
 always the same.
 
-\section{Regularized Quadrature Filters (RQF)}
+\section{Robust Quadrature Filters (RQF)}
 
-Regularization systems are very useful full-field systems
-that can use all the information needed to obtain the data sought as
-expected. In PSI, we can use these techniques to include the temporal
-and spatial information to recover the modulating phase as a smooth
-2D function, removing unwanted harmonics and noise. Actually,
-regularization techniques have been used before in PSI for these
+Regularization systems are very useful full-field systems that can use all the 
+information needed to obtain the data sought as expected. In PSI, we can use 
+these techniques to include the temporal and spatial information to recover the 
+modulating phase as a smooth 2D function, removing unwanted harmonics and noise. 
+Actually, regularization techniques have been used before in PSI for these
 purposes, the first were Marroquin et al. \cite{RQF,AQF,AQF_mult} and more
 recently others \cite{RPT, RQPT, Mariano, Mariano2, Vargas,Medina,Zeng}.
 
+The main idea behind Robust Quadrature Filters (RQF) for phase shifting 
+interferometry is to find a complex field
+\begin{equation}
+ f = \varphi +i \psi
+\end{equation}\label{eq:RQF}
+that minimizes the next cost function
+\begin{equation}
+ U(f)=U_D(f,I)+ \lambda U_R(f).
+\end{equation}
+The first term $U_D(f,I)$ is commonly known as the data term, and it depends on
+the difference between the observed data I (in this case the interferogram 
+without the background term) and the estimation model $f$, in such way that $U_D(f,I)$ is 
+minimal when $f$ is close to $I$. $U_D(f,I)$ can be defined
+\begin{equation}
+U_D(f,I)=\sum_{(x,y) \in L} \| f(x,y)- I(x,y) \| ^2.
+\end{equation}
+The second term $U_R(f)$ is usually called the regularization term. This term 
+imposes smoothness to the modulating phase $\phi$ adding restrictions to the
+estimation model $f$. Two regularization terms are the first-order and 
+second-order regularization operators known as membrane model and thin-rod model,
+respectively. For the membrane model we have the following cost function
+\begin{equation}
+ U_{Rm} = \lambda \sum_{(x,y)\in L} \{\| f(x,y)-f(x-1,y) e^{iu_0}\|^2 + 
+\| f(x,y)-f(x,y-1) e^{iv_0} \|^2 \},
+\end{equation}
+and for the thin-rod model the cost function is 
+\begin{eqnarray}
+ U_{Rt} & = \lambda \sum_{(x,y)\in L} \{ & 
+            \| f(x,y)-f(x-1,y) e^{ iu_0} + 
+                 f(x,y)-f(x+1,y) e^{-iu_0}\|^2 \nonumber \\ 
+      & + &   \| f(x,y)-f(x,y-1) e^{ iv_0} + 
+                 f(x,y)-f(x,y+1) e^{-iv_0}\|^2 \}. \nonumber \\
+\end{eqnarray}
 
+In both cases $u_0$ is the tuning frequency in $x$, and $v_0$ is the tuning 
+frequency in y. The parameter $\lambda$ is known as the regularization parameter
+that controls the bandwidth of the quadrature filter.
 
-
-
-
-
-
-
+To minimize Eq. \eqref{eq:RQF}, we obtain its gradient with respect to $f$ and
+equal it to zero. Then, we can solve the resulting linear equation system using
+algorithms such as the Gauss-Seidel algorithm, although we can use more generic 
+algorithms, like the Steepest-descent. Once we find the complex field $f$ we 
+obtain the sought phase using Eq. \eqref{eq:PSIphase}.
