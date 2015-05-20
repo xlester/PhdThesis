@@ -1,6 +1,21 @@
 \chapter{Regularized iterative least-squares algorithm for phase-shifting
 interferometry}
 
+The most known and used Phase Shifting Interferometry (PSI) demodulation methods 
+are one-dimensional temporal linear systems that use the information of the 
+interferogram sequence at a single pixel to recover the modulating phase. 
+Accordingly, scanning all pixels, we obtain the 2D modulated phase sought. 
+As PSI demodulation methods do not take into account spatial information, 
+these methods can not remove unwanted harmonics or noise from the interferogram 
+image space (spatial domain). To remove these unwanted artifacts from the image 
+space, spatial information must be included in the demodulation model. In this 
+chapter, we are going to show that the well known least-squares system for PSI 
+can be used as a full-field 2D linear system that uses the temporal and spatial 
+information in conjunction in order to recover the modulating phase while removing noise, 
+unwanted harmonics, and interpolating small empty sections of the image space all
+in the same process with low computational time.
+
+
 %%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 %%%%%%%%%%%%%%%%%%%%%
@@ -15,7 +30,7 @@ analysis methods \cite{RQF,temporal_1,temporal_2} which have many problems with
 the interferogram borders and missing data. Another possibility for analyzing
 the temporal signal is the use of a running PSI method tuned at the carrier
 frequency \cite{RQF,temporal_1,temporal_2,Mariano2,Medina,Zeng}. For example if
-we use a tree step PSI method we could demodulate the phase locally for each of
+we use a three step PSI method we could demodulate the phase locally for each of
 three consecutive samples. Although this method will deal well with borders,
 missing data cannot be handled and can even impede the use of this strategy. In
 experimental methods missing data appear in the case of a saturated signal and
@@ -27,110 +42,36 @@ techniques \cite{Malacara,temporal_2} noisy interferograms are obtained, in
 consequence, recovered phase have to be treated to obtain a clean phase easy to
 unwrap.
 
-Hence, in this paper we are going to present a full-field 2D linear demodulation
+Hence, in this chapter we are going to present a full-field 2D linear demodulation
 method that uses in conjunction the temporal and spatial information in order
 to recover a clean phase, while interpolates empty small sections of missing
 data from the image space all with low computational time and in the same
 process.
 
-%%%%%%%%%%%%%%%%%%%%%
-\section{Classical Least-Squares}
-%%%%%%%%%%%%%%%%%%%%%
-
-Each $(x,y)$ pixel of the PSI sequence is a 1D temporal discrete
-interferometric signal modeled in the following way,
-\begin{eqnarray}
-  I_{x,y}(k) &=& a_{x,y} + b_{x,y}\cos(\phi_{x,y} +k\alpha) \nonumber \\
-  &=& a_{x,y} + c_{x,y}\sin(k\alpha) - s_{x,y}\cos(k\alpha),
-  \label{eq:psi sequence}
-\end{eqnarray}
-where $c_{x,y}=b_{x,y}\cos(\phi_{x,y})$ and
-$s_{x,y}=b_{x,y}\sin(\phi_{x,y})$ are the quadrature components of the
-1D temporal interferometric signal, $k$ is the discrete temporal
-variable, $a_{x,y}$ the background illumination, $b_{x,y}$ the
-modulation term, $\alpha$ the phase step or temporal carrier, and
-$\phi_{x,y}$ the modulating phase sought at the $(x,y)$ pixel; note that
-all these variables are scalars. The independent temporal variable $k$
-represents the $k$-frame of the PSI sequence. In this context, knowing
-the temporal carrier $\alpha$ (phase step as known in PSI), the
-objective of the PSI demodulation methods is to estimate the
-quadrature components $c_{x,y}$ and $s_{x,y}$ of the interferometric
-signal at the $(x,y)$ pixel. Then, the phase at $(x,y)$ is obtained as:
-\begin{equation}
-  \phi_{x,y}=\arctan\left(\frac{s_{x,y}}{c_{x.y}}\right).
-  \label{eq:psi phase}
-\end{equation}
-Scanning all pixels in this way, we obtain the wrapped phase image of
-the PSI sequence. One of the first approaches to demodulate a PSI
-sequence was the least-squares model for PSI
-\cite{Morgan,Greivenkamp,Okada,Kong}. The least-squares model (cost function) 
-for PSI is the following,
-\begin{align}
-  U(a_{x,y},c_{x,y},s_{x,y})= \sum_{k=0}^{N-1}\left[a_{x,y} + 
-  c_{x,y}\sin(k\alpha)\right.
-  -\left. s_{x,y}\cos(k\alpha)-I_{x,y}(k) \right]^2,
-  \label{eq:psi least-squares}
-\end{align}
-where $I_{x,y}(k)$ is the observed value of the $k$-frame at the
-$(x,y)$ pixel modeled as in Eq. \eqref{eq:psi sequence}. To have a
-well-posed mathematical model for Eq. \eqref{eq:psi least-squares},
-it is necessary to have at least three interferograms in the PSI sequence;
-that is, $N\geq 3$. The parameters $c_{x,y}$ and $s_{x,y}$ that
-minimize Eq. \eqref{eq:psi least-squares} are the quadrature
-components used in Eq. \eqref{eq:psi phase} to obtain the
-phase. To minimize Eq. \eqref{eq:psi least-squares}, we solve a $3\times 3$
-linear equation system where $a_{x,y}$, $c_{x,y}$ and
-$s_{x,y}$ are the unknowns. As the temporal interferometric signal of
-each pixel has the same model [see Eq. \eqref{eq:psi sequence}], the
-solution of the linear equation system is always the same. This
-allows us to demodulate the interferogram sequence using very simple
-closed mathematical forms \cite{Malacara}. However, as shown in
-Eq. \eqref{eq:psi least-squares}, this system never uses the spatial
-information but the temporal one; in fact, not one of the temporal PSI
-demodulation methods uses the spatial information \cite{GeneralTheory}. Reason
-why, using temporal PSI demodulation methods we filter only through the 
-interferogram sequence, but not through the interferogram image space. As a 
-consequence, temporal PSI demodulation methods can not remove unwanted spatial
-harmonics or noise that may be introduced while recording the interferograms.
-\begin{figure}[th!]
-	\begin{center}
-		\includegraphics[scale=0.2]{Chpt1_figures/Fig_1.eps}
-	\end{center}
-	\caption{Numerical examples. a) One of four simulated 
-	interferogram sequences. b) Recovered phase map using classic 
-	least-squares. c) Recovered phase map using our proposed 
-	\textit{Full-field 2D least-squares}.} 
-	\label{fig:SimPhaseComparison}
-\end{figure}
+This full-field 2D method is based on the classical least-squares and the 
+regularization system methods described in the previous chapter.
 
 %%%%%%%%%%%%
 \section{Full-field 2D least-squares method}
 %%%%%%%%%%%%
 
-Regularization systems are very useful full-field systems
-that can use all the information needed to obtain the data sought as
-expected. In PSI, we can use these techniques to include the temporal
-and spatial information to recover the modulating phase as a smooth
-2D function, removing unwanted harmonics and noise. Actually,
-regularization techniques have been used before in PSI for these
-purposes, the first were Marroquin et al. \cite{RQF,AQF,AQF_mult} and more
-recently others \cite{RPT, RQPT, Mariano, Mariano2, Vargas,Medina,Zeng}.
-However, the approach used in those works obtained non-linear systems with a
+The approach used in RQF obtaine non-linear systems with a
 considerable computational work load. Besides, these algorithms need a
 pre-processing method to remove background illumination in order to
 demodulate a correct phase. In our case, this preprocess is not needed and, also
 and more important, we will maintain the linearity of the least-squares cost
-function \eqref{eq:psi least-squares}, adding spatial constraints to recover the
+function \eqref{eq:PSIleast-squares}, adding spatial constraints to recover the
 wrapped modulating phase while removing noise and unwanted harmonics present in
 the interferograms \cite{RQF}, besides interpolating small sections of missing
 data. These constraints will penalize the spatial variations of the quadrature
-components $c_{x,y}$ and $s_{x,y}$ by using first order potentials as
-regularization terms. Proceeding in this way, the \emph{Full-field 2D
-least-squares} cost function for PSI is the following:
+components $c(x,y)$ and $s(x,y)$ by using first order potentials as
+regularization terms. Proceeding in this way, the full-field 2D
+least-squares cost function for PSI is the following:
 \begin{align}
-  U(\bf{a,c,s})&=\sum_{k=0}^{N-1} \sum_{x,y\in L} \left[a_{x,y} + 
-  c_{x,y}\sin(k\alpha)\right.
-  -\left. s_{x,y}\cos(k\alpha)-I_{x,y}(k) \right]^2 M_{x,y}\nonumber \\
+  U(\bf{a,c,s})=\nonumber\\
+  &\sum_{k=0}^{N-1} \sum_{x,y\in L} \left[a(x,y) + 
+  c(x,y)\sin(\alpha k)\right.
+  -\left. s(x,y)\cos(\alpha k)-I(x,y,k) \right]^2 M_{x,y}\nonumber \\
   &+\lambda\sum_{x,y\in L}
   \left[(c_{x,y}-c_{x-1,y})^2+(s_{x,y}-s_{x,y-1})^2\right]
   \nonumber\\
@@ -142,18 +83,17 @@ regularization parameter that penalizes the spatial variations of quadrature
 components $\bf c$ and $\bf s$, and $\mu$ penalizes the spatial variations of
 background illumination $\bf a$. Note that in this case, the parameters
 $(\bf{a,c,s})$ of the cost function in Eq. \eqref{eq:psi regularized} are
-scalar fields with dimensions $L_x\times L_y$ and elements $a_{x,y}$,
-$c_{x,y}$ and $s_{x,y}$, respectively, while the parameters
-$(a_{x,y},c_{x,y},s_{x,y})$ of the cost function in Eq. \eqref{eq:psi
-  least-squares} are just scalars. As with the least-squares cost
-function of Eq. \eqref{eq:psi least-squares}, here, at least three
+scalar fields with dimensions $L_x\times L_y$ and elements $a(x,y)$,
+$c(x,y)$ and $s(x,y)$, respectively, while the parameters
+$(a,c,s)$ of the cost function in Eq. \eqref{eq:PSIleast-squares} are just scalars. As with the least-squares cost
+function of Eq. \eqref{eq:PSIleast-squares}, here, at least three
 interferograms are needed in the sequence in oreder to have a well-posed
 mathematical model. To minimize Eq. \eqref{eq:psi regularized}, in
 order to obtain the quadrature components $\bf c$ and $\bf s$ that
 will give us the modulating phase, we need to solve a linear equation
 system of $3(L_x\times L_y)$ equations and $3(L_x\times L_y)$
 unknowns. Compared with the $3\times 3$ linear equation system of
-Eq. \eqref{eq:psi least-squares}, the linear equation system of
+Eq. \eqref{eq:PSIleast-squares}, the linear equation system of
 Eq. \eqref{eq:psi regularized} is larger; however, solving this
 linear equation system is not so complicated when using numerical
 methods such as \emph{Gauss-Seidel}. One of the advantages of
@@ -162,34 +102,35 @@ it is not necessary to build the associated matrix of the linear
 equation system; besides, the \emph{Gauss-Seidel} method can be
 programmed for today's modern parallel processors, such as the
 \emph{Graphics Processing Unit} (GPU), speeding up the minimization
-process. For illustration purposes, in this paper we programmed the algorithm in
+process. For illustration purposes, we programmed the algorithm in
 \emph{C++} language.
 \begin{figure}[th!]
 	\begin{center}
-		\includegraphics[scale=0.25]{Chpt1_figures/Fig_2.eps}
+		\includegraphics[scale=0.25]{Chpt1_figures/Fig_1.eps}
 	\end{center}
-	\caption{Experimental results. a) One of four experimental 
+	\caption{Numerical results. a) One of four experimental 
 	interferogram sequences. b) Recovered phase map using classic 
 	least-squares. c) Recovered phase map using our proposed 
 	\textit{Full-field 2D least-squares}.}
-	\label{fig:ExpPhaseComparison}
+	\label{fig:SimPhaseComparison}
 \end{figure}
-
 %%%%%%%%%%%%
 \section{Numerical Experiments}
 %%%%%%%%%%%%
+
+
 To show the performance of the \textit{Full-field 2D least-squares} algorithm,
 we simulated a PSI sequence of four interferograms of $512 \times 512$ pixels 
-in the following way: $I_{x,y} (k) = a_{x,y} + b_{x,y} cos(\phi_{x,y}+k\alpha) +
-\eta_{x,y}$, for $k=0,1,2,3$ and $\alpha=\pi/2$. The modulated phase $\phi$ was
-modeled as a plane using the following expression: $\phi_{x,y}=0.05x+0.05y$. The
+in the following way: $I(x,y,k) = a(x,y) + b(x,y) cos[\phi(x,y)+\alpha k] +
+\eta(x,y)$, for $k=0,1,2,3$ and $\alpha=\pi/2$. The modulated phase $\phi$ was
+modeled as a plane using the following expression: $\phi(x,y)=0.05x+0.05y$. The
 background illumination term $a$ was modeled as a parabola centered at pixel
 (256,256) of the image frames with a dynamic range between 0 and 1. The $b$ term
 was set to $1$. Last, we added a random field of white noise $\eta$, with mean
 $\gamma=0$ and variance $\sigma^2=1$. In Fig. \ref{fig:SimPhaseComparison}(a),
 we see the first interferogram of the simulated sequence. Figures 
 \ref{fig:SimPhaseComparison}(b) and \ref{fig:SimPhaseComparison}(c) show the
-wrapped phase using classic least-squares \cite{Greivenkamp} and the
+wrapped phase using classical least-squares and the
 \textit{Full-field 2D least-squares} method, respectively. To estimate the
 wrapped phase in Fig. \ref{fig:SimPhaseComparison}(c), we solve the linear
 system in Eq. \eqref{eq:psi regularized} using the Gauss-Seidel method and
@@ -200,7 +141,16 @@ time was 4.6934 seconds, on a PC with an Intel Core i7 processor and 8 GB RAM
 memory . We can see in these figures that our proposed method recovers a phase
 with much less noise than the classic least-squares method, given the
 regularization terms in Eq. \eqref{eq:psi regularized}.
-
+\begin{figure}[th!]
+	\begin{center}
+		\includegraphics[scale=0.3]{Chpt1_figures/Fig_2.eps}
+	\end{center}
+	\caption{Experimental results. a) One of four experimental 
+	interferogram sequences. b) Recovered phase map using classic 
+	least-squares. c) Recovered phase map using our proposed 
+	\textit{Full-field 2D least-squares}.}
+	\label{fig:ExpPhaseComparison}
+\end{figure}
 %%%%%%%%%%%%
 \section{Experimental Results}
 %%%%%%%%%%%%
@@ -216,8 +166,8 @@ powder, except for a small part, as can be seen in Fig.
 \ref{fig:ExpPhaseComparison}(a). Fig. \ref{fig:ExpPhaseComparison}(a) shows the
 first experimental phase-shifting interferogram of a 4 samples sequence. In
 Fig. \ref{fig:ExpPhaseComparison}(b), we show the wavefront estimation of the 
-classic least-squares method, while in Fig. \ref{fig:ExpPhaseComparison}(c), we 
-see the wave-front estimation of the \textit{Full-field 2D least-squares} 
+classical least-squares method, while in Fig. \ref{fig:ExpPhaseComparison}(c), we 
+see the wrapped phase estimation of the \textit{Full-field 2D least-squares} 
 method proposed here. Computational time in this case was 7.6483 seconds
 using the PC described above. As we can see, the proposed method was able to
 estimate a phase free of noise. Another significant feature of this algorithm is
@@ -247,15 +197,13 @@ speckle-pattern interferometry.
 
 Previous to this work, all phase-shifting algorithms only use a single pixel
 signal to estimate the wave-front under test, regardless of adjacent
-information. This paper presents the usefulness of taking into account the
+information. This chapter presents the usefulness of taking into account the
 temporal and spatial information in conjunction to estimate a best phase
 map. It is important to highlight that the functional of Eq. \eqref{eq:psi
 regularized} is a linear system; therefore, it is stable and easy to compute. 
 In conclusion, we present a full-field 2D linear demodulation algorithm  able 
 to recover a clean phase and also able to interpolate small empty sections of
 information, all with low computational time and in the same process.
-
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%

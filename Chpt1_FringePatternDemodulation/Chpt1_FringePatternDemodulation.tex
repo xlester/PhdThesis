@@ -54,18 +54,18 @@ A fringe pattern obtained as the output of a measuring system may be modified
 by the optoelectronic-mechanical hardware (sensors and actuators) and software
 (virtual sensors and actuators) of the system [83]. With these modifications one
 is able to introduce known changes in the argument of the sinusoidal signal:
-\begin{equation}
- I(x,y,t)=a(x,y)+b(x,y)cos[\phi(x,y)+c(x,y,t)],
+\begin{equation}\label{eq:FringePatternTemporal}
+ I(x,y,t)=a(x,y)+b(x,y)cos[\phi(x,y) + \c{C}(x,y,t)],
 \end{equation}
-where $c(x,y,t)$ is a known function (typically a reference plane) and it is 
+where $\c{C}(x,y,t)$ is a known function (typically a reference plane) and it is 
 called the spatio-temporal carrier of the interferogram. The spatial and/or 
 temporal carriers are of extreme importance in modern interferometry: first of 
 all, its presence allows to solve the sign ambiguity since in general 
-$\cos(\phi+c)\not=\cos(-\phi+c)$. They also allow to isolate the analytic signal
+$\cos(\phi+\c{C})\not=\cos(-\phi+\c{C})$. They also allow to isolate the analytic signal
 $\frac{1}{2} b(x,y)e^{i \phi(x,y)}$. In phase-shifting interferometry (PSI) the
 linear temporal carrier can be written as:
-\begin{equation}
- c(x,y,t)=\alpha k,
+\begin{equation}\label{PSIcarrier}
+ \c{C}(x,y,t)=\alpha k,
 \end{equation}
 where $\alpha$ is the temporal lineal carrier, typically $\alpha=\pi/2$, and $k$
 is the discret temporal variable. The independent temporal variable $k$ represents
@@ -103,7 +103,7 @@ the so-called quadrature conditions:
  H(0)=H(-\alpha)=0, \quad H(\alpha)\not=0.
 \end{equation}
 
-Thus, the application of this quadrature lter produces the following analytic
+Thus, the application of this quadrature filter produces the following analytic
 signal for $k = N-1$ (where all the available data is involved):
 \begin{equation}
  A_0(x,y)e^{i\phi}=\sum^{N-1}_{n=0} c_n I(x,y,n).
@@ -126,7 +126,7 @@ estimation is given by
 \end{equation}
 where the amplitud of the detuning-error is given by the ratio
 \begin{equation}
- D(\Delta)=\frac{|H(-\alpha-\Delta|)}{|H(+\alpha+\Delta|},
+ D(\Delta)=\frac{|H(-\alpha-\Delta)|}{|H(+\alpha+\Delta|},
 \end{equation}
 for $|\Delta/\alpha|<<1$.This equation shows that detuning-error causes the 
 estimated phase to be distorted by a component with twice the original fringes 
@@ -140,9 +140,101 @@ power ratio gain of the PSA is given by:
 |H(\alpha)|^2 d\alpha}.
 \end{equation}
 
+\section{Classical Least-Square Algorithm}
 
+The N-step least-squares phase-shifting algorithm formula was deduced in
+1974 by Bruning et al. \cite{Bruning:74} following a synchronous detection 
+technique for the phase-demodulation of temporal phase-shifted interferograms. 
+Later in 1982 C. J. Morgan \cite{Morgan} demonstrated that this family of PSAs 
+correspond to the principle of least-squares estimation under the presence of 
+external pertur bations. Finally, J. E. Greivenkamp \cite{Greivenkamp} shown in 
+1984 that this least-squares fit provides the better phase-estimation against 
+non-uniform phase-steps.
 
+In a PSI sequence each $(x,y)$ pixel is a 1D temporal discrete interferometric 
+signal modeled as Eq. \eqref{eq:FringePatternTemporal}. Using the carrier 
+$\c{C}(x,y,t)=\alpha k$, we have the following expression
+\begin{eqnarray}
+  I(x,y,k) &=& a(x,y) + b(x,y)\cos[\phi(x,y) +\alpha k] \nonumber \\
+  &=& a(x,y) + c(x,y)\sin[\alpha k] - s(x,y)\cos[\alpha k],
+  \label{eq:PSI_Sequence}
+\end{eqnarray}
+where $c(x,y)=b(x,y)\cos[\phi(x,y)]$ and
+$s(x,y)=b(x,y)\sin[\phi(x,y)]$ are the quadrature components of the
+1D temporal interferometric signal, $k$ is the discrete temporal
+variable and $\alpha$ the phase step or temporal carrier; note that
+all these variables are scalars. The independent temporal variable $k$
+represents the $k$-frame of the PSI sequence. In this context, knowing
+the phase step $\alpha$, the objective of the least-squares algorithm is to 
+estimate the quadrature components $c(x,y)$ and $s(x,y)$ of the interferometric
+signal at the $(x,y)$ pixel. Then, the phase at $(x,y)$ is obtained as 
+mentioned above in Eq.\eqref{eq:PSIphase}.
 
+Scanning all pixels in this way, we obtain the wrapped phase image of
+the PSI sequence. One of the first approaches to demodulate a PSI
+sequence was the least-squares model for PSI
+\cite{Morgan,Greivenkamp,Okada,Kong}. The least-squares model (cost function) 
+for PSI is the following,
+\begin{align}\label{eq:PSIleast-squares}
+  U[a,c,s]= \sum_{k=0}^{N-1}\left[a + c \sin(\alpha k)\right.
+  -\left. s \cos(\alpha k)-I(k) \right]^2,
+\end{align}
+where $I(k)$ is the observed value of the $k$-frame at the
+$(x,y)$ pixel modeled as in Eq. \eqref{eq:PSI_Sequence}. For clarity, 
+the spatial dependence $(x,y)$ is omitted in parameters $a,c,s$ and $I$.
+To have a well-posed mathematical model for Eq. \eqref{eq:PSIleast-squares},
+it is necessary to have at least three interferograms in the PSI sequence;
+that is, $N\geq 3$. The parameters $c(x,y)$ and $s(x,y)$ that minimize Eq. 
+\eqref{eq:PSIleast-squares} are the quadrature components used in Eq. 
+\eqref{eq:PSIphase} to obtain the phase. To minimize Eq. 
+\eqref{eq:PSIleast-squares} we need to find
+\begin{equation}
+ \partial U/ \partial a(x,y)=0; \partial U/ \partial c(x,y)=0; 
+\partial U/ \partial s(x,y)=0;
+\end{equation}
+that yields as solution
+\begin{equation}
+ X(x,y)=A^{-1}B(x,y)
+\end{equation}
+where $X(x,y)$ and $B(x,y)$ are a $3 \times 1$ vectors for every pixel given by
+\begin{equation}\label{eq:LQX}
+ X(x,y)=[a(x,y),c(x,y),s(x,y)]^T
+\end{equation}
+and
+\begin{equation}
+ B(x,y)=\bigg[\sum_k I(x,y,k),\sum_k I(x,y,k) \cos(\alpha k),
+ \sum_k I(x,y,k) \sin(\alpha k) \bigg]^T
+\end{equation}
+and the matrix A does not depend on the position and is given by
+\begin{equation}
+A=\left[\begin{array}{ccc}
+N & \sum_{k}cos(\alpha k) & \sum_{k}sin(\alpha k)\\
+\sum_{k}cos(\alpha k) & \sum_{k}cos^{2}(\alpha k) & \sum_{k}cos(\alpha k)
+\sum_{k}sin(\alpha k)\\
+\sum_{k}sin(\alpha k) & \sum_{k}cos(\alpha k)\sum_{k}sin(\alpha k) & 
+\sum_{k}sin^{2}(\alpha k)\end{array}\right].
+\end{equation}
+Matrix A needs at least three different phase shifts to be non-singular (and 
+invertible) and make possible the computation of the solution $X(x,y)$ for every
+pixel. From Eq. \eqref{eq:LQX} the wrapped phase for each pixel is calculated as
+\begin{equation}
+ \phi(x,y)=\arctan\left[\frac{-s(x,y)}{c(x.y)} \right].
+\end{equation}
+Matrix A must be calculated only once for frame, in consequece as the temporal 
+interferometric signal of each pixel has the same model 
+[see Eq. \eqref{eq:PSI_Sequence}], the solution of the linear equation system is 
+always the same.
+
+\section{Regularized Quadrature Filters (RQF)}
+
+Regularization systems are very useful full-field systems
+that can use all the information needed to obtain the data sought as
+expected. In PSI, we can use these techniques to include the temporal
+and spatial information to recover the modulating phase as a smooth
+2D function, removing unwanted harmonics and noise. Actually,
+regularization techniques have been used before in PSI for these
+purposes, the first were Marroquin et al. \cite{RQF,AQF,AQF_mult} and more
+recently others \cite{RPT, RQPT, Mariano, Mariano2, Vargas,Medina,Zeng}.
 
 
 

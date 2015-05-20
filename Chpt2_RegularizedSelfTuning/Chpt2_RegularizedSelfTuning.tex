@@ -1,8 +1,12 @@
 \chapter{Regularized self-tuning phase demodulation for phase-shifting
 interferometry with arbitrary phase shifts}
 
+<<<<<<< HEAD
 \section{Motivation}
 In this work, we develop a regularization technique to demodulate
+=======
+In this chapter, we develop a regularization technique to demodulate
+>>>>>>> 36dbf46e3a835e30ba7c293cb74cd2b27425e635
 a phase-shifting interferogram sequence with arbitrary inter-frame
 phase shifts. With this method, we can recover the modulating phase
 and inter-frame phase shifts in the same process. As all phase-shifting
@@ -32,8 +36,8 @@ interferograms employed and how far we are from the actual phase-shifts
 can occur when the optical
 interferometer setup is uncalibrated or perturbations from the environment
 affect the interferometer\textquoteright{}s optical path. For example,
-for most phase shifters such as a PZT there is a repeatability problem
-from hysteresis, non linearity, and temperature linear drift
+for most phase shifters such as a piezoelectric there is a repeatability 
+problem from hysteresis, non linearity, and temperature linear drift
 \cite{Ai:87,Cheng:85}.
 Curiously, first phase-shifting algorithms where self-tuning nonlinear
 algorithms. Other approaches, propose error compensating
@@ -46,11 +50,9 @@ the phase-shifting algorithm as the 7-steps algorithm shown in
 Further methods use the Fourier transform in order to estimate the
 inter-frame phase-shifts \cite{Larkin:01,Lai:91}, and other are based on the
 least-squares scheme estimating iteratively the inter-frame phase-shifts
-and phase \cite{Kong,Wang:04}. In Ref. 16\cite{Estrada:10}, we presented an
-approach that estimates the local temporal carrier (the phase-shift)
-as the average of the phase difference between two consecutive phase
-maps obtained from two realizations of the tunable 3-steps algorithm.
-What we are going to show in this work, is a regularized self-tuning
+and phase \cite{Kong,Wang:04}.
+
+What we are going to show in this chapter, is a regularized self-tuning
 demodulation technique that obtains the analytical image (complex
 interferogram) and inter-frame phase-shifts from an interferogram
 sequence. Thus, we can recover the modulating phase modulus 2$\pi$
@@ -65,7 +67,7 @@ methods of works \cite{Kong,Wang:04}. Besides, we do not require estimate
 the fringe orientation as the method of work \cite{Larkin:02}.
 
 
-\section{Method }
+\section{Regularized self-tuning method}
 
 In general, an interferogram sequence with arbitrary inter-frame phase-shifts
 can be modeled as 
@@ -84,7 +86,7 @@ I_{k}^{'}(x,y)=I_{k}(x,y)-[I_{k}*h](x,y),\; k=0,1,2,...,N-1,\label{eq:I'}
 \end{equation}
 where $h(x,y)$ is the impulse response of a low-pass filter such
 as a Gaussian or mean filter and \textasteriskcentered{} is the convolution
-operator\cite{Jahne}. Making this, the new interferogram sequence looks
+operator \cite{Jahne}. Making this, the new interferogram sequence looks
 like 
 \begin{equation}
 I_{k}^{'}(x,y)=b^{'}(x,y)cos(\phi(x,y)+\alpha_{k}),\: k=0,1,2,...,N-1.\label{eq:
@@ -99,7 +101,8 @@ work, estimate the inter-frame phase-shifts from the interferogram
 sequence. Therefore, our demodulation method minimizes the following
 quadratic functional
 \begin{eqnarray}
-U(f,\alpha) & = & \sum_{(x,y)}(\varphi(x,y)-I_{0}^{'}(x,y))^{2}+\sum_{k=1}^{N-1}
+U(f,\alpha) & = & \sum_{(x,y)}(\varphi(x,y)-I_{0}^{'}(x,y))^{2}\nonumber \\
+& &+\sum_{k=1}^{N-1}
 \sum_{(x,y)}[\frac{1}{2}[f(x,y)e^{i\alpha_{k}}+f^{*}(x,y)e^{-i\alpha_{k}}]-I_{k}
 ^{'}(x,y)]^{2}\label{eq:U}\\
  &  & +\lambda\sum_{(x,y)}[||D_{x}[f(x,y)]||^{2}+||D_{y}[f(x,y)]||^{2}],\
@@ -124,15 +127,15 @@ reference is the first interferogram, therefore, we consider that
 its phase-shifting is $\alpha_{0}=0$. This is the reason of the first
 data term, which results when $k=0$, and therefore, the second data
 term starts in $k=1$. The minimization process of the functional
-(4) leads to a robust to noise nonlinear phase-shifting algorithm
+(3.4) leads to a robust to noise nonlinear phase-shifting algorithm
 of N-steps that can recover the modulating phase and inter-frame phase
 shifts. With the complex field $\widehat{f}$ and phase-shifts $\alpha$
-that minimize (4), the modulating phase is recovered as 
+that minimize (3.4), the modulating phase is recovered as 
 \begin{equation}
 \phi(x,y)=arg[\widehat{f}(x,y)]=arctan\left[\frac{\hat{\psi}(x,y)}{\widehat{
 \varphi}(x,y)}\right].\label{eq:fi}
 \end{equation}
-The minimization of functional (4), turns us to a nonlinear system
+The minimization of functional (3.4), turns us to a nonlinear system
 that mathematically is impossible to solve by a direct numerical method.
 The dimension problem is $m$ x $n$ x $N$, where $m$ x $n$ is
 the interferogram dimension and $N$ is the number of interferograms.
@@ -169,118 +172,16 @@ n}+i\psi^{n},\alpha^{n})}{\partial\psi(x,y)}=0\right];\;\forall(x,y)\in L
 \alpha_{k}^{n+1}=\alpha_{k}^{n}-\mu\frac{\partial U(\varphi^{n}+i\psi^{n},
 \alpha^{n})}{\partial\alpha_{k}},\: k=0,1,2,...,N-1.
 \end{equation}
-Equations (8) and (9) correspond to the Gauss-Seidel update, and equation
-(10) is the steepest-descent update. In the appendix at the end of
-this paper, we show the explicit formulas of these equations. To see
-this implementation, the reader can download the source code following
-the web link of Ref. 22. Note: the provided source code of Ref. 22
-is for illustration purposes, and it is no optimized as the C-language
-code used for our numerical experiments.
+Equations (3.8) and (3.9) correspond to the Gauss-Seidel update, and equation
+(3.10) is the steepest-descent update. In the next section, we show the explicit 
+formulas of these equations.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Minimization process of the quadratic functional}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Numerical experiments and results}
-
-To obtain the results presented here, the minimization process described
-here made 1000 iterations to reach a relative convergence error of
-$1.322\, x\,10^{-4}$. This relative convergence error is calculated
-as $\sqrt{\sum(\alpha_{k}^{n}-\alpha_{k}^{n+1})^{2}}$, where the
-sum runs over $k=1,2,3,...N\text{\textminus}1$, $\alpha_{k}^{n}$
-is the \emph{k}-phase-shift estimated in the current iteration and
-$\alpha_{k}^{n+1}$ is the \emph{k}-phase-shift of the next iteration.
-This minimization process, coded and compiled in C-language, took
-a time of 11.310 seconds for these 512 \texttimes{} 512 interferogram
-frames in a computer with a 8-cores CPU of 1.73GHz having 8GB of memory
-RAM. The regularization parameter $\lambda$ (see Eq. (4)) was set
-to $\lambda=10$, and the parameter $\mu$ of the steepest-descent
-update was $\mu=\frac{1.2}{512x512}$ (see Eq. (10)). Actually, choosing
-$\mu=\frac{1.2}{512x512}$ is a very good parameter for the steepest-descent
-update of Eq. (10), where $m$ \texttimes{} $n$ is the dimension
-of the interferogram frames. In our numerical experiments, we start
-always the minimization process with initial values of $f=0$, and
-$\alpha_{k}=k\frac{\pi}{2}$ for $k=0,1,2...,N\text{\textminus}1$.
-The interferogram sequence was generated as follows: The \emph{k}-frame
-is given as $I_{k}=b(x,y)cos(\phi(x,y)+\alpha_{k})+\eta(x,y)$, being
-$\eta(x,y)$ a random field of white noise with mean $\gamma=0$ and
-variance $\sigma^{2}=4.84$ radians. The modulation, or contrast term
-$b(x,y)$, was modeled as a parabola centered at pixel $(256,256)$
-of the image frames with a dynamic range between 1 and 3. The inter-frame
-phase-shifts where generated as $\alpha_{k}=\pi+0.4*\varepsilon$
-, where $\varepsilon_{k}$ is a random scalar with a uniform distribution
-between $-\pi$ and $\pi$ radians. Here, we compare our results with
-the so called Advanced Iterative Algorithm (AIA) presented in Ref.
-\cite{Wang:04} because this method estimates the phase and inter-frame
-phase-shifts as well, but using other approach. In Table. 1
-\begin{table}
-\begin{centering}
-\begin{tabular}{|c|c|c|}
-\hline 
-Steps & Proposed Method & AIA Method\tabularnewline
-\hline 
-\hline 
-0 & 0 & 0\tabularnewline
-\hline 
-1 & 0.0766 & 0.0904\tabularnewline
-\hline 
-2 & 0.0637 & 0.7146\tabularnewline
-\hline 
-3 & 0.0569 & 0.7083\tabularnewline
-\hline 
-4 & 0.0569 & 0.5520\tabularnewline
-\hline 
-\end{tabular}
-\par\end{centering}
-
-\caption{This table shows the error obtained between the phase-shift estimation
-and the actual phase-shift.}
-\end{table}
-, we show the errors values of the estimated phase-shifts using our
-regularized method and the estimated using the AIA method. This errors
-are calculated as $|\alpha_{k} - \alpha_{k}|$,
-where $\hat{\alpha}_{k}$ and $\alpha_{k}$ are the values of the
-estimated and actual phase-shifts for the \emph{k}-frame, respectively.
-There we can see that our method estimates the inter-frame phase-shifts
-with less error. On the other hand, in Fig. 1
-\begin{figure}
-\begin{centering}
-\includegraphics[scale=0.2]{Chpt2_figures/Steps.eps}
-\par\end{centering}
-
-\caption{Interferogram sequence and the recovered phase. (A) shows the recovered
-phase and error using the regularized self-tuning method proposed
-here. (B) shows the recovered phase and error using the AIA method{[}15{]}.
-The error shown (in radians) is the standard deviation respecting
-the true phase map. The interferogram frames has a size of 512 \texttimes{}
-512. }
-\end{figure}
-, we show the interferogram sequence and the recovered phase. Fig.
-1.(A) shows the recovered phase using the regularized self-tuning
-demodulation method presented here, while Fig. 1.(B) shows the recovered
-phase using the AIA method. We can see in this figure that our proposed
-regularized self-tuning demodulation method recovers the phase with
-less noise and error than with the AIA method. The errors shown in
-Fig. 1.(A) and Fig. 1.(B) are calculated as standard deviation of
-the difference between the recovered phase map and the true phase
-map used to generate the interferograms.
-
-
-\section{Conclusions}
-
-We have presented a regularized self-tuning phase-shifting demodulation
-method for interferogram sequences having arbitrary variations of
-the inter-frame phase-shifts. This method is robust to non constant
-spatial modulations. As shown in the results, our demodulation method
-is able to filter-out noise, and recover the modulating phase and
-the inter-frame phase-shifts with a minimum error. The demodulation
-method presented here is a nonlinear demodulation method, however,
-we innovate the minimization strategy by mixing the steepest-descent
-update with the Gauss-Seidel update. In this way, we were able to
-speed up the minimization process and obtain the expected results.
-
-
-\section*{APPENDIX}
-
-The iteration updates shown in Eqs. (8), (9) and (10) are given by
-taking the gradient of (4) and solving in the following way:
+The iteration updates shown in Eqs. (3.8), (3.9) and (3.10) are given by
+taking the gradient of (3.4) and solving in the following way:
 \begin{equation}
 \varphi^{n+1}(x,y)=\frac{F_{r}(\varphi^{n}+i\psi^{n},\alpha^{n})}{H_{r}(\alpha^{
 n})}
@@ -324,13 +225,12 @@ $\alpha$) the iteration update is:
 \begin{eqnarray}
 \alpha_{0}^{n+1} & = & 0\\
 \alpha_{k}^{n+1} & = & \alpha_{k}^{n}-\mu\sum_{\forall(x,y)\in L}[\varphi^{n}(x,
-y)cos(\alpha_{k}^{n})+\psi^{n}(x,y)sin(\alpha_{k}^{n})-I_{k}(x,y)]\\
+y)cos(\alpha_{k}^{n})+\psi^{n}(x,y)sin(\alpha_{k}^{n})-I_{k}(x,y)]\nonumber \\
  &  & [\psi^{n}(x,y)cos(\alpha_{k}^{n})-\varphi^{n}(x,y)sin(\alpha_{k}^{n})].
-\nonumber 
 \end{eqnarray}
 \textbf{Note:} suppose that $\alpha$ has the inter-frame phase-shifts
-that minimize (4). Its negative values minimize (4) as well. Then,
-while minimizing (4) it is possible obtain phase-shift values that
+that minimize (3.4). Its negative values minimize (3.4) as well. Then,
+while minimizing (3.4) it is possible obtain phase-shift values that
 looks different to the actual phase-shift values. This is not a problem,
 since we actually are interested in the modulating phase of the interferograms.
 However, it is always worth fix the inter-frame phase-shifts obtained
@@ -346,6 +246,109 @@ if\;\widehat{\alpha}_{k}-\widehat{\alpha}_{k-1}>\pi\\
 \end{equation}
 for $k=1,2,3...N-1$, in order to have our inter-frame
 phase-shifts within the variation range($-\pi,\pi$).
+
+
+\section{Numerical experiments and results}
+
+To obtain the results presented here, the minimization process described
+here made 1000 iterations to reach a relative convergence error of
+$1.322\times10^{-4}$. This relative convergence error is calculated
+as $\sqrt{\sum(\alpha_{k}^{n}-\alpha_{k}^{n+1})^{2}}$, where the
+sum runs over $k=1,2,3,...N\text{\textminus}1$, $\alpha_{k}^{n}$
+is the \emph{k}-phase-shift estimated in the current iteration and
+$\alpha_{k}^{n+1}$ is the \emph{k}-phase-shift of the next iteration.
+This minimization process, coded and compiled in C-language, took
+a time of 11.310 seconds for these 512 \texttimes{} 512 interferogram
+frames in a computer with a 8-cores CPU of 1.73GHz having 8GB of memory
+RAM. The regularization parameter $\lambda$ (see Eq. (3.4)) was set
+to $\lambda=10$, and the parameter $\mu$ of the steepest-descent
+update was $\mu=\frac{1.2}{512\times512}$ (see Eq. (3.10)). Actually, choosing
+$\mu=\frac{1.2}{512\times512}$ is a very good parameter for the steepest-descent
+update of Eq. (3.10), where $m$ \texttimes{} $n$ is the dimension
+of the interferogram frames. In our numerical experiments, we start
+always the minimization process with initial values of $f=0$, and
+$\alpha_{k}=k\frac{\pi}{2}$ for $k=0,1,2...,N\text{\textminus}1$.
+The interferogram sequence was generated as follows: The \emph{k}-frame
+is given as $I_{k}=b(x,y)cos(\phi(x,y)+\alpha_{k})+\eta(x,y)$, being
+$\eta(x,y)$ a random field of white noise with mean $\gamma=0$ and
+variance $\sigma^{2}=4.84$ radians. The modulation, or contrast term
+$b(x,y)$, was modeled as a parabola centered at pixel $(256,256)$
+of the image frames with a dynamic range between 1 and 3. The inter-frame
+phase-shifts where generated as $\alpha_{k}=\pi+0.4*\varepsilon$
+, where $\varepsilon_{k}$ is a random scalar with a uniform distribution
+between $-\pi$ and $\pi$ radians. Here, we compare our results with
+the so called Advanced Iterative Algorithm (AIA) presented in Ref.
+\cite{Wang:04} because this method estimates the phase and inter-frame
+phase-shifts as well, but using other approach.
+\begin{table}
+\begin{centering}
+\begin{tabular}{|c|c|c|}
+\hline 
+Steps & Proposed Method & AIA Method\tabularnewline
+\hline 
+\hline 
+0 & 0 & 0\tabularnewline
+\hline 
+1 & 0.0766 & 0.0904\tabularnewline
+\hline 
+2 & 0.0637 & 0.7146\tabularnewline
+\hline 
+3 & 0.0569 & 0.7083\tabularnewline
+\hline 
+4 & 0.0569 & 0.5520\tabularnewline
+\hline 
+\end{tabular}
+\par\end{centering}
+
+\caption{This table shows the error obtained between the phase-shift estimation
+and the actual phase-shift.}
+\end{table}
+In Table. 1, we show the errors values of the estimated phase-shifts using our
+regularized method and the estimated using the AIA method. This errors
+are calculated as $|\alpha_{k} - \alpha_{k}|$,
+where $\hat{\alpha}_{k}$ and $\alpha_{k}$ are the values of the
+estimated and actual phase-shifts for the \emph{k}-frame, respectively.
+There we can see that our method estimates the inter-frame phase-shifts
+with less error. On the other hand, in Fig. 1, we show the interferogram 
+sequence and the recovered phase. Fig.
+1.(A) shows the recovered phase using the regularized self-tuning
+demodulation method presented here, while Fig. 1.(B) shows the recovered
+phase using the AIA method. We can see in this figure that our proposed
+regularized self-tuning demodulation method recovers the phase with
+less noise and error than with the AIA method. The errors shown in
+Fig. 1.(A) and Fig. 1.(B) are calculated as standard deviation of
+the difference between the recovered phase map and the true phase
+map used to generate the interferograms.
+
+\begin{figure}
+\begin{centering}
+\includegraphics[scale=0.2]{Chpt2_figures/Steps.eps}
+\par\end{centering}
+
+\caption{Interferogram sequence and the recovered phase. (A) shows the recovered
+phase and error using the regularized self-tuning method proposed
+here. (B) shows the recovered phase and error using the AIA method{[}15{]}.
+The error shown (in radians) is the standard deviation respecting
+the true phase map. The interferogram frames has a size of 512 \texttimes{}
+512.}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%
+\section{Conclusions}
+%%%%%%%%%%%%%%%%%
+
+We have presented a regularized self-tuning phase-shifting 
+demodulation method for interferogram sequences having arbitrary variations of 
+the inter-frame 
+phase-shifts. This method is robust to non constant spatial modulations. As shown 
+in the results, our demodulation method is able to filter-out noise, and recover 
+the modulating phase and the inter-frame phase-shifts with a minimum error. The 
+demodulation method presented here is a nonlinear demodulation method, however, 
+we innovate the minimization strategy by mixing the steepest-descent update with 
+the Gauss-Seidel update. In this way, we were able to speed up the minimization 
+process and obtain the expected results.
+
+
 
 
 %\bibliographystyle{plain}

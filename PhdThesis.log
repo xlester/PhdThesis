@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.9.21)  10 NOV 2014 18:05
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.9.21)  28 APR 2015 13:47
 entering extended mode
  %&-line parsing enabled.
 **PhdThesis.tex
@@ -8,8 +8,8 @@ Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, loaded.
 (/usr/share/texmf-texlive/tex/latex/base/book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf-texlive/tex/latex/base/bk11.clo
-File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/share/texmf-texlive/tex/latex/base/bk12.clo
+File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -138,10 +138,11 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 (/etc/texmf/tex/latex/config/graphics.cfg
 File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: dvips.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
-File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count101
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
@@ -152,19 +153,19 @@ Package: blindtext 2009/06/14 V1.9b blindtext-Package
 (/usr/share/texmf-texlive/tex/latex/tools/xspace.sty
 Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
 )
-\c@blindtext=\count101
-\c@Blindtext=\count102
-\blind@countxx=\count103
-\blindtext@numBlindtext=\count104
-\blind@countyy=\count105
-\c@blindlist=\count106
-\c@blindlistlevel=\count107
-\c@blindlist@level=\count108
-\blind@listitem=\count109
-\c@blind@listcount=\count110
-\c@blind@levelcount=\count111
-\blind@mathformula=\count112
-\blind@Mathformula=\count113
+\c@blindtext=\count102
+\c@Blindtext=\count103
+\blind@countxx=\count104
+\blindtext@numBlindtext=\count105
+\blind@countyy=\count106
+\c@blindlist=\count107
+\c@blindlistlevel=\count108
+\c@blindlist@level=\count109
+\blind@listitem=\count110
+\c@blind@listcount=\count111
+\c@blind@levelcount=\count112
+\blind@mathformula=\count113
+\blind@Mathformula=\count114
 )
 (/usr/share/texmf-texlive/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
@@ -275,22 +276,21 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 \pgf@yc=\dimen122
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count114
-\c@pgf@countb=\count115
-\c@pgf@countc=\count116
-\c@pgf@countd=\count117
+\c@pgf@counta=\count115
+\c@pgf@countb=\count116
+\c@pgf@countc=\count117
+\c@pgf@countd=\count118
 
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Package pgfsys Info: Driver file for pgf: pgfsys-dvips.def on input line 900.
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
 
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-dvips.def
-File: pgfsys-dvips.def 2008/04/03  (rcs-revision 1.20)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
 
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-postscript.def
-File: pgfsys-common-postscript.def 2008/10/01  (rcs-revision 1.22)
-\pgf@objectcount=\count118
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 )))
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
@@ -306,8 +306,9 @@ Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 (/etc/texmf/tex/latex/config/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
@@ -642,7 +643,19 @@ File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 9.
 
-ABD: EveryShipout initializing macros
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count145
+\scratchdimen=\dimen173
+\scratchbox=\box38
+\nofMPsegments=\count146
+\nofMParguments=\count147
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count148
+\MPscratchDim=\dimen174
+\MPnumerator=\count149
+\everyMPtoPDFconversion=\toks42
+) ABD: EveryShipout initializing macros
 LaTeX Font Info:    Try loading font information for U+msa on input line 12.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
@@ -655,25 +668,25 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) [1
 
 
-] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 
 ] (./PhdThesis.toc
-Overfull \hbox (13.26361pt too wide) in paragraph at lines 8--8
- [] []\OT1/cmr/bx/n/10.95 Regularized it-er-a-tive least-squares al-go-rithm fo
-r phase-shifting 
+Overfull \hbox (9.71918pt too wide) in paragraph at lines 10--10
+ [] []\OT1/cmr/bx/n/12 Regularized it-er-a-tive least-squares al-go-rithm for p
+hase-shifting 
  []
 
 
-Overfull \hbox (7.95439pt too wide) in paragraph at lines 15--15
- [] []\OT1/cmr/bx/n/10.95 Regularized self-tuning phase de-mod-u-la-tion for ph
-ase-shifting 
+Overfull \hbox (4.19275pt too wide) in paragraph at lines 16--16
+ [] []\OT1/cmr/bx/n/12 Regularized self-tuning phase de-mod-u-la-tion for phase
+-shifting 
  []
 
 
-Overfull \hbox (7.66537pt too wide) in paragraph at lines 21--21
- [] []\OT1/cmr/bx/n/10.95 Robust adap-tive phase-shifting de-mod-u-la-tion for 
-test-ing mov- 
+Overfull \hbox (3.98442pt too wide) in paragraph at lines 23--23
+ [] []\OT1/cmr/bx/n/12 Robust adap-tive phase-shifting de-mod-u-la-tion for tes
+t-ing mov- 
  []
 
 [3])
@@ -681,243 +694,458 @@ test-ing mov-
 \openout5 = `PhdThesis.toc'.
 
  [4] (./PhdThesis.lof
-Overfull \hbox (2.80032pt too wide) in paragraph at lines 4--4
- \OT1/cmr/m/n/10.95 se-quences. b) Re-cov-ered phase map us-ing clas-sic least-
-squares. 
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5
 
 ]
-Overfull \hbox (7.43396pt too wide) in paragraph at lines 12--12
- [][] []\OT1/cmr/m/n/10.95 Phase dif-fer-ence with re-spect to x (par-tial ap-p
-rox-i-mated deriva- 
+Overfull \hbox (4.10847pt too wide) in paragraph at lines 12--12
+ [][] []\OT1/cmr/m/n/12 Phase dif-fer-ence with re-spect to x (par-tial ap-prox
+-i-mated deriva- 
  []
 
 
-Overfull \hbox (3.04378pt too wide) in paragraph at lines 16--16
- \OT1/cmr/m/n/10.95 Shows the un-wrapped phase with de-tun-ing er-ror of Fig. 5
-.1[](a). 
- []
+Underfull \vbox (badness 6332) has occurred while \output is active []
 
-)
+ [6])
 \tf@lof=\write6
 \openout6 = `PhdThesis.lof'.
 
- [6] [7] [8
 
-]
-(./Chpt1_FringePatternDemodulation/Chpt1_FringePatternDemodulation.tex
+[7] [8
+
+] (./Chpt1_FringePatternDemodulation/Chpt1_FringePatternDemodulation.tex
 Chapter 1.
 [1
 
 ]
-Overfull \hbox (2.08742pt too wide) in paragraph at lines 59--67
-\OML/cmm/m/it/10.95 c\OT1/cmr/m/n/10.95 ) \OMS/cmsy/m/n/10.95 6\OT1/cmr/m/n/10.
-95 = [](\OMS/cmsy/m/n/10.95 ^^@\OML/cmm/m/it/10.95 ^^^ \OT1/cmr/m/n/10.95 + \OM
-L/cmm/m/it/10.95 c\OT1/cmr/m/n/10.95 )$. They also al-low to iso-late the an-a-
-lytic sig-nal $[]\OML/cmm/m/it/10.95 b\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x
-; y\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 e[]$\OT1/cmr/m/n/10.95 .
+
+LaTeX Warning: Command \c invalid in math mode on input line 58.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 60.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 64.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 64.
+
+
+Overfull \hbox (3.09874pt too wide) in paragraph at lines 59--67
+[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 6\OT1/cmr/m/n/12 = [](\OMS/cmsy/m/n/12 ^^@
+\OML/cmm/m/it/12 ^^^ \OT1/cmr/m/n/12 + [])$. They also al-low to iso-late the a
+n-a-lytic sig-nal $[]\OML/cmm/m/it/12 b\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; y\O
+T1/cmr/m/n/12 )\OML/cmm/m/it/12 e[]$\OT1/cmr/m/n/12 .
  []
 
-[2]
 
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
+LaTeX Warning: Command \c invalid in math mode on input line 68.
 
-See the inputenc package documentation for explanation.
+[2] [3]
+
+LaTeX Warning: Command \c invalid in math mode on input line 156.
+
+[4] [5]) (./Chpt1_RegularizedLeastSquares/Chpt1_RegularizedLeastSquares.tex
+[6]
+Chapter 2.
+[7
+
+]
+Overfull \hbox (23.96906pt too wide) in paragraph at lines 80--80
+[] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (25.3pt): 
+ Make it at least 27.18336pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.106 Thus, the application of this quadrature ^^\
-                                                  lter produces the followin...
+l.109 ...hics[scale=0.25]{Chpt1_figures/Fig_1.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
 
-[3]) (./Chpt1_RegularizedLeastSquares/Chpt1_RegularizedLeastSquares.tex
-[4]
-Chapter 2.
-[5
+! LaTeX Error: Unknown graphics extension: .eps.
 
-]
-File: Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_1.eps Graphic file (type 
-eps)
- <Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_1.eps> [6] [7]
-File: Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_2.eps Graphic file (type 
-eps)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 ...phics[scale=0.3]{Chpt1_figures/Fig_2.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_2.eps>
-Underfull \vbox (badness 2165) has occurred while \output is active []
-
- [8]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9]
-[10]) (./Chpt2_RegularizedSelfTuning/Chpt2_RegularizedSelfTuning.tex [11]
-[12
+[9] [10]) (./Chpt2_RegularizedSelfTuning/Chpt2_RegularizedSelfTuning.tex
+[11] [12
 
 ]
 Chapter 3.
 
-Overfull \hbox (0.5799pt too wide) in paragraph at lines 5--17
-\OT1/cmr/m/n/10.95 shifting in-ter-fer-o-gram se-quence with ar-bi-trary inter-
-frame phase shifts. With
+Overfull \hbox (5.57506pt too wide) in paragraph at lines 6--21
+\OT1/cmr/m/n/12 In this work, we de-velop a reg-u-lar-iza-tion tech-nique to de
+-mod-u-late =======
  []
 
 [13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
-Overfull \hbox (67.13329pt too wide) in alignment at lines 101--107
- [][][] []
- []
-
 [15] [16]
-File: Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps.eps Graphic file (type ep
-s)
- <Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps.eps> [17]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (16.7858pt too wide) in paragraph at lines 180--180
+[]\OT1/cmr/bx/n/17.28 Minimization pro-cess of the quadratic func-
+ []
 
- [18]
-[19]) (./Chpt3_RobustAdaptive/Chpt3_RobustAdaptive.tex [20]
+[17] [18]
+Underfull \vbox (badness 1824) has occurred while \output is active []
+
+ [19]
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.325 ...phics[scale=0.2]{Chpt2_figures/Steps.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (14.97496pt too wide) in paragraph at lines 340--350
+\OT1/cmr/m/n/12 We have pre-sented a reg-u-lar-ized self-tuning phase-shifting 
+de-mod-u-la-tion method
+ []
+
+) (./Chpt3_RobustAdaptive/Chpt3_RobustAdaptive.tex [20]
 Chapter 4.
-[21
 
-] [22]
-Overfull \hbox (106.55006pt too wide) detected at line 119
-[] [] \OT1/cmr/m/n/10.95 = [] \OML/cmm/m/it/10.95 :
- []
+Underfull \vbox (badness 1226) has occurred while \output is active []
 
-
-Overfull \hbox (67.77734pt too wide) detected at line 132
-\OML/cmm/m/it/10.95 E\OT1/cmr/m/n/10.95 [\OML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.9
-5 (\OML/cmm/m/it/10.95 x; y\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 ; g[]\OT1/cm
-r/m/n/10.95 (\OML/cmm/m/it/10.95 x; y\OT1/cmr/m/n/10.95 )] = [] [] []\OMS/cmsy/
-m/n/10.95 f\OML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 m; n\OT
-1/cmr/m/n/10.95 ) + \OML/cmm/m/it/10.95 Re\OMS/cmsy/m/n/10.95 f\OML/cmm/m/it/10
-.95 g[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 m; n\OT1/cmr/m/n/10.95 )\OML/cmm
-/m/it/10.95 e[]\OMS/cmsy/m/n/10.95 g ^^@ \OML/cmm/m/it/10.95 I[]\OT1/cmr/m/n/10
-.95 (\OML/cmm/m/it/10.95 m; n\OT1/cmr/m/n/10.95 )\OMS/cmsy/m/n/10.95 g\OML/cmm/
-m/it/10.95 h\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x \OMS/cmsy/m/n/10.95 ^^@ \
-OML/cmm/m/it/10.95 m; y \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 n\OT1/cmr/m
-/n/10.95 )[][]
- []
-
-
-Overfull \hbox (48.32043pt too wide) detected at line 160
-[] [] \OT1/cmr/m/n/10.95 = []
- []
-
-[23] [24]
-File: Chpt3_RobustAdaptive/Chpt3_figures/fig_1.eps Graphic file (type eps)
- <Chpt3_RobustAdaptive/Chpt3_figures/fig_1.eps>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25]
-File: Chpt3_RobustAdaptive/Chpt3_figures/fig_2.eps Graphic file (type eps)
-
-<Chpt3_RobustAdaptive/Chpt3_figures/fig_2.eps> [26]
-File: Chpt3_RobustAdaptive/Chpt3_figures/fig_3.eps Graphic file (type eps)
-
-<Chpt3_RobustAdaptive/Chpt3_figures/fig_3.eps>
-File: Chpt3_RobustAdaptive/Chpt3_figures/fig_4.eps Graphic file (type eps)
-
-<Chpt3_RobustAdaptive/Chpt3_figures/fig_4.eps>
-Underfull \vbox (badness 3623) has occurred while \output is active []
-
- [27]
-[28]
-Underfull \vbox (badness 1348) has occurred while \output is active []
-
- [29])
-(./Chpt4_PhaseDetuningCorrecting/Chpt4_PhaseDetuningCorrecting.tex [30]
-Chapter 5.
-[31
+ [21
 
 ]
-File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1aNoise.eps Graphic file 
-(type eps)
- <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1aNoise.eps>
-File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1bNoise.eps Graphic file 
-(type eps)
-
-<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1bNoise.eps>
-File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error.eps Graphic file (ty
-pe eps)
-
-<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error.eps> [32] [33] [34]
-File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/FaseError_Ideal_3D.eps Graphi
-c file (type eps)
-
-<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/FaseError_Ideal_3D.eps>
-File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fase_Ideal_3D.eps Graphic fil
-e (type eps)
-
-<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fase_Ideal_3D.eps>
-Overfull \hbox (2.40088pt too wide) in paragraph at lines 200--206
- [] 
+[22]
+Overfull \hbox (106.99892pt too wide) detected at line 119
+[] [] \OT1/cmr/m/n/12 = [] \OML/cmm/m/it/12 :
  []
+
+
+Overfull \hbox (63.97235pt too wide) detected at line 132
+\OML/cmm/m/it/12 E\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 a\OT1/cmr/m/n/12 (\OML/cmm/
+m/it/12 x; y\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; g[]\OT1/cmr/m/n/12 (\OML/cmm/m/
+it/12 x; y\OT1/cmr/m/n/12 )] = [] [] []\OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 a\OT1
+/cmr/m/n/12 (\OML/cmm/m/it/12 m; n\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 Re\OMS/c
+msy/m/n/12 f\OML/cmm/m/it/12 g[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 m; n\OT1/cmr/
+m/n/12 )\OML/cmm/m/it/12 e[]\OMS/cmsy/m/n/12 g ^^@ \OML/cmm/m/it/12 I[]\OT1/cmr
+/m/n/12 (\OML/cmm/m/it/12 m; n\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 g\OML/cmm/m/it/
+12 h\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 m
+; y \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 n\OT1/cmr/m/n/12 )[][]
+ []
+
+[23]
+Overfull \hbox (46.02188pt too wide) detected at line 160
+[] [] \OT1/cmr/m/n/12 = []
+ []
+
+
+Overfull \hbox (42.33188pt too wide) in paragraph at lines 176--178
+[]\OT1/cmr/m/n/12 Start the pro-cess by set-ting ini-tial val-ues for $\OML/cmm
+/m/it/12 ^^L[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; y\OT1/cmr/m/n/12 )\OML/cmm/m
+/it/12 ; \OMS/cmsy/m/n/12 8\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; y\OT1/cmr/m/n/1
+2 )\OML/cmm/m/it/12 ; k \OT1/cmr/m/n/12 = 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1
+\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; [] ; K \OMS/cmsy/m/n/12 
+^^@
+ []
+
+[24]
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.212 ...phics[scale=0.4]{Chpt3_figures/fig_1.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[25]
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.257 ...phics[scale=0.2]{Chpt3_figures/fig_2.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[26]
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.299 ...phics[scale=0.3]{Chpt3_figures/fig_3.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.309 ...phics[scale=0.3]{Chpt3_figures/fig_4.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \vbox (badness 5161) has occurred while \output is active []
+
+ [27]
+[28]) (./Chpt4_PhaseDetuningCorrecting/Chpt4_PhaseDetuningCorrecting.tex
+[29] [30
+
+]
+Chapter 5.
+
+Underfull \vbox (badness 1226) has occurred while \output is active []
+
+ [31]
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ...cale=0.75]{Chpt4_figures/Fig_1aNoise.eps}
+                                                  &
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 ...cale=0.75]{Chpt4_figures/Fig_1bNoise.eps}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122 ...s[scale=0.75]{Chpt4_figures/2D_error.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (21.87784pt too wide) in paragraph at lines 133--133
+[]\OT1/cmr/bx/n/17.28 Phase de-tun-ing cor-rec-tion method (PDCM) 
+ []
+
+
+Underfull \vbox (badness 1648) has occurred while \output is active []
+
+ [32]
+[33]
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202 ...th]{Chpt4_figures/FaseError_Ideal_3D.eps}
+                                                  &
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.203 ...mnwidth]{Chpt4_figures/Fase_Ideal_3D.eps}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[34]
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.302 ...hics[scale=.43]{Chpt4_figures/fig_E1.eps}
+                                                  &
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.303 ...ics[scale=2.35]{Chpt4_figures/fig_E2.eps}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [35]
-File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E1.eps Graphic file (type
- eps)
- <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E1.eps>
-File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E2.eps Graphic file (type
- eps)
 
-<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E2.eps>
-File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E3.eps Graphic file (type
- eps)
+! LaTeX Error: Unknown graphics extension: .eps.
 
-<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E3.eps> [36]
-Underfull \vbox (badness 1472) has occurred while \output is active []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.315 ...hics[scale=0.6]{Chpt4_figures/fig_E3.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
- [37]
+[36] [37]
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.392 ...t4_figures/fig_mFaseErrorFrecuencias.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 [38]
-Overfull \hbox (2.38123pt too wide) in paragraph at lines 388--388
-[]\OT1/cmr/bx/n/14.4 Appendix. Lo-cal fre-quency cal-cu-la-tion in pres-
- []
 
-File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_mFaseErrorFrecuencias.eps
- Graphic file (type eps)
-<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_mFaseErrorFrecuencias.eps>
-Underfull \vbox (badness 2150) has occurred while \output is active []
+! LaTeX Error: Unknown graphics extension: .eps.
 
- [39]
-File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltradaMal.eps Grap
-hic file (type eps)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.428 ...]{Chpt4_figures/Fig_eFaseFiltradaMal.eps}
+                                                  &
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltradaMal.eps>
-File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltrada.eps Graphic
- file (type eps)
 
-<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltrada.eps>
-File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias1.eps Graphic 
-file (type eps)
+! LaTeX Error: Unknown graphics extension: .eps.
 
-<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias1.eps>
-File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias2.eps Graphic 
-file (type eps)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.429 ....45]{Chpt4_figures/Fig_eFaseFiltrada.eps}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias2.eps>
-File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias3.eps Graphic 
-file (type eps)
 
-<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias3.eps>)
-(./PhdThesis.bbl [40] [41] [42
+! LaTeX Error: Unknown graphics extension: .eps.
 
-] [43] [44] [45] [46]) [47] (./PhdThesis.aux) ) 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.453 ...0.45]{Chpt4_figures/Fig_frecuencias1.eps}
+                                                  &
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.454 ...0.45]{Chpt4_figures/Fig_frecuencias2.eps}
+                                                  &
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.455 ...0.45]{Chpt4_figures/Fig_frecuencias3.eps}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (./PhdThesis.bbl [39] [40
+
+] [41] [42] [43] [44]) [45] (./PhdThesis.aux) ) 
 Here is how much of TeX's memory you used:
- 15209 strings out of 495062
- 322029 string characters out of 1182644
- 400697 words of memory out of 3000000
- 18003 multiletter control sequences out of 15000+50000
- 14601 words of font info for 53 fonts, out of 3000000 for 9000
+ 15561 strings out of 495061
+ 325785 string characters out of 1182621
+ 405306 words of memory out of 3000000
+ 18349 multiletter control sequences out of 15000+50000
+ 15043 words of font info for 56 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 70i,12n,63p,579b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 70i,12n,63p,579b,550s stack positions out of 5000i,500n,10000p,200000b,50000s
+ </home/orlando/.texmf-var/fonts
+/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmbxti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex
+10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/symbols/msam10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/symbols/msbm10.pfb>
+Output written on PhdThesis.pdf (53 pages, 327522 bytes).
+PDF statistics:
+ 247 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on PhdThesis.dvi (55 pages, 161984 bytes).
