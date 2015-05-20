@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.9.21)  28 APR 2015 13:47
+=======
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.14)  1 FEB 2015 19:58
+>>>>>>> de28d94f6f32c031b6fc0691a234ea20ec5a0b71
 entering extended mode
  %&-line parsing enabled.
 **PhdThesis.tex
@@ -746,12 +750,17 @@ LaTeX Warning: Command \c invalid in math mode on input line 68.
 
 LaTeX Warning: Command \c invalid in math mode on input line 156.
 
-[4] [5]) (./Chpt1_RegularizedLeastSquares/Chpt1_RegularizedLeastSquares.tex
-[6]
-Chapter 2.
-[7
+[4] [5] [6]
+Overfull \hbox (7.04507pt too wide) in alignment at lines 264--270
+ [][][] []
+ []
+
+) (./Chpt1_RegularizedLeastSquares/Chpt1_RegularizedLeastSquares.tex [7]
+[8
 
 ]
+Chapter 2.
+[9]
 Overfull \hbox (23.96906pt too wide) in paragraph at lines 80--80
 [] 
  []
@@ -762,6 +771,7 @@ Package Fancyhdr Warning: \headheight is too small (25.3pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+<<<<<<< HEAD
 [8]
 
 ! LaTeX Error: Unknown graphics extension: .eps.
@@ -833,17 +843,64 @@ de-mod-u-la-tion method
 Chapter 4.
 
 Underfull \vbox (badness 1226) has occurred while \output is active []
+=======
+[10]
+File: Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_1.eps Graphic file (type 
+eps)
+ <Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_1.eps>
+File: Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_2.eps Graphic file (type 
+eps)
 
- [21
+<Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_2.eps> [11] [12] [13])
+(./Chpt2_RegularizedSelfTuning/Chpt2_RegularizedSelfTuning.tex [14]
+Chapter 3.
+[15
+
+] [16] [17] [18]
+Overfull \hbox (16.7858pt too wide) in paragraph at lines 175--175
+[]\OT1/cmr/bx/n/17.28 Minimization pro-cess of the quadratic func-
+ []
+
+[19] [20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+File: Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps.eps Graphic file (type ep
+s)
+
+<Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps.eps>
+Overfull \hbox (14.97496pt too wide) in paragraph at lines 335--345
+\OT1/cmr/m/n/12 We have pre-sented a reg-u-lar-ized self-tuning phase-shifting 
+de-mod-u-la-tion method
+ []
+
+) (./Chpt3_RobustAdaptive/Chpt3_RobustAdaptive.tex [22]
+Chapter 4.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+>>>>>>> de28d94f6f32c031b6fc0691a234ea20ec5a0b71
+
+ [23
 
 ]
+<<<<<<< HEAD
 [22]
+=======
+Underfull \vbox (badness 1152) has occurred while \output is active []
+
+ [24]
+>>>>>>> de28d94f6f32c031b6fc0691a234ea20ec5a0b71
 Overfull \hbox (106.99892pt too wide) detected at line 119
 [] [] \OT1/cmr/m/n/12 = [] \OML/cmm/m/it/12 :
  []
 
+<<<<<<< HEAD
 
 Overfull \hbox (63.97235pt too wide) detected at line 132
+=======
+[25]
+Overfull \hbox (65.05989pt too wide) detected at line 132
+>>>>>>> de28d94f6f32c031b6fc0691a234ea20ec5a0b71
 \OML/cmm/m/it/12 E\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 a\OT1/cmr/m/n/12 (\OML/cmm/
 m/it/12 x; y\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; g[]\OT1/cmr/m/n/12 (\OML/cmm/m/
 it/12 x; y\OT1/cmr/m/n/12 )] = [] [] []\OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 a\OT1
@@ -860,7 +917,11 @@ Overfull \hbox (46.02188pt too wide) detected at line 160
 [] [] \OT1/cmr/m/n/12 = []
  []
 
+<<<<<<< HEAD
 
+=======
+[26]
+>>>>>>> de28d94f6f32c031b6fc0691a234ea20ec5a0b71
 Overfull \hbox (42.33188pt too wide) in paragraph at lines 176--178
 []\OT1/cmr/m/n/12 Start the pro-cess by set-ting ini-tial val-ues for $\OML/cmm
 /m/it/12 ^^L[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; y\OT1/cmr/m/n/12 )\OML/cmm/m
@@ -870,6 +931,7 @@ Overfull \hbox (42.33188pt too wide) in paragraph at lines 176--178
 ^^@
  []
 
+<<<<<<< HEAD
 [24]
 
 ! LaTeX Error: Unknown graphics extension: .eps.
@@ -921,9 +983,19 @@ l.309 ...phics[scale=0.3]{Chpt3_figures/fig_4.eps}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+=======
+[27]
+File: Chpt3_RobustAdaptive/Chpt3_figures/fig_1.eps Graphic file (type eps)
+ <Chpt3_RobustAdaptive/Chpt3_figures/fig_1.eps> [28]
+File: Chpt3_RobustAdaptive/Chpt3_figures/fig_2.eps Graphic file (type eps)
+
+<Chpt3_RobustAdaptive/Chpt3_figures/fig_2.eps> [29]
+File: Chpt3_RobustAdaptive/Chpt3_figures/fig_3.eps Graphic file (type eps)
+>>>>>>> de28d94f6f32c031b6fc0691a234ea20ec5a0b71
 
 Underfull \vbox (badness 5161) has occurred while \output is active []
 
+<<<<<<< HEAD
  [27]
 [28]) (./Chpt4_PhaseDetuningCorrecting/Chpt4_PhaseDetuningCorrecting.tex
 [29] [30
@@ -982,6 +1054,55 @@ Underfull \vbox (badness 1648) has occurred while \output is active []
 [33]
 
 ! LaTeX Error: Unknown graphics extension: .eps.
+=======
+<Chpt3_RobustAdaptive/Chpt3_figures/fig_4.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+[31] [32]) (./Chpt4_PhaseDetuningCorrecting/Chpt4_PhaseDetuningCorrecting.tex
+[33] [34
+
+]
+Chapter 5.
+[35]
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1aNoise.eps Graphic file 
+(type eps)
+ <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1aNoise.eps>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1bNoise.eps Graphic file 
+(type eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1bNoise.eps> [36]
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error.eps Graphic file (ty
+pe eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error.eps>
+Overfull \hbox (33.61787pt too wide) in paragraph at lines 131--131
+[]\OT1/cmr/bx/n/17.28 Phase De-tun-ing Cor-rect-ing Method (PDCM) 
+ []
+
+[37] [38]
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/FaseError_Ideal_3D.eps Graphi
+c file (type eps)
+ <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/FaseError_Ideal_3D.eps>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fase_Ideal_3D.eps Graphic fil
+e (type eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fase_Ideal_3D.eps>
+Overfull \hbox (0.60095pt too wide) in paragraph at lines 197--203
+ [] 
+ []
+
+[39]
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E1.eps Graphic file (type
+ eps)
+ <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E1.eps>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E2.eps Graphic file (type
+ eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E2.eps> [40]
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E3.eps Graphic file (type
+ eps)
+>>>>>>> de28d94f6f32c031b6fc0691a234ea20ec5a0b71
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -992,6 +1113,7 @@ l.202 ...th]{Chpt4_figures/FaseError_Ideal_3D.eps}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+<<<<<<< HEAD
 
 ! LaTeX Error: Unknown graphics extension: .eps.
 
@@ -1016,6 +1138,23 @@ l.302 ...hics[scale=.43]{Chpt4_figures/fig_E1.eps}
                                                   &
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
+=======
+ [41]
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_mFaseErrorFrecuencias.eps
+ Graphic file (type eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_mFaseErrorFrecuencias.eps>
+[42]
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltradaMal.eps Grap
+hic file (type eps)
+ <Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltradaMal.eps>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltrada.eps Graphic
+ file (type eps)
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_eFaseFiltrada.eps> [43]
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias1.eps Graphic 
+file (type eps)
+>>>>>>> de28d94f6f32c031b6fc0691a234ea20ec5a0b71
 
 
 ! LaTeX Error: Unknown graphics extension: .eps.
@@ -1116,9 +1255,20 @@ l.455 ...0.45]{Chpt4_figures/Fig_frecuencias3.eps}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+<<<<<<< HEAD
 ) (./PhdThesis.bbl [39] [40
 
 ] [41] [42] [43] [44]) [45] (./PhdThesis.aux) ) 
+=======
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_frecuencias3.eps> [44])
+(./PhdThesis.bbl [45] [46] [47
+
+] [48] [49] [50]) [51] (./PhdThesis.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+>>>>>>> de28d94f6f32c031b6fc0691a234ea20ec5a0b71
 Here is how much of TeX's memory you used:
  15561 strings out of 495061
  325785 string characters out of 1182621
@@ -1149,3 +1299,7 @@ PDF statistics:
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+<<<<<<< HEAD
+=======
+Output written on PhdThesis.dvi (59 pages, 171100 bytes).
+>>>>>>> de28d94f6f32c031b6fc0691a234ea20ec5a0b71
