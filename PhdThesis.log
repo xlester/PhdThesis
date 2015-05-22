@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.14)  21 MAY 2015 19:27
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.14)  21 MAY 2015 22:07
 entering extended mode
  %&-line parsing enabled.
 **PhdThesis.tex
@@ -698,7 +698,7 @@ LaTeX Warning: Command \c invalid in math mode on input line 64.
 LaTeX Warning: Command \c invalid in math mode on input line 64.
 
 
-Overfull \hbox (3.09874pt too wide) in paragraph at lines 59--67
+Overfull \hbox (3.09874pt too wide) in paragraph at lines 59--68
 []\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 6\OT1/cmr/m/n/12 = [](\OMS/cmsy/m/n/12 ^^@
 \OML/cmm/m/it/12 ^^^ \OT1/cmr/m/n/12 + [])$. They also al-low to iso-late the a
 n-a-lytic sig-nal $[]\OML/cmm/m/it/12 b\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; y\O
@@ -706,23 +706,18 @@ T1/cmr/m/n/12 )\OML/cmm/m/it/12 e[]$\OT1/cmr/m/n/12 .
  []
 
 
-LaTeX Warning: Command \c invalid in math mode on input line 68.
+LaTeX Warning: Command \c invalid in math mode on input line 69.
 
-[2] [3]
+[2] [3] [4]
 
-LaTeX Warning: Command \c invalid in math mode on input line 156.
+LaTeX Warning: Command \c invalid in math mode on input line 176.
 
-[4] [5] [6]
-Overfull \hbox (7.04507pt too wide) in alignment at lines 264--270
- [][][] []
- []
-
-) (./Chpt1_RegularizedLeastSquares/Chpt1_RegularizedLeastSquares.tex [7]
-[8
+[5] [6] [7]) (./Chpt1_RegularizedLeastSquares/Chpt1_RegularizedLeastSquares.tex
+[8]
+Chapter 2.
+[9
 
 ]
-Chapter 2.
-[9]
 
 Package Fancyhdr Warning: \headheight is too small (25.3pt): 
  Make it at least 27.18336pt.
@@ -864,12 +859,12 @@ file (type eps)
 
 ] [48] [49] [50]) [51] (./PhdThesis.aux) ) 
 Here is how much of TeX's memory you used:
- 13685 strings out of 495062
- 283726 string characters out of 1182644
+ 13688 strings out of 495062
+ 283799 string characters out of 1182644
  377871 words of memory out of 3000000
- 16504 multiletter control sequences out of 15000+50000
+ 16507 multiletter control sequences out of 15000+50000
  18471 words of font info for 69 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  61i,14n,55p,579b,549s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on PhdThesis.dvi (59 pages, 171376 bytes).
+Output written on PhdThesis.dvi (59 pages, 173172 bytes).
