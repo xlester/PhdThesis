@@ -1,19 +1,19 @@
 \chapter{Regularized iterative least-squares algorithm for phase-shifting
 interferometry}
 
-The most known and used PSI demodulation methods 
-are one-dimensional temporal linear systems that use the information of the 
-interferogram sequence at a single pixel to recover the modulating phase. 
-Accordingly, scanning all pixels, we obtain the 2D modulated phase sought. 
-As PSI demodulation methods do not take into account spatial information, 
-these methods can not remove unwanted harmonics or noise from the interferogram 
-image space (spatial domain). To remove these unwanted artifacts from the image 
+The most known and used PSI demodulation methods are one-dimensional temporal 
+linear systems that use the information of the interferogram sequence at a single 
+pixel to recover the modulating phase. Accordingly, scanning all pixels, we obtain 
+the 2D modulated phase sought. As PSI demodulation methods do not take into account 
+spatial information, these methods can not remove unwanted harmonics or noise from 
+the interferogram image space (spatial domain). 
+To remove these unwanted artifacts from the image 
 space, spatial information must be included in the demodulation model. In this 
 chapter, we are going to show that the well known least-squares system for PSI 
 can be used as a full-field 2D linear system that uses the temporal and spatial 
-information in conjunction in order to recover the modulating phase while removing noise, 
-unwanted harmonics, and interpolating small empty sections of the image space all
-in the same process with low computational time.
+information in conjunction in order to recover the modulating phase while removing 
+noise, unwanted harmonics, and interpolating small empty sections of the image 
+space all in the same process with low computational time.
 
 
 %%%%%%%%%%%%%%%%%%%%%
@@ -67,6 +67,7 @@ data. These constraints will penalize the spatial variations of the quadrature
 components $c(x,y)$ and $s(x,y)$ by using first order potentials as
 regularization terms. Proceeding in this way, the full-field 2D
 least-squares cost function for PSI is the following:
+\begin{small}
 \begin{align}
   U(\bf{a,c,s})=\nonumber\\
   &\sum_{k=0}^{N-1} \sum_{x,y\in L} \left[a(x,y) + 
@@ -78,6 +79,7 @@ least-squares cost function for PSI is the following:
   &+\mu\sum_{x,y\in L}(a_{x,y}-a_{x-1,y})^2,
   \label{eq:psi regularized}
 \end{align}
+\end{small}
 where $M_{x,y}$ is a binary mask with valid measurement, $\lambda$ is the
 regularization parameter that penalizes the spatial variations of quadrature
 components $\bf c$ and $\bf s$, and $\mu$ penalizes the spatial variations of

@@ -1,7 +1,6 @@
 \chapter{Robust adaptive phase-shifting demodulation for testing moving 
 wavefronts}
 
-<<<<<<< HEAD
 %\section{Motivatio}
 %Optical interferometer setups are very sensitive when environment
 %perturbations affect its optical path. The wavefront under test is not
@@ -22,7 +21,7 @@ wavefronts}
 %to the movements of the wavefront under test and tolerates
 %miscalibramiscalibrations of the optical setup with at least three
 %interferograms in the sequence.
-=======
+
 Optical interferometer setups are very sensitive when environment
 perturbations affect its optical path. The wavefront under test is not
 static at all. In this chapter, we propose a novel and robust phase-shifting
@@ -43,7 +42,6 @@ It does not assume a global phase-shifting for the interferograms, is robust
 to the movements of the wavefront under test and tolerates
 mis-calibrations of the optical setup with at least three
 interferograms in the sequence.
->>>>>>> de28d94f6f32c031b6fc0691a234ea20ec5a0b71
 
 \section{Introduction}
 PSI is a very known technique designed for
@@ -125,7 +123,7 @@ phase) is recovered as before
 being $\hat{f}(x,y)$ the complex value that minimizes Eq. (4.4) at $(x,y)$ site.
 To minimize Eq. (4.4) we solve the following linear system for each $(x,y)$
 pixel:
-\begin{equation}
+\begin{multline}
 \left(\begin{array}{ccc}
 K & \sum c_{k}(x,y) & \sum s_{k}(x,y)\\
 \sum c_{k}(x,y) & \sum c_{k}(x,y)^{2} & \sum c_{k}(x,y)s_{k}(x,y)\\
@@ -134,12 +132,12 @@ K & \sum c_{k}(x,y) & \sum s_{k}(x,y)\\
 \hat{a}(x,y)\\
 \hat{\phi}(x,y)\\
 \hat{\psi}(x,y)
-\end{array}\right)=\left(\begin{array}{c}
+\end{array}\right) = \\ \left(\begin{array}{c}
 \sum I_{k}(x,y)\\
 \sum I_{k}(x,y)C_{k}(x,y)\\
 \sum I_{k}(x,y)S_{k}(x,y)
 \end{array}\right).
-\end{equation}
+\end{multline}
 The sums run from $k = 0$ to $K=-1$, being $K$ the number of interferograms.
 $\hat{\phi}(x,y)$ and $\hat{\psi}(x,y)$ are the real and imaginary parts of 
 $\hat{f}(x,y)$, respectively. $c_k(x,y)$ and $s_k(x,y)$ are the real and
@@ -149,10 +147,12 @@ Now, in the Eq. (4.7) we propose the local weighted least-squares cost function
 for estimating the wavefront variations $\beta_k(x;y)$ for the $(x,y)$ site at
 the $k$-interferogram; assuming that the wavefront under test $\phi_0(x,y)$ is
 known.
-\begin{equation}
-E[a(x,y),g_{k}(x,y)]=\sum_{m=0}^{M-1}\sum_{n=0}^{N-1}\Bigg[\{a(m,n)+Re\{g_{k}(m,
+%%\begin{equation}
+\begin{multline}
+E[a(x,y),g_{k}(x,y)]= \\ \sum_{m=0}^{M-1}\sum_{n=0}^{N-1}\Bigg[\{a(m,n)+Re\{g_{k}(m,
 n)e^ { i\phi_{0}(x,y)}\}-I_{k}(m,n)\}h(x-m,y-n)\Bigg]^{2}
-\end{equation}
+\end{multline}
+%%\end{equation}
 In this equation, $h(x,y)$ is an scalar field that weights the least-squares
 error of Eq. (4.7). By minimizing Eq. (4.7) with respect to $a(x,y)$ and
 $g_k(x,y)$, the spatial wavefront variations $\beta_k(x,y)$ are recovered as
@@ -166,7 +166,7 @@ $(x,y)$ being processed. In this way, we have a weighted least-squares cost
 function for each pixel $(x,y)$ and we can estimate the phase-shifting variation
 $\beta_k(x,y)$ for each pixel $(x,y)$ of the $k$-interferogram. The linear
 equation system that minimize Eq. (4.7), can be given in the following way:
-\begin{equation}
+\begin{multline}
  \left(\begin{array}{ccc}
 [1s*h](x,y) & [\phi*h](x,y) & [\psi*h](x,y)\\{}
 [\phi*h](x,y) & [\phi*h]^{2}(x,y) & [\phi\psi*h](x,y)\\{}
@@ -175,12 +175,12 @@ equation system that minimize Eq. (4.7), can be given in the following way:
 \hat{a}(x,y)\\
 \hat{c}_{k}(x,y)\\
 \hat{s}_{k}(x,y)
-\end{array}\right)=\left(\begin{array}{c}
+\end{array}\right)= \\ \left(\begin{array}{c}
 [I_{k}*h](x,y)\\{}
 [I_{k}\phi*h](x,y)\\{}
 [I_{k}\psi*h](x,y)
 \end{array}\right)
-\end{equation}
+\end{multline}
 where $*$ is the convolution operator and $[*](x;y)$ means the convolution
 evaluated at $(x,y)$. The term $1s$ is an scalar field of ones with dimension
 $M \times N$. In this case, $\hat{\phi}(x,y)$ and $\hat{\psi}(x,y)$ are
@@ -197,7 +197,7 @@ and its variations $\beta_k(x,y)$ for all pixels of all interferograms (Eqs.
  neighborhood around the $(x,y)$ sites. For example, $h(x,y)$ can be a mean or
  Gaussian window.
  \item[2] Start the process by setting initial values for $\beta_k(x,y),
- \forall (x,y), k = 0,1,2,\dots,K-1$ being $K$ the number of interferograms.
+ \forall (x,y),$ $k = 0,1,2,\dots,K-1$ being $K$ the number of interferograms.
  \item[3] Solve the linear system of Eq. (4.6) $\forall(x,y)$ and obtain 
  $\hat{\phi_0} (x,y)$ using Eq. (4.5).
  \item[4] For $k = 0,1,2,\dots,K-1$, use the previous wavefront estimation

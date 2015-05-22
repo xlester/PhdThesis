@@ -1,12 +1,7 @@
 \chapter{Regularized self-tuning phase demodulation for phase-shifting
 interferometry with arbitrary phase shifts}
 
-<<<<<<< HEAD
-\section{Motivation}
-In this work, we develop a regularization technique to demodulate
-=======
 In this chapter, we develop a regularization technique to demodulate
->>>>>>> 36dbf46e3a835e30ba7c293cb74cd2b27425e635
 a phase-shifting interferogram sequence with arbitrary inter-frame
 phase shifts. With this method, we can recover the modulating phase
 and inter-frame phase shifts in the same process. As all phase-shifting
@@ -106,8 +101,7 @@ U(f,\alpha) & = & \sum_{(x,y)}(\varphi(x,y)-I_{0}^{'}(x,y))^{2}\nonumber \\
 & &+\sum_{k=1}^{N-1}
 \sum_{(x,y)}[\frac{1}{2}[f(x,y)e^{i\alpha_{k}}+f^{*}(x,y)e^{-i\alpha_{k}}]-I_{k}
 ^{'}(x,y)]^{2}\label{eq:U}\\
- &  & +\lambda\sum_{(x,y)}[||D_{x}[f(x,y)]||^{2}+||D_{y}[f(x,y)]||^{2}],\
-nonumber 
+ &  & +\lambda\sum_{(x,y)}[||D_{x}[f(x,y)]||^{2}+||D_{y}[f(x,y)]||^{2}],\nonumber 
 \end{eqnarray}
 where $f=\left\{ f(x,y)=\varphi(x,y)+i\psi(x,y):(x,y)\in L\right\} $
 is the complex field, $i=\sqrt{-1}$, and $f^{*}$ its complex conjugated.
@@ -194,31 +188,33 @@ n})}
 }
 \end{equation}
 where
-
+\begin{footnotesize}
 \begin{eqnarray}
 F_{r}(\varphi^{n}+i\psi^{n},\alpha^{n}) & = & I_{0}(x,y)+\sum_{k=1}^{N-1}[I_{k}
 cos(\alpha)-\psi(x,y)sin(\alpha_{k})cos(\alpha_{k})]\nonumber \\
  &  & +\lambda[\varphi(x-1,y)s(x-1,y)+\varphi(x+1,y)s(x+1,y)\\
  &  & +\varphi(x,y-1)s(x,y-1)+\varphi(x,y+1)s(x,y+1)],\nonumber 
 \end{eqnarray}
+
 \begin{eqnarray}
 F_{i}(\varphi^{n}+i\psi^{n},\alpha^{n}) & = & \sum_{k=1}^{N-1}[I_{k}cos(\alpha)-
 \varphi(x,y)sin(\alpha_{k})cos(\alpha_{k})]\nonumber \\
  &  & +\lambda[\psi(x-1,y)s(x-1,y)+\psi(x+1,y)s(x+1,y)\\
  &  & +\psi(x,y-1)s(x,y-1)+\psi(x,y+1)s(x,y+1)],\nonumber 
 \end{eqnarray}
+\end{footnotesize}
 
-
+\begin{small}
 \begin{equation}
 H_{r}(\alpha)=\sum_{k=1}^{N-1}cos^{2}(\alpha_{k})+\lambda[s(x-1,y)+s(x+1,y)+s(x,
 y-1)+s(x,y+1)]
 \end{equation}
 
-
 \begin{equation}
 H_{i}(\alpha)=\sum_{k=1}^{N-1}sin^{2}(\alpha_{k})+\lambda[s(x-1,y)+s(x+1,y)+s(x,
 y-1)+s(x,y+1)]
 \end{equation}
+\end{small}
 The function $s(x_{0},y_{0})$ is an indicator function that is 1
 if the point $(x_{0},y_{0})$ is into the spatial domain of the interferograms,
 otherwise it is zero. Now, for the steepest-descent update (the phase-shifts
