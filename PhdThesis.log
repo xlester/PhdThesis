@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.14)  20 SEP 2015 00:35
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.14)  20 SEP 2015 16:09
 entering extended mode
  %&-line parsing enabled.
 **PhdThesis.tex
@@ -677,16 +677,10 @@ Underfull \vbox (badness 6332) has occurred while \output is active []
 
 [7] [8
 
-] (./Chpt0_Preface/Chpt0_Preface.tex
-Overfull \hbox (10.14862pt too wide) in paragraph at lines 36--44
-[]\OT1/cmr/m/n/12 Chapter 4 pro-poses a novel and ro-bust phase-shifting de-mod
--u-la-tion method.
- []
+] (./Chpt0_Preface/Chpt0_Preface.tex [1
 
-[1
-
-]) (./Chpt1_FringePatternDemodulation/Chpt1_FringePatternDemodulation.tex
-[2]
+])
+(./Chpt1_FringePatternDemodulation/Chpt1_FringePatternDemodulation.tex [2]
 Chapter 1.
 [3
 
@@ -1257,10 +1251,10 @@ Underfull \hbox (badness 6658) in paragraph at lines 383--389
 Here is how much of TeX's memory you used:
  13704 strings out of 495062
  284055 string characters out of 1182644
- 377869 words of memory out of 3000000
+ 377871 words of memory out of 3000000
  16518 multiletter control sequences out of 15000+50000
  18640 words of font info for 70 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  61i,14n,55p,579b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on PhdThesis.dvi (63 pages, 183680 bytes).
+Output written on PhdThesis.dvi (63 pages, 183684 bytes).
