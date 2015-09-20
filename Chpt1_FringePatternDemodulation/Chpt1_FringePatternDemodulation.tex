@@ -1,16 +1,17 @@
-\chapter{Fringe pattern demodulation}
+\chapter{Introduction to fringe pattern demodulation}
 
 %%\section{Introduction}
 
 A fringe pattern is defined as a sinusoidal signal where a continuous map, 
 analogous of the physical quantity being measured, is phase-modulated by an 
-interferometer,as a Moire system. An ideal stationary fringe pattern is usually
-modeled by
+interferometer, as a Moire system. An ideal stationary fringe pattern is usually
+modeled as:
 \begin{equation}\label{eq:FringePattern}
 I(x,y)=a(x,y)+b(x,y)cos[\phi(x,y)],
 \end{equation}
 where $a(x,y)$ and $b(x,y)$ are the background and local contrast functions,
-respectively; and $\phi(x,y)$ is the physical searched phase function.
+respectively; and $\phi(x,y)$ is the physical searched phase function. The spatial
+dependence $(x,y)$ represents the position of the pixel in the image.
 
 Analyzing Eq. \eqref{eq:FringePattern} one can see that the phase function
 $\phi(x,y)$ cannot be directly estimated since it is screened by two other
@@ -26,35 +27,37 @@ degrading its quality and further screening the phase information
 
 It must be noted that even if careful experimental setups could prevent the
 screening of $\phi(x,y)$ due to the unknown signals $a(x,y)$, $b(x,y)$ and $\eta
-(x,y)$, one would still have to deal with the sign ambiguity and the $2\pi$ phase
+(x,y)$, we would still have to deal with the sign ambiguity and the $2\pi$ phase
 ambiguity. Because of these ambiguities, the solution for this inverse problem is
 not unique; this is because several phases can produce exactly the same sinusoidal
 signal.
 
 If we rewrite Eq. \eqref{eq:FringePattern} by means of the complex representation of
-the cosine function
+the cosine function, we have:
 \begin{equation}\label{eq:FringePatternExp}
  I(x,y)=a(x,y)+ \frac{1}{2} b(x,y)[e^{i \phi(x,y)} + e^{-i \phi(x,y)}],
 \end{equation}
-and one is able to isolate one of the analytic signals in Eq. 
-\eqref{eq:FringePatternExp}, lets say $\frac{1}{2} b(x,y)e^{i \phi(x,y)}$, we have
+and if we are able to isolate one of the analytic signals in Eq. 
+\eqref{eq:FringePatternExp}, lets say $\frac{1}{2} b(x,y)e^{i \phi(x,y)}$, we 
+obtain:
 \begin{equation}\label{eq:TanPhi}
- \tan \hat{\phi}(x,y)=\frac{Im\{(1/2)b(x,y)e^{i \phi(x,y)}\}}{Re\{(1/2)b(x,y)
+ \tan \phi(x,y)=\frac{Im\{(1/2)b(x,y)e^{i \phi(x,y)}\}}{Re\{(1/2)b(x,y)
 e^{i \phi(x,y)}\}}.
 \end{equation}
-Computing the arc-tangent of the above formula one obtains a wrapped estimation of
+Computing the arc-tangent of the above formula we obtain a wrapped estimation of
 the phase under study: $\phi(x,y)$ mod $2\pi$. Thus, the final step of this fringe
 pattern demodulation process usually involves an additional phase unwrapping 
-process. Nevertheless, when working with good quality data this last step is 
+process. Nevertheless, when working with an smooth phase $\phi$ this last step is 
 straightforward. Next we will illustrate the easiest way to obtain these analytic 
 signals.
 
-\section{Fringe pattern temporal carrier}
+\section{Fringe pattern with temporal carrier}
 
 A fringe pattern obtained as the output of a measuring system may be modified
 by the optoelectronic-mechanical hardware (sensors and actuators) and software
-(virtual sensors and actuators) of the system [83]. With these modifications one
-is able to introduce known changes in the argument of the sinusoidal signal:
+(virtual sensors and actuators) of the system \cite{Kujawinska2006}. With these 
+modifications one is able to introduce known changes in the argument of the 
+sinusoidal signal:
 \begin{equation}\label{eq:FringePatternTemporal}
  I(x,y,k)=a(x,y)+b(x,y)cos[\phi(x,y) + \c{C}(x,y,k)],
 \end{equation}
@@ -88,7 +91,7 @@ which is an alternative form of Eq. \eqref{eq:TanPhi}.
 In the following sections we will analyze several methods to estimate the 
 analytic signal $f(x,y)$.
 
-\section{Phase-Shifting Algorithms (PSAs)}
+\section{Phase-shifting algorithms (PSAs)}
 
 In general, a phase-shifting algorithm (PSA) can be described as quadrature linear
 filter which is completely characterized by its impulse response function, $h(k)$,
@@ -147,7 +150,7 @@ estimation is given by
 \end{equation}
 where the amplitude of the detuning-error is given by the ratio
 \begin{equation}
- D(\Delta)=\frac{|H(-\alpha-\Delta)|}{|H(\alpha+\Delta|},
+ D(\Delta)=\frac{|H(-\alpha-\Delta)|}{|H(\alpha+\Delta)|},
 \end{equation}
 for $|\Delta/\alpha|<<1$ \cite{Mosino:09,Mosino:10}.This equation shows that detuning-error causes the 
 estimated phase to be distorted by a component with twice the original fringes 
@@ -157,11 +160,11 @@ distortion (with random components in every spectral frequency). Under this
 assumption, when filtering with quadrature linear filters, the signal-to-noise 
 power ratio gain of the PSA is given by \cite{Servin:09}:
 \begin{equation}
- G_{S/N}(\alpha)=\frac{|H(\alpha)|^2}{(1/2\pi)\int\limits_{-\pi}^{\pi}
+ G_{S/N}(\alpha)=\frac{|H(\alpha)|^2}{\frac{1}{2\pi}\int\limits_{-\pi}^{\pi}
 |H(\alpha)|^2 d\alpha}.
 \end{equation}
 
-\section{Classical Least-Square Algorithm}
+\section{Classical least-square algorithm}
 
 The N-step least-squares phase-shifting algorithm formula was deduced in
 1974 by Bruning et al. \cite{Bruning:74} following a synchronous detection 
@@ -246,7 +249,7 @@ interferometric signal of each pixel has the same model
 [see Eq. \eqref{eq:PSI_Sequence}], the solution of the linear equation system is 
 always the same.
 
-\section{Robust Quadrature Filters (RQF)}
+\section{Robust quadrature filters (RQF) for PSI}
 
 Regularization systems are very useful full-field systems that can use all the 
 information needed to obtain the data sought as expected. In PSI, we can use 
@@ -256,8 +259,8 @@ Actually, regularization techniques have been used before in PSI for these
 purposes, the first were Marroquin et al. \cite{RQF,AQF,AQF_mult} and more
 recently others \cite{RPT, RQPT, Mariano, Mariano2, Vargas,Medina,Zeng}.
 
-The main idea behind Robust Quadrature Filters (RQF) for phase shifting 
-interferometry is to find a complex field
+The main idea behind Robust Quadrature Filters (RQF) for PSI is to find a 
+complex field
 \begin{equation}
  f = \varphi +i \psi
 \end{equation}\label{eq:RQF}
@@ -294,7 +297,7 @@ and for the thin-rod model the cost function is
 \end{multline}
 \end{small}
 In both cases $u_0$ is the tuning frequency in $x$, and $v_0$ is the tuning 
-frequency in y. The parameter $\lambda$ is known as the regularization parameter
+frequency in $y$. The parameter $\lambda$ is known as the regularization parameter
 that controls the bandwidth of the quadrature filter.
 
 To minimize Eq. \eqref{eq:RQF}, we obtain its gradient with respect to $f$ and

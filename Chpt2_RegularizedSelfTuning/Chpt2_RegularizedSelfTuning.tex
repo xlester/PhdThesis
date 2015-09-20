@@ -17,8 +17,8 @@ demodulation technique.
 \section{Introduction}
 
 Nowadays, PSI techniques are one of
-the most used techniques in optical metrology \cite{Malacara}. In PSI, one
-obtains an small sequence of at least 3 interferograms with a phase-shifting
+the most used techniques in optical metrology \cite{Malacara}. In PSI, we
+obtain an small sequence of at least 3 interferograms with a phase-shifting
 among them {[}1{]}. To recover the modulating phase there are standard
 demodulation PSI methods; the well known 3-, 4-, and 5-steps phase-shifting
 algorithms. Knowing the inter-frame phase-shifts (or temporal carrier)
@@ -43,14 +43,14 @@ and more recently by constructing a wide-band frequency response of
 the phase-shifting algorithm as the 7-steps algorithm shown in
 \cite{Estrada:09}.
 Further methods use the Fourier transform in order to estimate the
-inter-frame phase-shifts \cite{Larkin:01,Lai:91}, and other are based on the
+inter-frame phase-shifts \cite{Larkin:01,Lai:91}, and others are based on the
 least-squares scheme estimating iteratively the inter-frame phase-shifts
 and phase \cite{Kong,Wang:04}.
 
 What we are going to show in this chapter, is a regularized self-tuning
 demodulation technique that obtains the analytical image (complex
 interferogram) and inter-frame phase-shifts from an interferogram
-sequence. Thus, we can recover the modulating phase modulus 2$\pi$
+sequence. Thus, we can recover the modulating phase modulus $2\pi$
 and the inter-frame phase shifts in the same process. Here, it is
 not necessary to know the inter-frame phase-shifts. This inter-frame
 phase-shifts can vary arbitrary. The main difference between the demodulation
@@ -59,7 +59,8 @@ that the herein demodulation method is based on a regularization technique
 that is able to remove noise from its input and is robust to non constant
 modulation variations, which is an issue that introduce errors in
 methods of works \cite{Kong,Wang:04}. Besides, we do not require estimate
-the fringe orientation as the method of work \cite{Larkin:02}.
+the fringe orientation as the method of work \cite{Larkin:02}, in order to
+find the phase.
 
 
 \section{Regularized self-tuning method}
@@ -274,7 +275,7 @@ of the image frames with a dynamic range between 1 and 3. The inter-frame
 phase-shifts where generated as $\alpha_{k}=\pi+0.4*\varepsilon$
 , where $\varepsilon_{k}$ is a random scalar with a uniform distribution
 between $-\pi$ and $\pi$ radians. Here, we compare our results with
-the so called Advanced Iterative Algorithm (AIA) presented in Ref.
+the so called Advanced Iterative Algorithm (AIA) presented in
 \cite{Wang:04} because this method estimates the phase and inter-frame
 phase-shifts as well, but using other approach.
 \begin{table}
@@ -299,21 +300,21 @@ Steps & Proposed Method & AIA Method\tabularnewline
 
 \caption{This table shows the error obtained between the phase-shift estimation
 and the actual phase-shift.}
-\end{table}
-In Table. 1, we show the errors values of the estimated phase-shifts using our
+\end{table} \label{table:Error}
+In Table 3.1, we show the errors values of the estimated phase-shifts using our
 regularized method and the estimated using the AIA method. This errors
 are calculated as $|\alpha_{k} - \alpha_{k}|$,
 where $\hat{\alpha}_{k}$ and $\alpha_{k}$ are the values of the
 estimated and actual phase-shifts for the \emph{k}-frame, respectively.
 There we can see that our method estimates the inter-frame phase-shifts
-with less error. On the other hand, in Fig. 1, we show the interferogram 
+with less error. On the other hand, in Fig. 3.1, we show the interferogram 
 sequence and the recovered phase. Fig.
-1.(A) shows the recovered phase using the regularized self-tuning
-demodulation method presented here, while Fig. 1.(B) shows the recovered
+3.1.(A) shows the recovered phase using the regularized self-tuning
+demodulation method presented here, while Fig. 3.1.(B) shows the recovered
 phase using the AIA method. We can see in this figure that our proposed
 regularized self-tuning demodulation method recovers the phase with
 less noise and error than with the AIA method. The errors shown in
-Fig. 1.(A) and Fig. 1.(B) are calculated as standard deviation of
+Fig. 3.1.(A) and Fig. 3.1.(B) are calculated as standard deviation of
 the difference between the recovered phase map and the true phase
 map used to generate the interferograms.
 
@@ -322,12 +323,13 @@ map used to generate the interferograms.
 \includegraphics[scale=0.2]{Chpt2_figures/Steps.eps}
 \par\end{centering}
 
-\caption{Interferogram sequence and the recovered phase. (A) shows the recovered
+\caption{Interferogram sequence and the recovered phase. (a) is the simulated 
+interferogram sequence used in the numerical experiments. (b) shows the recovered
 phase and error using the regularized self-tuning method proposed
-here. (B) shows the recovered phase and error using the AIA method{[}15{]}.
+here. (c) shows the recovered phase and error using the AIA method \cite{Wang:04}.
 The error shown (in radians) is the standard deviation respecting
 the true phase map. The interferogram frames has a size of 512 \texttimes{}
-512.}
+512 pixels.}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%
@@ -336,14 +338,14 @@ the true phase map. The interferogram frames has a size of 512 \texttimes{}
 
 We have presented a regularized self-tuning phase-shifting 
 demodulation method for interferogram sequences having arbitrary variations of 
-the inter-frame 
-phase-shifts. This method is robust to non constant spatial modulations. As shown 
-in the results, our demodulation method is able to filter-out noise, and recover 
-the modulating phase and the inter-frame phase-shifts with a minimum error. The 
-demodulation method presented here is a nonlinear demodulation method, however, 
-we innovate the minimization strategy by mixing the steepest-descent update with 
-the Gauss-Seidel update. In this way, we were able to speed up the minimization 
-process and obtain the expected results.
+the inter-frame phase-shifts. This method is robust to non constant spatial 
+modulations. As shown in the numerical experiments results, our demodulation 
+method is able to filter-out noise, and recover the modulating phase and the 
+inter-frame phase-shifts with a minimum error. The demodulation method presented 
+here is a nonlinear demodulation method, however, we innovate the minimization 
+strategy by mixing the steepest-descent update with the Gauss-Seidel update. In 
+this way, we were able to speed up the minimization process and obtain the 
+expected results.
 
 
 
