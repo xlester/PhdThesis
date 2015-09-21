@@ -56,7 +56,7 @@ signals.
 A fringe pattern obtained as the output of a measuring system may be modified
 by the optoelectronic-mechanical hardware (sensors and actuators) and software
 (virtual sensors and actuators) of the system \cite{Kujawinska2006}. With these 
-modifications one is able to introduce known changes in the argument of the 
+modifications we are able to introduce known changes in the argument of the 
 sinusoidal signal:
 \begin{equation}\label{eq:FringePatternTemporal}
  I(x,y,k)=a(x,y)+b(x,y)cos[\phi(x,y) + \c{C}(x,y,k)],
@@ -80,10 +80,10 @@ methods is to estimate the complex field
 \begin{equation}\label{eq:Complexfield}
  f(x,y)=\frac{1}{2}b(x,y)e^{i\phi(x,y)},
 \end{equation}
-of the interferometric signal at the $(x,y)$ pixel. Then, the phase at $(x,y)$ 
-is obtained as:
+of the interferometric image or images at the $(x,y)$ pixel. Then, the optical 
+phase at $(x,y)$ is obtained as:
 \begin{equation}\label{eq:PSIphase}
-  \hat{\phi}(x,y)=arg[f(x,y)]=\arctan\left(\frac{\sin[\phi(x,y)]}{\cos[\phi(x.y)]}
+  \phi(x,y)=arg[f(x,y)]=\arctan\left(\frac{\sin[\phi(x,y)]}{\cos[\phi(x.y)]}
 \right),
 \end{equation}
 which is an alternative form of Eq. \eqref{eq:TanPhi}.
@@ -105,7 +105,7 @@ or by its frequency transfer function (FTF) in the Fourier domain, $H(\omega)$:
 where ${c_n} \in \mathbb{C}$. In order to be a valid PSA, this FTF must fulfill
 the so-called quadrature conditions:
 \begin{equation}\label{eq:QuadratureConditions}
- H(0)=H(-\alpha)=0, \quad H(\alpha)\not=0.
+ H(0)=H(-\omega_0)=0, \quad H(\omega)\not=0.
 \end{equation}
 Thus, the application of this quadrature filter produces the following analytic
 signal for $k = N-1$ (where all the available data is involved):
@@ -116,53 +116,105 @@ where $*$ denotes the convolution operator. Taking the Fourier transform of Eq.
 \eqref{eq:PSA_convolution2} and applaying the convolution theorem and the 
 quadrature conditions from Eq. \eqref{eq:QuadratureConditions}, results:
 \begin{equation}\label{eq:PSA_FourierConvolution}
- I(\omega)H(\omega)= \frac{1}{2} H(\alpha)b(x,y) e^{i\phi(x,y)} \delta(\omega-\alpha).
+ I(\omega)H(\omega)= \frac{1}{2} H(\omega_0)b(x,y) e^{i\phi(x,y)} \delta(\omega-
+\omega_0).
 \end{equation}
 Returning to the temporal domain and combining Eqs. 
 \eqref{eq:PSA_convolution2} and \eqref{eq:PSA_FourierConvolution}, the estimated 
-analytic 
-signal is given by:
+analytic signal is given by:
 \begin{equation}
- I(k)*h(k)= \sum^{N-1}_{n=0} c_n I(k-n) = \frac{1}{2} H(\alpha)b(x,y) e^{i\phi(x,y)} 
-  \delta(\omega-\alpha)
+ I(k)*h(k)= \sum^{N-1}_{n=0} c_n I(k-n) = \frac{1}{2} H(\omega_0)b(x,y) 
+e^{i(\phi(x,y)+k\omega_0)}.
 \end{equation}
 Considering the above, we have to evaluate the temporal convolution at $k=N-1$ in
-order to obtain the analytic signal for the given number of phase-steps:
+order to obtain the analytic signal for the given number of phase steps:
 \begin{equation}
-  \frac{1}{2} H(\alpha)b(x,y) e^{i\phi(x,y)} = c_0 I_{N-1} + c_1 I_{N-2}+ \dots 
-  + c_{N-2} I_{1}+ c_{N-1} I_{0}
+  \frac{1}{2} H(\omega_0)b(x,y) e^{i\phi(x,y)} = c_0 I_{N-1} + c_1 I_{N-2}+ \dots 
+  + c_{N-2} I_{1}+ c_{N-1} I_{0}.
 \end{equation}
 This is the general formula for a linear PSA.
 From the above analytic signal, we obtain the searched phase $\phi(x,y)$, modulo
 $2\pi$, by computing its angle as Eq. \eqref{eq:PSIphase}. For completeness, 
 solving for $\phi(x,y)$ is found the so-called arc-tangent formulation of a PSA:
 \begin{equation}
- \hat{\phi}(x,y) mod 2\pi= \arctan \Bigg(\frac{Im\{c_0I_0+c_1I_1 + \dots + c_{N-1}
-I_{N-1}\}}{Re\{c_0I_0+c_1I_1 + \dots + c_{N-1} I_{N-1}\}}  \Bigg)
+ \phi(x,y) = \arctan \Bigg(\frac{Im\{c_0I_0+c_1I_1 + \dots + c_{N-1}
+I_{N-1}\}}{Re\{c_0I_0+c_1I_1 + \dots + c_{N-1} I_{N-1}\}}  \Bigg).
 \end{equation}
+Recall that the estimated phase is wrapped modulo $2 \pi$.
 The above results are obtained under the assumption that the quadrature filter
 and the temporal samples of the interferogram are perfectly tuned at the same
-frequency $\alpha$ (radians per sample). When the actual sampling frequency is
-$\alpha+\Delta$, that is when some detuning error occur, the resulting phase 
-estimation is given by
+frequency $\omega$ (radians per sample). 
+
+\subsection{Detunin error in PSI}
+When the actual sampling frequency is
+$\alpha+\Delta$, or in other words when the phase step is not as expected; 
+that is when some detuning error occur, the resulting phase estimation is given by
 \begin{equation}
  \hat{\phi}(x,y)=\phi(x,y)-D(\Delta)\sin[2\phi(x,y)],
 \end{equation}
 where the amplitude of the detuning-error is given by the ratio
 \begin{equation}
- D(\Delta)=\frac{|H(-\alpha-\Delta)|}{|H(\alpha+\Delta)|},
+ D(\Delta)=\frac{|H(-\omega_0-\Delta)|}{|H(\omega_0+\Delta)|},
 \end{equation}
-for $|\Delta/\alpha|<<1$ \cite{Mosino:09,Mosino:10}.This equation shows that detuning-error causes the 
-estimated phase to be distorted by a component with twice the original fringes 
-frequency. Moreover, actual signals are always distorted by some amount of random
+for $|\Delta/\alpha|<<1$ \cite{Mosino:09,Mosino:10}.This equation shows that 
+detuning-error causes the estimated phase to be distorted by a component with 
+twice the original fringes frequency. The ratio allows us to assess the robustness 
+against detuning error of any liinear PSA with a simple plot of $D(\Delta)$ versus
+$\Delta$. Over the years, several linear PSAs with robustness against detunind 
+error have been proposed \cite{Schwider:83,Surrel:93,Surrel:97,Hariharan:87,
+Larkin:92,Schmit:95,Schmit:96,Hibino:97,deGroot:95,Bi:04}. The first one (and 
+probably the best known) is the Schwider-Hariharan five-step PSA \cite{Schwider:83,
+Hariharan:87}.
+
+\subsection{Noise in PSI}
+Whenever a linear PSA is applied it is important to know how robust it will be 
+when non-ideal conditions arise. Over the years several non-spectral analysis 
+have been reported for phase-shifting demodulation of noisy data: using Taylor 
+expansion of the fringe irradiance \cite{Brophy:90}, joint
+statistical distribution of the noise \cite{Rathjen:95}, the characteristic 
+polynomial method \cite{Surrel:97}, the derivative of the PSA's arctangent ratio 
+\cite{Hibino:97} and so on. Here we present a theoretical analysis on the 
+influence of additive random-noise into the modulating-phase estimation 
+accordingly with the FTF formalism and the stochastic process theory 
+\cite{Papoulis:2002}.
+In fringe pattern analysis one must deal with two kinds of noise: additive
+noise, which comes from the ambient and the electronic equipment used; and
+multiplicative (or speckle) noise, observed when testing optically rough surfaces.
+
+According to diffraction theory, the phase noise results from the
+interference of light scattered from each point of an optically rough surface 
+\cite{Gasvik:2002}. While this effect can be considered an unwanted distortion, 
+it can also be exploited as a measuring tool; for instance, consider the 
+electronic speckle pattern interferometry (ESPI) technique \cite{Gasvik:2002}.
+However, since the information of interest in closed-fringes interferograms is 
+given by low-frequency signals, in
+practice one usually pre-processes any set of phase-shifted patterns by applying
+some spatial low-pass filtering to improve its signal-to-noise ratio. This spatial
+low-pass filtering modifies the statistical properties of the multiplicative noise
+into additive Gaussian noise. The theoretical foundation for this change in the
+statistical properties of the noise is the central limit theorem 
+\cite{Papoulis:2002}. For our
+purposes, this theorem says that the output signal resulting from the linear
+filtering of a stochastic (random) process with finite mean and variance tends
+to Gaussian statistics, no matter which statistical distribution the input process
+had. This means that, whether having additive and/or multiplicative noise, the
+low-pass filtering will turn the output noise more Gaussian and additive. For
+this reason, in our following analysis we will consider only additive noise.
+
+Interferometric signals are always distorted by some amount of random
 noise so a more cautious approach it is to consider additive white-noise 
 distortion (with random components in every spectral frequency). Under this 
 assumption, when filtering with quadrature linear filters, the signal-to-noise 
 power ratio gain of the PSA is given by \cite{Servin:09}:
 \begin{equation}
- G_{S/N}(\alpha)=\frac{|H(\alpha)|^2}{\frac{1}{2\pi}\int\limits_{-\pi}^{\pi}
-|H(\alpha)|^2 d\alpha}.
+ G_{S/N}(\omega_0)=\frac{|H(\omega_0)|^2}{\frac{1}{2\pi}\int\limits_{-\infty}
+^{\infty} |H(\omega)H^*(\omega)|^2 d\omega}.
 \end{equation}
+When $G_{S/N}(\omega_0)>1$, the output has a higher S/N ratio than the input data;
+the standard case. When $G_{S/N}(\omega_0)=1$, the output analytic signal has 
+the same S/N power as the interferograms. Finally when $G_{S/N}(\omega_0)<1$, the 
+searched analytic signal has a lower S/N than the input; this situation is not 
+desired.
 
 \section{Classical least-square algorithm}
 
@@ -301,7 +353,7 @@ frequency in $y$. The parameter $\lambda$ is known as the regularization paramet
 that controls the bandwidth of the quadrature filter.
 
 To minimize Eq. \eqref{eq:RQF}, we obtain its gradient with respect to $f$ and
-equal it to zero. Then, we can solve the resulting linear equation system using
+equal it to zero \cite{RQF,AQF,AQF_mult}. Then, we can solve the resulting linear equation system using
 algorithms such as the Gauss-Seidel algorithm, although we can use more generic 
 algorithms, like the Steepest-descent. Once we find the complex field $f$ we 
-obtain the sought phase using Eq. \eqref{eq:PSIphase}.
+obtain the optical phase using Eq. \eqref{eq:PSIphase}.
