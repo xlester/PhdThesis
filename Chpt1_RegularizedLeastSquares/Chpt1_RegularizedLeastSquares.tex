@@ -4,16 +4,16 @@ interferometry}
 The most known and used PSI demodulation methods are one-dimensional temporal 
 linear systems that use the information of the interferogram sequence at a single 
 pixel to recover the modulating phase. Accordingly, scanning all pixels, we obtain 
-the 2D modulated phase sought. As PSI demodulation methods do not take into account 
+the 2D modulated phase. As PSI demodulation methods do not take into account 
 spatial information, these methods can not remove unwanted harmonics or noise from 
 the interferogram image space (spatial domain). 
 To remove these unwanted artifacts from the image 
 space, spatial information must be included in the demodulation model. In this 
 chapter, we are going to show that the well known least-squares system for PSI 
 can be used as a full-field 2D linear system that uses the temporal and spatial 
-information in conjunction in order to recover the modulating phase while removing 
-noise, unwanted harmonics, and interpolating small empty sections of the image 
-space all in the same process with low computational time.
+information in conjunction, in order to recover the modulating phase while 
+removing noise, unwanted harmonics, and interpolating small empty sections of the 
+image space all in the same process with low computational time.
 
 
 %%%%%%%%%%%%%%%%%%%%%
@@ -22,7 +22,8 @@ space all in the same process with low computational time.
 
 PSI demodulation methods are useful 1D
 temporal linear systems that allow us to recover the modulating phase of the
-PSI sequence. When the number of samples is small, typically between 3 and 15,
+PSI sequence. When the number of samples (interferograms) is small, typically 
+between 3 and 15,
 we speak of PSI methods \cite{Malacara,GeneralTheory}, but they requiere a
 constant phase and do not tolerate missing data. On the other hand, when the
 number of samples is large, between $10^2$ and $10^3$, we speak of temporal
@@ -55,7 +56,7 @@ regularization system methods described in the previous chapter.
 \section{Full-field 2D least-squares method}
 %%%%%%%%%%%%
 
-The approach used in RQF obtaine non-linear systems with a
+The approach used in RQF obtain non-linear systems with a
 considerable computational work load. Besides, these algorithms need a
 pre-processing method to remove background illumination in order to
 demodulate a correct phase. In our case, this preprocess is not needed and, also
