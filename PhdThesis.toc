@@ -25,7 +25,7 @@
 \contentsline {section}{\numberline {4.2}Robust Adaptive Phase-Shifting (RAPS)}{30}
 \contentsline {section}{\numberline {4.3}Tests and results}{35}
 \contentsline {section}{\numberline {4.4}Discussion and commentaries}{37}
-\contentsline {section}{\numberline {4.5}Conclusions}{39}
+\contentsline {section}{\numberline {4.5}Conclusions}{40}
 \contentsline {chapter}{\numberline {5}Removing detuning distortions of wrapped phase by using robust quadrature filters}{41}
 \contentsline {section}{\numberline {5.1}Introduction}{41}
 \contentsline {section}{\numberline {5.2}Phase Detuning Correcting Method (PDCM)}{43}
