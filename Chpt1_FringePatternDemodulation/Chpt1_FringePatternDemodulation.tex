@@ -139,7 +139,7 @@ $2\pi$, by computing its angle as Eq. \eqref{eq:PSIphase} \cite{Surrel:96,
 Wyant:75,Kujawinska2006}. 
 For completeness, 
 solving for $\phi(x,y)$ is found the so-called arc-tangent formulation of a PSA:
-\begin{equation}
+\begin{equation}\label{eq:PhiPSA}
  \phi(x,y) = \arctan \Bigg(\frac{Im\{c_0I_0+c_1I_1 + \dots + c_{N-1}
 I_{N-1}\}}{Re\{c_0I_0+c_1I_1 + \dots + c_{N-1} I_{N-1}\}}  \Bigg).
 \end{equation}
@@ -219,6 +219,45 @@ the standard case. When $G_{S/N}(\omega_0)=1$, the output analytic signal has
 the same S/N power as the interferograms. Finally when $G_{S/N}(\omega_0)<1$, the 
 searched analytic signal has a lower S/N than the input; this situation is not 
 desired.
+
+\section{Fourier method}
+
+For illustrative purposes, let us assume a vertical open-fringes interferogram 
+(this method is only valid for interferograms with open fringes) phase-modulated 
+by a linear spatial carrier in the $x$ direction, given by:
+\begin{equation}
+    I(x,y) = a(x,y)+b(x,y)cos[\phi(x,y)+u_0 x],
+\end{equation}
+using a clomplex representation of the cosine function, we have:
+\begin{equation}
+    I(x,y)=a(x,y)+ \frac{1}{2} b(x,y)e^{i \phi(x,y)+u_0 x} 
+    +\frac{1}{2} b(x,y) e^{-i \phi(x,y)+u_0 x}.
+\end{equation}
+Applying the so-called the Fourier method \cite{Ichioka:72,Takeda:82}, first 
+we multiply 
+our input signal with a complex reference signal (which is a value stored in the 
+digital computer) oscillating at the same frequency of our lineal carrier:
+\begin{eqnarray}\label{eq:fourier}
+    f(x,y) &=& e^{-i u_0 x} I(x,y), \nonumber \\
+	   &=& a e^{-i u_0 x} + \frac{b}{2} e^{i \phi}
+	      + \frac{b}{2}  e^{-i(\phi+2u_0 x)},
+\end{eqnarray}
+where we have omitted the spatial dependency in $a$, $b$ and $\phi$ for simplicity.
+In general the spatial variations of the phase are small in comparison to the
+carrier, that is, $|\nabla \phi|_max \ll  u_0 $, so the only low-frequency term 
+in the above equation is the analytic signal $\frac{b}{2} e^{i \phi}$. Thus, 
+applying a low-pass filter \cite{Granlund2010} to Eq. \eqref{eq:fourier} we have:
+\begin{equation}
+ LP\{f(x,y)\} = \frac{b}{2} e^{i \phi},
+\end{equation}
+where the low-pass filter $LP \{\dot \}$ is preferably applied in the Fourier 
+domain for
+more control in the filtering process. Taking the ratio between the imaginary
+and real part of this complex-valued analytic signal, we have Eq \eqref{eq:PhiPSA}:
+\begin{equation}
+ \phi(x,y) = \arctan \Bigg(\frac{Im\{c_0I_0+c_1I_1 + \dots + c_{N-1}
+I_{N-1}\}}{Re\{c_0I_0+c_1I_1 + \dots + c_{N-1} I_{N-1}\}}  \Bigg).
+\end{equation}
 
 \section{Classical least-square algorithm}
 
