@@ -253,10 +253,11 @@ applying a low-pass filter \cite{Granlund2010} to Eq. \eqref{eq:fourier} we have
 where the low-pass filter $LP \{\dot \}$ is preferably applied in the Fourier 
 domain for
 more control in the filtering process. Taking the ratio between the imaginary
-and real part of this complex-valued analytic signal, we have Eq \eqref{eq:PhiPSA}:
+and real part of this complex-valued analytic signal, we have Eq \eqref{eq:PhiPSA} 
+in the shape of:
 \begin{equation}
- \phi(x,y) = \arctan \Bigg(\frac{Im\{c_0I_0+c_1I_1 + \dots + c_{N-1}
-I_{N-1}\}}{Re\{c_0I_0+c_1I_1 + \dots + c_{N-1} I_{N-1}\}}  \Bigg).
+ \phi(x,y) = \arctan \Bigg(\frac{Im\{ (1/2) b(x,y) e^{i \phi(x,y)} \}}
+		      {Re\{(1/2) b(x,y) e^{i \phi(x,y)}\} } \Bigg).
 \end{equation}
 
 \section{Classical least-square algorithm}
