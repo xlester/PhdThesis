@@ -47,9 +47,10 @@ e^{i \phi(x,y)}\}}.
 Computing the arc-tangent of the above formula we obtain a wrapped estimation of
 the phase under study: $\phi(x,y)$ mod $2\pi$. Thus, the final step of this fringe
 pattern demodulation process usually involves an additional phase unwrapping 
-process. Nevertheless, when working with an smooth phase $\phi$ this last step is 
+process \cite{Itoh:82,Huntley:89,Ghiglia:94,Quiroga:94}. Nevertheless, when 
+working with an smooth phase $\phi$ this last step is 
 straightforward. Next we will illustrate the easiest way to obtain these analytic 
-signals.
+signals \cite{ServinA:10,Crane:69,Hays:71}.
 
 \section{Fringe pattern with temporal carrier}
 
@@ -134,7 +135,9 @@ order to obtain the analytic signal for the given number of phase steps:
 \end{equation}
 This is the general formula for a linear PSA.
 From the above analytic signal, we obtain the searched phase $\phi(x,y)$, modulo
-$2\pi$, by computing its angle as Eq. \eqref{eq:PSIphase}. For completeness, 
+$2\pi$, by computing its angle as Eq. \eqref{eq:PSIphase} \cite{Surrel:96,
+Wyant:75,Kujawinska2006}. 
+For completeness, 
 solving for $\phi(x,y)$ is found the so-called arc-tangent formulation of a PSA:
 \begin{equation}
  \phi(x,y) = \arctan \Bigg(\frac{Im\{c_0I_0+c_1I_1 + \dots + c_{N-1}
@@ -143,7 +146,7 @@ I_{N-1}\}}{Re\{c_0I_0+c_1I_1 + \dots + c_{N-1} I_{N-1}\}}  \Bigg).
 Recall that the estimated phase is wrapped modulo $2 \pi$.
 The above results are obtained under the assumption that the quadrature filter
 and the temporal samples of the interferogram are perfectly tuned at the same
-frequency $\omega$ (radians per sample). 
+frequency $\omega$ (radians per sample) \cite{Gonzalez:11}.
 
 \subsection{Detunin error in PSI}
 When the actual sampling frequency is
@@ -199,7 +202,8 @@ filtering of a stochastic (random) process with finite mean and variance tends
 to Gaussian statistics, no matter which statistical distribution the input process
 had. This means that, whether having additive and/or multiplicative noise, the
 low-pass filtering will turn the output noise more Gaussian and additive. For
-this reason, in our following analysis we will consider only additive noise.
+this reason, in our following analysis we will consider only additive noise
+\cite{Servin:11,Surrel:97}.
 
 Interferometric signals are always distorted by some amount of random
 noise so a more cautious approach it is to consider additive white-noise 
@@ -310,7 +314,7 @@ modulating phase as a smooth 2D function, removing unwanted harmonics and noise.
 Actually, regularization techniques have been used before in PSI for these
 purposes, the first were Marroquin et al. \cite{RQF,AQF,AQF_mult,Marroquin1999} 
 and more recently others \cite{RPT, RQPT, Mariano, Mariano2, Vargas,Medina,Zeng,
-Servin2001,Legarda-Saenz:02,Tian2010,Kai:12,Legarda-Saenz:06}.
+Servin2001,Legarda-Saenz:02,Tian2010,Quiroga,Kai:12,Legarda-Saenz:06}.
 
 The main idea behind Robust Quadrature Filters (RQF) for PSI is to find a 
 complex field

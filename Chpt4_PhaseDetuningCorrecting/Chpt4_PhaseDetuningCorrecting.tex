@@ -41,8 +41,8 @@ results from simulated and experimental data will be shown.
 In optical interferometry tests, the modulating phase has the information of
 interest. Therefore, estimating the phase with the least possible error is the 
 most important task in interferometry. However, this is not always possible, 
-and one of the most common errors of phase interferometry demodulation 
-algorithms (PIDA) is the so-called detuning error 
+and one of the most common errors of phase interferometry algorithms (PIAs) 
+is the so-called detuning error 
 \cite{Malacara,GeneralTheory,Mosino:09, fringePatternAnalisys}. In literature,
 we can find several works that study and measure the effects of the detuning
 error and the factors that cause it \cite{PhaseDetuning_0, PhaseDetuning_1, 
@@ -50,7 +50,7 @@ Malacara, Mosino:10, ShopTesting, AccuracyPSI_1, deGroot:95,
 Schmit:95, Gutmann:98, Servin:10}. For example, in phase shifting
 interferometry, if the object under test is not static or the piezoelectric
 transducer used to introduce the phase shifts is incorrectly calibrated, the
-PIDA produces a detuning error. 
+PIAs produces a detuning error \cite{Gonzalez:11,Schwider:93}. 
 %%To avoid this detuning errors in PSI, digitally speaking, iterative 
 %%algorithms 
 %%have been proposed to tune in the phase shifting algorithm with the 
@@ -62,7 +62,7 @@ do not have fast enough cameras or high repetition lasers with long coherence
 lengths, or a combination of both. In the Fourier method, the detuning error is 
 present when the filtering process can not be performed properly, since the 
 carrier is not enough to separate the complex signal in the Fourier domain. 
-Therefore, in general, when the PIDA does not receive the interferogram or 
+Therefore, in general, when the PIAs does not receive the interferogram or 
 interferograms as expected, it recovers a modulating phase with detuning error.
 
 This detuning error is present in the demodulated phase as a low powered 
@@ -74,7 +74,7 @@ described by the following expression:
 \end{equation}
 where $\Delta \phi$ is the difference between the desired phase $\phi$ and the 
 erroneous spurious phase $\phi^\varepsilon$, $\varepsilon$ is the erroneous 
-spurious signal that our PIDA does not remove properly, and $c$ is the complex 
+spurious signal that our PIAs does not remove properly, and $c$ is the complex 
 desired signal we want to recover. This detuning effect is graphically shown in 
 the unwrapped phase of Fig. \ref{fig:SimulatedPhase3D}(a). As we see, the 
 distorted phase has a double frequency component mounted, while the desired 
@@ -274,7 +274,7 @@ adjacent local frequency.
 To verify the efficiency of the PDCM, we simulated four interferograms of $256 
 \times 256$ pixels with phase shifts of $\pi/5$, and demodulated them with a 4-
 step algorithm tuned at $\pi/2$. In Fig. \ref{fig:SimulatedPhaseComparison}(a), 
-we can see the distorted wrapped phase map obtained by the PIDA. The phase was 
+we can see the distorted wrapped phase map obtained by the PIAs. The phase was 
 simulated using the peaks function of Matlab. Using this distorted wrapped
 phase map and the proposed PDCM, we obtain the enhanced wrapped phase map 
 displayed in Fig. \ref{fig:SimulatedPhaseComparison}(b). As it can be seen, the 
@@ -386,7 +386,7 @@ therefore, the fringe phase information.
 \begin{figure}[Ht!]
   \begin{center}
     \begin{tabular}{c c }
-      \includegraphics[scale=0.45]{Chpt4_figures/Fig_eFaseFiltradaMal.eps}&
+      \includegraphics[scale=0.63]{Chpt4_figures/Fig_eFaseFiltradaMal.eps}&
       \includegraphics[scale=0.45]{Chpt4_figures/Fig_eFaseFiltrada.eps}\\
       (a) & (b)
     \end{tabular}
@@ -414,6 +414,7 @@ different local frequencies during the wrapped phase refinement process.
       \includegraphics[scale=0.45]{Chpt4_figures/Fig_frecuencias1.eps}&
       \includegraphics[scale=0.45]{Chpt4_figures/Fig_frecuencias2.eps}&
       \includegraphics[scale=0.45]{Chpt4_figures/Fig_frecuencias3.eps}\\
+      (a) & (b) & (c)
     \end{tabular}
   \end{center}
   \caption{Example of the frequency change along the refinement process of the 
@@ -429,12 +430,12 @@ on the stability of the object under test and the right calibration of the
 phase 
 interferometry set-up. When the wave-front under test is moving, be it because 
 of environmental perturbations or its own nature, and / or the phase 
-interferometry set-up is not properly calibrated, PIDA introduce an unavoidable 
-detuning error. Previous to this work, as far as we know, all PIDA have done 
+interferometry set-up is not properly calibrated, PIAs introduce an unavoidable 
+detuning error. Previous to this work, as far as we know, all PIAs have done 
 their best to avoid this detuning error by means of applying different 
 strategies; instead of that, here we present a method to process the distorted 
 wrapped phase in order to reduce the detuning distortions introduced by the 
-PIDA.
+PIAs.
 
 As shown in the result section, the presented PDCM considerably 
 removes detuning errors using the gradient of the distorted wrapped phase as a 
@@ -459,7 +460,7 @@ iteration speeds up the global process.
 
 \section{Conclusions}
 We have presented a method capable of reducing the 
-detuning distortions of the demodulated wrapped phase from the PIDA. This 
+detuning distortions of the demodulated wrapped phase from the PIAs. This 
 method is an iterative process that uses the distorted wrapped phase and 
 its local frequencies as a priori information. This method is stable and 
 converges after a few iterations. The main contribution of the presented 
@@ -468,11 +469,10 @@ eliminating wrapped phase information, which is very hard to do with
 simple low-pass filters. As it is evident in the results, the proposed 
 method obtains an smooth wrapped phase map with very attenuated detuning 
 distortions. The practical use of this method is that it allows one to avoid 
-complex PIDA in order to obtain a wrapped phase fairly free of detuning 
+complex PIAs in order to obtain a wrapped phase fairly free of detuning 
 distortions, or even avoid the need to recalibrate and repeat the optical 
 set-up.
-\cite{Quiroga,ServinA:10,Crane:69,Gonzalez:11,Hays:71,Schwider:93,
-Servin:11,Surrel:97,Surrel:96,Wyant:75,Kujawinska2006}
+
 %Millerd2004,
 %Kimbrough2010,
 %Servin:10b,
