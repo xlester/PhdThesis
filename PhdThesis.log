@@ -1,14 +1,15 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.14)  23 SEP 2015 00:09
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 MAY 2015 16:18
+>>>>>>> Stashed changes
 entering extended mode
+ restricted \write18 enabled.
  %&-line parsing enabled.
-**PhdThesis.tex
-(./PhdThesis.tex
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
-(/usr/share/texmf-texlive/tex/latex/base/book.cls
+**\input PhdThesis.tex
+(./PhdThesis.tex (/usr/local/texlive/2014/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf-texlive/tex/latex/base/bk12.clo
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -24,46 +25,46 @@ File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texmf-texlive/tex/latex/import/import.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/import/import.sty
 Package: import 2009/03/23  v 5.1
 ) (./thesis.sty
 Package: thesis 
 
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks14
 \ex@=\dimen103
 ))
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 )
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count88
-LaTeX Info: Redefining \frac on input line 211.
+LaTeX Info: Redefining \frac on input line 210.
 \uproot@=\count89
 \leftroot@=\count90
-LaTeX Info: Redefining \overline on input line 307.
+LaTeX Info: Redefining \overline on input line 306.
 \classnum@=\count91
 \DOTSCASE@=\count92
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count93
 \c@MaxMatrixCols=\count94
 \dotsspace@=\muskip10
@@ -84,89 +85,100 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks18
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2009/06/22 v3.00
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
 
-(/usr/share/texmf-texlive/tex/latex/base/latin1.def
-File: latin1.def 2008/03/30 v1.1d Input encoding file
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2014/04/30 v1.2b Input encoding file
 ))
-(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
-Package: babel 2008/07/06 v3.8l The Babel package
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/03/24 3.9k The Babel package
 
-(/usr/share/texmf-texlive/tex/generic/babel/english.ldf
-Language: english 2005/03/30 v3.3o English support from the babel system
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
 
-(/usr/share/texmf-texlive/tex/generic/babel/babel.def
-File: babel.def 2008/07/06 v3.8l Babel common definitions
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/03/24 3.9k Babel common definitions
 \babel@savecnt=\count100
 \U@D=\dimen112
 )
-\l@british = a dialect from \language\l@english 
-\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )
-(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/etc/texmf/tex/latex/config/graphics.cfg
-File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: dvips.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
-File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count101
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-(/usr/share/texmf-texlive/tex/latex/blindtext/blindtext.sty
-Package: blindtext 2009/06/14 V1.9b blindtext-Package
+(/usr/local/texlive/2014/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
-(/usr/share/texmf-texlive/tex/latex/tools/xspace.sty
-Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count101
-\c@Blindtext=\count102
-\blind@countxx=\count103
-\blindtext@numBlindtext=\count104
-\blind@countyy=\count105
-\c@blindlist=\count106
-\c@blindlistlevel=\count107
-\c@blindlist@level=\count108
-\blind@listitem=\count109
-\c@blind@listcount=\count110
-\c@blind@levelcount=\count111
-\blind@mathformula=\count112
-\blind@Mathformula=\count113
+\c@blindtext=\count102
+\c@Blindtext=\count103
+\c@blind@countparstart=\count104
+\blind@countxx=\count105
+\blindtext@numBlindtext=\count106
+\blind@countyy=\count107
+\c@blindlist=\count108
+\c@blindlistlevel=\count109
+\c@blindlist@level=\count110
+\blind@listitem=\count111
+\c@blind@listcount=\count112
+\c@blind@levelcount=\count113
+\blind@mathformula=\count114
+\blind@Mathformula=\count115
+\c@blind@randomcount=\count116
+\c@blind@randommax=\count117
+\c@blind@pangramcount=\count118
+\c@blind@pangrammax=\count119
 )
-(/usr/share/texmf-texlive/tex/latex/base/textcomp.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -181,7 +193,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-(/usr/share/texmf-texlive/tex/latex/base/ts1enc.def
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 266.
@@ -216,32 +228,38 @@ Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
 Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
 Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
 Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 311.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 312.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 313.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 314.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 315.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 316.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 317.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 318.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 319.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 320.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 321.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 322.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 323.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
-(/usr/share/texmf-texlive/tex/latex/pgfplots/pgfplots.sty
-Package: pgfplots 2009/02/14 Version 1.2.2
-
-(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks22
-)
+<<<<<<< Updated upstream
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def)
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
 Package: pgfrcs 2008/02/20 v2.00 (rcs-revision 1.21)
@@ -286,18 +304,92 @@ File: pgfsys-common-postscript.def 2008/02/07  (rcs-revision 1.18)
 File: pgfsyssoftpath.code.tex 2008/01/23  (rcs-revision 1.6)
 \pgfsyssoftpath@smallbuffer@items=\count119
 \pgfsyssoftpath@bigbuffer@items=\count120
-)
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+=======
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2014/02/28 v1.10 Data Visualization (1.10-2-gb39fe75)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks22
+\pgfutil@tempdima=\dimen115
+\pgfutil@tempdimb=\dimen116
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box28
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
+))
+Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks25
+))
+\pgf@x=\dimen117
+\pgf@y=\dimen118
+\pgf@xa=\dimen119
+\pgf@ya=\dimen120
+\pgf@xb=\dimen121
+\pgf@yb=\dimen122
+\pgf@xc=\dimen123
+\pgf@yc=\dimen124
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count120
+\c@pgf@countb=\count121
+\c@pgf@countc=\count122
+\c@pgf@countd=\count123
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count124
+\pgfsyssoftpath@bigbuffer@items=\count125
+>>>>>>> Stashed changes
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/etc/texmf/tex/latex/config/color.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
@@ -306,6 +398,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
+<<<<<<< Updated upstream
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2008/01/15 v2.00 (rcs-revision 1.6)
 
@@ -371,10 +464,101 @@ File: pgfcoretransformations.code.tex 2008/02/04  (rcs-revision 1.10)
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2006/10/11  (rcs-revision 1.2)
+=======
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen125
+\pgfmath@count=\count126
+\pgfmath@box=\box29
+\pgfmath@toks=\toks29
+\pgfmath@stack@operand=\toks30
+\pgfmath@stack@operation=\toks31
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count127
+))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen126
+\pgf@picmaxx=\dimen127
+\pgf@picminy=\dimen128
+\pgf@picmaxy=\dimen129
+\pgf@pathminx=\dimen130
+\pgf@pathmaxx=\dimen131
+\pgf@pathminy=\dimen132
+\pgf@pathmaxy=\dimen133
+\pgf@xx=\dimen134
+\pgf@xy=\dimen135
+\pgf@yx=\dimen136
+\pgf@yy=\dimen137
+\pgf@zx=\dimen138
+\pgf@zy=\dimen139
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen140
+\pgf@path@lasty=\dimen141
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+\pgf@shorten@end@additional=\dimen142
+\pgf@shorten@start@additional=\dimen143
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
+\pgfpic=\box30
+\pgf@hbox=\box31
+\pgf@layerbox@main=\box32
+\pgf@picture@serial@count=\count128
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+\pgflinewidth=\dimen144
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+\pgf@pt@x=\dimen145
+\pgf@pt@y=\dimen146
+\pgf@pt@temp=\dimen147
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+>>>>>>> Stashed changes
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
+<<<<<<< Updated upstream
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2008/01/23  (rcs-revision 1.7)
 )
@@ -392,10 +576,41 @@ File: pgfcoreimage.code.tex 2008/01/15  (rcs-revision 1.1)
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2008/01/15  (rcs-revision 1.1)
+=======
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+\pgfarrowsep=\dimen148
 )
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen149
+\pgf@sys@shading@range@num=\count129
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
+\pgfexternal@startupbox=\box33
+))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+>>>>>>> Stashed changes
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+<<<<<<< Updated upstream
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2008/01/15  (rcs-revision 1.1)
 )))
@@ -540,12 +755,197 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2007/03/09 v2.00 (rcs-revision 1.5)
+=======
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
-Package: natbib 2009/07/16 8.31 (PWD, AO)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
+\pgfnodeparttextbox=\box34
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen150
+\pgf@nodesepend=\dimen151
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen152
+\pgffor@skip=\dimen153
+\pgffor@stack=\toks32
+\pgffor@toks=\toks33
+))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
+\pgf@plot@mark@count=\count130
+\pgfplotmarksize=\dimen154
+)
+\tikz@lastx=\dimen155
+\tikz@lasty=\dimen156
+\tikz@lastxsaved=\dimen157
+\tikz@lastysaved=\dimen158
+\tikzleveldistance=\dimen159
+\tikzsiblingdistance=\dimen160
+\tikz@figbox=\box35
+\tikz@figbox@bg=\box36
+\tikz@tempbox=\box37
+\tikz@tempbox@bg=\box38
+\tikztreelevel=\count131
+\tikznumberofchildren=\count132
+\tikznumberofcurrentchild=\count133
+\tikz@fig@count=\count134
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count135
+\pgfmatrixcurrentcolumn=\count136
+\pgf@matrix@numberofcolumns=\count137
+)
+\tikz@expandcount=\count138
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
+>>>>>>> Stashed changes
+)))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks34
+\t@pgfplots@tokb=\toks35
+\t@pgfplots@tokc=\toks36
+\pgfplots@tmpa=\dimen161
+\c@pgfplots@coordindex=\count139
+\c@pgfplots@scanlineindex=\count140
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric
+.code.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.c
+ode.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplot
+soldpgfsupp_loader.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
+e.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code
+.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+liststructure.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+liststructureext.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+array.code.tex
+\c@pgfplotsarray@tmp=\count141
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+matrix.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
+shared.code.tex
+\c@pgfplotstable@counta=\count142
+\t@pgfplotstable@a=\toks37
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+deque.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.co
+de.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.da
+ta.code.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb
+.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplot
+s.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count143
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots
+.surfshading.pgfsys-pdftex.def)))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.
+code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.cod
+e.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.c
+ode.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.c
+ode.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandle
+r.code.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.
+tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessin
+g.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.cod
+e.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.
+tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.te
+x)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen162
+\pgfdecoratedremainingdistance=\dimen163
+\pgfdecoratedinputsegmentcompleteddistance=\dimen164
+\pgfdecoratedinputsegmentremainingdistance=\dimen165
+\pgf@decorate@distancetomove=\dimen166
+\pgf@decorate@repeatstate=\count144
+\pgfdecorationsegmentamplitude=\dimen167
+\pgfdecorationsegmentlength=\dimen168
+)
+\tikz@lib@dec@box=\box39
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathreplacing.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count145
+\pgfplots@xmin@reg=\dimen169
+\pgfplots@xmax@reg=\dimen170
+\pgfplots@ymin@reg=\dimen171
+\pgfplots@ymax@reg=\dimen172
+\pgfplots@zmin@reg=\dimen173
+\pgfplots@zmax@reg=\dimen174
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmar
+ks.code.tex
+File: pgflibraryplotmarks.code.tex 2013/07/20 v3.0.0 (rcs-revision 1.13)
+))) (/usr/local/texlive/2014/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip46
 \bibsep=\skip47
 LaTeX Info: Redefining \cite on input line 694.
+<<<<<<< Updated upstream
 \c@NAT@ctr=\count141
 )
 (/usr/share/texmf-texlive/tex/latex/tocbibind/tocbibind.sty
@@ -553,10 +953,17 @@ Package: tocbibind 2009/09/04 v1.5i extra ToC listings
 
 
 Package tocbibind Note: The document has chapter divisions.
+=======
+\c@NAT@ctr=\count146
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+>>>>>>> Stashed changes
 
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
+<<<<<<< Updated upstream
 )
 
 ! Package pgfkeys Error: I do not know the key '/pgfplots/compat' and I am goin
@@ -574,6 +981,9 @@ Pretend that you're Hercule Poirot: Examine all clues,
 and deduce the truth by order and method.
 
 (/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
+=======
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+>>>>>>> Stashed changes
 \fancy@headwidth=\skip48
 \f@ncyO@elh=\skip49
 \f@ncyO@erh=\skip50
@@ -584,8 +994,9 @@ and deduce the truth by order and method.
 \f@ncyO@olf=\skip55
 \f@ncyO@orf=\skip56
 )
-(/usr/share/texmf-texlive/tex/latex/amscls/amsthm.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2004/08/06 v2.20
+<<<<<<< Updated upstream
 \thm@style=\toks31
 \thm@bodyfont=\toks32
 \thm@headfont=\toks33
@@ -623,27 +1034,138 @@ File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Try loading font information for U+msa on input line 13.
+=======
+\thm@style=\toks38
+\thm@bodyfont=\toks39
+\thm@headfont=\toks40
+\thm@notefont=\toks41
+\thm@headpunct=\toks42
+\thm@preskip=\skip57
+\thm@postskip=\skip58
+\thm@headsep=\skip59
+\dth@everypar=\toks43
+)
+\c@lemma=\count147
+\c@definition=\count148
+\c@corolary=\count149
+\c@examle=\count150
+)
+(./PhdThesis.aux)
+\openout1 = `PhdThesis.aux'.
 
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 9.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 9.
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count151
+\scratchdimen=\dimen175
+\scratchbox=\box40
+\nofMPsegments=\count152
+\nofMParguments=\count153
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count154
+\MPscratchDim=\dimen176
+\MPnumerator=\count155
+\makeMPintoPDFobject=\count156
+\everyMPtoPDFconversion=\toks45
+) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.10} (current compat level: 1.9).
+>>>>>>> Stashed changes
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 12.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 13.
 
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
-] [2
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 
+<<<<<<< Updated upstream
 ] (./PhdThesis.toc
 Overfull \hbox (9.71918pt too wide) in paragraph at lines 12--12
  [] []\OT1/cmr/bx/n/12 Regularized it-er-a-tive least-squares al-go-rithm for p
 hase-shifting 
  []
+=======
+] (./PhdThesis.toc)
+\tf@toc=\write4
+\openout4 = `PhdThesis.toc'.
+>>>>>>> Stashed changes
 
+ [3] [4
 
+<<<<<<< Updated upstream
 Overfull \hbox (4.19275pt too wide) in paragraph at lines 18--18
  [] []\OT1/cmr/bx/n/12 Regularized self-tuning phase de-mod-u-la-tion for phase
 -shifting 
@@ -685,6 +1207,16 @@ Underfull \vbox (badness 6332) has occurred while \output is active []
 
 ] [3])
 (./Chpt1_FringePatternDemodulation/Chpt1_FringePatternDemodulation.tex [4]
+=======
+] (./PhdThesis.lof)
+\tf@lof=\write5
+\openout5 = `PhdThesis.lof'.
+
+ [5] [6
+
+]
+(./Chpt1_FringePatternDemodulation/Chpt1_FringePatternDemodulation.tex
+>>>>>>> Stashed changes
 Chapter 1.
 [5
 
@@ -714,12 +1246,148 @@ LaTeX Warning: Command \c invalid in math mode on input line 74.
 
 [6] [7] [8] [9] [10]
 
+<<<<<<< Updated upstream
 LaTeX Warning: Command \c invalid in math mode on input line 276.
 
 [11] [12] [13])
 (./Chpt1_RegularizedLeastSquares/Chpt1_RegularizedLeastSquares.tex [14]
 Chapter 2.
 [15
+=======
+Package natbib Warning: Citation `Bruning:74' on page 4 undefined on input line
+ 146.
+
+
+Package natbib Warning: Citation `Morgan' on page 4 undefined on input line 148
+.
+
+
+Package natbib Warning: Citation `Greivenkamp' on page 4 undefined on input lin
+e 150.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 156.
+
+[4]
+
+Package natbib Warning: Citation `Morgan' on page 5 undefined on input line 176
+.
+
+
+Package natbib Warning: Citation `Greivenkamp' on page 5 undefined on input lin
+e 176.
+
+
+Package natbib Warning: Citation `Okada' on page 5 undefined on input line 176.
+
+
+
+Package natbib Warning: Citation `Kong' on page 5 undefined on input line 176.
+
+[5]
+
+Package natbib Warning: Citation `RQF' on page 6 undefined on input line 235.
+
+
+Package natbib Warning: Citation `AQF' on page 6 undefined on input line 235.
+
+
+Package natbib Warning: Citation `AQF_mult' on page 6 undefined on input line 2
+35.
+
+
+Package natbib Warning: Citation `RPT' on page 6 undefined on input line 236.
+
+
+Package natbib Warning: Citation `RQPT' on page 6 undefined on input line 236.
+
+
+Package natbib Warning: Citation `Mariano' on page 6 undefined on input line 23
+6.
+
+
+Package natbib Warning: Citation `Mariano2' on page 6 undefined on input line 2
+36.
+
+
+Package natbib Warning: Citation `Vargas' on page 6 undefined on input line 236
+.
+
+
+Package natbib Warning: Citation `Medina' on page 6 undefined on input line 236
+.
+
+
+Package natbib Warning: Citation `Zeng' on page 6 undefined on input line 236.
+
+[6]
+Overfull \hbox (7.04507pt too wide) in alignment at lines 264--270
+ [][][] []
+ []
+
+) (./Chpt1_RegularizedLeastSquares/Chpt1_RegularizedLeastSquares.tex [7]
+[8
+
+]
+Chapter 2.
+
+Package natbib Warning: Citation `Malacara' on page 9 undefined on input line 2
+6.
+
+
+Package natbib Warning: Citation `GeneralTheory' on page 9 undefined on input l
+ine 26.
+
+
+Package natbib Warning: Citation `RQF' on page 9 undefined on input line 29.
+
+
+Package natbib Warning: Citation `temporal_1' on page 9 undefined on input line
+ 29.
+
+
+Package natbib Warning: Citation `temporal_2' on page 9 undefined on input line
+ 29.
+
+
+Package natbib Warning: Citation `RQF' on page 9 undefined on input line 32.
+
+
+Package natbib Warning: Citation `temporal_1' on page 9 undefined on input line
+ 32.
+
+
+Package natbib Warning: Citation `temporal_2' on page 9 undefined on input line
+ 32.
+
+
+Package natbib Warning: Citation `Mariano2' on page 9 undefined on input line 3
+2.
+
+
+Package natbib Warning: Citation `Medina' on page 9 undefined on input line 32.
+
+
+
+Package natbib Warning: Citation `Zeng' on page 9 undefined on input line 32.
+
+
+Package natbib Warning: Citation `Malacara' on page 9 undefined on input line 4
+1.
+
+
+Package natbib Warning: Citation `temporal_2' on page 9 undefined on input line
+ 41.
+
+[9]
+
+Package natbib Warning: Citation `RQF' on page 10 undefined on input line 65.
+
+
+Overfull \hbox (23.96906pt too wide) in paragraph at lines 80--80
+[] 
+ []
+>>>>>>> Stashed changes
 
 ]
 
@@ -728,6 +1396,7 @@ Package Fancyhdr Warning: \headheight is too small (25.3pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+<<<<<<< Updated upstream
 [16]
 File: Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_1.eps Graphic file (type 
 eps)
@@ -737,9 +1406,63 @@ eps)
 
 <Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_2.eps> [17] [18] [19])
 (./Chpt2_RegularizedSelfTuning/Chpt2_RegularizedSelfTuning.tex [20]
+=======
+[10]
+Package epstopdf Info: Source file: <Chpt1_RegularizedLeastSquares/Chpt1_figure
+s/Fig_1.eps>
+(epstopdf)                    date: 2015-05-20 16:02:04
+(epstopdf)                    size: 1938818 bytes
+(epstopdf)             Output file: <Chpt1_RegularizedLeastSquares/Chpt1_figure
+s/Fig_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 16:07:50
+(epstopdf)                    size: 846012 bytes
+(epstopdf)             Command: <repstopdf --outfile=Chpt1_RegularizedLeastSqua
+res/Chpt1_figures/Fig_1-eps-converted-to.pdf Chpt1_RegularizedLeastSquares/Chpt
+1_figures/Fig_1.eps>
+(epstopdf)             \includegraphics on input line 109.
+Package epstopdf Info: Output file is already uptodate.
+
+<Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_1-eps-converted-to.pdf, id=68,
+ 1325.95375pt x 458.71375pt>
+File: Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_1-eps-converted-to.pdf Gr
+aphic file (type pdf)
+
+<use Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_1-eps-converted-to.pdf>
+Package pdftex.def Info: Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_1-eps-
+converted-to.pdf used on input line 109.
+(pdftex.def)             Requested size: 331.48763pt x 114.67815pt.
+Package epstopdf Info: Source file: <Chpt1_RegularizedLeastSquares/Chpt1_figure
+s/Fig_2.eps>
+(epstopdf)                    date: 2015-05-20 16:02:04
+(epstopdf)                    size: 1275741 bytes
+(epstopdf)             Output file: <Chpt1_RegularizedLeastSquares/Chpt1_figure
+s/Fig_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 16:07:51
+(epstopdf)                    size: 429195 bytes
+(epstopdf)             Command: <repstopdf --outfile=Chpt1_RegularizedLeastSqua
+res/Chpt1_figures/Fig_2-eps-converted-to.pdf Chpt1_RegularizedLeastSquares/Chpt
+1_figures/Fig_2.eps>
+(epstopdf)             \includegraphics on input line 146.
+Package epstopdf Info: Output file is already uptodate.
+
+<Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_2-eps-converted-to.pdf, id=69,
+ 1237.62375pt x 430.60875pt>
+File: Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_2-eps-converted-to.pdf Gr
+aphic file (type pdf)
+
+<use Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_2-eps-converted-to.pdf>
+Package pdftex.def Info: Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_2-eps-
+converted-to.pdf used on input line 146.
+(pdftex.def)             Requested size: 371.29pt x 129.18361pt.
+
+[11] [12 <./Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_1-eps-converted-to.
+pdf>] [13 <./Chpt1_RegularizedLeastSquares/Chpt1_figures/Fig_2-eps-converted-to
+.pdf>]) (./Chpt2_RegularizedSelfTuning/Chpt2_RegularizedSelfTuning.tex [14]
+>>>>>>> Stashed changes
 Chapter 3.
 [21
 
+<<<<<<< Updated upstream
 ] [22] [23] [24]
 Overfull \hbox (16.7858pt too wide) in paragraph at lines 176--176
 []\OT1/cmr/bx/n/17.28 Minimization pro-cess of the quadratic func-
@@ -754,12 +1477,238 @@ s)
 
 <Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps.eps>
 Overfull \hbox (14.97496pt too wide) in paragraph at lines 339--349
+=======
+Overfull \hbox (5.57506pt too wide) in paragraph at lines 6--21
+\OT1/cmr/m/n/12 In this work, we de-velop a reg-u-lar-iza-tion tech-nique to de
+-mod-u-late =======
+ []
+
+
+Package natbib Warning: Citation `Malacara' on page 15 undefined on input line 
+25.
+
+
+Package natbib Warning: Citation `Malacara' on page 15 undefined on input line 
+31.
+
+
+Package natbib Warning: Citation `Freischlad:90' on page 15 undefined on input 
+line 31.
+
+
+Package natbib Warning: Citation `Servin:09' on page 15 undefined on input line
+ 31.
+
+
+Package natbib Warning: Citation `Servin:09' on page 15 undefined on input line
+ 35.
+
+
+Package natbib Warning: Citation `Schwider:83' on page 15 undefined on input li
+ne 35.
+
+
+Package natbib Warning: Citation `Ai:87' on page 15 undefined on input line 35.
+
+
+
+Package natbib Warning: Citation `Larkin:01' on page 15 undefined on input line
+ 35.
+
+
+Package natbib Warning: Citation `Langoju:06' on page 15 undefined on input lin
+e 35.
+
+
+Package natbib Warning: Citation `Ai:87' on page 15 undefined on input line 41.
+
+
+
+Package natbib Warning: Citation `Cheng:85' on page 15 undefined on input line 
+41.
+
+
+Package natbib Warning: Citation `Schwider:83' on page 15 undefined on input li
+ne 46.
+
+
+Package natbib Warning: Citation `Hariharan:87' on page 15 undefined on input l
+ine 46.
+
+
+Package natbib Warning: Citation `Surrel:93' on page 15 undefined on input line
+ 46.
+
+
+Package natbib Warning: Citation `Estrada:09' on page 15 undefined on input lin
+e 49.
+
+
+Package natbib Warning: Citation `Larkin:01' on page 15 undefined on input line
+ 51.
+
+
+Package natbib Warning: Citation `Lai:91' on page 15 undefined on input line 51
+.
+
+
+Package natbib Warning: Citation `Kong' on page 15 undefined on input line 53.
+
+
+Package natbib Warning: Citation `Wang:04' on page 15 undefined on input line 5
+3.
+
+[15
+
+]
+
+Package natbib Warning: Citation `Kong' on page 16 undefined on input line 62.
+
+
+Package natbib Warning: Citation `Wang:04' on page 16 undefined on input line 6
+2.
+
+
+Package natbib Warning: Citation `Larkin:02' on page 16 undefined on input line
+ 62.
+
+
+Package natbib Warning: Citation `Kong' on page 16 undefined on input line 66.
+
+
+Package natbib Warning: Citation `Wang:04' on page 16 undefined on input line 6
+6.
+
+
+Package natbib Warning: Citation `Larkin:02' on page 16 undefined on input line
+ 67.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+
+Package natbib Warning: Citation `Jahne' on page 17 undefined on input line 89.
+
+
+
+Package natbib Warning: Citation `RQF' on page 17 undefined on input line 96.
+
+[17]
+
+Package natbib Warning: Citation `RQF' on page 18 undefined on input line 125.
+
+
+Package natbib Warning: Citation `AQF_mult' on page 18 undefined on input line 
+125.
+
+
+Package natbib Warning: Citation `Nocedal' on page 18 undefined on input line 1
+45.
+
+[18]
+Overfull \hbox (16.7858pt too wide) in paragraph at lines 181--181
+[]\OT1/cmr/bx/n/17.28 Minimization pro-cess of the quadratic func-
+ []
+
+[19]
+
+Package natbib Warning: Citation `Wang:04' on page 20 undefined on input line 2
+82.
+
+[20]
+Underfull \vbox (badness 1824) has occurred while \output is active []
+
+ [21]
+Package epstopdf Info: Source file: <Chpt2_RegularizedSelfTuning/Chpt2_figures/
+Steps.eps>
+(epstopdf)                    date: 2015-05-20 16:02:04
+(epstopdf)                    size: 1902315 bytes
+(epstopdf)             Output file: <Chpt2_RegularizedSelfTuning/Chpt2_figures/
+Steps-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 16:07:53
+(epstopdf)                    size: 261203 bytes
+(epstopdf)             Command: <repstopdf --outfile=Chpt2_RegularizedSelfTunin
+g/Chpt2_figures/Steps-eps-converted-to.pdf Chpt2_RegularizedSelfTuning/Chpt2_fi
+gures/Steps.eps>
+(epstopdf)             \includegraphics on input line 326.
+Package epstopdf Info: Output file is already uptodate.
+
+<Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps-eps-converted-to.pdf, id=127, 
+1528.71124pt x 663.47874pt>
+File: Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps-eps-converted-to.pdf Grap
+hic file (type pdf)
+
+<use Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps-eps-converted-to.pdf>
+Package pdftex.def Info: Chpt2_RegularizedSelfTuning/Chpt2_figures/Steps-eps-co
+nverted-to.pdf used on input line 326.
+(pdftex.def)             Requested size: 305.73683pt x 132.69339pt.
+
+Overfull \hbox (14.97496pt too wide) in paragraph at lines 341--351
+>>>>>>> Stashed changes
 \OT1/cmr/m/n/12 We have pre-sented a reg-u-lar-ized self-tuning phase-shifting 
 de-mod-u-la-tion method
  []
 
+<<<<<<< Updated upstream
 ) (./Chpt3_RobustAdaptive/Chpt3_RobustAdaptive.tex [28]
+=======
+) (./Chpt3_RobustAdaptive/Chpt3_RobustAdaptive.tex [22 <./Chpt2_RegularizedSelf
+Tuning/Chpt2_figures/Steps-eps-converted-to.pdf>]
+>>>>>>> Stashed changes
 Chapter 4.
+
+Package natbib Warning: Citation `Bruning:74' on page 23 undefined on input lin
+e 53.
+
+
+Package natbib Warning: Citation `Morgan' on page 23 undefined on input line 53
+.
+
+
+Package natbib Warning: Citation `Schwider:83' on page 23 undefined on input li
+ne 53.
+
+
+Package natbib Warning: Citation `Cheng:85' on page 23 undefined on input line 
+53.
+
+
+Package natbib Warning: Citation `Hariharan:87' on page 23 undefined on input l
+ine 53.
+
+
+Package natbib Warning: Citation `Estrada:09' on page 23 undefined on input lin
+e 53.
+
+
+Package natbib Warning: Citation `Servin:09' on page 23 undefined on input line
+ 60.
+
+
+Package natbib Warning: Citation `GeneralTheory' on page 23 undefined on input 
+line 60.
+
+
+Package natbib Warning: Citation `Servin:10' on page 23 undefined on input line
+ 63.
+
+
+Package natbib Warning: Citation `Kimbrough:06' on page 23 undefined on input l
+ine 63.
+
+
+Package natbib Warning: Citation `Xu:06' on page 23 undefined on input line 66.
+
+
+
+Package natbib Warning: Citation `Wang:04' on page 23 undefined on input line 6
+6.
+
+
+Package natbib Warning: Citation `Estrada:10' on page 23 undefined on input lin
+e 66.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -772,6 +1721,7 @@ Underfull \vbox (badness 1152) has occurred while \output is active []
 [31]
 Underfull \vbox (badness 1264) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [32]
 [33]
 File: Chpt3_RobustAdaptive/Chpt3_figures/fig_1.eps Graphic file (type eps)
@@ -783,10 +1733,130 @@ Underfull \vbox (badness 1231) has occurred while \output is active []
 
  [36]
 File: Chpt3_RobustAdaptive/Chpt3_figures/fig_3.eps Graphic file (type eps)
+=======
+[27]
+Package epstopdf Info: Source file: <Chpt3_RobustAdaptive/Chpt3_figures/fig_1.e
+ps>
+(epstopdf)                    date: 2015-05-20 16:02:04
+(epstopdf)                    size: 973664 bytes
+(epstopdf)             Output file: <Chpt3_RobustAdaptive/Chpt3_figures/fig_1-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 16:07:54
+(epstopdf)                    size: 167433 bytes
+(epstopdf)             Command: <repstopdf --outfile=Chpt3_RobustAdaptive/Chpt3
+_figures/fig_1-eps-converted-to.pdf Chpt3_RobustAdaptive/Chpt3_figures/fig_1.ep
+s>
+(epstopdf)             \includegraphics on input line 235.
+Package epstopdf Info: Output file is already uptodate.
 
-<Chpt3_RobustAdaptive/Chpt3_figures/fig_3.eps>
-File: Chpt3_RobustAdaptive/Chpt3_figures/fig_4.eps Graphic file (type eps)
+<Chpt3_RobustAdaptive/Chpt3_figures/fig_1-eps-converted-to.pdf, id=150, 699.613
+75pt x 612.2875pt>
+File: Chpt3_RobustAdaptive/Chpt3_figures/fig_1-eps-converted-to.pdf Graphic fil
+e (type pdf)
 
+<use Chpt3_RobustAdaptive/Chpt3_figures/fig_1-eps-converted-to.pdf>
+Package pdftex.def Info: Chpt3_RobustAdaptive/Chpt3_figures/fig_1-eps-converted
+-to.pdf used on input line 235.
+(pdftex.def)             Requested size: 279.84055pt x 244.91066pt.
+
+
+Package natbib Warning: Citation `Wang:04' on page 28 undefined on input line 2
+50.
+
+[28 <./Chpt3_RobustAdaptive/Chpt3_figures/fig_1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Chpt3_RobustAdaptive/Chpt3_figures/fig_2.e
+ps>
+(epstopdf)                    date: 2015-05-20 16:02:04
+(epstopdf)                    size: 257938 bytes
+(epstopdf)             Output file: <Chpt3_RobustAdaptive/Chpt3_figures/fig_2-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 16:07:56
+(epstopdf)                    size: 104168 bytes
+(epstopdf)             Command: <repstopdf --outfile=Chpt3_RobustAdaptive/Chpt3
+_figures/fig_2-eps-converted-to.pdf Chpt3_RobustAdaptive/Chpt3_figures/fig_2.ep
+s>
+(epstopdf)             \includegraphics on input line 280.
+Package epstopdf Info: Output file is already uptodate.
+
+<Chpt3_RobustAdaptive/Chpt3_figures/fig_2-eps-converted-to.pdf, id=157, 941.517
+5pt x 776.9025pt>
+File: Chpt3_RobustAdaptive/Chpt3_figures/fig_2-eps-converted-to.pdf Graphic fil
+e (type pdf)
+
+<use Chpt3_RobustAdaptive/Chpt3_figures/fig_2-eps-converted-to.pdf>
+Package pdftex.def Info: Chpt3_RobustAdaptive/Chpt3_figures/fig_2-eps-converted
+-to.pdf used on input line 280.
+(pdftex.def)             Requested size: 188.30016pt x 155.37775pt.
+
+
+Package natbib Warning: Citation `Schwider:83' on page 29 undefined on input li
+ne 317.
+
+
+Package natbib Warning: Citation `Servin:09' on page 29 undefined on input line
+ 317.
+
+[29]
+Package epstopdf Info: Source file: <Chpt3_RobustAdaptive/Chpt3_figures/fig_3.e
+ps>
+(epstopdf)                    date: 2015-05-20 16:02:04
+(epstopdf)                    size: 2011046 bytes
+(epstopdf)             Output file: <Chpt3_RobustAdaptive/Chpt3_figures/fig_3-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 16:07:58
+(epstopdf)                    size: 246233 bytes
+(epstopdf)             Command: <repstopdf --outfile=Chpt3_RobustAdaptive/Chpt3
+_figures/fig_3-eps-converted-to.pdf Chpt3_RobustAdaptive/Chpt3_figures/fig_3.ep
+s>
+(epstopdf)             \includegraphics on input line 322.
+Package epstopdf Info: Output file is already uptodate.
+
+<Chpt3_RobustAdaptive/Chpt3_figures/fig_3-eps-converted-to.pdf, id=161, 1196.47
+pt x 742.775pt>
+File: Chpt3_RobustAdaptive/Chpt3_figures/fig_3-eps-converted-to.pdf Graphic fil
+e (type pdf)
+
+<use Chpt3_RobustAdaptive/Chpt3_figures/fig_3-eps-converted-to.pdf>
+Package pdftex.def Info: Chpt3_RobustAdaptive/Chpt3_figures/fig_3-eps-converted
+-to.pdf used on input line 322.
+(pdftex.def)             Requested size: 358.94377pt x 222.83421pt.
+Package epstopdf Info: Source file: <Chpt3_RobustAdaptive/Chpt3_figures/fig_4.e
+ps>
+(epstopdf)                    date: 2015-05-20 16:02:04
+(epstopdf)                    size: 717455 bytes
+(epstopdf)             Output file: <Chpt3_RobustAdaptive/Chpt3_figures/fig_4-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 16:07:59
+(epstopdf)                    size: 174264 bytes
+(epstopdf)             Command: <repstopdf --outfile=Chpt3_RobustAdaptive/Chpt3
+_figures/fig_4-eps-converted-to.pdf Chpt3_RobustAdaptive/Chpt3_figures/fig_4.ep
+s>
+(epstopdf)             \includegraphics on input line 332.
+Package epstopdf Info: Output file is already uptodate.
+
+<Chpt3_RobustAdaptive/Chpt3_figures/fig_4-eps-converted-to.pdf, id=162, 1067.99
+pt x 463.7325pt>
+File: Chpt3_RobustAdaptive/Chpt3_figures/fig_4-eps-converted-to.pdf Graphic fil
+e (type pdf)
+
+<use Chpt3_RobustAdaptive/Chpt3_figures/fig_4-eps-converted-to.pdf>
+Package pdftex.def Info: Chpt3_RobustAdaptive/Chpt3_figures/fig_4-eps-converted
+-to.pdf used on input line 332.
+(pdftex.def)             Requested size: 320.39948pt x 139.12082pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+>>>>>>> Stashed changes
+
+ [30 <./Chpt3_RobustAdaptive/Chpt3_figures/fig_2-eps-converted-to.pdf>]
+
+Package natbib Warning: Citation `Xu:06' on page 31 undefined on input line 362
+.
+
+
+Package natbib Warning: Citation `Wang:04' on page 31 undefined on input line 3
+62.
+
+<<<<<<< Updated upstream
 <Chpt3_RobustAdaptive/Chpt3_figures/fig_4.eps> [37] [38]) [39]
 (./Chpt4_PhaseDetuningCorrecting/Chpt4_PhaseDetuningCorrecting.tex [40]
 Chapter 5.
@@ -1658,3 +2728,303 @@ Here is how much of TeX's memory you used:
  61i,14n,55p,579b,564s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on PhdThesis.dvi (72 pages, 209776 bytes).
+=======
+
+Package natbib Warning: Citation `Estrada:10' on page 31 undefined on input lin
+e 362.
+
+
+Package natbib Warning: Citation `Wang:04' on page 31 undefined on input line 3
+67.
+
+
+Package natbib Warning: Citation `Morgan' on page 31 undefined on input line 36
+8.
+
+
+Package natbib Warning: Citation `Wang:04' on page 31 undefined on input line 3
+71.
+
+
+Package natbib Warning: Citation `Xu:06' on page 31 undefined on input line 378
+.
+
+
+Package natbib Warning: Citation `Wang:04' on page 31 undefined on input line 3
+78.
+
+[31 <./Chpt3_RobustAdaptive/Chpt3_figures/fig_3-eps-converted-to.pdf>] [32 <./C
+hpt3_RobustAdaptive/Chpt3_figures/fig_4-eps-converted-to.pdf>])
+(./Chpt4_PhaseDetuningCorrecting/Chpt4_PhaseDetuningCorrecting.tex [33]
+[34
+
+]
+Chapter 5.
+
+Package natbib Warning: Citation `Malacara' on page 35 undefined on input line 
+49.
+
+
+Package natbib Warning: Citation `GeneralTheory' on page 35 undefined on input 
+line 49.
+
+
+Package natbib Warning: Citation `Mosino:09' on page 35 undefined on input line
+ 49.
+
+
+Package natbib Warning: Citation `fringePatternAnalisys' on page 35 undefined o
+n input line 49.
+
+
+Package natbib Warning: Citation `PhaseDetuning_0' on page 35 undefined on inpu
+t line 53.
+
+
+Package natbib Warning: Citation `PhaseDetuning_1' on page 35 undefined on inpu
+t line 53.
+
+
+Package natbib Warning: Citation `Malacara' on page 35 undefined on input line 
+53.
+
+
+Package natbib Warning: Citation `Mosino:10' on page 35 undefined on input line
+ 53.
+
+
+Package natbib Warning: Citation `ShopTesting' on page 35 undefined on input li
+ne 53.
+
+
+Package natbib Warning: Citation `AccuracyPSI_1' on page 35 undefined on input 
+line 53.
+
+
+Package natbib Warning: Citation `deGroot:95' on page 35 undefined on input lin
+e 53.
+
+
+Package natbib Warning: Citation `Schmit:95' on page 35 undefined on input line
+ 53.
+
+
+Package natbib Warning: Citation `Gutmann:98' on page 35 undefined on input lin
+e 53.
+
+
+Package natbib Warning: Citation `Servin:10' on page 35 undefined on input line
+ 53.
+
+[35]
+
+Package natbib Warning: Citation `Mosino:09' on page 36 undefined on input line
+ 73.
+
+
+Package natbib Warning: Citation `RQF' on page 36 undefined on input line 106.
+
+[36]
+Package epstopdf Info: Source file: <Chpt4_PhaseDetuningCorrecting/Chpt4_figure
+s/Fig_1aNoise.eps>
+(epstopdf)                    date: 2015-05-20 16:02:04
+(epstopdf)                    size: 139000 bytes
+(epstopdf)             Output file: <Chpt4_PhaseDetuningCorrecting/Chpt4_figure
+s/Fig_1aNoise-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 16:08:00
+(epstopdf)                    size: 94649 bytes
+(epstopdf)             Command: <repstopdf --outfile=Chpt4_PhaseDetuningCorrect
+ing/Chpt4_figures/Fig_1aNoise-eps-converted-to.pdf Chpt4_PhaseDetuningCorrectin
+g/Chpt4_figures/Fig_1aNoise.eps>
+(epstopdf)             \includegraphics on input line 123.
+Package epstopdf Info: Output file is already uptodate.
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1aNoise-eps-converted-to.pdf, 
+id=195, 205.76875pt x 206.7725pt>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1aNoise-eps-converted-to.
+pdf Graphic file (type pdf)
+
+<use Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1aNoise-eps-converted-to.p
+df>
+Package pdftex.def Info: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1aNois
+e-eps-converted-to.pdf used on input line 123.
+(pdftex.def)             Requested size: 154.32617pt x 155.07898pt.
+Package epstopdf Info: Source file: <Chpt4_PhaseDetuningCorrecting/Chpt4_figure
+s/Fig_1bNoise.eps>
+(epstopdf)                    date: 2015-05-20 16:02:04
+(epstopdf)                    size: 101884 bytes
+(epstopdf)             Output file: <Chpt4_PhaseDetuningCorrecting/Chpt4_figure
+s/Fig_1bNoise-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 16:08:01
+(epstopdf)                    size: 18646 bytes
+(epstopdf)             Command: <repstopdf --outfile=Chpt4_PhaseDetuningCorrect
+ing/Chpt4_figures/Fig_1bNoise-eps-converted-to.pdf Chpt4_PhaseDetuningCorrectin
+g/Chpt4_figures/Fig_1bNoise.eps>
+(epstopdf)             \includegraphics on input line 124.
+Package epstopdf Info: Output file is already uptodate.
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1bNoise-eps-converted-to.pdf, 
+id=196, 205.76875pt x 206.7725pt>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1bNoise-eps-converted-to.
+pdf Graphic file (type pdf)
+
+<use Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1bNoise-eps-converted-to.p
+df>
+Package pdftex.def Info: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1bNois
+e-eps-converted-to.pdf used on input line 124.
+(pdftex.def)             Requested size: 154.32617pt x 155.07898pt.
+Package epstopdf Info: Source file: <Chpt4_PhaseDetuningCorrecting/Chpt4_figure
+s/2D_error.eps>
+(epstopdf)                    date: 2015-05-20 16:02:04
+(epstopdf)                    size: 80450 bytes
+(epstopdf)             Output file: <Chpt4_PhaseDetuningCorrecting/Chpt4_figure
+s/2D_error-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 16:08:02
+(epstopdf)                    size: 7298 bytes
+(epstopdf)             Command: <repstopdf --outfile=Chpt4_PhaseDetuningCorrect
+ing/Chpt4_figures/2D_error-eps-converted-to.pdf Chpt4_PhaseDetuningCorrecting/C
+hpt4_figures/2D_error.eps>
+(epstopdf)             \includegraphics on input line 136.
+Package epstopdf Info: Output file is already uptodate.
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error-eps-converted-to.pdf, id=
+197, 297.11pt x 252.945pt>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error-eps-converted-to.pdf
+ Graphic file (type pdf)
+
+<use Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error-eps-converted-to.pdf>
+Package pdftex.def Info: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error-e
+ps-converted-to.pdf used on input line 136.
+(pdftex.def)             Requested size: 222.83194pt x 189.70828pt.
+
+Overfull \hbox (33.61787pt too wide) in paragraph at lines 147--147
+[]\OT1/cmr/bx/n/17.28 Phase De-tun-ing Cor-rect-ing Method (PDCM) 
+ []
+
+[37 <./Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1aNoise-eps-converted-to
+.pdf> <./Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fig_1bNoise-eps-converted-
+to.pdf>] [38 <./Chpt4_PhaseDetuningCorrecting/Chpt4_figures/2D_error-eps-conver
+ted-to.pdf>]
+
+LaTeX Warning: Reference `Eq:explicit_u' on page 39 undefined on input line 190
+.
+
+
+LaTeX Warning: Reference `Eq:explicit_v' on page 39 undefined on input line 190
+.
+
+Package epstopdf Info: Source file: <Chpt4_PhaseDetuningCorrecting/Chpt4_figure
+s/FaseError_Ideal_3D.eps>
+(epstopdf)                    date: 2015-05-20 16:02:04
+(epstopdf)                    size: 251819 bytes
+(epstopdf)             Output file: <Chpt4_PhaseDetuningCorrecting/Chpt4_figure
+s/FaseError_Ideal_3D-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 16:08:04
+(epstopdf)                    size: 49870 bytes
+(epstopdf)             Command: <repstopdf --outfile=Chpt4_PhaseDetuningCorrect
+ing/Chpt4_figures/FaseError_Ideal_3D-eps-converted-to.pdf Chpt4_PhaseDetuningCo
+rrecting/Chpt4_figures/FaseError_Ideal_3D.eps>
+(epstopdf)             \includegraphics on input line 215.
+Package epstopdf Info: Output file is already uptodate.
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/FaseError_Ideal_3D-eps-converted-t
+o.pdf, id=217, 504.88625pt x 266.9975pt>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/FaseError_Ideal_3D-eps-conver
+ted-to.pdf Graphic file (type pdf)
+
+<use Chpt4_PhaseDetuningCorrecting/Chpt4_figures/FaseError_Ideal_3D-eps-convert
+ed-to.pdf>
+Package pdftex.def Info: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/FaseError_
+Ideal_3D-eps-converted-to.pdf used on input line 215.
+(pdftex.def)             Requested size: 183.30048pt x 96.93382pt.
+Package epstopdf Info: Source file: <Chpt4_PhaseDetuningCorrecting/Chpt4_figure
+s/Fase_Ideal_3D.eps>
+(epstopdf)                    date: 2015-05-20 16:02:04
+(epstopdf)                    size: 254550 bytes
+(epstopdf)             Output file: <Chpt4_PhaseDetuningCorrecting/Chpt4_figure
+s/Fase_Ideal_3D-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 16:08:05
+(epstopdf)                    size: 45443 bytes
+(epstopdf)             Command: <repstopdf --outfile=Chpt4_PhaseDetuningCorrect
+ing/Chpt4_figures/Fase_Ideal_3D-eps-converted-to.pdf Chpt4_PhaseDetuningCorrect
+ing/Chpt4_figures/Fase_Ideal_3D.eps>
+(epstopdf)             \includegraphics on input line 216.
+Package epstopdf Info: Output file is already uptodate.
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fase_Ideal_3D-eps-converted-to.pdf
+, id=218, 505.89pt x 270.00874pt>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fase_Ideal_3D-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fase_Ideal_3D-eps-converted-to
+.pdf>
+Package pdftex.def Info: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fase_Ideal
+_3D-eps-converted-to.pdf used on input line 216.
+(pdftex.def)             Requested size: 183.30048pt x 97.83342pt.
+
+Overfull \hbox (0.60095pt too wide) in paragraph at lines 213--219
+ [] 
+ []
+
+[39 <./Chpt4_PhaseDetuningCorrecting/Chpt4_figures/FaseError_Ideal_3D-eps-conve
+rted-to.pdf> <./Chpt4_PhaseDetuningCorrecting/Chpt4_figures/Fase_Ideal_3D-eps-c
+onverted-to.pdf>]
+
+LaTeX Warning: Reference `Eq:ExplicitGradient' on page 40 undefined on input li
+ne 241.
+
+
+LaTeX Warning: Reference `Eq:explicit_u' on page 40 undefined on input line 259
+.
+
+
+LaTeX Warning: Reference `Eq:explicit_v' on page 40 undefined on input line 259
+.
+
+
+LaTeX Warning: Reference `Eq:dx' on page 40 undefined on input line 272.
+
+
+LaTeX Warning: Reference `Eq:dy' on page 40 undefined on input line 272.
+
+Package epstopdf Info: Source file: <Chpt4_PhaseDetuningCorrecting/Chpt4_figure
+s/fig_E1.eps>
+(epstopdf)                    date: 2015-05-20 16:02:04
+(epstopdf)                    size: 488452 bytes
+(epstopdf)             Output file: <Chpt4_PhaseDetuningCorrecting/Chpt4_figure
+s/fig_E1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 16:08:06
+(epstopdf)                    size: 36347 bytes
+(epstopdf)             Command: <repstopdf --outfile=Chpt4_PhaseDetuningCorrect
+ing/Chpt4_figures/fig_E1-eps-converted-to.pdf Chpt4_PhaseDetuningCorrecting/Chp
+t4_figures/fig_E1.eps>
+(epstopdf)             \includegraphics on input line 315.
+Package epstopdf Info: Output file is already uptodate.
+
+<Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E1-eps-converted-to.pdf, id=22
+8, 362.35374pt x 362.35374pt>
+File: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E1-eps-converted-to.pdf G
+raphic file (type pdf)
+
+<use Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E1-eps-converted-to.pdf>
+Package pdftex.def Info: Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig_E1-eps
+-converted-to.pdf used on input line 315.
+(pdftex.def)             Requested size: 155.80907pt x 155.80907pt.
+Package epstopdf Info: Source file: <Chpt4_PhaseDetuningCorrecting/Chpt4_figure
+s/fig_E2.eps>
+(epstopdf)                    date: 2015-05-20 16:02:04
+(epstopdf)                    size: 1060280 bytes
+(epstopdf)             Output file: <Chpt4_PhaseDetuningCorrecting/Chpt4_figure
+s/fig_E2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-20 16:08:07
+(epstopdf)                    size: 0 bytes
+(epstopdf)             Command: <repstopdf --outfile=Chpt4_PhaseDetuningCorrect
+ing/Chpt4_figures/fig_E2-eps-converted-to.pdf Chpt4_PhaseDetuningCorrecting/Chp
+t4_figures/fig_E2.eps>
+(epstopdf)             \includegraphics on input line 316.
+Package epstopdf Info: Output file is already uptodate.
+
+!pdfTeX error: pdflatex (file ./Chpt4_PhaseDetuningCorrecting/Chpt4_figures/fig
+_E2-eps-converted-to.pdf): reading image file failed
+ ==> Fatal error occurred, no output PDF file produced!
+>>>>>>> Stashed changes

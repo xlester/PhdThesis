@@ -1,0 +1,45 @@
+\message{ !name(PhdThesis.tex)}\documentclass[letterpaper,12pt]{book}
+
+\usepackage{import}
+\usepackage{thesis}
+
+\title{Robust Methods for Optical Interferometry Images}
+\author{M.C. Orlando Miguel Medina C\'azares}
+
+\begin{document}
+
+\message{ !name(PhdThesis.tex) !offset(-3) }
+
+
+%\frontmatter
+\maketitle
+
+\clearpage
+\thispagestyle{empty}
+
+\tableofcontents
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+
+\mainmatter
+\import{Chpt1_FringePatternDemodulation/}{Chpt1_FringePatternDemodulation.tex}
+
+\import{Chpt1_RegularizedLeastSquares/}{Chpt1_RegularizedLeastSquares.tex}
+
+\import{Chpt2_RegularizedSelfTuning/}{Chpt2_RegularizedSelfTuning.tex}
+
+\import{Chpt3_RobustAdaptive/}{Chpt3_RobustAdaptive.tex}
+
+\import{Chpt4_PhaseDetuningCorrecting/}{Chpt4_PhaseDetuningCorrecting.tex}
+
+%\chapter{Regularized self-tuning phase demodulation with arbitrary phase shifts
+%(Sn Dgo 2010)}
+%\chapter{Robust adaptive phase-shifting demodulation method for ...}
+%\chapter{Phase detuning correction method}
+
+\medskip
+\bibliography{References_PhdThesis}
+
+\end{document}
+
+\message{ !name(PhdThesis.tex) !offset(-45) }
