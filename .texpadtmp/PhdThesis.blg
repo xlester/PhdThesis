@@ -1,8 +1,41 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: PhdThesis.aux
-The style file: plain.bst
+The style file: unsrtnat.bst
 I found no \bibdata command---while reading file PhdThesis.aux
+Warning--I didn't find a database entry for "Schwider:83"
+Warning--I didn't find a database entry for "Creath:91"
+Warning--I didn't find a database entry for "Itoh:82"
+Warning--I didn't find a database entry for "Huntley:89"
+Warning--I didn't find a database entry for "Ghiglia:94"
+Warning--I didn't find a database entry for "Quiroga:94"
+Warning--I didn't find a database entry for "ServinA:10"
+Warning--I didn't find a database entry for "Crane:69"
+Warning--I didn't find a database entry for "Hays:71"
+Warning--I didn't find a database entry for "Kujawinska2006"
+Warning--I didn't find a database entry for "Surrel:96"
+Warning--I didn't find a database entry for "Wyant:75"
+Warning--I didn't find a database entry for "Gonzalez:11"
+Warning--I didn't find a database entry for "Mosino:09"
+Warning--I didn't find a database entry for "Mosino:10"
+Warning--I didn't find a database entry for "Surrel:93"
+Warning--I didn't find a database entry for "Surrel:97"
+Warning--I didn't find a database entry for "Hariharan:87"
+Warning--I didn't find a database entry for "Larkin:92"
+Warning--I didn't find a database entry for "Schmit:95"
+Warning--I didn't find a database entry for "Schmit:96"
+Warning--I didn't find a database entry for "Hibino:97"
+Warning--I didn't find a database entry for "deGroot:95"
+Warning--I didn't find a database entry for "Bi:04"
+Warning--I didn't find a database entry for "Brophy:90"
+Warning--I didn't find a database entry for "Rathjen:95"
+Warning--I didn't find a database entry for "Papoulis:2002"
+Warning--I didn't find a database entry for "Gasvik:2002"
+Warning--I didn't find a database entry for "Servin:11"
+Warning--I didn't find a database entry for "Servin:09"
+Warning--I didn't find a database entry for "Ichioka:72"
+Warning--I didn't find a database entry for "Takeda:82"
+Warning--I didn't find a database entry for "Granlund2010"
 Warning--I didn't find a database entry for "Bruning:74"
 Warning--I didn't find a database entry for "Morgan"
 Warning--I didn't find a database entry for "Greivenkamp"
@@ -11,6 +44,7 @@ Warning--I didn't find a database entry for "Kong"
 Warning--I didn't find a database entry for "RQF"
 Warning--I didn't find a database entry for "AQF"
 Warning--I didn't find a database entry for "AQF_mult"
+Warning--I didn't find a database entry for "Marroquin1999"
 Warning--I didn't find a database entry for "RPT"
 Warning--I didn't find a database entry for "RQPT"
 Warning--I didn't find a database entry for "Mariano"
@@ -18,19 +52,27 @@ Warning--I didn't find a database entry for "Mariano2"
 Warning--I didn't find a database entry for "Vargas"
 Warning--I didn't find a database entry for "Medina"
 Warning--I didn't find a database entry for "Zeng"
+Warning--I didn't find a database entry for "Servin2001"
+Warning--I didn't find a database entry for "Legarda-Saenz:02"
+Warning--I didn't find a database entry for "Tian2010"
+Warning--I didn't find a database entry for "Quiroga"
+Warning--I didn't find a database entry for "Kai:12"
+Warning--I didn't find a database entry for "Legarda-Saenz:06"
 Warning--I didn't find a database entry for "Malacara"
 Warning--I didn't find a database entry for "GeneralTheory"
 Warning--I didn't find a database entry for "temporal_1"
 Warning--I didn't find a database entry for "temporal_2"
+Warning--I didn't find a database entry for "Takeda1996"
+Warning--I didn't find a database entry for "Asundi:98"
+Warning--I didn't find a database entry for "Servin:98"
+Warning--I didn't find a database entry for "Servin:99"
+Warning--I didn't find a database entry for "Estrada:11"
+Warning--I didn't find a database entry for "Navarro:12"
 Warning--I didn't find a database entry for "Freischlad:90"
-Warning--I didn't find a database entry for "Servin:09"
-Warning--I didn't find a database entry for "Schwider:83"
 Warning--I didn't find a database entry for "Ai:87"
 Warning--I didn't find a database entry for "Larkin:01"
 Warning--I didn't find a database entry for "Langoju:06"
 Warning--I didn't find a database entry for "Cheng:85"
-Warning--I didn't find a database entry for "Hariharan:87"
-Warning--I didn't find a database entry for "Surrel:93"
 Warning--I didn't find a database entry for "Estrada:09"
 Warning--I didn't find a database entry for "Lai:91"
 Warning--I didn't find a database entry for "Wang:04"
@@ -38,30 +80,33 @@ Warning--I didn't find a database entry for "Larkin:02"
 Warning--I didn't find a database entry for "Jahne"
 Warning--I didn't find a database entry for "Nocedal"
 Warning--I didn't find a database entry for "Servin:10"
+Warning--I didn't find a database entry for "Millerd2004"
+Warning--I didn't find a database entry for "Kimbrough2010"
+Warning--I didn't find a database entry for "Servin:10b"
+Warning--I didn't find a database entry for "Padilla:12"
+Warning--I didn't find a database entry for "Baker:06"
 Warning--I didn't find a database entry for "Kimbrough:06"
+Warning--I didn't find a database entry for "Novak:05"
 Warning--I didn't find a database entry for "Xu:06"
 Warning--I didn't find a database entry for "Estrada:10"
-Warning--I didn't find a database entry for "Mosino:09"
 Warning--I didn't find a database entry for "fringePatternAnalisys"
 Warning--I didn't find a database entry for "PhaseDetuning_0"
 Warning--I didn't find a database entry for "PhaseDetuning_1"
-Warning--I didn't find a database entry for "Mosino:10"
 Warning--I didn't find a database entry for "ShopTesting"
 Warning--I didn't find a database entry for "AccuracyPSI_1"
-Warning--I didn't find a database entry for "deGroot:95"
-Warning--I didn't find a database entry for "Schmit:95"
 Warning--I didn't find a database entry for "Gutmann:98"
+Warning--I didn't find a database entry for "Schwider:93"
 You've used 0 entries,
-            2118 wiz_defined-function locations,
-            590 strings with 4805 characters,
-and the built_in function-call counts, 18 in all, are:
+            2481 wiz_defined-function locations,
+            734 strings with 6118 characters,
+and the built_in function-call counts, 34 in all, are:
 = -- 0
 > -- 0
 < -- 0
 + -- 0
 - -- 0
 * -- 2
-:= -- 7
+:= -- 11
 add.period$ -- 0
 call.type$ -- 0
 change.case$ -- 0
@@ -71,10 +116,10 @@ duplicate$ -- 0
 empty$ -- 1
 format.name$ -- 0
 if$ -- 1
-int.to.chr$ -- 0
-int.to.str$ -- 0
+int.to.chr$ -- 1
+int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 3
+newline$ -- 8
 num.names$ -- 0
 pop$ -- 0
 preamble$ -- 1
@@ -91,5 +136,5 @@ type$ -- 0
 warning$ -- 0
 while$ -- 0
 width$ -- 0
-write$ -- 2
+write$ -- 7
 (There was 1 error message)
