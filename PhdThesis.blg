@@ -1,140 +1,60 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: PhdThesis.aux
 The style file: unsrtnat.bst
-I found no \bibdata command---while reading file PhdThesis.aux
-Warning--I didn't find a database entry for "Schwider:83"
-Warning--I didn't find a database entry for "Creath:91"
-Warning--I didn't find a database entry for "Itoh:82"
-Warning--I didn't find a database entry for "Huntley:89"
-Warning--I didn't find a database entry for "Ghiglia:94"
-Warning--I didn't find a database entry for "Quiroga:94"
-Warning--I didn't find a database entry for "ServinA:10"
-Warning--I didn't find a database entry for "Crane:69"
-Warning--I didn't find a database entry for "Hays:71"
-Warning--I didn't find a database entry for "Kujawinska2006"
-Warning--I didn't find a database entry for "Surrel:96"
-Warning--I didn't find a database entry for "Wyant:75"
-Warning--I didn't find a database entry for "Gonzalez:11"
-Warning--I didn't find a database entry for "Mosino:09"
-Warning--I didn't find a database entry for "Mosino:10"
-Warning--I didn't find a database entry for "Surrel:93"
-Warning--I didn't find a database entry for "Surrel:97"
-Warning--I didn't find a database entry for "Hariharan:87"
-Warning--I didn't find a database entry for "Larkin:92"
-Warning--I didn't find a database entry for "Schmit:95"
-Warning--I didn't find a database entry for "Schmit:96"
-Warning--I didn't find a database entry for "Hibino:97"
-Warning--I didn't find a database entry for "deGroot:95"
-Warning--I didn't find a database entry for "Bi:04"
-Warning--I didn't find a database entry for "Brophy:90"
-Warning--I didn't find a database entry for "Rathjen:95"
-Warning--I didn't find a database entry for "Papoulis:2002"
-Warning--I didn't find a database entry for "Gasvik:2002"
-Warning--I didn't find a database entry for "Servin:11"
-Warning--I didn't find a database entry for "Servin:09"
-Warning--I didn't find a database entry for "Ichioka:72"
-Warning--I didn't find a database entry for "Takeda:82"
-Warning--I didn't find a database entry for "Granlund2010"
-Warning--I didn't find a database entry for "Bruning:74"
-Warning--I didn't find a database entry for "Morgan"
-Warning--I didn't find a database entry for "Greivenkamp"
-Warning--I didn't find a database entry for "Okada"
-Warning--I didn't find a database entry for "Kong"
-Warning--I didn't find a database entry for "RQF"
-Warning--I didn't find a database entry for "AQF"
-Warning--I didn't find a database entry for "AQF_mult"
-Warning--I didn't find a database entry for "Marroquin1999"
-Warning--I didn't find a database entry for "RPT"
-Warning--I didn't find a database entry for "RQPT"
-Warning--I didn't find a database entry for "Mariano"
-Warning--I didn't find a database entry for "Mariano2"
-Warning--I didn't find a database entry for "Vargas"
-Warning--I didn't find a database entry for "Medina"
-Warning--I didn't find a database entry for "Zeng"
-Warning--I didn't find a database entry for "Servin2001"
-Warning--I didn't find a database entry for "Legarda-Saenz:02"
-Warning--I didn't find a database entry for "Tian2010"
-Warning--I didn't find a database entry for "Quiroga"
-Warning--I didn't find a database entry for "Kai:12"
-Warning--I didn't find a database entry for "Legarda-Saenz:06"
-Warning--I didn't find a database entry for "Malacara"
-Warning--I didn't find a database entry for "GeneralTheory"
-Warning--I didn't find a database entry for "temporal_1"
-Warning--I didn't find a database entry for "temporal_2"
-Warning--I didn't find a database entry for "Takeda1996"
-Warning--I didn't find a database entry for "Asundi:98"
-Warning--I didn't find a database entry for "Servin:98"
-Warning--I didn't find a database entry for "Servin:99"
-Warning--I didn't find a database entry for "Estrada:11"
-Warning--I didn't find a database entry for "Navarro:12"
-Warning--I didn't find a database entry for "Freischlad:90"
-Warning--I didn't find a database entry for "Ai:87"
-Warning--I didn't find a database entry for "Larkin:01"
-Warning--I didn't find a database entry for "Langoju:06"
-Warning--I didn't find a database entry for "Cheng:85"
-Warning--I didn't find a database entry for "Estrada:09"
-Warning--I didn't find a database entry for "Lai:91"
-Warning--I didn't find a database entry for "Wang:04"
-Warning--I didn't find a database entry for "Larkin:02"
-Warning--I didn't find a database entry for "Jahne"
-Warning--I didn't find a database entry for "Nocedal"
-Warning--I didn't find a database entry for "Servin:10"
-Warning--I didn't find a database entry for "Millerd2004"
-Warning--I didn't find a database entry for "Kimbrough2010"
-Warning--I didn't find a database entry for "Servin:10b"
-Warning--I didn't find a database entry for "Padilla:12"
-Warning--I didn't find a database entry for "Baker:06"
-Warning--I didn't find a database entry for "Kimbrough:06"
-Warning--I didn't find a database entry for "Novak:05"
-Warning--I didn't find a database entry for "Xu:06"
-Warning--I didn't find a database entry for "Estrada:10"
-Warning--I didn't find a database entry for "fringePatternAnalisys"
-Warning--I didn't find a database entry for "PhaseDetuning_0"
-Warning--I didn't find a database entry for "PhaseDetuning_1"
-Warning--I didn't find a database entry for "ShopTesting"
-Warning--I didn't find a database entry for "AccuracyPSI_1"
-Warning--I didn't find a database entry for "Gutmann:98"
-Warning--I didn't find a database entry for "Schwider:93"
-You've used 0 entries,
+Database file #1: References_PhdThesis.bib
+Name 1 in "K. Okada, A. Sato, and J. Tsujiuchi" has a comma at the end for entry Okada
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "D. Malacara, M. Servin, and Z. Malacara" has a comma at the end for entry Malacara
+while executing---line 1233 of file unsrtnat.bst
+Warning--can't use both author and editor fields in Kujawinska2006
+Warning--can't use both author and editor fields in Papoulis:2002
+Name 1 in "K. Okada, A. Sato, and J. Tsujiuchi" has a comma at the end for entry Okada
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "K. Okada, A. Sato, and J. Tsujiuchi" has a comma at the end for entry Okada
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "D. Malacara, M. Servin, and Z. Malacara" has a comma at the end for entry Malacara
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "D. Malacara, M. Servin, and Z. Malacara" has a comma at the end for entry Malacara
+while executing---line 1315 of file unsrtnat.bst
+You've used 95 entries,
             2481 wiz_defined-function locations,
-            734 strings with 6118 characters,
-and the built_in function-call counts, 34 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 11
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
-int.to.chr$ -- 1
-int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 8
-num.names$ -- 0
-pop$ -- 0
+            1274 strings with 23814 characters,
+and the built_in function-call counts, 40746 in all, are:
+= -- 3849
+> -- 1715
+< -- 55
++ -- 685
+- -- 490
+* -- 3638
+:= -- 6426
+add.period$ -- 441
+call.type$ -- 95
+change.case$ -- 180
+chr.to.int$ -- 90
+cite$ -- 97
+duplicate$ -- 1826
+empty$ -- 3663
+format.name$ -- 651
+if$ -- 8611
+int.to.chr$ -- 6
+int.to.str$ -- 96
+missing$ -- 105
+newline$ -- 639
+num.names$ -- 285
+pop$ -- 563
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 95
 quote$ -- 0
-skip$ -- 1
+skip$ -- 972
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 2650
+swap$ -- 295
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
+type$ -- 635
+warning$ -- 2
+while$ -- 345
 width$ -- 0
-write$ -- 7
-(There was 1 error message)
+write$ -- 1543
+(There were 6 error messages)

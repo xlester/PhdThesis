@@ -148,7 +148,7 @@ The above results are obtained under the assumption that the quadrature filter
 and the temporal samples of the interferogram are perfectly tuned at the same
 frequency $\omega$ (radians per sample) \cite{Gonzalez:11}.
 
-\subsection{Detunin error in PSI}
+\subsection{Detuning error in PSI}
 When the actual sampling frequency is
 $\alpha+\Delta$, or in other words when the phase step is not as expected; 
 that is when some detuning error occur, the resulting phase estimation is given by
@@ -228,10 +228,10 @@ by a linear spatial carrier in the $x$ direction, given by:
 \begin{equation}
     I(x,y) = a(x,y)+b(x,y)cos[\phi(x,y)+u_0 x],
 \end{equation}
-using a clomplex representation of the cosine function, we have:
+using a clomplex number representation of the cosine function, we have:
 \begin{equation}
     I(x,y)=a(x,y)+ \frac{1}{2} b(x,y)e^{i \phi(x,y)+u_0 x} 
-    +\frac{1}{2} b(x,y) e^{-i \phi(x,y)+u_0 x}.
+    +\frac{1}{2} b(x,y) e^{-i \phi(x,y)-u_0 x}.
 \end{equation}
 Applying the so-called the Fourier method \cite{Ichioka:72,Takeda:82}, first 
 we multiply 
@@ -260,7 +260,7 @@ in the shape of:
 		      {Re\{(1/2) b(x,y) e^{i \phi(x,y)}\} } \Bigg).
 \end{equation}
 
-\section{Classical least-square algorithm}
+\section{Classical least-squares algorithm}
 
 The N-step least-squares phase-shifting algorithm formula was deduced in
 1974 by Bruning et al. \cite{Bruning:74} following a synchronous detection 
@@ -378,19 +378,17 @@ estimation model $f$. Two regularization terms are the first-order and
 second-order regularization operators known as membrane model and thin-rod model,
 respectively. For the membrane model we have the following cost function
 \begin{equation}
- U_{Rm} = \lambda \sum_{(x,y)\in L} \{\| f(x,y)-f(x-1,y) e^{iu_0}\|^2 + 
-\| f(x,y)-f(x,y-1) e^{iv_0} \|^2 \},
+ U_{Rm} = \lambda \sum_{(x,y)\in L} [f(x,y)-f(x-1,y)]^2 + 
+	  [f(x,y)-f(x,y-1)]^2 \},
 \end{equation}
 and for the thin-rod model the cost function is 
 \begin{small}
 \begin{multline}
  U_{Rt} = \\ \lambda \sum_{(x,y)\in L} \{ 
-            \| f(x,y)-f(x-1,y) e^{ iu_0} + 
-                 f(x,y)-f(x+1,y) e^{-iu_0}\|^2 + \\ 
-         \| f(x,y)-f(x,y-1) e^{ iv_0} + 
-                 f(x,y)-f(x,y+1) e^{-iv_0}\|^2 \} + \\
-         \| f(x,y)-f(x-1,y-1) e^{ iv_0} + 
-                 f(x,y)-f(x+1,y+1) e^{-iv_0}\|^2 \}.
+            [f(x+1,y)-2f(x,y)-f(x-1,y)]^2 + 
+            [f(x,y+1)-2f(x,y)-f(x,y-1)]^2 + \\ 
+            [f(x+1,y+1)-f(x-1,y-1) + 
+              f(x-1,y+1)-f(x+1,y-1)]^2 \}.
 \end{multline}
 \end{small}
 In both cases $u_0$ is the tuning frequency in $x$, and $v_0$ is the tuning 

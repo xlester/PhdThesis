@@ -1,8 +1,767 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{95}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Wang and Han(2004)]{Wang:04}
+Zhaoyang Wang and Bongtae Han.
+\newblock Advanced iterative algorithm for phase extraction of randomly
+  phase-shiftedinterferograms.
+\newblock \emph{Opt. Lett.}, 29\penalty0 (14):\penalty0 1671--1673, Jul 2004.
+\newblock \doi{10.1364/OL.29.001671}.
+\newblock URL \url{http://ol.osa.org/abstract.cfm?URI=ol-29-14-1671}.
+
+\bibitem[Medina and Estrada(2014)]{Medina2014}
+Orlando Medina and Julio~C. Estrada.
+\newblock Full-field two-dimensional least-squares method for phase-shifting
+  interferometry.
+\newblock \emph{Optical Engineering}, 53\penalty0 (11):\penalty0 114106, 2014.
+\newblock \doi{10.1117/1.OE.53.11.114106}.
+\newblock URL \url{http://dx.doi.org/10.1117/1.OE.53.11.114106}.
+
+\bibitem[Estrada and Servin(Sep 2012)]{Medina}
+Orlando Medina. Julio~C. Estrada and Manuel Servin.
+\newblock Regularized self-tuning phase demodulation for phase-shifting
+  interferometry with arbitrary phase shifts.
+\newblock \emph{Proc. SPIE 8493, Interferometry XVI}, Sep 2012.
+
+\bibitem[Medina et~al.(2013)Medina, Estrada, and Servin]{Medina:13}
+Orlando Medina, Julio~C. Estrada, and M.~Servin.
+\newblock Robust adaptive phase-shifting demodulation for testing moving
+  wavefronts.
+\newblock \emph{Opt. Express}, 21\penalty0 (24):\penalty0 29687--29694, Dec
+  2013.
+\newblock \doi{10.1364/OE.21.029687}.
+\newblock URL
+  \url{http://www.opticsexpress.org/abstract.cfm?URI=oe-21-24-29687}.
+
+\bibitem[Schwider et~al.(1983)Schwider, Burow, Elssner, Grzanna, Spolaczyk, and
+  Merkel]{Schwider:83}
+J.~Schwider, R.~Burow, K.-E. Elssner, J.~Grzanna, R.~Spolaczyk, and K.~Merkel.
+\newblock Digital wave-front measuring interferometry: some systematic error
+  sources.
+\newblock \emph{Appl. Opt.}, 22\penalty0 (21):\penalty0 3421--3432, Nov 1983.
+\newblock \doi{10.1364/AO.22.003421}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-22-21-3421}.
+
+\bibitem[Creath(1991)]{Creath:91}
+K.~Creath.
+\newblock Phase measuring interferometry: beware of these errors.
+\newblock \emph{Proc SPIE}, 1559:\penalty0 213--220, 1991.
+
+\bibitem[Itoh(1982)]{Itoh:82}
+Kazuyoshi Itoh.
+\newblock Analysis of the phase unwrapping algorithm.
+\newblock \emph{Appl. Opt.}, 21\penalty0 (14):\penalty0 2470--2470, Jul 1982.
+\newblock \doi{10.1364/AO.21.002470}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-21-14-2470}.
+
+\bibitem[Huntley(1989)]{Huntley:89}
+J.~M. Huntley.
+\newblock Noise-immune phase unwrapping algorithm.
+\newblock \emph{Appl. Opt.}, 28\penalty0 (16):\penalty0 3268--3270, Aug 1989.
+\newblock \doi{10.1364/AO.28.003268}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-28-16-3268}.
+
+\bibitem[Ghiglia and Romero(1994)]{Ghiglia:94}
+Dennis~C. Ghiglia and Louis~A. Romero.
+\newblock Robust two-dimensional weighted and unweighted phase unwrapping that
+  uses fast transforms and iterative methods.
+\newblock \emph{J. Opt. Soc. Am. A}, 11\penalty0 (1):\penalty0 107--117, Jan
+  1994.
+\newblock \doi{10.1364/JOSAA.11.000107}.
+\newblock URL \url{http://josaa.osa.org/abstract.cfm?URI=josaa-11-1-107}.
+
+\bibitem[Quiroga and Bernabeu(1994)]{Quiroga:94}
+J.~A. Quiroga and E.~Bernabeu.
+\newblock Phase-unwrapping algorithm for noisy phase-map processing.
+\newblock \emph{Appl. Opt.}, 33\penalty0 (29):\penalty0 6725--6731, Oct 1994.
+\newblock \doi{10.1364/AO.33.006725}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-33-29-6725}.
+
+\bibitem[Servin et~al.(2009{\natexlab{a}})Servin, Estrada, and
+  Quiroga]{ServinA:10}
+M.~Servin, J.~C. Estrada, and J.~A. Quiroga.
+\newblock Spectral analysis of phase shifting algorithms.
+\newblock \emph{Opt. Express}, 17\penalty0 (19):\penalty0 16423--16428, Sep
+  2009{\natexlab{a}}.
+\newblock \doi{10.1364/OE.17.016423}.
+\newblock URL
+  \url{http://www.opticsexpress.org/abstract.cfm?URI=oe-17-19-16423}.
+
+\bibitem[Crane(1969)]{Crane:69}
+R.~Crane.
+\newblock Interference phase measurement.
+\newblock \emph{Appl. Opt.}, 8:\penalty0 538--542, 1969.
+
+\bibitem[Hays and Roble(1971)]{Hays:71}
+P.~B. Hays and R.~G. Roble.
+\newblock A technique for recovering doppler line profiles from fabry-perot
+  interferometer fringes of very low intensity.
+\newblock \emph{Appl. Opt.}, 10\penalty0 (1):\penalty0 193--200, Jan 1971.
+\newblock \doi{10.1364/AO.10.000193}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-10-1-193}.
+
+\bibitem[Kujawinska(2006)]{Kujawinska2006}
+M.~Kujawinska.
+\newblock \emph{New challenges for optical metrology: Evolution or revolution,
+  in fringe 2005}.
+\newblock Springer Berlin Heidelberg, 2006.
+
+\bibitem[Surrel(1996)]{Surrel:96}
+Yves Surrel.
+\newblock Design of algorithms for phase measurements by the use of phase
+  stepping.
+\newblock \emph{Appl. Opt.}, 35\penalty0 (1):\penalty0 51--60, Jan 1996.
+\newblock \doi{10.1364/AO.35.000051}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-35-1-51}.
+
+\bibitem[Wyant(1975)]{Wyant:75}
+J.~C. Wyant.
+\newblock Use of an ac heterodyne lateral shear interferometer with real--time
+  wavefront correction systems.
+\newblock \emph{Appl. Opt.}, 14\penalty0 (11):\penalty0 2622--2626, Nov 1975.
+\newblock \doi{10.1364/AO.14.002622}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-14-11-2622}.
+
+\bibitem[Gonzalez et~al.(2011)Gonzalez, Servin, Estrada, and
+  Quiroga]{Gonzalez:11}
+A.~Gonzalez, M.~Servin, J.~C. Estrada, and J.~A. Quiroga.
+\newblock Design of phase-shifting algorithms by fine-tuning spectral shaping.
+\newblock \emph{Opt. Express}, 19\penalty0 (11):\penalty0 10692--10697, May
+  2011.
+\newblock \doi{10.1364/OE.19.010692}.
+\newblock URL
+  \url{http://www.opticsexpress.org/abstract.cfm?URI=oe-19-11-10692}.
+
+\bibitem[{n}o et~al.(2009{\natexlab{a}}){n}o, Servin, Estrada, and
+  Quiroga]{Mosino:09}
+J.~F.~Mosi\ {n}o, M.~Servin, J.~C. Estrada, and J.~A. Quiroga.
+\newblock Phasorial analysis of detuning error in temporal phase shifting
+  algorithms.
+\newblock \emph{Opt. Express}, 17\penalty0 (7):\penalty0 5618--5623, Mar
+  2009{\natexlab{a}}.
+\newblock \doi{10.1364/OE.17.005618}.
+\newblock URL \url{http://www.opticsexpress.org/abstract.cfm?URI=oe-17-7-5618}.
+
+\bibitem[{n}o et~al.(2009{\natexlab{b}}){n}o, Doblado, and
+  Hern\'{a}ndez]{Mosino:10}
+J.~F.~Mosi\ {n}o, D.~Malacara Doblado, and D.~Malacara Hern\'{a}ndez.
+\newblock Calculus of exact detuning phase shift error in temporal phase
+  shifting algorithms.
+\newblock \emph{Opt. Express}, 17\penalty0 (18):\penalty0 15766--15771, Aug
+  2009{\natexlab{b}}.
+\newblock \doi{10.1364/OE.17.015766}.
+\newblock URL
+  \url{http://www.opticsexpress.org/abstract.cfm?URI=oe-17-18-15766}.
+
+\bibitem[Surrel(1993)]{Surrel:93}
+Y.~Surrel.
+\newblock Phase stepping: a new self-calibrating algorithm.
+\newblock \emph{Appl. Opt.}, 32\penalty0 (19):\penalty0 3598--3600, Jul 1993.
+\newblock \doi{10.1364/AO.32.003598}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-32-19-3598}.
+
+\bibitem[Surrel(1997)]{Surrel:97}
+Yves Surrel.
+\newblock Additive noise effect in digital phase detection.
+\newblock \emph{Appl. Opt.}, 36\penalty0 (1):\penalty0 271--276, Jan 1997.
+\newblock \doi{10.1364/AO.36.000271}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-36-1-271}.
+
+\bibitem[Hariharan et~al.(1987)Hariharan, Oreb, and Eiju]{Hariharan:87}
+P.~Hariharan, B.~F. Oreb, and T.~Eiju.
+\newblock Digital phase-shifting interferometry: a simple error-compensating
+  phase calculation algorithm.
+\newblock \emph{Appl. Opt.}, 26\penalty0 (13):\penalty0 2504--2506, Jul 1987.
+\newblock \doi{10.1364/AO.26.002504}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-26-13-2504}.
+
+\bibitem[Larkin and Oreb(1992)]{Larkin:92}
+K.~G. Larkin and B.~F. Oreb.
+\newblock Design and assessment of symmetrical phase-shifting algorithms.
+\newblock \emph{J. Opt. Soc. Am. A}, 9\penalty0 (10):\penalty0 1740--1748, Oct
+  1992.
+\newblock \doi{10.1364/JOSAA.9.001740}.
+\newblock URL \url{http://josaa.osa.org/abstract.cfm?URI=josaa-9-10-1740}.
+
+\bibitem[Schmit and Creath(1995)]{Schmit:95}
+Joanna Schmit and Katherine Creath.
+\newblock Extended averaging technique for derivation of error-compensating
+  algorithms in phase-shifting interferometry.
+\newblock \emph{Appl. Opt.}, 34\penalty0 (19):\penalty0 3610--3619, Jul 1995.
+\newblock \doi{10.1364/AO.34.003610}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-34-19-3610}.
+
+\bibitem[Schmit and Creath(1996)]{Schmit:96}
+Joanna Schmit and Katherine Creath.
+\newblock Window function influence on phase error in phase-shifting
+  algorithms.
+\newblock \emph{Appl. Opt.}, 35\penalty0 (28):\penalty0 5642--5649, Oct 1996.
+\newblock \doi{10.1364/AO.35.005642}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-35-28-5642}.
+
+\bibitem[Hibino et~al.(1997)Hibino, Oreb, Farrant, and Larkin]{Hibino:97}
+Kenichi Hibino, Bob~F. Oreb, David~I. Farrant, and Kieran~G. Larkin.
+\newblock Phase-shifting algorithms for nonlinear and spatially nonuniform
+  phase shifts.
+\newblock \emph{J. Opt. Soc. Am. A}, 14\penalty0 (4):\penalty0 918--930, Apr
+  1997.
+\newblock \doi{10.1364/JOSAA.14.000918}.
+\newblock URL \url{http://josaa.osa.org/abstract.cfm?URI=josaa-14-4-918}.
+
+\bibitem[de~Groot(1995)]{deGroot:95}
+Peter de~Groot.
+\newblock Phase-shift calibration errors in interferometers with spherical
+  fizeau cavities.
+\newblock \emph{Appl. Opt.}, 34\penalty0 (16):\penalty0 2856--2863, Jun 1995.
+\newblock \doi{10.1364/AO.34.002856}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-34-16-2856}.
+
+\bibitem[Bi et~al.(2004)Bi, Zhang, Ling, and Wen]{Bi:04}
+Hongbo Bi, Ying Zhang, Keck~Voon Ling, and Changyun Wen.
+\newblock Class of 4 $+$ 1-phase algorithms with error compensation.
+\newblock \emph{Appl. Opt.}, 43\penalty0 (21):\penalty0 4199--4207, Jul 2004.
+\newblock \doi{10.1364/AO.43.004199}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-43-21-4199}.
+
+\bibitem[Brophy(1990)]{Brophy:90}
+Chris~P. Brophy.
+\newblock Effect of intensity error correlation on the computed phase of
+  phase-shifting interferometry.
+\newblock \emph{J. Opt. Soc. Am. A}, 7\penalty0 (4):\penalty0 537--541, Apr
+  1990.
+\newblock \doi{10.1364/JOSAA.7.000537}.
+\newblock URL \url{http://josaa.osa.org/abstract.cfm?URI=josaa-7-4-537}.
+
+\bibitem[Rathjen(1995)]{Rathjen:95}
+C.~Rathjen.
+\newblock Statistical properties of phase-shift algorithms.
+\newblock \emph{J. Opt. Soc. Am. A}, 12\penalty0 (9):\penalty0 1997--2008, Sep
+  1995.
+\newblock \doi{10.1364/JOSAA.12.001997}.
+\newblock URL \url{http://josaa.osa.org/abstract.cfm?URI=josaa-12-9-1997}.
+
+\bibitem[Papoulis and Unnikrishna~Pillai(2002)]{Papoulis:2002}
+A.~Papoulis and S.~Unnikrishna~Pillai.
+\newblock \emph{Probability, Random Variables and Stochastic Processes}.
+\newblock McGrawHill, 2002.
+
+\bibitem[Gasvik(2002)]{Gasvik:2002}
+K.J. Gasvik.
+\newblock \emph{Optical Metrology}.
+\newblock Jhon Wiley \& Sons, Ltd., 2002.
+
+\bibitem[Servin et~al.(2011)Servin, Quiroga, and Estrada]{Servin:11}
+M.~Servin, J.~A. Quiroga, and J.~C. Estrada.
+\newblock Phase-shifting interferometry corrupted by white and non-white
+  additive noise.
+\newblock \emph{Opt. Express}, 19\penalty0 (10):\penalty0 9529--9534, May 2011.
+\newblock \doi{10.1364/OE.19.009529}.
+\newblock URL
+  \url{http://www.opticsexpress.org/abstract.cfm?URI=oe-19-10-9529}.
+
+\bibitem[Servin et~al.(2009{\natexlab{b}})Servin, Estrada, Quiroga, Mosino, and
+  Cywiak]{Servin:09}
+M.~Servin, J.~C. Estrada, J.~A. Quiroga, J.~F. Mosino, and M.~Cywiak.
+\newblock Noise in phase shifting interferometry.
+\newblock \emph{Opt. Express}, 17\penalty0 (11):\penalty0 8789--8794, May
+  2009{\natexlab{b}}.
+\newblock \doi{10.1364/OE.17.008789}.
+\newblock URL
+  \url{http://www.opticsexpress.org/abstract.cfm?URI=oe-17-11-8789}.
+
+\bibitem[Ichioka and Inuiya(1972)]{Ichioka:72}
+Y.~Ichioka and M.~Inuiya.
+\newblock Direct phase detecting system.
+\newblock \emph{Appl. Opt.}, 11\penalty0 (7):\penalty0 1507--1514, Jul 1972.
+\newblock \doi{10.1364/AO.11.001507}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-11-7-1507}.
+
+\bibitem[Takeda et~al.(1982)Takeda, Ina, and Kobayashi]{Takeda:82}
+Mitsuo Takeda, Hideki Ina, and Seiji Kobayashi.
+\newblock Fourier-transform method of fringe-pattern analysis for
+  computer-based topography and interferometry.
+\newblock \emph{J. Opt. Soc. Am.}, 72\penalty0 (1):\penalty0 156--160, Jan
+  1982.
+\newblock \doi{10.1364/JOSA.72.000156}.
+\newblock URL
+  \url{http://www.osapublishing.org/abstract.cfm?URI=josa-72-1-156}.
+
+\bibitem[Granlund and Knutsson(2010)]{Granlund2010}
+G.H. Granlund and H.~Knutsson.
+\newblock \emph{Signal processing for computer vision}.
+\newblock Springer, 2010.
+
+\bibitem[Bruning et~al.(1974)Bruning, Herriott, Gallagher, Rosenfeld, White,
+  and Brangaccio]{Bruning:74}
+J.~H. Bruning, D.~R. Herriott, J.~E. Gallagher, D.~P. Rosenfeld, A.~D. White,
+  and D.~J. Brangaccio.
+\newblock Digital wavefront measuring interferometer for testing optical
+  surfaces and lenses.
+\newblock \emph{Appl. Opt.}, 13\penalty0 (11):\penalty0 2693--2703, Nov 1974.
+\newblock \doi{10.1364/AO.13.002693}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-13-11-2693}.
+
+\bibitem[Morgan(1982)]{Morgan}
+C.~J. Morgan.
+\newblock Least-squares estimation in phase-measurement interferometry.
+\newblock \emph{Opt. Lett.}, 7\penalty0 (8):\penalty0 368--370, Aug 1982.
+\newblock \doi{10.1364/OL.7.000368}.
+\newblock URL \url{http://ol.osa.org/abstract.cfm?URI=ol-7-8-368}.
+
+\bibitem[Greivenkamp(1984)]{Greivenkamp}
+J.~E. Greivenkamp.
+\newblock Generalized data reduction for heterodyne interferometry.
+\newblock \emph{Optical Engineering}, 23\penalty0 (4):\penalty0
+  234350--234350--, 1984.
+\newblock \doi{10.1117/12.7973298}.
+\newblock URL \url{http://dx.doi.org/10.1117/12.7973298}.
+
+\bibitem[K.~Okada and Tsujiuchi(1991)]{Okada}
+A.~Sato K.~Okada and J.~Tsujiuchi.
+\newblock Simultaneous calculation of phase distribution and scanning phase
+  shift in phase shifting interferometry.
+\newblock \emph{Opt. Commun.}, 84:\penalty0 118--124, 1991.
+
+\bibitem[Kong and Kim(1995)]{Kong}
+In-Bok Kong and Seung-Woo Kim.
+\newblock General algorithm of phase-shifting interferometry by iterative
+  least-squares fitting.
+\newblock \emph{Optical Engineering}, 34\penalty0 (1):\penalty0 183--188, 1995.
+\newblock \doi{10.1117/12.184088}.
+\newblock URL \url{http://dx.doi.org/10.1117/12.184088}.
+
+\bibitem[Marroquin et~al.(1997{\natexlab{a}})Marroquin, Figueroa, and
+  Servin]{RQF}
+J.~L. Marroquin, J.~E. Figueroa, and M.~Servin.
+\newblock Robust quadrature filters.
+\newblock \emph{J. Opt. Soc. Am. A}, 14\penalty0 (4):\penalty0 779--791, Apr
+  1997{\natexlab{a}}.
+\newblock \doi{10.1364/JOSAA.14.000779}.
+\newblock URL \url{http://josaa.osa.org/abstract.cfm?URI=josaa-14-4-779}.
+
+\bibitem[Marroquin et~al.(1997{\natexlab{b}})Marroquin, Servin, and
+  Rodriguez-Vera]{AQF}
+J.~L. Marroquin, M.~Servin, and R.~Rodriguez-Vera.
+\newblock Adaptive quadrature filters and the recovery of phase from fringe
+  pattern images.
+\newblock \emph{J. Opt. Soc. Am. A}, 14\penalty0 (8):\penalty0 1742--1753, Aug
+  1997{\natexlab{b}}.
+\newblock \doi{10.1364/JOSAA.14.001742}.
+\newblock URL \url{http://josaa.osa.org/abstract.cfm?URI=josaa-14-8-1742}.
+
+\bibitem[Marroquin et~al.(1998)Marroquin, Servin, and Vera]{AQF_mult}
+J.~L. Marroquin, M.~Servin, and R.~Rodriguez Vera.
+\newblock Adaptive quadrature filters for multiple phase-stepping images.
+\newblock \emph{Opt. Lett.}, 23\penalty0 (4):\penalty0 238--240, Feb 1998.
+\newblock \doi{10.1364/OL.23.000238}.
+\newblock URL \url{http://ol.osa.org/abstract.cfm?URI=ol-23-4-238}.
+
+\bibitem[Marroquin et~al.(1999)Marroquin, Rivera, Botello, Rodriguez-Vera, and
+  Servin]{Marroquin1999}
+Jos\'{e}~L. Marroquin, Mariano Rivera, Salvador Botello, Ram\'{o}n
+  Rodriguez-Vera, and Manuel Servin.
+\newblock Regularization methods for processing fringe-pattern images.
+\newblock \emph{Appl. Opt.}, 38\penalty0 (5):\penalty0 788--794, Feb 1999.
+\newblock \doi{10.1364/AO.38.000788}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-38-5-788}.
+
+\bibitem[Servin et~al.(2001)Servin, Marroquin, and Cuevas]{RPT}
+M.~Servin, J.~L. Marroquin, and F.~J. Cuevas.
+\newblock Fringe-follower regularized phase tracker for demodulation of
+  closed-fringe interferograms.
+\newblock \emph{J. Opt. Soc. Am. A}, 18\penalty0 (3):\penalty0 689--695, Mar
+  2001.
+\newblock \doi{10.1364/JOSAA.18.000689}.
+\newblock URL \url{http://josaa.osa.org/abstract.cfm?URI=josaa-18-3-689}.
+
+\bibitem[Servin et~al.(2004)Servin, Marroquin, and Quiroga]{RQPT}
+Manuel Servin, Jose~Luis Marroquin, and Juan~Antonio Quiroga.
+\newblock Regularized quadrature and phase tracking from a single closed-fringe
+  interferogram.
+\newblock \emph{J. Opt. Soc. Am. A}, 21\penalty0 (3):\penalty0 411--419, Mar
+  2004.
+\newblock \doi{10.1364/JOSAA.21.000411}.
+\newblock URL \url{http://josaa.osa.org/abstract.cfm?URI=josaa-21-3-411}.
+
+\bibitem[Legarda-Saenz and Rivera(2006{\natexlab{a}})]{Mariano}
+Ricardo Legarda-Saenz and Mariano Rivera.
+\newblock Fast half-quadratic regularized phase tracking for nonnormalized
+  fringe patterns.
+\newblock \emph{J. Opt. Soc. Am. A}, 23\penalty0 (11):\penalty0 2724--2731, Nov
+  2006{\natexlab{a}}.
+\newblock \doi{10.1364/JOSAA.23.002724}.
+\newblock URL \url{http://josaa.osa.org/abstract.cfm?URI=josaa-23-11-2724}.
+
+\bibitem[Rivera et~al.(2006)Rivera, Bizuet, Martinez, and Rayas]{Mariano2}
+Mariano Rivera, Rocky Bizuet, Amalia Martinez, and Juan~A. Rayas.
+\newblock Half-quadratic cost function for computing arbitrary phase shifts and
+  phase: Adaptive out of step phase shifting.
+\newblock \emph{Opt. Express}, 14\penalty0 (8):\penalty0 3204--3213, Apr 2006.
+\newblock \doi{10.1364/OE.14.003204}.
+\newblock URL \url{http://www.opticsexpress.org/abstract.cfm?URI=oe-14-8-3204}.
+
+\bibitem[Vargas et~al.(2011)Vargas, Quiroga, Sorzano, Estrada, and
+  Carazo]{Vargas}
+J.~Vargas, J.~Antonio Quiroga, C.~O.~S. Sorzano, J.~C. Estrada, and J.~M.
+  Carazo.
+\newblock Two-step interferometry by a regularized optical flow algorithm.
+\newblock \emph{Opt. Lett.}, 36\penalty0 (17):\penalty0 3485--3487, Sep 2011.
+\newblock \doi{10.1364/OL.36.003485}.
+\newblock URL \url{http://ol.osa.org/abstract.cfm?URI=ol-36-17-3485}.
+
+\bibitem[Zeng et~al.(2013)Zeng, Tan, Gu, and Jin]{Zeng}
+Fa~Zeng, Qiaofeng Tan, Huarong Gu, and Guofan Jin.
+\newblock Phase extraction from interferograms with unknown tilt phase shifts
+  based on a regularized optical flow method.
+\newblock \emph{Opt. Express}, 21\penalty0 (14):\penalty0 17234--17248, Jul
+  2013.
+\newblock \doi{10.1364/OE.21.017234}.
+\newblock URL
+  \url{http://www.opticsexpress.org/abstract.cfm?URI=oe-21-14-17234}.
+
+\bibitem[Servin and Quiroga(2001)]{Servin2001}
+Manuel Servin and Juan~Antonio Quiroga.
+\newblock Isochromatics demodulation from a single image using the regularized
+  phase tracking technique.
+\newblock \emph{Journal of Modern Optics}, 48\penalty0 (3):\penalty0 521--531,
+  2001.
+\newblock \doi{10.1080/09500340108230929}.
+\newblock URL
+  \url{http://www.tandfonline.com/doi/abs/10.1080/09500340108230929}.
+
+\bibitem[Legarda-S\'{a}enz et~al.(2002)Legarda-S\'{a}enz, Osten, and
+  J\"{u}ptner]{Legarda-Saenz:02}
+Ricardo Legarda-S\'{a}enz, Wolfgang Osten, and Werner J\"{u}ptner.
+\newblock Improvement of the regularized phase tracking technique for the
+  processing of nonnormalized fringe patterns.
+\newblock \emph{Appl. Opt.}, 41\penalty0 (26):\penalty0 5519--5526, Sep 2002.
+\newblock \doi{10.1364/AO.41.005519}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-41-26-5519}.
+
+\bibitem[Tian et~al.(2010)Tian, Yang, Liu, Luo, and Zhuo]{Tian2010}
+Chao Tian, Yongying Yang, Dong Liu, Yongjie Luo, and Yongmo Zhuo.
+\newblock Demodulation of a single complex fringe interferogram with a
+  path-independent regularized phase-tracking technique.
+\newblock \emph{Appl. Opt.}, 49\penalty0 (2):\penalty0 170--179, Jan 2010.
+\newblock \doi{10.1364/AO.49.000170}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-49-2-170}.
+
+\bibitem[Quiroga et~al.(2011)Quiroga, Estrada, Serv\'{i}n, and Vargas]{Quiroga}
+Juan~Antonio Quiroga, Julio~Cesar Estrada, Manuel Serv\'{i}n, and Javier
+  Vargas.
+\newblock Regularized least squares phase sampling interferometry.
+\newblock \emph{Opt. Express}, 19\penalty0 (6):\penalty0 5002--5013, Mar 2011.
+\newblock \doi{10.1364/OE.19.005002}.
+\newblock URL \url{http://www.opticsexpress.org/abstract.cfm?URI=oe-19-6-5002}.
+
+\bibitem[Kai and Kemao(2012)]{Kai:12}
+Li~Kai and Qian Kemao.
+\newblock A generalized regularized phase tracker for demodulation of a single
+  fringe pattern.
+\newblock \emph{Opt. Express}, 20\penalty0 (11):\penalty0 12579--12592, May
+  2012.
+\newblock \doi{10.1364/OE.20.012579}.
+\newblock URL
+  \url{http://www.opticsexpress.org/abstract.cfm?URI=oe-20-11-12579}.
+
+\bibitem[Legarda-Saenz and Rivera(2006{\natexlab{b}})]{Legarda-Saenz:06}
+Ricardo Legarda-Saenz and Mariano Rivera.
+\newblock Fast half-quadratic regularized phase tracking for nonnormalized
+  fringe patterns.
+\newblock \emph{J. Opt. Soc. Am. A}, 23\penalty0 (11):\penalty0 2724--2731, Nov
+  2006{\natexlab{b}}.
+\newblock \doi{10.1364/JOSAA.23.002724}.
+\newblock URL \url{http://josaa.osa.org/abstract.cfm?URI=josaa-23-11-2724}.
+
+\bibitem[D.~Malacara and Malacara(2005)]{Malacara}
+M.~Servin D.~Malacara and Z.~Malacara.
+\newblock \emph{Interferogram Analysis for Optical Testing}.
+\newblock Taylor \& Francis, 2005.
+
+\bibitem[Servin et~al.(2009{\natexlab{c}})Servin, Estrada, and
+  Quiroga]{GeneralTheory}
+M.~Servin, J.~C. Estrada, and J.~A. Quiroga.
+\newblock The general theory of phase shifting algorithms.
+\newblock \emph{Opt. Express}, 17\penalty0 (24):\penalty0 21867--21881, Nov
+  2009{\natexlab{c}}.
+\newblock \doi{10.1364/OE.17.021867}.
+\newblock URL
+  \url{http://www.opticsexpress.org/abstract.cfm?URI=oe-17-24-21867}.
+
+\bibitem[Ruiz et~al.(2003)Ruiz, Huntley, and Kaufmann]{temporal_1}
+Pablo~D. Ruiz, Jonathan~M. Huntley, and Guillermo~H. Kaufmann.
+\newblock Adaptive phase-shifting algorithm for temporal phase evaluation.
+\newblock \emph{J. Opt. Soc. Am. A}, 20\penalty0 (2):\penalty0 325--332, Feb
+  2003.
+\newblock \doi{10.1364/JOSAA.20.000325}.
+\newblock URL \url{http://josaa.osa.org/abstract.cfm?URI=josaa-20-2-325}.
+
+\bibitem[Haible et~al.(2000)Haible, Kothiyal, and Tiziani]{temporal_2}
+Pascal Haible, Mahenda~P. Kothiyal, and Hans~J. Tiziani.
+\newblock Heterodyne temporal speckle-pattern interferometry.
+\newblock \emph{Appl. Opt.}, 39\penalty0 (1):\penalty0 114--117, Jan 2000.
+\newblock \doi{10.1364/AO.39.000114}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-39-1-114}.
+
+\bibitem[Takeda and Abe(1996)]{Takeda1996}
+Mitsuo Takeda and Takahide Abe.
+\newblock Phase unwrapping by a maximum cross‐amplitude spanning tree
+  algorithm: a comparative study.
+\newblock \emph{Optical Engineering}, 35\penalty0 (8):\penalty0 2345--2351,
+  1996.
+\newblock \doi{10.1117/1.600810}.
+\newblock URL \url{http://dx.doi.org/10.1117/1.600810}.
+
+\bibitem[Asundi and Wensen(1998)]{Asundi:98}
+Anand Asundi and Zhou Wensen.
+\newblock Fast phase-unwrapping algorithm based on a gray-scale mask and flood
+  fill.
+\newblock \emph{Appl. Opt.}, 37\penalty0 (23):\penalty0 5416--5420, Aug 1998.
+\newblock \doi{10.1364/AO.37.005416}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-37-23-5416}.
+
+\bibitem[Servin et~al.(1998)Servin, Marroquin, Malacara, and Cuevas]{Servin:98}
+Manuel Servin, Jose~Luis Marroquin, Daniel Malacara, and Francisco~Javier
+  Cuevas.
+\newblock Phase unwrapping with a regularized phase-tracking system.
+\newblock \emph{Appl. Opt.}, 37\penalty0 (10):\penalty0 1917--1923, Apr 1998.
+\newblock \doi{10.1364/AO.37.001917}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-37-10-1917}.
+
+\bibitem[Servin et~al.(1999)Servin, Cuevas, Malacara, Marroquin, and
+  Rodriguez-Vera]{Servin:99}
+Manuel Servin, Francisco~Javier Cuevas, Daniel Malacara, Jose~Luis Marroquin,
+  and Ram\'{o}n Rodriguez-Vera.
+\newblock Phase unwrapping through demodulation by use of the regularized
+  phase-tracking technique.
+\newblock \emph{Appl. Opt.}, 38\penalty0 (10):\penalty0 1934--1941, Apr 1999.
+\newblock \doi{10.1364/AO.38.001934}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-38-10-1934}.
+
+\bibitem[Estrada et~al.(2011)Estrada, Servin, and Quiroga]{Estrada:11}
+Julio~C. Estrada, Manuel Servin, and Juan~A. Quiroga.
+\newblock Noise robust linear dynamic system for phase unwrapping and
+  smoothing.
+\newblock \emph{Opt. Express}, 19\penalty0 (6):\penalty0 5126--5133, Mar 2011.
+\newblock \doi{10.1364/OE.19.005126}.
+\newblock URL \url{http://www.opticsexpress.org/abstract.cfm?URI=oe-19-6-5126}.
+
+\bibitem[Navarro et~al.(2012)Navarro, Estrada, Servin, Quiroga, and
+  Vargas]{Navarro:12}
+Miguel~A. Navarro, Julio~C. Estrada, M.~Servin, Juan~A. Quiroga, and Javier
+  Vargas.
+\newblock Fast two-dimensional simultaneous phase unwrapping and low-pass
+  filtering.
+\newblock \emph{Opt. Express}, 20\penalty0 (3):\penalty0 2556--2561, Jan 2012.
+\newblock \doi{10.1364/OE.20.002556}.
+\newblock URL \url{http://www.opticsexpress.org/abstract.cfm?URI=oe-20-3-2556}.
+
+\bibitem[Freischlad and Koliopoulos(1990)]{Freischlad:90}
+Klaus Freischlad and Chris~L. Koliopoulos.
+\newblock Fourier description of digital phase-measuring interferometry.
+\newblock \emph{J. Opt. Soc. Am. A}, 7\penalty0 (4):\penalty0 542--551, Apr
+  1990.
+\newblock \doi{10.1364/JOSAA.7.000542}.
+\newblock URL \url{http://josaa.osa.org/abstract.cfm?URI=josaa-7-4-542}.
+
+\bibitem[Ai and Wyant(1987)]{Ai:87}
+Chiayu Ai and James~C. Wyant.
+\newblock Effect of piezoelectric transducer nonlinearity on phase shift
+  interferometry.
+\newblock \emph{Appl. Opt.}, 26\penalty0 (6):\penalty0 1112--1116, Mar 1987.
+\newblock \doi{10.1364/AO.26.001112}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-26-6-1112}.
+
+\bibitem[Larkin(2001)]{Larkin:01}
+Kieran Larkin.
+\newblock A self-calibrating phase-shifting algorithm based on the natural
+  demodulation of two-dimensional fringe patterns.
+\newblock \emph{Opt. Express}, 9\penalty0 (5):\penalty0 236--253, Aug 2001.
+\newblock \doi{10.1364/OE.9.000236}.
+\newblock URL \url{http://www.opticsexpress.org/abstract.cfm?URI=oe-9-5-236}.
+
+\bibitem[Langoju et~al.(2006)Langoju, Patil, and Rastogi]{Langoju:06}
+Rajesh Langoju, Abhijit Patil, and Pramod Rastogi.
+\newblock Phase-shifting interferometry in the presence of nonlinear phase
+  steps, harmonics, and noise.
+\newblock \emph{Opt. Lett.}, 31\penalty0 (8):\penalty0 1058--1060, Apr 2006.
+\newblock \doi{10.1364/OL.31.001058}.
+\newblock URL \url{http://ol.osa.org/abstract.cfm?URI=ol-31-8-1058}.
+
+\bibitem[Cheng and Wyant(1985)]{Cheng:85}
+Yeou-Yen Cheng and James~C. Wyant.
+\newblock Phase shifter calibration in phase-shifting interferometry.
+\newblock \emph{Appl. Opt.}, 24\penalty0 (18):\penalty0 3049--3052, Sep 1985.
+\newblock \doi{10.1364/AO.24.003049}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-24-18-3049}.
+
+\bibitem[Estrada et~al.(2009)Estrada, Servin, and Quiroga]{Estrada:09}
+J.~C. Estrada, M.~Servin, and J.~A. Quiroga.
+\newblock Easy and straightforward construction of wideband phase-shifting
+  algorithms for interferometry.
+\newblock \emph{Opt. Lett.}, 34\penalty0 (4):\penalty0 413--415, Feb 2009.
+\newblock \doi{10.1364/OL.34.000413}.
+\newblock URL \url{http://ol.osa.org/abstract.cfm?URI=ol-34-4-413}.
+
+\bibitem[Lai and Yatagai(1991)]{Lai:91}
+Guanming Lai and Toyohiko Yatagai.
+\newblock Generalized phase-shifting interferometry.
+\newblock \emph{J. Opt. Soc. Am. A}, 8\penalty0 (5):\penalty0 822--827, May
+  1991.
+\newblock \doi{10.1364/JOSAA.8.000822}.
+\newblock URL \url{http://josaa.osa.org/abstract.cfm?URI=josaa-8-5-822}.
+
+\bibitem[Larkin et~al.(2001)Larkin, Bone, and Oldfield]{Larkin:02}
+Kieran~G. Larkin, Donald~J. Bone, and Michael~A. Oldfield.
+\newblock Natural demodulation of two-dimensional fringe patterns. i. general
+  background of the spiral phase quadrature transform.
+\newblock \emph{J. Opt. Soc. Am. A}, 18\penalty0 (8):\penalty0 1862--1870, Aug
+  2001.
+\newblock \doi{10.1364/JOSAA.18.001862}.
+\newblock URL \url{http://josaa.osa.org/abstract.cfm?URI=josaa-18-8-1862}.
+
+\bibitem[Jahne(2005)]{Jahne}
+B.~Jahne.
+\newblock \emph{Digital Image Processing}.
+\newblock Springer, 2005.
+
+\bibitem[Nocedal and JW(2006)]{Nocedal}
+J~Nocedal and S.~JW.
+\newblock \emph{Numerical Optimization, Operations Research}.
+\newblock Springer, 2006.
+
+\bibitem[Servin et~al.(2010)Servin, Estrada, and Medina]{Servin:10}
+M.~Servin, J.~C. Estrada, and O.~Medina.
+\newblock Fourier transform demodulation of pixelated phase-masked
+  interferograms.
+\newblock \emph{Opt. Express}, 18\penalty0 (15):\penalty0 16090--16095, Jul
+  2010.
+\newblock \doi{10.1364/OE.18.016090}.
+\newblock URL
+  \url{http://www.opticsexpress.org/abstract.cfm?URI=oe-18-15-16090}.
+
+\bibitem[Millerd(2004)]{Millerd2004}
+J.E Millerd.
+\newblock Pixelated phase-mask dynamic interferometer.
+\newblock \emph{Proc SPIE}, pages 304--314, 2004.
+
+\bibitem[Kimbrough and Millerd(2010)]{Kimbrough2010}
+B.~Kimbrough and J.~Millerd.
+\newblock The spatial frequency response and resolution limitations of
+  pixelated mask spatial carrier based phase shifting interferometry.
+\newblock \emph{Proc SPIE}, pages 7790k--7790k--12, 2010.
+
+\bibitem[Servin and Estrada(2010)]{Servin:10b}
+M.~Servin and J.~C. Estrada.
+\newblock Error-free demodulation of pixelated carrier frequency
+  interferograms.
+\newblock \emph{Opt. Express}, 18\penalty0 (17):\penalty0 18492--18497, Aug
+  2010.
+\newblock \doi{10.1364/OE.18.018492}.
+\newblock URL
+  \url{http://www.opticsexpress.org/abstract.cfm?URI=oe-18-17-18492}.
+
+\bibitem[Padilla et~al.(2012)Padilla, Servin, and Estrada]{Padilla:12}
+J.~M. Padilla, M.~Servin, and J.~C. Estrada.
+\newblock Synchronous phase-demodulation and harmonic rejection of 9-step
+  pixelated dynamic interferograms.
+\newblock \emph{Opt. Express}, 20\penalty0 (11):\penalty0 11734--11739, May
+  2012.
+\newblock \doi{10.1364/OE.20.011734}.
+\newblock URL
+  \url{http://www.opticsexpress.org/abstract.cfm?URI=oe-20-11-11734}.
+
+\bibitem[Baker and Stappaerts(2006)]{Baker:06}
+K.~L. Baker and E.~A. Stappaerts.
+\newblock A single-shot pixellated phase-shifting interferometer utilizing a
+  liquid-crystal spatial light modulator.
+\newblock \emph{Opt. Lett.}, 31\penalty0 (6):\penalty0 733--735, Mar 2006.
+\newblock \doi{10.1364/OL.31.000733}.
+\newblock URL \url{http://ol.osa.org/abstract.cfm?URI=ol-31-6-733}.
+
+\bibitem[Kimbrough(2006)]{Kimbrough:06}
+Bradley~T. Kimbrough.
+\newblock Pixelated mask spatial carrier phase shifting interferometry
+  algorithms and associated errors.
+\newblock \emph{Appl. Opt.}, 45\penalty0 (19):\penalty0 4554--4562, Jul 2006.
+\newblock \doi{10.1364/AO.45.004554}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-45-19-4554}.
+
+\bibitem[Novak et~al.(2005)Novak, Millerd, Brock, North-Morris, Hayes, and
+  Wyant]{Novak:05}
+Matt Novak, James Millerd, Neal Brock, Michael North-Morris, John Hayes, and
+  James Wyant.
+\newblock Analysis of a micropolarizer array-based simultaneous phase-shifting
+  interferometer.
+\newblock \emph{Appl. Opt.}, 44\penalty0 (32):\penalty0 6861--6868, Nov 2005.
+\newblock \doi{10.1364/AO.44.006861}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-44-32-6861}.
+
+\bibitem[Xu et~al.(2006)Xu, Cai, Meng, Dong, and Shen]{Xu:06}
+X.~F. Xu, L.~Z. Cai, X.~F. Meng, G.~Y. Dong, and X.~X. Shen.
+\newblock Fast blind extraction of arbitrary unknown phase shifts by an
+  iterative tangent approach in generalized phase-shifting interferometry.
+\newblock \emph{Opt. Lett.}, 31\penalty0 (13):\penalty0 1966--1968, Jul 2006.
+\newblock \doi{10.1364/OL.31.001966}.
+\newblock URL \url{http://ol.osa.org/abstract.cfm?URI=ol-31-13-1966}.
+
+\bibitem[Estrada et~al.(2010)Estrada, Servin, and Quiroga]{Estrada:10}
+Julio~C. Estrada, Manuel Servin, and Juan~A. Quiroga.
+\newblock A self-tuning phase-shifting algorithm for interferometry.
+\newblock \emph{Opt. Express}, 18\penalty0 (3):\penalty0 2632--2638, Feb 2010.
+\newblock \doi{10.1364/OE.18.002632}.
+\newblock URL \url{http://www.opticsexpress.org/abstract.cfm?URI=oe-18-3-2632}.
+
+\bibitem[M.~Servin and Padilla(2014)]{fringePatternAnalisys}
+J.~Antonio~Quiroga M.~Servin and M.~Padilla.
+\newblock \emph{Fringe Pattern Analisys for Optical Metrology: Theory,
+  Algorithms and Applications}.
+\newblock Whiley-VCH, 2014.
+
+\bibitem[Hernandez and Malacara(2000)]{PhaseDetuning_0}
+J.~E. Hernandez and D.~Malacara.
+\newblock Exact linear detuning error in phase shifting algorithms.
+\newblock \emph{Opt. comm.}, 180:\penalty0 9--14, 2000.
+
+\bibitem[Thompson and Malacara(2001)]{PhaseDetuning_1}
+Brian J~. Thompson and Daniel Malacara.
+\newblock \emph{Handbook of Optical Engineering}.
+\newblock CRC Press, 2001.
+
+\bibitem[Malacara(2007)]{ShopTesting}
+D.~Malacara.
+\newblock \emph{Optical Shop Testing}.
+\newblock John Wiley \& Sons, Inc., Hoboken, 2007.
+
+\bibitem[van Wingerden et~al.(1991)van Wingerden, Frankena, and
+  Smorenburg]{AccuracyPSI_1}
+Johannes van Wingerden, Hans~J. Frankena, and Cornelis Smorenburg.
+\newblock Linear approximation for measurement errors in phase shifting
+  interferometry.
+\newblock \emph{Appl. Opt.}, 30\penalty0 (19):\penalty0 2718--2729, Jul 1991.
+\newblock \doi{10.1364/AO.30.002718}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-30-19-2718}.
+
+\bibitem[Gutmann and Weber(1998)]{Gutmann:98}
+Bernd Gutmann and Herbert Weber.
+\newblock Phase-shifter calibration and error detection in phase-shifting
+  applications: a new method.
+\newblock \emph{Appl. Opt.}, 37\penalty0 (32):\penalty0 7624--7631, Nov 1998.
+\newblock \doi{10.1364/AO.37.007624}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-37-32-7624}.
+
+\bibitem[Schwider et~al.(1993)Schwider, Falkenstoerfer, Schreiber, Zoeller, and
+  Streibl]{Schwider:93}
+Johannes Schwider, Oliver~R. Falkenstoerfer, Horst Schreiber, Andreas Zoeller,
+  and Norbert Streibl.
+\newblock New compensating four-phase algorithm for phase-shift interferometry.
+\newblock \emph{Optical Engineering}, 32\penalty0 (8):\penalty0 1883--1885,
+  1993.
+\newblock \doi{10.1117/12.143340}.
+\newblock URL \url{http://dx.doi.org/10.1117/12.143340}.
 
 \end{thebibliography}
